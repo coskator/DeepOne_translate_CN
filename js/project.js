@@ -80867,8 +80867,9 @@ nextSelectDisableNodeArray: [ cc.Node ]
 },
 openLoginBonusReceivedPopup: function(t, e, i, a, s) {
 n.addSprite(this.mainImageSprite, n.getFileNameThumbnailByItemType(t, e), void 0);
-var c = o.getItemInfo(e, t);
-this.nameLabel.string = c.name;
+var c = o.getItemInfo(e, t).name;
+null !== c && c.length > 15 && (c = c.slice(0, 15) + "\n" + c.slice(15));
+this.nameLabel.string = c;
 this.countNumLabel.string = "" + i;
 a === r.RECEIVED_TYPE.NEXT && this._setDisableNode();
 this._playSelectAnimation(a);
