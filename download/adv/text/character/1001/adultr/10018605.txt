@@ -1,0 +1,278 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_01.mp3
+msg,1,<outline width=2 color=black>「我是为了亚纱花而盛开的花。\n我的一切都是为了献给亚纱花。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_02.mp3
+msg,1,<outline width=2 color=black>「尽管这样……一感受到你在身边，为什么我会如此想要伸出手去触碰你呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_03.mp3
+msg,1,<outline width=2 color=black>「明明觉得比起我，亚纱花更应该和你共度时光，\n却还是忍不住想……再多拥有这样的一刻。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_04.mp3
+msg,1,<outline width=2 color=black>「真是的，我到底怎么了。在这样的日子里，\n感觉渐渐偏离了应有的形态。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_05.mp3
+msg,1,<outline width=2 color=black>「就连现在……也愈发渴望你……已经快要忍不住了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_06.mp3
+msg,1,<outline width=2 color=black>「无可救药地……我，对你——……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_07.mp3
+msg,1,<outline width=2 color=black>「……呐。一点点就好。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_08.mp3
+msg,1,<outline width=2 color=black>「你的时间，哪怕只有一点点……能给我吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/201.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>ASAKA</outline>,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_09.mp3
+msg,1,<outline width=2 color=black>「哈、嗯、唔……身体，已经好热了……呐，快点给我……已经，这种感觉，无法抑制了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_10.mp3
+msg,1,<outline width=2 color=black>「我……嗯、哈，好热……变得好奇怪……手，不由自主地，嗯啊、嗯、唔唔……啊、动起来了……嗯嗯」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/202.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_11.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊……这里，已经，这么，满溢出来了……嗯、唔、啊，只是碰一下就，一阵一阵地颤栗……嗯、唔唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_12.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯、唔……嗯、呵呵。你的眼神，好厉害……看着我，\n这样自己玩弄自己，兴奋了吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_13.mp3
+msg,1,<outline width=2 color=black>「那就，让你看更多……所以……嗯、啊、唔，渴求我。\n到这里来……到我里面来，快点来……嗯、唔……呼啊、嗯、嗯唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_14.mp3
+msg,1,<outline width=2 color=black>「啊呼、嗯、唔……哈、啊、嗯、嗯，里面，自己玩弄，明明很舒服，\n却越来越，难受……啊呜、唔、啊、哈、啊啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_15.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯嗯……不行，只是抚摸入口，还不够、\n嗯、唔唔……还要，更深……哈、啊、嗯嗯唔……！」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/203.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_16.mp3
+msg,1,<outline width=2 color=black>「嗯、哈、啊啊……嗯嗯，这样的手指，轻易地……嗯、啊、啊、啊、\n里面，越来越，溢出来了……嗯嗯唔、唔、啊、啊啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_17.mp3
+msg,1,<outline width=2 color=black>「嗯、哈啊、被你看着、这样……嗯啊、呼、嗯、啊、\n呀、声音、好大、都弄出来了……嗯嗯、哈、啊、啊！、啊啊……唔」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/204.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_18.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯嗯……啊、胸口、嗯啊！变得敏感……嗯嗯唔、唔、乳头也、\n这样……嗯、啊呼、啊啊啊、不行、只是自己摸着、我就……唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_19.mp3
+msg,1,<outline width=2 color=black>「这样、兴奋起来了……嘶、啊、嗯、嗯嗯唔、唔、感觉起来了、\n嗯咕、呼、啊、啊啊！……但是、还、这样下去、不够的啊……」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/205.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_20.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊……！　乳头、这样、感觉、好舒服……嗯啊、嗯嗯！、\n哈、啊啊！、嗯、嗯嗯唔唔……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_21.mp3
+msg,1,<outline width=2 color=black>「手指、每次动、咕嘟咕嘟、从里面……嗯咕、啊、呀、满了、\n溢出来……我、这么……啊、咕、呼啊、哈、啊、啊啊啊……唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_22.mp3
+msg,1,<outline width=2 color=black>「嗯、唔唔……你也、看着我、自己摸自己、感觉到舒服的样子、\n兴奋着、吧……？嗯、哈啊、还要、撩拨我……？」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/206.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_23.mp3
+msg,1,<outline width=2 color=black>「快来吧……求你了、把你的……放到这里、给我」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_24.mp3
+msg,1,<outline width=2 color=black>「比手指更大、更硬的……往我里面、拧进去、\n直到最深的地方、弄得一塌糊涂、让我舒服、好不好……？」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/207.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_25.mp3
+msg,1,<outline width=2 color=black>「嗯啊、唔、咕、啊、哈啊啊……！啊、嗯嗯！、一、突然、\n深处、被顶上来……嘶呜、嗯、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_26.mp3
+msg,1,<outline width=2 color=black>「你兴奋到、都做到那种程度了吗……？嗯咕、啊、啊、那里、\n尽是顶深处的话、呼啊、咕、啊、嗯嗯唔……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_27.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊、啊啊！……这个、果然不一样、唔、嗯嗯唔、\n手指够不到的地方、满满地、被碰到……唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_28.mp3
+msg,1,<outline width=2 color=black>「肚子里全都被搅得乱七八糟，好舒服，\n嗯啊、咕、哈、啊呀……我、马上就、要来了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_29.mp3
+msg,1,<outline width=2 color=black>「自己摸得变得敏感了……嗯啊、呃、我也、马上\n就舒服起来……嗯、啊、要、要去了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_30.mp3
+msg,1,<outline width=2 color=black>「你也一起……嗯嗯、你可以随便对我、\n一起高潮吧……去了……？」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/208.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_31.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咕、哈、啊啊……！嗯啊、咕、啊、啊啊、\n哈、厉、害……咻、啊、咕、啊、啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_32.mp3
+msg,1,<outline width=2 color=black>「好硬、摩擦得好厉害……嗯呜、我里面、全都被\n搞得乱七八糟……嗯啊、咕、啊、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_33.mp3
+msg,1,<outline width=2 color=black>「啊咿、咕、嗯、嗯嗯呜！那、那样、深处、像在挖一样、呃、\n啊、啊啊、那、太有感觉了、呃、咻、嗯、啊、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_34.mp3
+msg,1,<outline width=2 color=black>「嗯呜！太舒服了、会变得奇怪的、所以、呃、\n嗯、啊啊、咻、嗯、啊、啊啊、呃、求、呃、也、去了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_35.mp3
+msg,1,<outline width=2 color=black>「我、里面、呃、全射进去、嗯嗯、用你的精液、\n填满深处……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_36.mp3
+msg,1,<outline width=2 color=black>「嗯咕、啊、啊、啊啊啊啊！嗯、咻、啊、啊啊、要去、呃、\n咻、啊、啊啊、呃、我、啊、要去、呃、去、呃……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_37.mp3
+msg,1,<outline width=2 color=black>「啊咕、嗯啊、哈、啊、啊啊、嗯、啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/100186/adv/image/209.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_38.mp3
+msg,1,<outline width=2 color=black>「啊、呃、嗯、呜呜呜呜……！嗯嗯、精液、来了、\n你的精子、流入子宫、呃……哈、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_39.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呃、全部、给我……就这样、全部射出来……嗯嗯、\n我、里面、满的……呼啊、呃、嗯、哈啊、啊、嗯呜……呃」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/210.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_40.mp3
+msg,1,<outline width=2 color=black>「哈啊、呃、嗯、啊、啊啊……嗯、全部、出来了……？\n啊、嗯、肚子深处……被你的热的东西、填满……啊、嗯嗯」</outline>,
+clickwait
+
+
+bg,download/character/100186/adv/image/211.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1001/adu100186_02_41.mp3
+msg,1,<outline width=2 color=black>「看……？因为你给我注满了……所以这样\n溢出来了哦……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_42.mp3
+msg,1,<outline width=2 color=black>「和我做、就那么、舒服吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_43.mp3
+msg,1,<outline width=2 color=black>「那样的话、下次……变成两人独处的时候、我可以\n期待吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1001/adu100186_02_44.mp3
+msg,1,<outline width=2 color=black>「呵呵……要是让亚纱花知道我们做了这样的约定，\n我们会不会被骂呢？」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

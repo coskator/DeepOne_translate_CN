@@ -1,0 +1,136 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm190.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_01.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「まさか、纳克特抄本に原型が存在するなんて。\nさすがに知らなかったな」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_02.mp3
+msg,1,<outline width=2 color=black>「被夺走力量和职责，什么也不剩，枯萎腐朽的灰之花……灰蓟啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_03.mp3
+msg,1,<outline width=2 color=black>「真的，人的恶意为什么会如此伤害他人呢\n」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_04.mp3
+msg,1,<outline width=2 color=black>「她本来应该只是想帮助别人而已……不是别人，\n正是创造了她的人否定了他」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_05.mp3
+msg,1,<outline width=2 color=black>「讨厌人类什么的，蓟会这么说也是当然的吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　“似乎不是真心”,选项2　“想支持受伤的心”
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_06.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「是啊。无论用话语拒绝多少次，果然在她的内心深处，\n最初的思念还残留着」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_07.mp3
+msg,1,<outline width=2 color=black>「为了别人……与纳克特抄本们共通的这份心意，\n或许是从蓟那里继承来的吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_08.mp3
+msg,1,<outline width=2 color=black>「正因为如此，无论如何都无法对她置之不理。\n面对她的痛苦和悲伤，不想装作不知道」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_09.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「但是，肯定没那么简单哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_10.mp3
+msg,1,<outline width=2 color=black>「她的拒绝，大概包含着恐惧。\n觉得靠近人的话，又会遭到背叛……这样」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_11.mp3
+msg,1,<outline width=2 color=black>「或者……不去打扰她，\n或许对她来说是最轻松的事」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_12.mp3
+msg,1,<outline width=2 color=black>「……但是，哥哥肯定不会选择那样的道路吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_13.mp3
+msg,1,<outline width=2 color=black>「比起现在不再受伤，为了能在未来绽放笑容。\n哥哥在这点上也很严厉呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_14.mp3
+msg,1,<outline width=2 color=black>「蓟也被麻烦的人类给盯上了呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_15.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「纳克特抄本们至今帮了我们很多次。\n如果没有她们，这份幸福绝对无法实现」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_16.mp3
+msg,1,<outline width=2 color=black>「我也对身为那些纳克特抄本起源的蓟，\n怀有近乎感激的心情」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_17.mp3
+msg,1,<outline width=2 color=black>「哥哥接下来大概会为蓟多管闲事吧，\n但如果有什么我能帮上忙的地方，尽管说哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_01_18.mp3
+msg,1,<outline width=2 color=black>「必须让蓟好好认识到，\n从她身上诞生的可能性，孕育出了多少幸福才行呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
