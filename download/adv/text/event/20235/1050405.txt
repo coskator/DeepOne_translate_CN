@@ -18,7 +18,7 @@ endwait,,,,,,,,,,,
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「――这里是……」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「――这里是」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -41,7 +41,7 @@ endwait,,,,,,,,,,,
 
 
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「反正她会逃回来的，\n趁那个空当把她拖进来就行了——她是这么说的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「反正他会逃回来，\n趁那个空隙把他拖进来就好——她是这么说的。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -52,7 +52,7 @@ anm,tint,azami,150_150_150,0.0001,0
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「她说的没错呢。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「正如她所说的呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -78,7 +78,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我不敢说理解你的心情。\n但是……我明白那种讨厌自己的心情。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我不说能理解你的心情。\n但是……因为我能理解讨厌自己的心情。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -94,22 +94,22 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「嗯。是这样吧？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「嗯。是这样的吧？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你讨厌你自己。\n否则，你就不会从想花和白樱那里逃过来了。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你讨厌你自己吧。\n否则的话，你就不会从想花和白樱那里逃过来了。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「和她们交谈……从她们的话中逃出来，是因为害怕自己的真相被揭露，或是害怕面对自己。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「和那些孩子们说话……从她们的话语中逃出来，是因为害怕自己的真相被揭露，或者说是害怕面对自己吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「是因为想逃避自己的丑陋吧」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「是因为想要逃避存在于那里的自己的丑陋吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -117,7 +117,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-9
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「……人类，一副什么都懂的样子」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……人类，一副好像什么都知道的样子。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -125,17 +125,17 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「我说过我知道讨厌自己的心情吧」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我说过我知道讨厌自己的心情吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「但是，我不想继续做一个讨厌自己的人。\n我可不想以那种阴暗又没出息的女人形象出现在她们面前」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「但是，我不想一直做那个讨厌自己的自己。\n因为如果还是那个阴沉又没出息的女人，就没脸面对那些孩子们了。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:smile,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我想在她们面前做一个能挺起胸膛的人。\n虽然只是微不足道的自尊罢了」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我想在那些孩子们面前做一个能挺起胸膛的人。\n虽然只是微不足道的倔强呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -151,7 +151,7 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「我也感谢你哦」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我也很感谢你哦。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -159,7 +159,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「嗯？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -167,12 +167,12 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「如果没有碧睡莲，我甚至无法待在她们身边。\n我想要改变的原因，是因为我手中有碧睡莲」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「如果没有碧睡莲的话，我连待在那些孩子们身边都做不到。\n我想要改变自己的契机，是因为手里有碧睡莲。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「所以……对于将那个碧睡莲引导到我身边的你这个人，\n我表示感谢」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「所以……对于那个将碧睡莲引导到我身边的你这个人，我很感谢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -180,17 +180,17 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「……那并不是我所期望的」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……那并不是我所期望的事情。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我没有理由被人类感谢。\n擅自把我夺走的东西视若珍宝并表示感谢……这让我很困扰」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「没有理由被人感谢。\n随便从我这里夺走的东西，还当作宝贝来感谢……我很困扰。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「现在的我……这样的我一无所有，\n甚至没有权利接受你的这句话……」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「现在的我……这样的、一无所有的我，\n连接受你那句话的权利都……」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -198,7 +198,7 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:smile,zakuro,-300,-
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「被自己最讨厌的人夸奖，总觉得有些不爽呢。被讨厌的人认可，无论如何心情都会不安」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「被自己最讨厌的人夸奖，总觉得很讨厌呢。讨厌的家伙被认可的话，心里总会感到不安呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -206,7 +206,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「…………那、个」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「…………那个，是」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -214,12 +214,12 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「你真是相当有人情味呢。正是因为失去了作为魔道书的存在，也许比其他的任何魔道书都更接近人类」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你真是很有人的气息呢。正因为被夺走了魔导书的存在，\n也许比任何其他魔导书都更接近人类吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「本来人类就是毫无意义地出生的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「本来人类就是毫无意义地诞生的东西。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -227,7 +227,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:anger,azami,300,-90
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「我和人类……？那是……那样的事……是侮辱性的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我像人……？那是……那种事情……是侮辱。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -235,37 +235,37 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:smile,zakuro,-300,-
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「是啊。真是不好意思呢。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「是吗。是我不对呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我啊，虽然自己说出来有点那个，但我不太会说话。\n即使说尽千言万语也肯定没有意义。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我啊，虽然自己这么说，但很笨拙。\n即使说尽话语也肯定没有意义。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「所以，我只说简单想说的话。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「所以，我就简单只说想说的话。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我不想对你将要消失这件事置之不理。\n那总觉得是非常难以接受的事情。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我不想眼睁睁看着你消失。\n那总觉得，是非常难以接受的事情啊。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「可以举出好几个理由。也能讲出道理。\n但是……最重要的是，感情上是这么认为的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「能列举出好几个理由。也能讲出道理。\n但是……最重要的是，感情上我也这么觉得。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「连我自己也没想到会对你有如此大的情绪波动。\n但是……是啊。也许……」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「连我自己也没想到，会对你产生如此深的感情。\n但是……是吗。也许……」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:smile,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「也许是受碧睡莲的影响呢。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「也许是受到碧睡莲的影响吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -281,7 +281,7 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:smile,zakuro,-300,-
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「与我同在的碧睡莲，把你——」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「与我同在的碧睡莲，将你——」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -289,17 +289,17 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「啊，你们……！」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「呃、你们……！」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你们到底想做什么？\n想要什么？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你们到底想干什么。\n你们想要什么」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:unique,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「呃、为什么……为什么、如此撼动我的心……！」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「呃、为什么……为什么，如此地，动摇我的心……！」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -307,12 +307,12 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「别问了啦。因为我没办法好好回答。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「别问了。因为我没法好好回答。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「那种问答，去对在前面的她说就行了。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「这种问答，对在前面的她说就好。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -320,7 +320,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-9
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「……在前面的那个人是……」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……在前面的是」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -328,7 +328,7 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「又要逃吗？我想大概会追上去哦。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「又要逃？我大概会追上去的哦。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -341,12 +341,12 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「……父母持续逃避孩子，这很可笑吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……父母一直逃避孩子，很奇怪吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「如果有什么话要对那孩子说，听她说也是\n我的职责吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「如果对那个孩子有想说的话，倾听也是\n我的职责吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -354,7 +354,7 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:smile,zakuro,-300,-
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「如果不是逃跑后说的台词，本来还能更帅气一点的吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「如果不是逃跑后说的话，倒也还算帅气呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -362,12 +362,12 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:unique,azami,300,-9
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「唔、吵死了！」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「呃、吵死了！」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「……你不跟上来吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……你不跟来吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -375,12 +375,12 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「我想说的已经说了，也不是该我多管闲事的地方吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我想说的已经说了，也不是我该多管闲事吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我虽然有感谢之情，但果然还是比别的孩子们\n对纳克特抄本的眷恋更淡，不是出场的时候吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我虽然心存感谢，但即便如此，毕竟相比其他孩子\n对纳克特抄本的眷恋也更淡，所以不是出场的时候吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -388,7 +388,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:anger,azami,300,-90
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「那是什么话。太失礼了。请更珍惜碧睡莲。不要想着稍微感谢一下就行。因为碧睡莲一直在努力啊。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「那是什么话。太失礼了。请更加珍惜碧睡莲。不要以为\n稍微感谢一下就够了。碧睡莲一直在努力啊。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -396,7 +396,7 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:unique,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「好啦好啦，我知道了啦。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「好啦好啦，知道了知道了。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -412,12 +412,12 @@ spriteatlas,download/character/104302/adv/atlas/stand_a,body:unique,zakuro,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>斋条柘榴</outline>,
-msg,0,<outline width=2 color=black>「你真是嘴碎呢。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你真啰嗦啊。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「好了，快去吧。\n还是说，你就那么害怕面对吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「行了，赶紧走吧。\n还是说，你就那么害怕面对吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -425,12 +425,12 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-9
 anm,tint,zakuro,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「……没、没什么。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……倒也不是。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「并不是那样的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「并不是那样。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -451,12 +451,12 @@ clickwait,,,,,,,,,,,
 
 
 name,
-msg,0,<outline width=2 color=black>那还用说吗。</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>那是当然的了。</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 name,
-msg,0,<outline width=2 color=black>那——……。</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>那是当然——……。</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -486,7 +486,7 @@ endwait
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「——黑蔷薇」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「――黑蔷薇」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -524,7 +524,7 @@ endwait,,,,,,,,,,,
 
 
 name,<outline width=2 color=black>ASAKA</outline>,
-msg,0,<outline width=2 color=black>「——不用留手也行的吧？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「――就算不留情面也没关系吧？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -669,7 +669,7 @@ endwait,,,,,,,,,,,
 spriteatlas,download/character/105803/adv/atlas/stand_b,body:anger,azami,0,-90,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「你这是什么意思，黑蔷薇……呃」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「您这是什么意思，黑蔷薇……呃」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -683,23 +683,23 @@ anm,scale,card1,1_1,1,0
 anm,fade,card1,255,1,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>ASAKA</outline>,
-msg,0,<outline width=2 color=black>「哎呀。什么意思之类的，真是愚蠢的问法呢」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「哎呀。打算是什么意思这种问题，真是愚蠢的询问呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
-msg,0,<outline width=2 color=black>「这样把火焰指向你的话，你不觉得理由只有一个吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「像这样对你放出火焰，理由只有一个你不觉得吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
-msg,0,<outline width=2 color=black>「当然，我是打算排除你的」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「当然，我打算排除你哦。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
-msg,0,<outline width=2 color=black>「喂，灰蓟」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「喂，灰蓟。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
-msg,0,<outline width=2 color=black>「你觉得我会容许威胁到亚纱花的你吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你以为我会容许威胁到亚纱花的你吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
