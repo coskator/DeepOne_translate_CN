@@ -29,7 +29,7 @@ clickwait,,,,,,,,,,,
 
 
 name,
-msg,0,<outline width=2 color=black>因为白桜所说的是――……。</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>因为白樱所说的是――……。</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -216,27 +216,27 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_b,body:normal,azami,370,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「——……请不要消沉啊，白樱」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「——……请不要难过，白樱」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_b,body:normal,azami,370,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「今のわたしのこの力は、あなたたち纳克特抄本からの借り物です。\nその上、それだけあなたたちは衰えている状态」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「如今我所拥有的这份力量，是从你们“纳克特抄本”那里借来的。\n更何况，你们现在还衰弱到了这种地步。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_b,body:normal,azami,370,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「あなたと共に过ごしたい気持ちも、もちろんあります。\nですが、これ以上の言叶を交わしては离れがたくなってしまう」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>我当然也想继续与你共度时光。\n可是，要是再继续交谈下去，我就会越来越舍不得离开。</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_b,body:normal,azami,370,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「ですから……お别れにしましょう」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「所以……我们就在这里道别吧」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_b,body:sad,azami,370,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「少し身动きがとれない程度に留めます……厳しくすることしかできない\nわたしを、どうか许してください」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我只会让你暂时无法动弹，不会做得更过分……\n请原谅只能用这种严厉方式对待你的我。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -247,7 +247,7 @@ stopbgm,0.5,,,,,,,,,,
 endwait,,,,,,,,,,,
 bg,color_0_0_0,1,255
 endwait,,,,,,,,,,,
-select,选択肢1　「それ以上はダメだ」,选択肢2　「お互い、素直じゃなさすぎる」
+select,选択肢1　「够了」,选択肢2　「两个人都太不坦率了」
 endif,,,,,,,,,,
 bg,download/bg/bg_10080200.jpg,1,255
 endwait
@@ -260,7 +260,7 @@ anm,tint,azami,150_150_150,0.0001,0
 spriteatlas,download/character/104187/adv/atlas/stand_b,body:surprise,aika_s,-300,-120,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>AIKA</outline>,
-msg,0,<outline width=2 color=black>「――パパ」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「――爸爸」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -268,7 +268,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_b,body:normal,azami,300,-9
 anm,tint,aika_s,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「人间……なぜ、ここに」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「人类……为什么会在这里」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -276,7 +276,7 @@ spriteatlas,download/character/104187/adv/atlas/stand_b,body:smile,aika_s,-300,-
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>AIKA</outline>,
-msg,0,<outline width=2 color=black>「那不是当然的吗。是因为我担心你啦。对吧，爸爸？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「那不是当然的吗。是因为担心我啦。对吧，爸爸？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

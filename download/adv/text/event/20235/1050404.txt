@@ -57,7 +57,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「就像过去，你单方面创造了我，然后又夺走了一样。\n只是再次抛弃我……这样，一切就能圆满解决了。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「就像过去，你们单方面创造了我，然后又夺走了一样。\n只是再次抛弃我……这样，一切就能圆满解决了。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -75,7 +75,7 @@ endwait,,,,,,,,,,,
 
 
 name,<outline width=2 color=black>想花·维纳迪奥</outline>,
-msg,0,<outline width=2 color=black>「——别用‘人类’这个词来概括我们。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「——别用“人类”这个词来概括我们。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -96,7 +96,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
-msg,0,<outline width=2 color=black>「所以，白桜才会说你肤浅啊。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「所以，白樱才会说你肤浅啊。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -118,7 +118,7 @@ endwait,,,,,,,,,,,
 spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>想花·维纳迪奥</outline>,
-msg,0,<outline width=2 color=black>「白桜的话也许有些粗暴。\n不过……嗯，她想说的，我也大致一样吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「白樱的话也许有些粗暴。\n不过……嗯，她想表达的意思，和我想说的也大致相同。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -235,7 +235,7 @@ spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,-300,-1
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>想花·维纳迪奥</outline>,
-msg,0,<outline width=2 color=black>「白桜的措辞虽然粗鲁，但想说的我也一样」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「白樱的措辞虽然粗鲁，但想说的我也一样」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -263,7 +263,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0
 anm,tint,aika_s,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「您是从哪里截取才能和白桜一样啊」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「到底从哪一点来看，我和白樱是一样的」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

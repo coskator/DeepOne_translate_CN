@@ -209,7 +209,7 @@ msg,0,<outline width=2 color=black>「所以，我就是看你不顺眼啊。」
 clickwait,,,,,,,,,,,
 
 
-msg,0,<outline width=2 color=black>「把积攒在心底的东西，用漂亮的借口包裹起来，\n然后想要带着好味道消失什么的，那是什么啊，你在开玩笑吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「把积压在心里的东西，用漂亮的借口包装起来，然后还想体面地消失、\n不留一点痕迹——你这算什么？开什么玩笑？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -444,7 +444,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,370,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「——你就那么想杀死你的承担者吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「——你就那么想杀死你的使用者吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

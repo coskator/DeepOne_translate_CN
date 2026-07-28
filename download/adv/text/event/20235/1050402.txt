@@ -22,7 +22,7 @@ msg,0,<outline width=2 color=black>「肯定没事的……别那么害怕。别
 clickwait,,,,,,,,,,,
 
 
-msg,0,<outline width=2 color=black>「你的心意，房东也一定会接受的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你的心意，大家也一定会接受的。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -150,7 +150,7 @@ anm,tint,aika_s,150_150_150,0.0001,0
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「白桜……你该不会是完全没感觉到吧？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「白樱……你该不会是完全没感觉到吧？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -186,17 +186,17 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「我被你们感化而变成了这种形态，而且，本该枯\n萎腐朽的灰蓟，正吸取你们的力量试图再次绽放。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「我被你们感化而变成了这种形态，而且，本该枯萎\n腐朽的灰蓟，正吸取你们的力量试图再次绽放。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你们的——甚至你们后继者的力量，\n我都想要占为己有。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你们的——甚至你们使用者的力量，\n我都想要占为己有。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你们之所以无法将身体控制权交还给继承者，\n可以说是一种防卫反应吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你们之所以无法将身体控制权交还给使用者，\n可以说是一种防卫反应吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -232,7 +232,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你们也好，那些继承者也罢，都不该被我吸死。\n既然如此，消失的只有我一个就够了。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你们也好，那些使用者也罢，都不该被我汲取而死。\n既然如此，消失的只有我一个就够了。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -252,7 +252,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:smile,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「所以退下吧，白桜。只要再稍微……再放任我一会儿，\n我就会自行消失的。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「所以退下吧，白樱。只要再稍微……再放任我一会儿，\n我就会自行消失的。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -294,12 +294,12 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你在说什么呢，白桜。\n我们双方，除此之外别无选择。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你在说什么呢，白樱。\n我们双方，除此之外别无选择。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「还是说，你打算让自己的继承者死掉也无所谓吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「还是说，你打算让自己的使用者死掉也无所谓吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -336,7 +336,7 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「你是说，要把献出自身的继承者的性命，托付给他人吗？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「你是说，要把献出自身的使用者的性命，托付给他人吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -357,22 +357,22 @@ clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「白桜。你刚才说我是破烂了吧。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「白樱。你刚才说我是破烂了吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:smile,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「ええ、そうでしょう。わたしは全てを夺われた灰蓟。\nガラクタと言われて否定することはできません」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「是啊，你说得没错。我是被夺走了一切的灰蓟。\n即使被人称作一堆破烂，我也无法反驳。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「ですが……己の役割を放弃するような真似をしているあなたは、\nその言叶を口にする権利を持ちません」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「但是……像你这样企图抛弃自身职责的人，\n没有资格说出这种话。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
-msg,0,<outline width=2 color=black>「人をガラクタと呼ぶ前に、あなたは、あなたの存在理由を果たしなさい」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「在把别人称作废物之前，你先去履行自己存在的使命吧。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -380,12 +380,12 @@ spriteatlas,download/character/104187/adv/atlas/stand_a,body:smile,aika_s,-300,-
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>AIKA</outline>,
-msg,0,<outline width=2 color=black>「それ、あなたが満足できる答えを返せなかったらどうするの？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「那么，要是我给不出让你满意的答案，你打算怎么办？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104187/adv/atlas/stand_a,body:smile,aika_s,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「その时こそ、私はあなたに食い杀されるわけ？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「到了那个时候，我就会被你吃掉吗？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -393,7 +393,7 @@ spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0
 anm,tint,aika_s,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>蓟</outline>,
-msg,0,<outline width=2 color=black>「そういうわけでは――」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「不是那样――」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -401,12 +401,12 @@ spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,-300,
 anm,tint,azami,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>AIKA</outline>,
-msg,0,<outline width=2 color=black>「さっき、“本能”って言ったけどさ……その言叶って、まさしくその通りだと\n思うよ」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「刚才你说这是“本能”吧……我觉得这个说法，确实再贴切不过了。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,-300,-120,0.5,0,,,,
-msg,0,<outline width=2 color=black>「本能って、つまり生きるために必要なことでしょ？\n人格や意思よりも前に、存在として求めるもの」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「所谓本能，不就是为了活下去所必需的东西吗？\n是早在人格和意志形成之前，作为一个存在便会本能追求的东西。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
