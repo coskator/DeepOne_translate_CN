@@ -236,7 +236,7 @@ spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0
 anm,tint,sophia,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>芙拉</outline>,
-msg,0,<outline width=2 color=black>「……从那个虚像身上，能感觉到与房东的连接。」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「……从那个虚像身上，能感觉到大家的连接。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -324,7 +324,7 @@ spriteatlas,download/character/196104/adv/atlas/stand_b,body:normal,sakura,0,-14
 spriteatlas,download/character/196104/adv/atlas/stand_b,body:normal,sakura2,0,-140,0.5,0.5,,,,
 spriteatlas,download/character/196104/adv/atlas/stand_b,body:normal,sakura3,0,-140,0.5,0.5,,,,
 endwait,,,,,,,,,,,
-msg,0,<outline width=2 color=black>「<ruby>“看那瓦砾”|ウィドウ・メーカー</ruby>」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「<ruby>“见证废墟”|Widow Maker</ruby>」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

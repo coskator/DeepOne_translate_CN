@@ -151,7 +151,7 @@ endwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/196104/adv/atlas/stand_b,body:anger,sakura,0,-140,0.5,0,,,,
-msg,0,<outline width=2 color=black>「<ruby>“看那瓦砾”|“寡妇制造者”</ruby>――所有人，停下啊——！」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「<ruby>“见证废墟”|“寡妇制造者”</ruby>――所有人，停下啊——！」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -584,7 +584,7 @@ endwait,,,,,,,,,,,
 
 
 name,<outline width=2 color=black><ruby>夜乃|よるの</ruby><ruby>桜|さくら</ruby></outline>,
-msg,0,<outline width=2 color=black>「<ruby>“看那瓦砾”|ウィドウ・メーカー</ruby>」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「<ruby>“见证废墟”|寡妇制造者</ruby>」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

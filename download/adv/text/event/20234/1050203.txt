@@ -14,7 +14,7 @@ anm,tint,zizel,150_150_150,0.0001,0
 spriteatlas,download/character/196304/adv/atlas/stand_a,body:surprise,sophia,300,-140,0.5,0.5,,,,
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>索菲娅・ランカスター</outline>,
-msg,0,<outline width=2 color=black>「名家の次期当主……なるほど。どうりで吉泽尔さんに対して、\n私の高贵センサーがビンビンに反応するわけですわね」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「名门望族的下一任家主……原来如此。难怪一见到吉泽尔小姐，我的高贵感应雷达就反应得如此强烈呢。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -22,7 +22,7 @@ spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-300,-120
 anm,tint,sophia,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
-msg,0,<outline width=2 color=black>「えっと、高贵センサーって、いったい……？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「呃，所谓的高贵感应雷达，究竟是什么东西…？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -30,12 +30,12 @@ spriteatlas,download/character/196304/adv/atlas/stand_a,body:smile,sophia,300,-1
 anm,tint,zizel,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>索菲娅・ランカスター</outline>,
-msg,0,<outline width=2 color=black>「その名の通り、高贵さを察知するセンサーですわ」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「顾名思义，就是能够察觉“高贵气息”的感应器呀。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
 spriteatlas,download/character/196304/adv/atlas/stand_a,body:smile,sophia,300,-140,0.5,0,,,,
-msg,0,<outline width=2 color=black>「ランカスター家の淑女として、高贵さについては\n常にアンテナを张っていないといけませんもの」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「身为兰开斯特家的淑女，对于高贵这件事，当然必须时刻竖起天线、保持敏锐才行。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -43,7 +43,7 @@ spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-300,-120
 anm,tint,sophia,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
-msg,0,<outline width=2 color=black>「な、なるほど……？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「原、原来如此……？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -51,7 +51,7 @@ spriteatlas,download/character/196304/adv/atlas/stand_a,body:anger,sophia,300,-1
 anm,tint,zizel,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>索菲娅・ランカスター</outline>,
-msg,0,<outline width=2 color=black>「あなたほどの高贵さを备えた人にお会いできるとは光栄ですわ。\nどうでしょう、ひとつ高贵バトルでも」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「能有幸见到像您这般高贵的人，实在是我的荣幸。\n要不要来一场“高贵对决”呢，不知您意下如何？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
@@ -59,7 +59,7 @@ spriteatlas,download/character/100701/adv/atlas/stand_a,body:unique,zizel,-300,-
 anm,tint,sophia,150_150_150,0.0001,0
 endwait,,,,,,,,,,,
 name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
-msg,0,<outline width=2 color=black>「高贵バトル……？」</outline>,,,,,,,,,
+msg,0,<outline width=2 color=black>「高贵对决……？」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

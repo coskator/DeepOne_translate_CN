@@ -44,7 +44,7 @@ clickwait,,,,,,,,,,,
 
 spriteatlas,download/character/196204/adv/atlas/stand_a,body:normal,katan,0,-120,0.5,0,,,,
 playvoice,1,download/character/196204/adv/sound/fav196204_01_03.mp3
-msg,1,<outline width=2 color=black>「因为哥哥不是超受欢迎吗？在拉莱耶的房东，\n对哥哥‘喜欢喜欢’的气场暴露无遗。」</outline>,,,,,,,,,
+msg,1,<outline width=2 color=black>「因为哥哥不是超受欢迎吗？在拉莱耶的大家，\n对哥哥‘喜欢喜欢’的气场暴露无遗。」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 
