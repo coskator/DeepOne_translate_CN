@@ -1,0 +1,172 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm163.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_01.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「一直以来，看着ASAKA和AIKA就有这种感觉，\n但蓟出现后，让我重新思考。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_02.mp3
+msg,1,<outline width=2 color=black>「她们啊，真的是一点都不坦率呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_03.mp3
+msg,1,<outline width=2 color=black>「而且不是对别人，是对自己的感情。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_04.mp3
+msg,1,<outline width=2 color=black>「你看。ASAKA和AIKA不是关系挺好的嘛。\n虽然会吵架，但就是那种吵架的朋友嘛。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_05.mp3
+msg,1,<outline width=2 color=black>「她们自己嘴上还说什么<ruby>魔道书|どうぐ</ruby>和<ruby>魔道书|どうぐ</ruby>是无法相互理解的，\n但说实话，看着她们，我真想说“这话也说得出口啊”。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_06.mp3
+msg,1,<outline width=2 color=black>「而且，这时候蓟又出现了不是吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_07.mp3
+msg,1,<outline width=2 color=black>「ASAKA和AIKA明明都关心蓟的事，\n却摆出一副“没什么大事、没什么特别感情、不知道”的表情。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_08.mp3
+msg,1,<outline width=2 color=black>「明明直接抛开什么“因为是<ruby>魔道书|グリモワール</ruby>”之类的借口，\n坦率地说彼此关心就好了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_09.mp3
+msg,1,<outline width=2 color=black>「虽说每个人最宝贵的东西是自己的持有者，\n但除此之外增加了宝贵的东西，价值观也不一定会动摇吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_10.mp3
+msg,1,<outline width=2 color=black>「不过，被与生俱来的职责所摆布的心情，\n我也不是不能理解。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_11.mp3
+msg,1,<outline width=2 color=black>「我也是，作为恶意的受体，作为接触人之恶的存在，\n在遇到哥哥和芙拉之前，也曾相当颓废。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,想听诺恩过去的故事,从来没特别在意过
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_12.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「不行~。因为害羞所以不告诉你~。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_13.mp3
+msg,1,<outline width=2 color=black>「被别人的恶意迷惑，被自己的恶意摆布。\n如今回想起来，觉得那时候什么都不懂。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_14.mp3
+msg,1,<outline width=2 color=black>「人绝非只有恶意，恶意并非人心的全部。\n连这样理所当然的事都忽略了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_15.mp3
+msg,1,<outline width=2 color=black>「但是现在，我清楚地知道这一点。\n许许多多的相遇，以及至今积累的时间，教会了我这一点。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_16.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「至于哥哥你，倒不是与生俱来的职责什么的，\n我觉得在平时的行为举止方面也有该注意的地方就是了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_17.mp3
+msg,1,<outline width=2 color=black>「一个接一个地把麻烦的女孩子吸引过来，还处得挺好……真是的。\n“善意的受体”却不断招惹女孩子，这是什么道理啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_18.mp3
+msg,1,<outline width=2 color=black>「哥哥是“善意的受体”这件事，一天比一天让人怀疑，\n到底是为什么呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_19.mp3
+name,<outline width=2 color=black>诺恩</outline>,
+msg,1,<outline width=2 color=black>「嘛，与生俱来的角色说到底也就那么回事吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_20.mp3
+msg,1,<outline width=2 color=black>「比起那些东西，重要的东西要多少有多少。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_21.mp3
+msg,1,<outline width=2 color=black>「希望有一天，蓟和纳克特抄本们也能不被那些东西束缚，更加坦率地面对自己的内心，接受当下拥有的情感就好了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_22.mp3
+msg,1,<outline width=2 color=black>「……真是的，该不会是我被哥哥的老好人性格传染了吧。\n我明明不是那种会多管闲事的性格才对啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_23.mp3
+msg,1,<outline width=2 color=black>「不过…………嗯。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103525/adv/sound/fav103525_02_24.mp3
+msg,1,<outline width=2 color=black>「不过这样，倒也不坏呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,285 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>那天，我和诺恩一起在幻梦境内的馆里调查，但里面比想象中要宽敞，\n一个个房间看过去似乎很花时间。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>诺恩</outline>,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_01.mp3
+msg,1,<outline width=2 color=black>「……唔」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>一开始还一边正常地说话一边进行调查，\n过了一会儿，不知为何诺恩的氛围开始逐渐改变……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>诺恩</outline>,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_02.mp3
+msg,1,<outline width=2 color=black>「…………唔唔唔唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_03.mp3
+msg,1,<outline width=2 color=black>「——啊，真是的！哥哥你到底打算怎样啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_04.mp3
+msg,1,<outline width=2 color=black>「和这么可爱的美少女妹妹独处！一路上有那么多看起来再合适不过的卧室\n！可是！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_05.mp3
+msg,1,<outline width=2 color=black>「居然不对心爱的妹妹出手，这样还算是性欲的化身吗！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_06.mp3
+msg,1,<outline width=2 color=black>「喂住手，你那是什么看怪人的眼神。\n唯独哥哥你没有资格那样看我啊！？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_07.mp3
+msg,1,<outline width=2 color=black>「啊真是的！好了，知道了！既然如此就只好动真格的了……！\n过来这边，进这个房间！」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我被诺恩拉着手，被她带进了附近的一个房间。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>诺恩</outline>,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_08.mp3
+msg,1,<outline width=2 color=black>「明明心里超喜欢妹妹却不肯坦率的哥哥，\n就由我诺恩来让你变得坦诚吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_09.mp3
+msg,1,<outline width=2 color=black>「做好觉悟吧……哥哥」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>诺恩</outline>,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_10.mp3
+msg,1,<outline width=2 color=black>「呵呵，哥哥真是的。就算装得这么冷淡，\n这边不还是很诚实嘛」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_11.mp3
+msg,1,<outline width=2 color=black>「被妹妹摸了鸡鸡，变得这么硬了。\n嗯，鸡鸡被一揉一弄，很舒服吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_12.mp3
+msg,1,<outline width=2 color=black>「来，坦白吧……这样的话，我可以让你更舒服哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_13.mp3
+msg,1,<outline width=2 color=black>「嗯，啊，鸡鸡越来越热了……哥哥你真是，到底有多兴奋啊？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_14.mp3
+msg,1,<outline width=2 color=black>「被妹妹的手像小穴一样包裹着鸡鸡……被这样揉弄，就这么舒服吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_15.mp3
+msg,1,<outline width=2 color=black>「哈，啊……呵呵，哥哥你忍耐的表情，还挺可爱的呢。\n再靠近一点，让我好好看看？」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_16.mp3
+msg,1,<outline width=2 color=black>「啾、啾噗、嗯、呼、接吻也很舒服吧……？\n嗯啊、啾溜、啾噗、嗯、唔、啾、啾っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_17.mp3
+msg,1,<outline width=2 color=black>「咕啾、嗯、唔、小弟弟、又变大了……啾批、嗯啊、\n诶啾、嗯、呼呜……啾姆、啾噗、嗯、っ、啾、批」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/101.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_18.mp3
+msg,1,<outline width=2 color=black>「哈啊……嗯、哥哥的、好硬……嗯、唔、我的手、\n被顶回来了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_19.mp3
+msg,1,<outline width=2 color=black>「把妹妹的手当小穴用，就那么舒服吗？\n嗯、呼呜、前液都流出来了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_20.mp3
+msg,1,<outline width=2 color=black>「这样流出来的话，小弟弟会变得滑溜溜的哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_21.mp3
+msg,1,<outline width=2 color=black>「拿你没办法的小弟弟，就给你服务一下。」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_22.mp3
+msg,1,<outline width=2 color=black>「你看，把诺恩酱刚脱下的内裤套在小弟弟上，\n就这样给你撸一撸。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_23.mp3
+msg,1,<outline width=2 color=black>「呼呼、感受妹妹小穴的温暖，好好地舒服个够吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_24.mp3
+msg,1,<outline width=2 color=black>「哈啊、嗯、啊、嗯唔……小弟弟、一抽一抽地颤抖着、呃、嗯唔、\n又渗出先走汁了呢……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_25.mp3
+msg,1,<outline width=2 color=black>「内裤、浸透了哥哥的汁液……发出超级、淫荡的声音\n……嗯、唔、这个、我也、心跳加速呢」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_26.mp3
+msg,1,<outline width=2 color=black>「嗯、唔……啊、呼、哈啊、龟头那里、被手指勾住……嗯、呼、\n我的手、真的像被当成小穴来用了呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_27.mp3
+msg,1,<outline width=2 color=black>「总是这样、像是要把小穴里面的东西拖出来一样、\n用力地摩擦呢……啊呼、嗯、唔……哈啊、啊、嗯唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_28.mp3
+msg,1,<outline width=2 color=black>「哈啊、嗯、唔……哥哥、再来亲亲……亲很多次吧？\n一边撸着小弟弟、一边色色的接吻……嗯っ」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_29.mp3
+msg,1,<outline width=2 color=black>「咕啾、嗯、呼……啾姆、嗯姆、嗯、唔唔……咕啾、啾噗、\n嗯姆、嗯、嗯、嗯嗯……っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_30.mp3
+msg,1,<outline width=2 color=black>「嗯、呼、呼、嗯、啾姆、嗯、啾……哈啊、哥哥、舌头、\n再给我一点……？　啾溜、嗯啊、咕啾、啾噗、嗯、啾溜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_31.mp3
+msg,1,<outline width=2 color=black>「啾吡、嗯啊、啾、了啾、啾、噗……嗯、呼、啾溜、嗯、唔、\n咕啾、啾姆、嗯啊、了啾、嗯、唔、嗯嗯……っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_32.mp3
+msg,1,<outline width=2 color=black>「哥哥、っ……嗯姆、啾噗、啾、啾っ……嗯、唔唔、\n小弟弟、在发抖……啾噗、嗯、唔、已经、要射了吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_33.mp3
+msg,1,<outline width=2 color=black>「好哦、无论什么时候……啾、啾、っ、用我的手、\n全部、biu一下、射出来……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_34.mp3
+msg,1,<outline width=2 color=black>「咕啾、啾、啾溜、嗯、唔唔……嗯、呼、啾姆、\n咕啾、嗯、唔……啾噗啾溜、嗯姆、嗯、啾、啾呜……っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_35.mp3
+msg,1,<outline width=2 color=black>「哥哥、嗯啾、哈、呼、啾、嗯姆、啾噗……嗯啊、啾溜、\n咕啾、热热的、っ……用我的手、biu一下……っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_36.mp3
+msg,1,<outline width=2 color=black>「啾姆、嗯、嗯、嗯嗯っ……！　嗯啊、精液、来了、っ、\n小弟弟、射精的准备、做、嗯、唔っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_37.mp3
+msg,1,<outline width=2 color=black>「嗯姆、呼、啾、啾っ……嗯啊、哈、啊、嗯唔……啾、咕啾、\n嗯、呼っ、啾溜、嗯、啊、要射、精液、来、っ、嗯、呜っ……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_38.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哈、热热、哥哥、啾姆、嗯咕っ、嗯、呼っ、\n啾姆、啾、啾っ……嗯姆、嗯、唔っ、嗯嗯嗯嗯呜っ――！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/103525/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_39.mp3
+msg,1,<outline width=2 color=black>「啊、嗯唔唔っ……！　呼啊、啊、嗯、嗯嗯っ、哦、小弟弟在跳、\n啊、嗯唔、内裤、被射精了、っ、嗯、啊、哈啊……っ」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_40.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊……嗯、呼ぅ、内裤、哥哥的、慢慢地渗进去\n……嗯、咕、温暖的东西、蔓延开来……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_41.mp3
+msg,1,<outline width=2 color=black>「哥哥、射了这么多……被内裤撸动、\n喜欢上了……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1035/adu103525_01_42.mp3
+msg,1,<outline width=2 color=black>「呼呼、那的话、就别再逞强了……也和小诺恩、\n尽情地、H起来吧」</outline>,
+clickwait
+
+
+bg,download/character/103525/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1035/adu103525_01_43.mp3
+msg,1,<outline width=2 color=black>「嗯啊、嗯啾、啾溜、嗯、唔、啾、啾……呐、好舒服、\n哥哥……啾溜啾溜、嗯咕……嗯、呼……啾、噗」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
