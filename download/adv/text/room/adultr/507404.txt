@@ -1,0 +1,589 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>那天，我来到梅琪露的房间时，\n莎夏一脸不悦地站在那里。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_01.mp3
+msg,1,<outline width=2 color=black>「呃……适可而止吧！我、我怎么可能那么胖乎乎的！\n我最近不记得吃过零食什么的……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_01.mp3
+msg,1,<outline width=2 color=black>「没记忆可不等于没吃，\n莎夏你自己最清楚吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_02.mp3
+msg,1,<outline width=2 color=black>「实际上数字已经摆在那里了，想狡辩也没用。\n顺便一提，和一个月前相比——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_02.mp3
+msg,1,<outline width=2 color=black>「哇啊啊！你在瞎说什么！隐私！\n这可不是能当着人面随便说的话吧！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_03.mp3
+msg,1,<outline width=2 color=black>「嗯——，不过哥哥也不是完全无关吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_04.mp3
+msg,1,<outline width=2 color=black>「你看，要是莎夏的身体变得太不像样，\n哥哥也许就不想减轻负担了哦？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_03.mp3
+msg,1,<outline width=2 color=black>「我才没那么邋遢！也不会变成那样！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_05.mp3
+msg,1,<outline width=2 color=black>「哎呀，那可不好说啊。毕竟莎夏——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_04.mp3
+msg,1,<outline width=2 color=black>「所以说，别想把患者的私人敏感信息公开啊，你这个坏心眼的医生！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_06.mp3
+msg,1,<outline width=2 color=black>「真是的……真是个吵闹的患者啊。啊，对了。既然不能说数字，\n那就没办法了。直接触诊来确认一下吧……和大哥一起哦。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_05.mp3
+msg,1,<outline width=2 color=black>「哈，一起——你说什么，为什么会变成这样！？\n再怎么也说太蛮横了……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_07.mp3
+msg,1,<outline width=2 color=black>「好~，不要顶撞医生哦。今天还有助手在，\n我们会仔细认真地触诊哦~♪ 来，大哥也准备一下。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_08.mp3
+msg,1,<outline width=2 color=black>「当然，如果你好好帮忙的话，我也会给你奖励的。\n……不只是莎夏，你也可以摸我哦。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_06.mp3
+msg,1,<outline width=2 color=black>「你居然说出了摸这种话……！\n什么触诊啊！你这个性骚扰医生！变态医生！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_09.mp3
+msg,1,<outline width=2 color=black>「患者要乖乖地听医生的话哦~♪」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_07.mp3
+msg,1,<outline width=2 color=black>「喂，真、真的要停手……你也不是在听梅琪露的话吧！你这……呀！不要，喂，等、等等啦……！」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_08.mp3
+msg,1,<outline width=2 color=black>「啊、啊……梅、梅琪露，你真的……嗯呜、嗯、啊、\n你干什么，揉我胸……嗯啊、」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_10.mp3
+msg,1,<outline width=2 color=black>「嗯——？干嘛呀，莎夏，发出那么可爱的声音。\n我只是在触诊而已哦——？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_09.mp3
+msg,1,<outline width=2 color=black>「怎么可能……嗯、哼、如果是触诊，你也不会那么不客气地揉吧……啊呼、嗯、呜」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_11.mp3
+msg,1,<outline width=2 color=black>「这个嘛你瞧，算是给大哥哥的服务吧？难得的机会，\n想看看这对乳房变成色情形状的样子呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_10.mp3
+msg,1,<outline width=2 color=black>「别说傻话了，快、快说……嗯啊、呃、嗯唔……\n你也是，别盯着看啊、啊……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_12.mp3
+msg,1,<outline width=2 color=black>「莎夏你呀，就是不够坦率嘛。明明其实已经发情了。\n乳头都这么立起来了……我这边也早就湿了吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_13.mp3
+msg,1,<outline width=2 color=black>「来吧，助手小哥。好好摸摸患者的阴部，\n检查一下有没有问题？」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/102.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_11.mp3
+msg,1,<outline width=2 color=black>「呀啊、呃、嗯、啊……有、手指、进去了……啊、呃、嗯、呼、\n啊、不行……那里、插进去了……嗯嗯、呜」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_14.mp3
+msg,1,<outline width=2 color=black>「好嘞，放松一下哦？被男人的粗手指在阴部里面\n来回拨弄的感觉，好好感受吧？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_12.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……嗯、嗯呜、啊、那样、手指、进出……咻、嗯！\n啊、啊啊、在浅处、摩擦、嗯、啊啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_15.mp3
+msg,1,<outline width=2 color=black>「哇，莎夏你呀，阴部湿成什么样了……咕啾咕啾\n地响……被手指插进阴部就那么舒服吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_13.mp3
+msg,1,<outline width=2 color=black>「吵、呃……嗯、嗯啊、啊！　别、住手……嗯呜、呃、啊、啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_16.mp3
+msg,1,<outline width=2 color=black>「小穴的灵敏度看来不错，不过这边怎么样呢～」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/103.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_14.mp3
+msg,1,<outline width=2 color=black>「哈、唔、胸部也、用力……嗯、嗯嗯……你们、\n给我适可而止、啊、嗯唔、啊、唔……嗯唔……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_17.mp3
+msg,1,<outline width=2 color=black>「这边也很敏感♪　胸部大小感觉和之前一样没变化？\n反正长肉的话，长在这边就好了呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_15.mp3
+msg,1,<outline width=2 color=black>「多管闲事……嗯、嗯、比起别人，你还是先想想办法把自己那贫瘠的\n身体……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_18.mp3
+msg,1,<outline width=2 color=black>「还挺嚣张嘛……呵呵。喂，大哥。手指，可不能偷懒哦。\n要再往深处好好触诊才行。来来」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/104.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_16.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯唔っ、啊啊啊っ！　呀、啊、嗯唔……っ！　啊、啊啊、那个、\n小穴、好深……っ、用力、搅动的话、っ、啊、唔、嗯唔っ」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_17.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯唔、っ！　啊、啊啊っ、不行、嗯、啊啊っ、那样、被那么多\n弄的话、啊、啊啊っ、我、小穴、好舒服……呼、嗯、啊啊啊っ」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_19.mp3
+msg,1,<outline width=2 color=black>「这样变得舒服，大声叫出来的话，那软乎乎的身体\n说不定也会好一点呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_20.mp3
+msg,1,<outline width=2 color=black>「所以，要让你更舒服地发出嗯啊声吗？\n不是用手指……而是用大哥的鸡巴」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_18.mp3
+msg,1,<outline width=2 color=black>「啊……不、行、不要……现在、那个……明明被这样摸了那么多，\n要是被插进来的话、真的会坏掉的……っ」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/105.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_21.mp3
+msg,1,<outline width=2 color=black>「喂、大哥？　把大鸡巴\n插进莎夏的小穴里、让她好好叫出来吧♪」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/106.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_19.mp3
+msg,1,<outline width=2 color=black>「唔咕っ、啊、唔、啊啊っ！　嗯、嗯唔……！　鸡巴、插到最里面、っ、\n嗯、嗯嗯！　嗯啊、哦、被拧进……鸡巴、好深、っ……啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_20.mp3
+msg,1,<outline width=2 color=black>「嗯、唔っ、呼、啊呜……不、不行、嗯啊啊っ、小穴、被鸡巴\n那样、突然捅进来的话、啊、啊、嗯呼、唔、啊、嗯哦、嗯嗯呜っ！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_22.mp3
+msg,1,<outline width=2 color=black>「莎夏这家伙，不管怎么说看起来超舒服的样子嘛。\n大哥的鸡巴就那么好吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_23.mp3
+msg,1,<outline width=2 color=black>「被这种连理性都弱不禁风的鸡巴轻松弄到啊嘿啊嘿叫出来什么的，\n莎夏果然也是个废物穴没跑了♪」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_24.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯唔！？　嗯啊、啊、哥哥、为什么对我、哼、\n嗯嗯……手指、那里、突然……嗯嘻、啊、咳、嗯、啊啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_21.mp3
+msg,1,<outline width=2 color=black>「啧、你、明明只是插根手指就那样发情……你那边才是废物穴……嗯咕、嗯、啊、啊啊、嗯哦、嗯、唔唔！」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_22.mp3
+msg,1,<outline width=2 color=black>「呀、啊啊、鸡巴、强、嗯嗯、嗯呋、嗯咕、啊、哈、啊啊啊！\n不行、别、啊、那样、嗯、哦、深到里面、嘎吱嘎吱地……嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_23.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、哦、哦哦……！　子宫、顶起来了、嗯、\n嗯呋、啊、唔咕、嗯、嗯哦、哦、嗯呜、啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_25.mp3
+msg,1,<outline width=2 color=black>「唔、啊、啊啊、っ、手指、转着揉弄、っ、女孩子的穴、\n那样、粗鲁地、嗯、嗯嗯呜っ、最、低、啊っ、最差劲♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_24.mp3
+msg,1,<outline width=2 color=black>「嗯嗯唔唔っ！　哦、呜、嗯、哦、哦っ……深处、呀、不要、嗯啊、哦、唔、\n嗯唔唔っ！　啊、啊啊っ、子宫、不行、一个劲儿地顶、嘻、嗯唔唔っ！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_25.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯咕、呜、呜唔唔っ！唔、哦、嗯、哦哦、这个、\n好强、呜咕、鸡巴、好强、好舒服、要去了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_26.mp3
+msg,1,<outline width=2 color=black>「嗯唔、哦、哦っ、嗯嗯！小穴、也、哦、你的、\n想要、っ、哈啊、嗯、唔唔っ、已经、嗯咕、啊、啊啊啊っ！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_27.mp3
+msg,1,<outline width=2 color=black>「嗯咕、哦呼、嗯、呜唔唔っ、要去了、っ、已经、要去了呀、啊、啊啊っ！\n你也来、っ、我、里面、射精、给我！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_26.mp3
+msg,1,<outline width=2 color=black>「啊、嗨、啊、啊啊っ！手指也好用力、呜っ♡\n嗯啊、啊、啊啊、那样、做的话、我也要去了、啊、嗯唔♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_28.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊っ！呼啊、啊、唔、哈、啊啊っ、\n来了、头脑、一片空白、要去了、要去了、っ、嗯、呜唔唔っ！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_27.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊啊っ！要去了、我也是、小穴、要去了、っ、\nっ、嗯、啊、啊啊啊啊啊啊啊っ♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_29.mp3
+msg,1,<outline width=2 color=black>「嗯咕っ、哦、咕、嗯、呜唔唔っ、嗯、啊啊っ、\n呼啊、哈、啊、啊啊啊啊啊啊啊啊啊啊啊啊っ――！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5074/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_30.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哈、啊啊啊啊啊……！啊、嗯嗯唔、被射出来了、っ、\n黏糊糊的精液、里面、嗯、唔……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_28.mp3
+msg,1,<outline width=2 color=black>「嗯、哈啊啊♡　嗯、唔、哥哥、摸小穴太厉害了、\n我、被弄到潮吹了……嗯、咕、哈啊、嗯、啊啊啊」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/110.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_31.mp3
+msg,1,<outline width=2 color=black>「哈啊、啊、嗯、唔……肚子、里面、被你的东西填满了、\n嗯咕、子宫、变得好重……」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/111.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_32.mp3
+msg,1,<outline width=2 color=black>「嗯嗯っ……啊、把鸡巴拔出来……哈啊、已经、结束了吗……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_29.mp3
+msg,1,<outline width=2 color=black>「哎呀？　好不容易能随便玩莎夏的小穴、\n一次就结束、哥哥、连鸡巴都变得软趴趴了吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_30.mp3
+msg,1,<outline width=2 color=black>「嘛也没办法呢。因为哥哥本身就是软绵绵的渣渣、\n――嗯嘻、嗯、唔唔唔唔♡」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/112.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_31.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊、啊啊啊っ♡　鸡巴、来了、っ、嗯嗯唔、我的小穴、\n被强行塞进来了、っ、嗯嘻、咕、啊、嗯嗯嗯っ♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_32.mp3
+msg,1,<outline width=2 color=black>「哦、呼、咕、唔唔っ、嗯嘻、哈、啊、啊啊♡　哥哥的鸡巴好硬、\n嗨呜、嗯咕、啊、啊っ、突然、用力摩擦着、っ、嗯、嗯っ、唔唔♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_33.mp3
+msg,1,<outline width=2 color=black>「啊，明明你那么煽动别人，梅琪露不也一样发出糟糕的声音\n——噫，嗯嗯，啊，啊啊!？」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/113.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_34.mp3
+msg,1,<outline width=2 color=black>「嘿、嗯唔、啊、啊啊！　呀、为什么、又插进手指、嗯、唔、啊、\n啊、啊啊啊、呀、那个……嗯、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_048_35.mp3
+msg,1,<outline width=2 color=black>「刚高潮完、内射的阴道、那样……嗯咕、嗯、唔唔唔！\n那样、做了、精液、被刮出来、啊、嘿呜、嗯、哈、啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_33.mp3
+msg,1,<outline width=2 color=black>「嗯、咕、嘿、啊啊！哦、嗯唔、鸡巴、粗暴地、这个、\n嗯啊、子宫、被咕噜地压扁了、嗯咕、嗯唔、哦、嗯、唔♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_34.mp3
+msg,1,<outline width=2 color=black>「哥哥、不要啦、再这样下去、小穴会坏掉的、\n被哥哥的鸡巴弄坏掉的、所以啦、……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_35.mp3
+msg,1,<outline width=2 color=black>「嗯嘿、啊、嗯唔唔唔！嗯咕、哦、唔唔！呀、不要、说了不要\n却还、哥哥、啊、嘿、库、啊、啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_36.mp3
+msg,1,<outline width=2 color=black>「库、啊、嗯唔……！这、这边也、很激烈、嗯咕、嗯嗯、精液、\n被咕啾咕啾地弄着、嗯啊、库、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/114.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_37.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊！梅琪露、那个、嗯嗯！乳房、用力、弄的话、\n嗯、呼啊、啊、库、嗯唔唔、紧紧抱的话、不行、嗯、唔唔！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_36.mp3
+msg,1,<outline width=2 color=black>「因为、鸡巴太猛了、诶、嗯嘿、库、啊、啊啊♡\n已经、小穴到极限了、嗯嘿、啊、啊啊、已经、要去了、要去、呃♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_38.mp3
+msg,1,<outline width=2 color=black>「咳、啊、哈、啊、啊啊啊！嗯嗯、我也、又来了、啊、\n嗯、呜、小穴和乳房都被随便玩、要、去了、呜呜！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_37.mp3
+msg,1,<outline width=2 color=black>「哦、噢噢♡ 嗯嘻、啊、呜、嗯呜呜♡ 我也、要去了、啊、\n小穴、被大叔的鸡巴干、去了、呜、嗯、哦哦♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_38.mp3
+msg,1,<outline width=2 color=black>「大叔、快来啊、我的小穴里、要好多精液\n给我♡ 哦、嗯呜、啊、呜、啊、啊啊♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_39.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、啊、啊啊、要来了、来了、啊、嘻、呜、嗯嗯！\n嗯咕、啊、啊、啊啊……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_39.mp3
+msg,1,<outline width=2 color=black>「嗯嘻、呜、啊、啊啊、大叔、大叔、啊、啊啊——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露＆莎夏</outline>
+playvoice,1,download/adv/voice/character/5074/adu5074_816_40.mp3
+msg,1,<outline width=2 color=black>「——啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5074/adv/image/115.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_41.mp3
+msg,1,<outline width=2 color=black>「嗯哦♡ 哦、嗯嗯呜、啊、啊啊♡ 来、了……啊♡\n大叔的、浓精子、子宫里、嗯嘻、嗯、哈哦啊啊♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_40.mp3
+msg,1,<outline width=2 color=black>「哦、呜、哦哦……嗯咕、嗯、呼、嗯、呜、小穴、被手指\n搞去了、啊……嗯啊、呜、哈、嗯嗯……啊」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/116.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_42.mp3
+msg,1,<outline width=2 color=black>「哈啊、哈、嗯、唔……嗯、呼呼、哥哥你啊、又、\n把我和莎夏一起弄到高潮……嗯、啊、啊啊♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_41.mp3
+msg,1,<outline width=2 color=black>「还、小穴、在颤抖……呃、嗯、唔……哈啊、啊……精液、\n都洒出来了、嗯啊、哈啊、嗯、啊、啊啊……呃」</outline>,
+clickwait
+
+
+bg,download/character/5074/adv/image/117.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_43.mp3
+msg,1,<outline width=2 color=black>「嗯、呼呼……哥哥你啊、不只是莎夏、连我都\n搞得这么乱七八糟的、真是、奢侈呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5074/adu5074_816_44.mp3
+msg,1,<outline width=2 color=black>「下次心情好的话……这样三个人一起做也许也不错。\n还能帮莎夏减肥」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_42.mp3
+msg,1,<outline width=2 color=black>「呃、哈、啊……嗯、这种减肥法、根本不存在的……这样的、\n我可没办法陪你多次」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_816_45.mp3
+msg,1,<outline width=2 color=black>「那你就最好小心点、别再长胖了。\n再胖的话……下次我会和哥哥一起、让你叫出声来哦♡」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_43.mp3
+msg,1,<outline width=2 color=black>「呃……那、那种事……」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+playvoice,1,download/adv/voice/character/5074/adu5074_048_44.mp3
+msg,1,<outline width=2 color=black>「绝对、不要啦…………♡」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
