@@ -1,0 +1,160 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11740300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_01.mp3
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,1,<outline width=2 color=black>「说起来，听说像这种举办泳池派对的地方，\n有不少还会提供酒水呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_02.mp3
+msg,1,<outline width=2 color=black>「虽然喝酒后游泳很危险，不过本来会来这种地方\n认真游泳的人就不多。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_03.mp3
+msg,1,<outline width=2 color=black>「比起运动，大家的目的应该更多是享受氛围，让自己尽兴吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_04.mp3
+msg,1,<outline width=2 color=black>「实际上，在这样灯光璀璨的水边喝酒，\n既能感受到远离日常的氛围，作为一种体验或许也很有意思。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_05.mp3
+msg,1,<outline width=2 color=black>「不过，再怎么说也不能在幻梦境里喝酒。\n现在这里只有你和我两个人，万一出了什么事就麻烦了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_06.mp3
+msg,1,<outline width=2 color=black>「今天就先到这里，只享受一下这座泳池的氛围吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「反正没人看见……」,选项2　「只要事先确保安全就没问题」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:smile,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_07.mp3
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,1,<outline width=2 color=black>「原来如此，那喝酒也不会被人发现，所以没问题呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:unique,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_08.mp3
+msg,1,<outline width=2 color=black>「——才怪。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_09.mp3
+msg,1,<outline width=2 color=black>「当然，我不会因为喝一点酒就醉，你也不是那种会喝到\n不省人事的人。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_10.mp3
+msg,1,<outline width=2 color=black>「即便如此，酒劲一上来，判断力还是会变得迟钝。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_11.mp3
+msg,1,<outline width=2 color=black>「幻梦境里不知道会发生什么，所以在这种情况下\n喝酒，我实在不能允许。该忍耐的时候就得忍耐。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:sad,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_12.mp3
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,1,<outline width=2 color=black>「……不过，如果确认周围没有敌人，也没有危险，\n稍微喝一点或许确实没问题。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:sad,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_13.mp3
+msg,1,<outline width=2 color=black>「也、也是呢……既然你这么感兴趣的话……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:surprise,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_14.mp3
+msg,1,<outline width=2 color=black>「真是的，为什么非要把人往坏的方向诱惑啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:sad,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_15.mp3
+msg,1,<outline width=2 color=black>「你自己也可能遇到危险，\n所以请不要再这样诱惑我了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_16.mp3
+msg,1,<outline width=2 color=black>「在不同于平日的环境中品酒……我自己也很感兴趣，\n但这次还请你忍耐一下。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_17.mp3
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,1,<outline width=2 color=black>「作为补偿……等回到拉莱耶，\n晚上要不要来我的房间喝一杯？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_18.mp3
+msg,1,<outline width=2 color=black>「虽然那里是早已看惯的地方，不过也正因如此，我想你也能无所顾虑，\n专心品味美酒。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:shy,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_19.mp3
+msg,1,<outline width=2 color=black>「而且，那个……没有了担忧，酒也会越喝越多，\n等我们都喝醉之后，就算发生各种意料之外的事情，也没关系……之类的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:shy,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_20.mp3
+msg,1,<outline width=2 color=black>「别、别再让我继续说下去了……就算我不说得那么详细，\n你也明白的吧……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:shy,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_21.mp3
+msg,1,<outline width=2 color=black>「所以……你觉得，怎么样？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:shy,patrisia,0,-200,0.5,0,,,,
+playvoice,1,download/character/101654/adv/sound/fav101654_02_22.mp3
+msg,1,<outline width=2 color=black>「今晚，可以把你的时间交给我吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

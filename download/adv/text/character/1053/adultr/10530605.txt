@@ -1,0 +1,302 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>在幻梦境里发现的夜间泳池玩了一会儿后，\n我坐到泳池边的椅子上，稍作休息。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+playvoice,1,download/adv/voice/character/1053/adu105306_02_01.mp3
+msg,1,<outline width=2 color=black>「……你一直盯着我看什么啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_02.mp3
+msg,1,<outline width=2 color=black>「啊，不，算了，你还是别说了。反正是你，\n肯定又在想什么下流的事吧。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我无法彻底否认，只好移开视线，\n感觉诺瓦的目光似乎变得更有压迫感了。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+playvoice,1,download/adv/voice/character/1053/adu105306_02_03.mp3
+msg,1,<outline width=2 color=black>「你只要是个女人就行吗？\n还是说……你就这么对我感兴趣？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_04.mp3
+msg,1,<outline width=2 color=black>「啊，不……刚才那句……那个，没什么。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_05.mp3
+msg,1,<outline width=2 color=black>「呃……你、你干嘛一直盯着我看啊，真是的，色鬼！　变态！\n真不敢相信你满脑子都在想这种事！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_06.mp3
+msg,1,<outline width=2 color=black>「哼……既然这么在意，那你赶紧对我出手不就好了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_07.mp3
+msg,1,<outline width=2 color=black>「你、你可别误会！　纳克特原书和幻梦境都很危险，所以为了利用你的\n力量，加深彼此的联系也不是什么坏事……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_08.mp3
+msg,1,<outline width=2 color=black>「我对你根本没有任何感觉！　但我也没蠢到会因为个人好恶，\n就忽视这么做的必要性！　所以……只、只是这样而已。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_09.mp3
+msg,1,<outline width=2 color=black>「还是说，怎么……难道你想说自己根本没那个意思？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+movie,download/character/105306/adv/anm/105306_01.mp4,mov1,1,,,,,,,,,
+wait,0.01,
+
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+playvoice,1,download/adv/voice/character/1053/adu105306_02_10.mp3
+msg,1,<outline width=2 color=black>「啊、呜……果、果然，你就是有那个意思嘛……竟、竟然把，\n鸡、鸡鸡，弄得这么大……嗯、呜……啊、还、还蹭上来了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_11.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯嗯……好硬……嗯、腿、用不着抓得那么紧，\n我又不会逃……呼、哈……赶紧、做啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_12.mp3
+msg,1,<outline width=2 color=black>「那个……你已经、想插进来了吧？　我、随时都可以……你想\n什么时候插就什么时候插，赶紧、做完――呀、啊、嗯、嗯嗯！」</outline>,
+clickwait
+
+
+movieoff,mov1,1,,,,,,,,,,
+movie,download/character/105306/adv/anm/105306_02.mp4,mov2,1,,,,,,,,,
+wait,0.01,
+playvoice,1,download/adv/voice/character/1053/adu105306_02_13.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯嗯、啊、啊啊、啊、好深……呃、唔、啊、\n呀、啊嗯嗯！　怎么、啊、顶到了……最、里面、唔、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_14.mp3
+msg,1,<outline width=2 color=black>「呃、嗯、唔、啊、啊啊啊、啊、啊、啊、怎么、里面、啊啊、\n蹭得、这么厉害、呀、啊、啊、被鸡鸡、狠狠地、刮着」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_15.mp3
+msg,1,<outline width=2 color=black>「呃、啊、啊、呀、被刮出来、了……嗯啊、啊、呀、都发出、\n声音了、嗯嗯、哈、啊、啊啊、嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_16.mp3
+msg,1,<outline width=2 color=black>「不、不是、嗯啊、啊、啊、我才没有、呀、嗯、啊啊、期待、\n这种事……也没有、湿成这样、啊、啊啊、从一开始、就这么激烈……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_17.mp3
+msg,1,<outline width=2 color=black>「呀、啊、啊、啊啊！　嗯呜、呃、啊、啊啊、呀、这样、\n被鸡鸡、干着小穴……为什么、呀、啊、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_18.mp3
+msg,1,<outline width=2 color=black>「为、什么……嗯呜、嗯啊、啊、啊啊、会这么、舒服、\n啊、啊啊！　嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_19.mp3
+msg,1,<outline width=2 color=black>「呀、呃、啊、啊啊啊、啊、啊、啊啊！　呀、不行、那里、\n嗯啊、啊、鸡鸡、像是要碾上去一样……那里、呀、嗯嗯呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_20.mp3
+msg,1,<outline width=2 color=black>「为、为什么、嗯嗯呜！　啊、啊、啊啊啊！　为什么、净是往我的、\n舒服的地方、狠狠地碾、啊、嗯嗯！　嗯、啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_21.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊、嗯呜！　肚、肚子、被顶得抬起来、嗯啊啊！\n那样、啊、啊啊啊、往上顶、不行、那样、不行啦……！」</outline>,
+clickwait
+
+
+movieoff,mov2,1,,,,,,,,,,
+movie,download/character/105306/adv/anm/105306_03.mp4,mov3,1,,,,,,,,,
+wait,0.01,
+playvoice,1,download/adv/voice/character/1053/adu105306_02_22.mp3
+msg,1,<outline width=2 color=black>「嗯呜、啊、啊啊啊！　嗯嗯呜呜！　啊、啊、啊、啊！\n这样、嗯啊啊、呀、不行、这样、不行啦……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_23.mp3
+msg,1,<outline width=2 color=black>「啊、嗯啊、啊啊啊、鸡鸡、好深……嗯啊啊、\n所有、舒服的地方、全都、啊、啊啊啊、被咕叽咕叽地碾着……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_24.mp3
+msg,1,<outline width=2 color=black>「嗯、呀、呃……啊、啊啊、这种事、根本、莫名其妙、\n嗯嗯呜、啊、啊、啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_25.mp3
+msg,1,<outline width=2 color=black>「莫名、其妙、根本不明白、嗯啊啊啊、啊、啊、啊！\n呀、呜、嗯嗯！　为什么、会这么、舒服啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_26.mp3
+msg,1,<outline width=2 color=black>「这、嗯、啊、嗯呜！　啊、啊啊、这根、小鸡鸡、\n好舒、服、嗯啊、啊、不、不要、这么弄……嗯、嗯嗯呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_27.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊、嗯咕、呃、嗯、嗯嗯！　小鸡鸡、太粗暴、了、\n啊、啊啊啊、小穴、别这么用力弄、不要、嗯啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_28.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜呜！　嗯、呀、啊、啊、啊啊啊、不行、不行不行、\n这样受不了、嗯、啊、啊啊、舒服得、忍不住、了啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_29.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊啊、小、小穴、也、嗯啊、啊啊、被这根小鸡鸡、\n狠狠、地、嗯咕、呜、啊、啊、不要、脑、脑袋、都一片空白了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_30.mp3
+msg,1,<outline width=2 color=black>「咿、嗯咕、啊、啊啊！　啊、啊啊、小穴、被、小鸡鸡、\n弄得好舒服、啊、啊啊啊、舒服的感觉、全都、涌……嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_31.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊、啊啊啊啊！　要、要去了、嗯啊啊、要去了、\n小穴、要高潮了、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_32.mp3
+msg,1,<outline width=2 color=black>「再、啊、啊、小穴、温柔一点、嘛……啊、啊、啊啊！\n小鸡鸡、太用力了、嗯、啊、啊啊、这、舒服得、太过头了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_33.mp3
+msg,1,<outline width=2 color=black>「嗯呜、嗯、啊、啊、啊啊！　咿咕、嗯、呜啊、啊啊啊！\n又、又要去了、呜、啊啊啊、要去、要去要去要去了……！」</outline>,
+clickwait
+
+
+movieoff,mov3,1,,,,,,,,,,
+movie,download/character/105306/adv/anm/105306_04.mp4:download/character/105306/adv/anm/105306_05.mp4,mov4:mov5,1,,,,,,,,,
+
+wait,0.01,
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_34.mp3
+msg,1,<outline width=2 color=black>「咿咕、嗯、呜、啊、啊、啊啊啊啊啊啊啊啊啊啊啊啊——！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_35.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊啊！　嗯嗯、嗯嗯呜……！　好、烫……咿、啊、\n啊啊啊……精液、射进来了……嗯啊、啊、肚子里面、全都、灌满了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_36.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、嗯嗯呜……呼、啊……哈、啊……哈……啊、啊、\n好、厉害……最里面……子宫里、全都是、热乎乎的感觉……嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_37.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊啊……这么、啊、舒服的事、被做了、这么多次……\n我、已经……嗯、呼……哈、啊啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_38.mp3
+msg,1,<outline width=2 color=black>「……射得太多了、啦……你这个笨蛋……把人家、这样、\n随心所欲地摆弄……还让我、知道了这么……这么舒服的感觉……嗯、嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_39.mp3
+msg,1,<outline width=2 color=black>「啊、嗯呜……在、在小穴里面、一跳一跳的……嗯、居然还、这么\n大……你到底、有多欲求不满啊……真是的」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_40.mp3
+msg,1,<outline width=2 color=black>「……好吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_41.mp3
+msg,1,<outline width=2 color=black>「反正都已经做过一次了……再做两次、三次，也没什么区别」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_42.mp3
+msg,1,<outline width=2 color=black>「所以……你想怎么做、就怎么做好了……你这个性欲怪物」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+movieoff,mov4,,,,,,,,,
+movieoff,mov5,,,,,,,,,
+bg,color_0_0_0,0.1,255,,,,,,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+playvoice,1,download/adv/voice/character/1053/adu105306_02_43.mp3
+msg,1,<outline width=2 color=black>「嗯咕、呃、嗯、嗯嗯、啊、啊啊……才、啊、嗯呜、呃、\n刚高潮过的小穴、又被狠狠碾着……咿、嗯、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1053/adu105306_02_44.mp3
+msg,1,<outline width=2 color=black>「啊、嗯咕、呜、嗯啊、啊、啊啊、啊啊啊……！」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+name, 
+endwmsg, 
+bgoff,1.0
+stopbgm
+endwait

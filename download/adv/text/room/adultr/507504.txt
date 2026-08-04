@@ -1,0 +1,598 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>为了理解人类，特尔蒂亚寄宿在我这个容器之中。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>共享同一具身体的我们若想彼此交谈，\n无论如何都只能在精神世界中，通过梦境来交流。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>不过，与特尔蒂亚这样强大的存在接触，多少也会给我造成一些负担，\n所以她似乎并不喜欢主动与我交流。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>——然而，那一天却很少见地，是特尔蒂亚主动将我拉入了梦境。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>回过神来，眼前已是一片宽阔的海滩，特尔蒂亚正身穿泳装。\n……而且，不知为何芙拉也在这里。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_01.mp3
+msg,1,<outline width=2 color=black>「咦……？　呃，这里是在梦里吧……？\n特尔蒂亚，怎么突然把我们叫来……是发生什么事了吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_01.mp3
+msg,1,<outline width=2 color=black>「……作为会与他人的善意产生共鸣的存在，你拥有减轻他人负担的力量；\n而作为能够接纳众多事物的容器，你则拥有感知幻梦境与梦境变化的力量」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_02.mp3
+msg,1,<outline width=2 color=black>「虽然诺恩也在协助你们，但你们最近实在有些工作过度了。\n就在这个梦里稍微休息一下，尽可能缓解一些精神上的疲劳吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_02.mp3
+msg,1,<outline width=2 color=black>「呃……你的意思是，难道说，你是在关心我们吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>听到芙拉这么说，特尔蒂亚微微移开了视线。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>这个反应……说不定是她独有的掩饰害羞的方式。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_03.mp3
+msg,1,<outline width=2 color=black>「我本想重现一幅许多人心目中适合休养的景色，\n不过，是不是有点太热了……阳光也很强烈」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_04.mp3
+msg,1,<outline width=2 color=black>「这样一来，恐怕根本没法悠闲地放松身心吧……毕竟这么热」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_03.mp3
+msg,1,<outline width=2 color=black>「呵呵，才没有那回事呢。\n难得来到海边，稍微热一点不是正好吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_05.mp3
+msg,1,<outline width=2 color=black>「……你想在海边玩吗？　我觉得悠闲地待着也不错」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_04.mp3
+msg,1,<outline width=2 color=black>「难得来到海边，我还是想玩一玩。\n和哥哥还有特尔蒂亚一起」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_06.mp3
+msg,1,<outline width=2 color=black>「……我也一起？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_07.mp3
+msg,1,<outline width=2 color=black>「是啊……不过，在玩之前，或许得先处理一下他的欲望。\n他的注意力可一直都只放在我们这身泳装上呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_05.mp3
+msg,1,<outline width=2 color=black>「咦……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_06.mp3
+msg,1,<outline width=2 color=black>「……哥哥。你的眼神是不是充满了非分之想？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_08.mp3
+msg,1,<outline width=2 color=black>「确实是呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_09.mp3
+msg,1,<outline width=2 color=black>「……唉。像这样满脑子积压的都是情欲，\n你恐怕也没心思在海边玩吧……就由我来帮你释放出来」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>说着，特尔蒂亚便将身体贴了上来。由于穿着泳装，肌肤与肌肤\n直接触碰在一起。她的身段本就诱人，如今更是撩动着我的情欲。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_10.mp3
+msg,1,<outline width=2 color=black>「芙拉，你稍微等一下。很快就会——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_07.mp3
+msg,1,<outline width=2 color=black>「等、等一下……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_08.mp3
+msg,1,<outline width=2 color=black>「我、我也……那个……要帮哥哥释放出来」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_11.mp3
+msg,1,<outline width=2 color=black>「来，别乱动……你要在这里接纳他的情欲，对吧？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_09.mp3
+msg,1,<outline width=2 color=black>「啊、呜……是、是这样没错……但果然还是有点害羞呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_12.mp3
+msg,1,<outline width=2 color=black>「没什么好害羞的吧……而且，他似乎也对你的身体表现出了\n强烈的兴趣……肯定很快就会沉迷其中的。拿出自信来」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/102.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_10.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊……特、特尔蒂亚，那里不能碰……嗯呼、啊、呜、\n嗯、啊、嗯、啊啊……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_13.mp3
+msg,1,<outline width=2 color=black>「这样一来，他也会更加兴奋……来，把注意力集中在这里。\n好好弄湿，做好迎接肉棒的准备」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_11.mp3
+msg,1,<outline width=2 color=black>「嗯呜、呜、嗯啊、啊、啊啊……特尔、蒂亚……嗯啊、那里、\n不能那样转着揉、嗯、啊、呼呜、嗯、呜呜……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_14.mp3
+msg,1,<outline width=2 color=black>「啊啊……这么快就准备好了呢……你自己也感觉得到吧。\n小穴转眼间就已经湿得往外淌了……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_12.mp3
+msg,1,<outline width=2 color=black>「那、那是因为……被哥哥看着，还被这样\n转着揉小穴……嗯啊、那里……嗯、嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_13.mp3
+msg,1,<outline width=2 color=black>「特、特尔蒂亚……为什么你会这么熟练……嗯呜、呜嗯！\n嗯、呜……啊呼、嗯、嗯嗯……呀、手指、好有感觉……嗯啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_15.mp3
+msg,1,<outline width=2 color=black>「因为我一直与他相伴……他的经验也就是我的经验。对于你的\n身体，我也十分了解……比如像这样做，你会很舒服吧？」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/103.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_14.mp3
+msg,1,<outline width=2 color=black>「嗯啊、嗯、啊啊……嗯呜、呜！　咿、嗯呜、手指、进来了……啊、啊、\n嗯呜、呜、我的里面、被来回摩擦着」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_16.mp3
+msg,1,<outline width=2 color=black>「小穴里面明明已经湿成这样，却还紧紧夹着我的手指，\n弄得我都不好活动了。夹得这么紧，肉棒插进去一定会很舒服吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_15.mp3
+msg,1,<outline width=2 color=black>「别、别说这种话、嗯嗯、啊啊、好害羞……明明、\n哥哥还在看着，我却……嗯、呜、呜呜嗯……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_17.mp3
+msg,1,<outline width=2 color=black>「……再继续吊他的胃口，也未免太可怜了呢」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/104.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_16.mp3
+msg,1,<outline width=2 color=black>「呀……特、特尔蒂亚……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_18.mp3
+msg,1,<outline width=2 color=black>「芙拉的小穴都饥渴得一抽一抽了……看来是因为渴望着你的肉棒，\n才会变成这样呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_19.mp3
+msg,1,<outline width=2 color=black>「已经彻底湿透，做好迎接肉棒的准备了……所以，就在这里把你的\n欲火发泄在她身上吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_17.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯……我、想要……想让哥哥变得硬邦邦的大肉棒，\n插进我的小穴里……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_18.mp3
+msg,1,<outline width=2 color=black>「来、来吧，哥哥……把我的里面填得满满的……和我一起\n舒服起来，好吗？」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_19.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、呜、嗯嗯嗯……！　肉、肉棒，一下子插进来，顶到最里面了\n……咿、嗯、啊、嗯嗯嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_20.mp3
+msg,1,<outline width=2 color=black>「嗯咕、啊、呼、哈、啊啊……哥、哥哥在我的里面摩擦着，\n嗯啊、哈、啊啊、好、好舒服啊，哥哥……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_20.mp3
+msg,1,<outline width=2 color=black>「真厉害呢……芙拉的小穴被撑得这么开……连整根肉棒\n都吞到了根部，看得一清二楚呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_21.mp3
+msg,1,<outline width=2 color=black>「嗯、真、真是的，别一直看啦……呼啊、嗯、嗯嗯、我那么\n色情的地方被人盯着看，会很害羞的……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_21.mp3
+msg,1,<outline width=2 color=black>「――也是呢。不能只顾着看，或许我也应该稍微帮点忙」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_22.mp3
+msg,1,<outline width=2 color=black>「这样才能让他和芙拉都更加兴奋呢」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/106.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_22.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯嗯……！　啊、啊啊、特尔蒂亚，那里、不能乱弄、咿、\n呼啊、啊、嗯、啊啊啊……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_23.mp3
+msg,1,<outline width=2 color=black>「芙拉，看起来很舒服呢……阴蒂那里，真的有这么敏感吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_23.mp3
+msg,1,<outline width=2 color=black>「因为、那里、特别敏感……嗯、啊啊！　哥哥、\n肉棒突然动得这么激烈、咿、嗯咕、啊、哈、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_24.mp3
+msg,1,<outline width=2 color=black>「小穴被一下下猛顶着，阴蒂还被玩弄、嗯咿、\n咕、啊、啊啊、脑子里、变得一片空白了……啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_25.mp3
+msg,1,<outline width=2 color=black>「嗯咕、啊、咕、哈、啊、啊啊啊……！　这样、实在太舒服了、\n马上就要去了、嗯嗯、好像要高潮了、啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_24.mp3
+msg,1,<outline width=2 color=black>「嗯……这是什么感觉……看着芙拉如此享受的样子，\n连我也……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_26.mp3
+msg,1,<outline width=2 color=black>「硬硬的，不停蹭着里面，呃……咿、嗯、啊啊、哥哥、呃、\n嗯、啊啊、哥、哥哥、啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_27.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、嗯、呜呜！　哥、哥哥、啊、啊啊、射出来吧……！\n让肉棒和我一起、一起高潮吧……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_28.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊！　肉棒、好猛、呼啊、哈、啊、啊啊啊！\n呼啊、呀、嗯嗯呜、要去了、哥哥、哥——哥、呃！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_037_29.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊、咕、啊、啊、嗯嗯、啊、啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5075/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_30.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯嗯呜！　呼啊、啊、呃、啊啊、哥哥射的、进到里面\n来了、子宫里、一股、一股地喷着、嗯、呜呜……！」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_31.mp3
+msg,1,<outline width=2 color=black>「呼、啊、嗯、呜呜……哥哥，射了好多呢……我的里面，\n都被精液灌得满满当当的了……嘿、嘿嘿」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_32.mp3
+msg,1,<outline width=2 color=black>「快看……哥哥射的东西，从我的小穴里流出来\n这么多呢」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/110.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_33.mp3
+msg,1,<outline width=2 color=black>「可是，哥哥的肉棒还一直这么大呢……\n要是还想做的话，要不要再来一次……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_25.mp3
+msg,1,<outline width=2 color=black>「……等一下」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_26.mp3
+msg,1,<outline width=2 color=black>「看到芙拉那么舒服，我的身体也有了反应……我的小穴\n也开始发痒了……所以下一个，换我……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_27.mp3
+msg,1,<outline width=2 color=black>「就像刚才对芙拉那样……也用那根肉棒让我舒服吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_34.mp3
+msg,1,<outline width=2 color=black>「听到了吧，哥哥。也让特尔蒂亚好好舒服个够\n好不好？」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/111.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_28.mp3
+msg,1,<outline width=2 color=black>「嗯啊、嗯、咕、嗯呜呜……！　肉、肉棒进来了、啊、\n咿、嗯、咕、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_29.mp3
+msg,1,<outline width=2 color=black>「这么粗，把我的小穴弄得一塌糊涂、呃、咿、咕、嗯嗯、\n最里面、都被狠狠顶开了、嗯咿、咕、啊、嗯嗯嗯……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_35.mp3
+msg,1,<outline width=2 color=black>「特尔蒂亚，你叫得好厉害……而且肉棒每次一动，里面都会发出\n咕啾咕啾的声音哦……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_30.mp3
+msg,1,<outline width=2 color=black>「这根、肉棒、呃……嗯、嗯嗯嗯！　最、最里面、不能、这样、\n呀、呜、嗯嗯嗯、那里、太有感觉了、啊、啊啊……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_36.mp3
+msg,1,<outline width=2 color=black>「哥哥的肉棒，顶到最里面了……嗯、让我想起刚才被哥哥狠狠做了\n好多次，我的小穴又变得又痒又难受了……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_31.mp3
+msg,1,<outline width=2 color=black>「那芙拉也、呃……咕、啊啊啊、芙拉也一起、再让你\n舒服起来……呃」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/112.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_37.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊、嗯嗯嗯呜……！　特、特尔蒂亚，又把手指、\n伸进里面……咿呜、嗯、啊、啊啊嗯！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_32.mp3
+msg,1,<outline width=2 color=black>「哈、啊啊啊、精液、好暖、嗯、咕，而且还、\n黏糊糊的，缠在手指上、嗯、呜呜！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_38.mp3
+msg,1,<outline width=2 color=black>「呀、不要、别搅得咕啾咕啾的、呃、会流出来的、呃、\n哥哥的精液、都被你挖出来了、咿呜、啊呼、嗯、啊、啊啊……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_33.mp3
+msg,1,<outline width=2 color=black>「嗯咕、哦、嗯、呜呜呜！　肉棒、太激烈、了、呜呜！\n呼啊、嗯、啊、啊啊、就是、这样、呃、嗯、呜呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_34.mp3
+msg,1,<outline width=2 color=black>「我的身体、被这根肉棒、教会了什么叫舒服、呃、\n嗯哦、哦、嗯、呜呜呜！　要、要被弄得、不正常了、呃……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_35.mp3
+msg,1,<outline width=2 color=black>「嗯咿、咕、嗯、呜呜呜、最里面、哦、咕、硬邦邦地碾着、嗯咿、咕、嗯嗯、\n那里、不行、呃、啊咕、哦、嗯、嗯呜呜！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_39.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯呜！　特、特尔蒂亚、手指、在里面、狠狠抠动了、呃、\n啊、嗯嗯呜、哈、啊啊啊……我也、又要、高潮了呀……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_36.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、呜呜呜！　嗯啊、咕、啊、啊啊、子宫、要被顶烂了、呃、\n嗯咿、啊、咕、嗯、哦、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_37.mp3
+msg,1,<outline width=2 color=black>「咕、啊、啊啊、脑袋、都麻了、呃、嗯咿、咕、啊、啊啊、\n要去了、要去、了、小穴、要坏掉了、呃、嗯、呜呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_38.mp3
+msg,1,<outline width=2 color=black>「嗯呜呜！　嗯咿、啊、咕、啊、啊啊啊啊！　嗯咿、咕、啊啊、\n要去了、呃、去了去了、呃、要、去、呜呜、嗯、啊啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_40.mp3
+msg,1,<outline width=2 color=black>「我也、呃、嗯嗯呜、要来了、又要去了、啊、嗯、呜呜嗯！\n呼啊、啊、咕、嗯、呜呜——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_39.mp3
+msg,1,<outline width=2 color=black>「嗯、咿、啊咕、嗯、啊、啊啊啊！　呼啊、啊、咕、嗯嗯、\n呼啊、啊、嗯、呜呜呜、要、呃、嗯、嗯嗯嗯——！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉＆特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_41.mp3
+msg,1,<outline width=2 color=black>「——啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5075/adv/image/113.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_40.mp3
+msg,1,<outline width=2 color=black>「嗯啊、咕、哈、嗯嗯呜呜……！　里面、肉棒、还在乱动、呃、嗯嗯、\n正在、给我播种……哈、啊啊啊……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_42.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊啊、呃……嗯、呜呜、我、高潮了……滚烫的精液、\n正在流出来、啊、咕、嗯、嗯呜……」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/114.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_41.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊啊……明明已经是第二次了，却还射了这么多呢……我的里面、\n被你的滚烫精液填满了……嗯、身体、都变得沉甸甸的了……」</outline>,
+clickwait
+
+
+bg,download/character/5075/adv/image/115.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_42.mp3
+msg,1,<outline width=2 color=black>「嗯啊、呃……肉棒才刚拔出去，就这样、全都溢出来了……哈、嗯、呜、\n总觉得、好浪费呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_43.mp3
+msg,1,<outline width=2 color=black>「……那个，哥哥，你的肉棒、还能继续吧？\n我的小穴、还热乎乎的……刚才流出来的那些，希望你再重新注满。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_047_43.mp3
+msg,1,<outline width=2 color=black>「我也……还想更多地感受这股热意……夏天的炎热虽然让人不舒服，\n但你的热度、却越是感受、就越想要更多……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5075/adu5075_047_44.mp3
+msg,1,<outline width=2 color=black>「所以……今天就这样、让我们彻底沉溺在快感之中吧。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+playvoice,1,download/adv/voice/character/5075/adu5075_037_44.mp3
+msg,1,<outline width=2 color=black>「嗯，多做几次吧……哥哥，要把滚烫的精液、大量注进来哦。」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

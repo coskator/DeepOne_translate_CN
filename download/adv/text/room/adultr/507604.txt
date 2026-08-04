@@ -1,0 +1,600 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>那天，我和想花、AIKA一起在幻梦境中的海边度过。\n一开始是爱花出来陪我的，可是……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_01.mp3
+msg,1,<outline width=2 color=black>「唔……爱花……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_01.mp3
+msg,1,<outline width=2 color=black>「别这么幽怨地看着我嘛……爱花好像不太喜欢夏天的阳光，\n而且她也玩了很久，我想她应该已经满足了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_02.mp3
+msg,1,<outline width=2 color=black>「所以她才把剩下的时间让给了我……其实我也希望爱花能从头到尾都玩得开心，\n但我总不能辜负爱花的一番好意吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_02.mp3
+msg,1,<outline width=2 color=black>「话是这么说……我也明白……和白樱一起玩\n也不是不开心……唔」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>有些闹别扭的想花在我身旁坐下，一把抱住了我的胳膊。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>她仿佛要填补心中的不满一般紧紧抱着我，\n想花那柔软的触感也随之清晰地挤压在我的手臂上……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_03.mp3
+msg,1,<outline width=2 color=black>「只有想花这样太狡猾了。我也想和爸爸黏在一起嘛♪」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>AIKA一边说着，也从另一侧抱住了我的胳膊。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>两人的触感同时从左右两侧直接传来……无论如何，\n我都无法抑制欲望渐渐抬头。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_03.mp3
+msg,1,<outline width=2 color=black>「爸爸，你的表情好像变得有点色色的了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_04.mp3
+msg,1,<outline width=2 color=black>「被我和白樱这样贴着，你兴奋起来了？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_04.mp3
+msg,1,<outline width=2 color=black>「呵呵……呐，爸爸。我可以哦？\n要是已经忍不住了，要不要做些色色的事？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_05.mp3
+msg,1,<outline width=2 color=black>「……唔」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_06.mp3
+msg,1,<outline width=2 color=black>「如果爸爸已经有那种心情了，\n那无论什么时候、想要多少，我都会全部接受哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_07.mp3
+msg,1,<outline width=2 color=black>「不……我想承受下来。那样的心情，也希望你全部发泄在我身上」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>像是在和AIKA较劲似的，想花把身体贴得更紧了。\n不仅如此，她的手还顺着我的大腿向上抚摸，并从那里继续往上――……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_08.mp3
+msg,1,<outline width=2 color=black>「爸爸……这里，已经变得又大又硬了……还好烫呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_05.mp3
+msg,1,<outline width=2 color=black>「可以同时品尝我和想花呢……爸爸真是个幸福的人。\n不过不过，接下来还会让爸爸变得更——幸福哦」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_09.mp3
+msg,1,<outline width=2 color=black>「嗯……爸爸。就让我们带给你满满的幸福，好吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_10.mp3
+msg,1,<outline width=2 color=black>「爸爸，看得好入迷呢……你就这么\n喜欢我们穿泳装的样子吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_06.mp3
+msg,1,<outline width=2 color=black>「爸爸，已经兴奋起来了吧……？　既然这样，光是看着\n肯定满足不了你吧？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_11.mp3
+msg,1,<outline width=2 color=black>「我也想让爸爸舒服起来，所以……到这边\n来吧？」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_12.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……爸爸的，好厉害呢……朝上面高高地挺立着\n一样……嗯，感觉好色情」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_07.mp3
+msg,1,<outline width=2 color=black>「嗯、呼……而且，是因为出了汗吗……爸爸的气味，\n好浓郁……让人心跳得好快」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_08.mp3
+msg,1,<outline width=2 color=black>「啪、啾、啾、呃……嗯，爸爸的味道，果然好浓……啾、\n啾、啪」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_13.mp3
+msg,1,<outline width=2 color=black>「啊……白、白樱，对着爸爸的伸出舌头……嗯、啊、\n舔得好色情」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_09.mp3
+msg,1,<outline width=2 color=black>「呃噜、啾噜……嗯、唔，这也算是爸爸调教出来的成果吧。\n开玩笑的……嗯啊、呃、啾噜、嗯、唔……咕啾、啾噜——」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_10.mp3
+msg,1,<outline width=2 color=black>「爸爸的味道让人上瘾……啾噜、舔噜，这个，我还想要更多……啾、\n啾噜、嗯、呼……啾、啾噗、嗯、啾——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_14.mp3
+msg,1,<outline width=2 color=black>「光让白樱一个人来，太狡猾了……我也想感受爸爸的，\n所以要和她一起舔了哦，爸爸」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_15.mp3
+msg,1,<outline width=2 color=black>「咕啾、呃噜……嗯、唔……哈啊，和白樱一起舔爸爸的那里，\n总觉得让人心跳得好快……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_16.mp3
+msg,1,<outline width=2 color=black>「明明很害羞，却还想要更多爸爸的……啪嗒、啾、\n呃噜……嗯、啾、啾、噗」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_11.mp3
+msg,1,<outline width=2 color=black>「想花真是可爱啊。不过舔起来却色情得不得了，\n看来我也不能输呢……啪嗒、啾噜、嗯、呃噜、舔、啾」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_17.mp3
+msg,1,<outline width=2 color=black>「啾、噗、呃噜、舔噜……爸爸，舒服吗……？\n我的舌头，有让你觉得舒服吗……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_12.mp3
+msg,1,<outline width=2 color=black>「爸爸，再多感受一些吧……我会舔很多很多的……呃噜舔噜、\n啾姆、嗯、啾、啾噜……要变得舒服哦」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_13.mp3
+msg,1,<outline width=2 color=black>「呃噜舔噜……啾、噗、呃噜——、嗯、呼……啾姆、咕啾、\n啾噜、啾、啪……嗯啊、呃噜、啾、啾噜——……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_18.mp3
+msg,1,<outline width=2 color=black>「啾姆、嗯、唔，爸爸的那里，越来越烫了……啾噜、\n嗯、呼……舔着这么厉害的东西，我都要……嗯、唔」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_14.mp3
+msg,1,<outline width=2 color=black>「呐，爸爸……我的身体也开始发烫了」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_15.mp3
+msg,1,<outline width=2 color=black>「所以，不光是嘴里，这边也想要爸爸的呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_16.mp3
+msg,1,<outline width=2 color=black>「这样就能看得很清楚了吧？　舔着爸爸的那里，弄得我的入口\n都已经一抽一抽的了哦……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_17.mp3
+msg,1,<outline width=2 color=black>「里面也湿得黏糊糊的……要是插进来的话，肯定会很舒服吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_19.mp3
+msg,1,<outline width=2 color=black>「爸、爸爸……不可以只盯着白樱看哦……？\n我里面也早就湿透了……」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_20.mp3
+msg,1,<outline width=2 color=black>「想要爸爸的……所以才变成了这样」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_21.mp3
+msg,1,<outline width=2 color=black>「所以，给我吧……用爸爸的把我的肚子深处填得满满的，\n让我舒服起来……好吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_18.mp3
+msg,1,<outline width=2 color=black>「呵呵，真厉害呢，两个人并排这样亲手张开，\n把自己色情的地方都露出来了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_19.mp3
+msg,1,<outline width=2 color=black>「呐，爸爸……想先插进哪一个？\n可以选你喜欢的哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_20.mp3
+msg,1,<outline width=2 color=black>「不过，必须一直做到让我和想花都满足为止，\n不然可不行哦？」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/107.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_22.mp3
+msg,1,<outline width=2 color=black>「啊、嗯呜……哈、啊啊，进来了，爸爸的，\n嗯嗯、进到我的里面、了……嗯、呜呜……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_21.mp3
+msg,1,<outline width=2 color=black>「真是的，爸爸好坏……故意先插进想花里面，想让我着急对吧」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_23.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、嗯、呜呜……爸、爸爸，嗯嗯、一开始就，\n这么激烈、呼啊、啊、嗯、啊、啊、啊啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_24.mp3
+msg,1,<outline width=2 color=black>「原来爸爸兴奋到了这种程度……我好开心。\n咿呜、嗯啊、嗯、咕、啊、嗯嗯呜……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_22.mp3
+msg,1,<outline width=2 color=black>「想花都发出这么舒服的声音了……爸爸的，\n就那么舒服吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_25.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯……嗯嗯呜，因为，又大、又硬……啊、啊啊，\n把我的里面，全都摩擦到了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_26.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哈、啊啊啊……！　爸、爸爸，嗯嗯、又、\n变激烈了、咿呜、咕、啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_23.mp3
+msg,1,<outline width=2 color=black>「呵呵，爸爸真是的，因为想花说了这么可爱的话，就忍不住了\n呢……那就这样把她狠狠欺负个够吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_24.mp3
+msg,1,<outline width=2 color=black>「当然，等想花结束后，也要同样狠狠地欺负我哦，\n爸——爸♪」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_27.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊、啊啊啊，爸、爸、呃、咕、啊、咕、\n嗯啊、咿、嗯、嗯嗯、哈、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_28.mp3
+msg,1,<outline width=2 color=black>「爸、爸、呃、嗯呜、里面、那里、不行、这样、呃、嗯、咕嗯、\n啊、马上就要来了、我、要去了、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_29.mp3
+msg,1,<outline width=2 color=black>「啊、咿、哈、啊、啊啊啊！　爸、爸爸、呃、嗯咕、哈、啊啊\n嗯咕、呃、啊、嗯、爸、爸爸……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_25.mp3
+msg,1,<outline width=2 color=black>「爸爸也快要射了吗？　要全都灌进想花的里面啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_30.mp3
+msg,1,<outline width=2 color=black>「嗯、呃、嗯……！　射出来、呃、咿呜、嗯、啊、嗯咕、呃、\n嗯、啊、啊啊啊……！　爸、爸爸……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_31.mp3
+msg,1,<outline width=2 color=black>「咿呜、啊、咕、哈、啊、啊啊啊！　嗯呜、来了、呃、\n咿呜、嗯、啊、啊啊、我、要去了、呃、要去了、啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_32.mp3
+msg,1,<outline width=2 color=black>「嗯啊、呃、啊咕、哈、啊、啊啊啊！\n嗯、咿、咕、啊啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5076/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_33.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哈、啊、啊、啊啊啊啊……！　啊、嗯呜、射出来了、\n爸爸的、精液、正咕嘟咕嘟地、灌进最深处、嗯、呜呜呜……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_26.mp3
+msg,1,<outline width=2 color=black>「爸爸每射一次，想花的身体都会一颤一颤的……真让人羡慕啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_34.mp3
+msg,1,<outline width=2 color=black>「嗯呜、还在、射、爸爸、啊、居然、\n这么多……嗯啊、哈、啊、嗯嗯」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_35.mp3
+msg,1,<outline width=2 color=black>「哈啊、呃、啊、嗯嗯……爸、爸爸……射了、\n好多呢……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_36.mp3
+msg,1,<outline width=2 color=black>「肚子深处、被暖暖的东西填满了……嗯嗯、我、\n好喜欢、这种感觉……呼啊、啊、嗯、呼呜」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_27.mp3
+msg,1,<outline width=2 color=black>「嗯、呃……呐，爸爸，既然已经在想花里面射完了，\n接下来、该轮到我了吧……？」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/110.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_28.mp3
+msg,1,<outline width=2 color=black>「看着爸爸只顾着让想花舒服，\n害得我的淫液、都流出来这么多了哦……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_29.mp3
+msg,1,<outline width=2 color=black>「快点给我吧，爸爸……别再继续吊我胃口了，\n我们一起舒服吧？」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/111.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_30.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯呜……太好了，爸爸的、还这么大、\n嗯咕、啊、呼、嗯嗯呜……呃」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_31.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊……硬硬的、一直摩擦到最深处……咿、\n嗯、呼啊、哈、啊啊、这样、好舒服、嗯、啊啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_37.mp3
+msg,1,<outline width=2 color=black>「……白樱也和我们一样，舒服起来以后，\n会忍不住发出淫荡的声音呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_32.mp3
+msg,1,<outline width=2 color=black>「那当然、因为……嗯、这具身体、本来就是爱花的，而且爸爸、\n又这么厉害……嗯、啊啊、被这样弄、当然会有感觉、嗯呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_33.mp3
+msg,1,<outline width=2 color=black>「啊啊……爸爸、那里、嗯呜、我喜欢、你把前端、顶在最里面、\n啊、咕、呼啊、啊、嗯嗯、再多给我一点……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_34.mp3
+msg,1,<outline width=2 color=black>「嗯、咕、啊、啊啊……！　爸爸、好激烈、咕、嗯、啊啊、这样、\n好厉害、嗯咿、啊、咕、哈、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_35.mp3
+msg,1,<outline width=2 color=black>「被你、这样弄的话、我马上就会去了……啊咕、呼啊、\n啊、嗯、啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_38.mp3
+msg,1,<outline width=2 color=black>「爸爸的、在白樱里面、进进出出……白樱、\n舒服得身体都向后仰起来了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_39.mp3
+msg,1,<outline width=2 color=black>「嗯、呜、看着这种场面……害得我也想再来一次\n舒服的了……哈啊、嗯、呃」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_042_40.mp3
+msg,1,<outline width=2 color=black>「爸爸……等白樱结束以后……还会再和我做吗……？\n我还想和爸爸做更多舒服的事……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_36.mp3
+msg,1,<outline width=2 color=black>「想花、太狡猾了、啊、啊啊、一开始、我都让给你了，\n所以我还想让爸爸在我里面射两次呢……咿、嗯、啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_41.mp3
+msg,1,<outline width=2 color=black>「只是因为爸爸选择了我嘛……而且爸爸也想、\n再一次、在我的这里舒服起来、对吧……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_37.mp3
+msg,1,<outline width=2 color=black>「我的里面、明明也很舒服嘛……啊、啊、所以、\n下一个、再让我来一次、咿、咕、啊、啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_38.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊啊、要去了、去了去了、嗯、呜呜、爸爸、\n爸爸……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_39.mp3
+msg,1,<outline width=2 color=black>「嗯啊、咕、哈、啊啊啊！　脑袋、变得一片空白、\n咿呀、啊咕、呼啊、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_40.mp3
+msg,1,<outline width=2 color=black>「爸爸也、射出来、射在我、里面……射给、我、\n咿、啊、哈、啊、啊啊、啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5076/adv/image/112.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_41.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯呜呜呜！　呼啊、啊、呃、呜、嗯嗯嗯、射、出来了，\n爸爸的、把子宫、灌得满满的、嗯嗯嗯……！」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/113.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_42.mp3
+msg,1,<outline width=2 color=black>「は、ぁぁ……あ、ん、ん、ふふ、いっぱいでたね、パパ……\n私で、こんなに感じてくれたんだ」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/114.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_43.mp3
+msg,1,<outline width=2 color=black>「嗯、呜……这就、拔出去了吗……？　明明可以就这样、连续\n做下去的」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_42.mp3
+msg,1,<outline width=2 color=black>「爸爸……下一个、轮到我了吧……？\n再来一次、射进我的里面……啊」</outline>,
+clickwait
+
+
+bg,download/character/5076/adv/image/115.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_43.mp3
+msg,1,<outline width=2 color=black>「这样啊……啾、啾噜……在放进去之前，想让我先帮你\n清理干净啊……呃、啾、啾噜！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_093_44.mp3
+msg,1,<outline width=2 color=black>「既然这样，呃噜啾噜……就用清洁口交，让爸爸\n更舒服的那个人，可以得到做爱的奖励哦♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5076/adu5076_093_45.mp3
+msg,1,<outline width=2 color=black>「就算你是爱花的姐姐，我也不会输给你的，想花。\n啾噜、呃噜、嗯、啾……嗯呼、啾噜、呃、噜呜」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+playvoice,1,download/adv/voice/character/5076/adu5076_042_44.mp3
+msg,1,<outline width=2 color=black>「嗯，我也会……为了让爸爸感到舒服，好好努力的。\n嗯啊、呃、啾、啾……嗯呼、啾噜、啾噜噜……嗯、呜、啾噜噜」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
