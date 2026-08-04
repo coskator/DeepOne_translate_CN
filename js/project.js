@@ -148434,6 +148434,7 @@ partsTapBtnPrefab: cc.Prefab,
 partsTapBtnParentNode: cc.Node
 },
 _root: null,
+_isFirstVoice: !1,
 _partsTapBtns: null,
 _lastAction: null,
 _currentCharacterSkeleton: null,
@@ -148442,6 +148443,7 @@ this.unschedule(this.myUpdate);
 },
 initSpecialRoomTapEvent: function(t) {
 this._root = t;
+this._isFirstVoice = !0;
 this._initButton();
 this._playSpecialRoomSerifAction(r, null);
 },
@@ -148459,40 +148461,51 @@ this._lastAction = i;
 } else cc.error("表示出来るメッセージが存在しません");
 },
 _getPlayActionData: function(t, e) {
-var i = this._root.getCurrentSpecialRoomId(), a = o.getSpecialRoomConditionalMasterArrayByDayTime(i), r = o.getSpecialRoomActionMasterArray(i), s = [], c = !0, l = !1, u = void 0;
+var i = this._root.getCurrentSpecialRoomId(), a = o.getSpecialRoomConditionalMasterArrayByDayTime(i), r = o.getSpecialRoomActionMasterArray(i), s = null, c = [], l = !0, u = !1, h = void 0;
 try {
-for (var h, d = a[Symbol.iterator](); !(c = (h = d.next()).done); c = !0) {
-var p = h.value, m = !0, _ = !1, g = void 0;
+for (var d, p = a[Symbol.iterator](); !(l = (d = p.next()).done); l = !0) {
+var m = d.value, _ = !0, g = !1, f = void 0;
 try {
-for (var f, E = r[Symbol.iterator](); !(m = (f = E.next()).done); m = !0) {
-var C = f.value;
-p.getActionId() === C.getActionId() && C.getPlayType() === t && ("" === C.getTapPoint() && null === e || C.getTapPoint() === e) && s.push({
-textId: C.getTextId(),
-isAdv: C.getIsAdv()
+for (var E, C = r[Symbol.iterator](); !(_ = (E = C.next()).done); _ = !0) {
+var T = E.value;
+if (m.getActionId() === T.getActionId() && T.getPlayType() === t && ("" === T.getTapPoint() && null === e || T.getTapPoint() === e)) {
+if (this._isFirstVoice && "00" !== m.getDay()) {
+s = {
+textId: T.getTextId(),
+isAdv: T.getIsAdv()
+};
+break;
+}
+c.push({
+textId: T.getTextId(),
+isAdv: T.getIsAdv()
 });
 }
-} catch (t) {
-_ = !0;
-g = t;
-} finally {
-try {
-!m && E.return && E.return();
-} finally {
-if (_) throw g;
-}
-}
 }
 } catch (t) {
-l = !0;
-u = t;
+g = !0;
+f = t;
 } finally {
 try {
-!c && d.return && d.return();
+!_ && C.return && C.return();
 } finally {
-if (l) throw u;
+if (g) throw f;
 }
 }
-return s[n.getRandomInt(0, s.length)];
+if (null !== s) break;
+}
+} catch (t) {
+u = !0;
+h = t;
+} finally {
+try {
+!l && p.return && p.return();
+} finally {
+if (u) throw h;
+}
+}
+this._isFirstVoice = !1;
+return null !== s ? s : c[n.getRandomInt(0, c.length)];
 },
 switchActivePartsTap: function(t) {
 var e = !0, i = !1, a = void 0;
