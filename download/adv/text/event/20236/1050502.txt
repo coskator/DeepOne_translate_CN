@@ -1,0 +1,293 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+sprite,download/character/6064/image/606411.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_070.mp3
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+msg,0,<outline width=2 color=black>「呵、呵呵呵……啊，身穿泳装的姐姐大人就在眼前……这是何等美妙的\n时光……幻梦境太棒了啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「艾尔玛，一直推着游泳圈，不累吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+msg,0,<outline width=2 color=black>「姐、姐姐大人……您无须挂心艾尔玛！\n比起这个，速度如何？摇晃得会不会让您觉得不舒服？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「呵呵，非常舒服哦。其实再摇晃一点也没关系。\n那样就像有海浪一样，很好玩呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+msg,0,<outline width=2 color=black>「遵命！艾尔玛这就化作波浪！\n化作点缀姐姐大人美好时光的夜之浪潮！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「不愧是艾尔玛。真乖，真乖」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+msg,0,<outline width=2 color=black>「哈啊啊呜嗯！姐、姐姐大人竟然亲自摸艾尔玛的头！\n艾尔玛就算现在化作海中浮藻，也死而无憾了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「不过这里是游泳池哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「啊，对了。你渴不渴？要不要喝点东西？来，请喝吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+msg,0,<outline width=2 color=black>「哇、啊、啊啊啊……！？姐、姐姐大人喝过的饮料！？\n间、间接接吻……！？怎么会……这等幸福竟会降临到艾尔玛身上……！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「啊啊，姐姐大人，艾尔玛、艾尔玛要……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+msg,0,<outline width=2 color=black>「咕噜咕噜咕噜咕噜」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「哎呀……她扭动着身体沉下去了。是在潜水吗？呵呵」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+name,
+msg,0,
+endwait
+playbgm,/download/sound/bgm/bgm191.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/character/105208/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_070.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「——不过话说回来，真是多亏了幻梦境呢。\n没想到还有这么棒的区域」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「你能在这个全是美女的游泳池里玩，也觉得很幸福吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我也没想到能和你像这样一起玩，\n真开心啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「嗯，不愧是坊间盛传的优质休闲设施呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「这是哪门子的坊间盛传啊」,选项2　「这里可不是能掉以轻心的地方」
+if,select_===_1,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「那当然是坊间啊，坊间……呵呵」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「你一边死盯着别人的泳装看，一边说这种话，实在没什么说服力啊……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「这种话，还是把视线从胸部上移开之后再说吧。\n要不就别说那些扫兴的话，老老实实看胸部吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「不过说真的，要不是有你们这些对幻梦境具备一定干涉能力的\n存在同行，根本不可能出现这么称心如意的展开」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「你看过你们出现之前的想索记录吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「里面尽是些惨不忍睹的内容，光是回想起来，\n心情都要变得有些低落了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「有人受伤，有人消失，有人内心崩溃。\n一篇篇文字里罗列的，只有毫无像样成果、徒然消耗人命的事实」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我这么说并不是想替财团辩护……不过，你对克隆、人体改造，\n以及强化魔术师这种存在怎么看？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「荒唐至极，惨无人道。你也会这么觉得吧。\n当然，我也认为这无疑是事实」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「即便如此……你还是想一想吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「明知他们无法生还，却仍不断把人送往死地，\n你觉得世上有多少人能对此无动于衷？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「人的恶意，还没万能到那种地步」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「批量培养拥有强大战斗力的魔术师，\n换个角度来说，不也可以理解为是在培养尽可能不会丧命的人才吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「与其召集一百个只会白白送死的人，\n至少也要争取只牺牲十个人就能取得成果」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「当然，只要有人牺牲，这就不是人数多少的问题。\n这一点啊，就连我也这么认为。把牺牲视作理所当然，肯定是错的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「可是，我也不认为那些将这种想法视为理想主义而加以否定的声音是错的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「人会受伤，会放弃，会舍弃，会被玷污……即便如此，也依然不断挣扎着与困境抗争。\n现实并不温柔，有时也不得不做出残酷的选择」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「至今为止，有许多人都是这样一路挣扎过来的。\n而且，伤得越深的人，就越会忍不住否定理想」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「曾有人拼命挣扎，为了哪怕稍好一点的结果——为了未来，而选择了那样的道路。\n虽然未必全都是如此，但那样的故事，也一定曾经存在过」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我不觉得可以把此前的一切都当作从未发生过」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「这个<ruby>现实|故事</ruby>，绝不是只看其中一面，就能断言是对是错，\n或认定是善意还是恶意的东西」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「——不过，那一切都已经是过去的事了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「因为你们……因为你的出现，\n让一切都彻底改变了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「让我能够相信幸福的故事。让我觉得，自己是可以相信它的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「没必要被过去积累的一切拖住脚步，连未来也一并蒙上阴影。\n过去与未来虽一脉相连，却没有必要一成不变」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「无论曾犯下怎样的错误，哪怕事到如今，也依然可以做出正确的选择」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「那不过是漂亮话」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「可是，你比任何人都更相信那些漂亮话。\n正因如此，你的身边才会洋溢着幸福」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「正因为你是这样的你，我才会如此地……――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+msg,0,<outline width=2 color=black>「――认真模式累死啦！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「来演恋爱喜剧吧，恋爱喜剧！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「要揉胸吗？　或者说，我也很想扑进你怀里\n抱住你啊……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我们都穿着泳装，露出这么多肌肤，在这种情况下紧紧抱住的话，\n该怎么说呢，我觉得肯定会幸福得不得了！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「所—以—嘛—……我也有点腻了在泳池里漂来漂去，\n不如来玩水下追逐游戏怎么样？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「要是被鬼抓住了，不管对方做什么，都不许抱怨，\n必须乖乖接受哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「所以呢……你想当鬼，还是想逃？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我当哪边都可以哦……嘻嘻♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
