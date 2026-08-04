@@ -1,0 +1,320 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606421_032_01.mp3
+msg,1,<outline width=2 color=black>「……我为什么会和你一起泡在泳池里啊」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>在灯光照耀下的夜间泳池里，艾尔玛一脸厌烦地嘟囔着。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606421_032_02.mp3
+msg,1,<outline width=2 color=black>「唉……这个透着一股蠢气的泳池到底是什么鬼啊……幻梦境里\n还真是尽些不三不四的领域呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_03.mp3
+msg,1,<outline width=2 color=black>「不过最不三不四的还是你，居然硬逼着我\n陪你来泳池玩。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_04.mp3
+msg,1,<outline width=2 color=black>「唉……哪怕是这种泳池，要是姐姐她们也在，\n或许还能玩得开心点，可偏偏陪在我身边的是你。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_05.mp3
+msg,1,<outline width=2 color=black>「喂，你也差不多该满足了吧？\n赶紧上岸回拉莱耶去。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>说完，艾尔玛将手搭在了泳池边缘——</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606421_032_06.mp3
+msg,1,<outline width=2 color=black>「啊」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>艾尔玛正要爬出泳池，却险些失去平衡，我连忙从背后抱住她，撑住了她的身体。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>然而……就在这时，我的双手却结结实实地抓住了她那柔软的隆起。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606421_032_07.mp3
+msg,1,<outline width=2 color=black>「呃……你、你趁乱在摸哪里……咿、啊、\n等、这个……嗯、呜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_08.mp3
+msg,1,<outline width=2 color=black>「太、太糟糕了……只是被你摸了几下，我的、身体就……嗯、呜、\n好像要被打开开关了……嗯、哈啊……怎么会……为什么……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_09.mp3
+msg,1,<outline width=2 color=black>「这具身体，越来越、无法抗拒你了……嗯、嗯呜、呃……哈、啊、哈啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_10.mp3
+msg,1,<outline width=2 color=black>「都、都是你的错……要不是你做了多余的事，\n才不会变成这样呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_11.mp3
+msg,1,<outline width=2 color=black>「所、所以…………你至少得给我负起责任来。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/201.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606421_032_12.mp3
+msg,1,<outline width=2 color=black>「居然特意让我摆出这么难堪的姿势……你不觉得自己很恶趣味吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_13.mp3
+msg,1,<outline width=2 color=black>「像这样，硬把我的腿掰开……让我毫无遮掩地全都暴露出来……被迫摆出这种\n姿势，肚子深处又开始发热了……嗯、呃」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_14.mp3
+msg,1,<outline width=2 color=black>「啊、呃、嗯、唔、已经、不行了……要溢出来了，滚烫的液体要从小穴里\n流出来了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_15.mp3
+msg,1,<outline width=2 color=black>「快点插进来啊……你也早就想插进来，\n想得受不了了吧……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_16.mp3
+msg,1,<outline width=2 color=black>「我的开关也快要打开了……这样不上不下的，很难受……所以快点，用这根\n肉棒……打开我的开关……呃」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/202.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_17.mp3
+msg,1,<outline width=2 color=black>「嗯咿、呃、啊啊啊！　哈、啊啊、呜、好粗、呃、嗯嗯、肉棒、\n硬生生挤进来了……啊、啊、要来了，开关、打开了——嗯、唔唔唔！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/203.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_18.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、呃、啊、啊、啊啊！　进来了，开关被打开了，\n身体、又变得好奇怪、呃、嗯咿、啊、呃、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_19.mp3
+msg,1,<outline width=2 color=black>「嗯啊、呃、呃、啊、啊啊啊！　里、里面，不能、顶得那么深、呃、\n嗯呃、啊、啊啊、住手……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_20.mp3
+msg,1,<outline width=2 color=black>「咿呜、呃、啊、啊、啊啊啊！　肉棒、不能这么粗暴地弄、呃、\n嗯呃、啊、嗯、唔唔、不行、要去了、又要被这种肉棒弄到……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_21.mp3
+msg,1,<outline width=2 color=black>「讨厌、肉棒最讨厌了、啊、啊啊！　明明最讨厌了，\n啊、啊啊、为什么、会这么、舒服啊……呀、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_22.mp3
+msg,1,<outline width=2 color=black>「啊呃、呃、呼啊、啊、呃、哈、啊、啊啊啊！　呀、啊、啊啊\n要来了、太舒服了、小穴要去了、嗯、唔唔唔！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_23.mp3
+msg,1,<outline width=2 color=black>「嗯咿、啊呃、啊、呃、要去了、要去了、呃、嗯咿、啊、呃、唔唔唔！\n呼啊、啊、啊啊啊、嗯、呃、啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/204.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_24.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊啊啊啊！　啊、嗯嗯呜、射出来了、里面、\n被射进了滚烫的东西、呃、又去了、呀、啊、嗯呜呜呜呜！」</outline>,
+clickwait
+
+
+flash,255,255,255,2,0.5,0.5
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/205.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_25.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊啊……！　又、被弄去了、呃……嗯嗯呜、\n小穴、还在、发麻、呃……嗯、呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_26.mp3
+msg,1,<outline width=2 color=black>「不要、为什么……嗯嗯呜、明明、已经去了……明明被最讨厌的肉棒、\n弄到高潮了、呃……为什么、开关还关不上啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_27.mp3
+msg,1,<outline width=2 color=black>「已、已经不要了……舒服的感觉也好、肉棒也好、明明都不要了、\n可我、还在……嗯咿、呃、啊、啊啊！？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_28.mp3
+msg,1,<outline width=2 color=black>「啊、呃、哈、啊啊啊！　呀、住手、为什么还在动、啊咿、啊、\n呃、呼啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_29.mp3
+msg,1,<outline width=2 color=black>「已、已经不要了、舒服的感觉、不要、嗯咿、呃、啊啊啊！\n求你了、停下来、嗯嗯呜、肉棒、快停下来啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_30.mp3
+msg,1,<outline width=2 color=black>「哈、啊啊啊啊！　又要去了、小穴、啊、啊啊、又要被弄去了、呃、\n嗯咿、呃、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_31.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊、啊啊啊！　不、啊、啊啊啊、要去了、要去了要去了、\n嗯咿、呃、啊、啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,2,0.5,0.5
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/206.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_32.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊啊！　去了、小穴正在高潮、\n快停下、呃、嗯咿、啊呃、啊、啊啊啊！」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/207.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_33.mp3
+msg,1,<outline width=2 color=black>「不要、啊、啊啊、已、已经不要舒服了、啊、啊啊！\n肉棒、不要了、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_34.mp3
+msg,1,<outline width=2 color=black>「讨厌、最讨厌肉棒了、再这样继续下去、\n我会沦陷的、会变得、喜欢肉棒的、呀、啊、啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_35.mp3
+msg,1,<outline width=2 color=black>「啊、咿、哈、啊、啊啊啊！　不、啊啊、太、太激烈了、\n嗯嗯呜、这样下去、小穴、会坏掉的、呃、嗯咿、呜、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_36.mp3
+msg,1,<outline width=2 color=black>「啊、呃、哈、啊、啊啊啊！　又要来了、好厉害的要来了、呃、\n要沦陷了、要被肉棒、征服了、呃、咿、嗯、呜、嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_37.mp3
+msg,1,<outline width=2 color=black>「射进来、嗯嗯呜、快点射进来、快结束吧、呃、啊呃、呼啊、啊、哈、\n啊、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_38.mp3
+msg,1,<outline width=2 color=black>「咿啊、啊、呃、啊、啊啊、要来了、来了、啊、咿、\n哈、啊、啊啊、啊、啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/207.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_39.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯呜呜呜呜呜！　哈、啊啊、好烫、进来了、\n又射进、里面了、嗯、啊啊啊……！」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/208.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_40.mp3
+msg,1,<outline width=2 color=black>「哈——、哈、哈——、嗯、啊啊……变、变得好奇怪了、\n这样的、啊、肉棒、太厉害了……嗯嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_41.mp3
+msg,1,<outline width=2 color=black>「咿呜……啊、等、等一下、刚才拔出来了、啊、不行、\n肉棒的龟头、卡住了……嗯咿、嗯嗯呜——」</outline>,
+clickwait
+
+
+flash,255,255,255,2,0.5,0.5
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/209.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_42.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊啊……！　哈、啊啊、要、要去了、我、\n要……嗯、呜呜呜……！」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/210.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606421_032_43.mp3
+msg,1,<outline width=2 color=black>「哈、啊啊啊……已、已经不行了、使不上力气了……呼啊、哈、啊啊、\n身体、变得好奇怪……嗯咕、呼、呜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_44.mp3
+msg,1,<outline width=2 color=black>「这根、肉棒……不是它的话、我的、开关、\n就关不上了……嗯嗯、被弄得、这么舒服……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_45.mp3
+msg,1,<outline width=2 color=black>「真的、再也回不去了……嗯、呜呜、最讨厌的肉棒、\n要变得、喜欢上了……嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606421_032_46.mp3
+msg,1,<outline width=2 color=black>「差劲、太差劲了……你要怎么赔我啊、你这个、变态……！」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

@@ -1,0 +1,287 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>在幻梦境中发现的夜间泳池里，和身穿泳装的库库露一起度过了一段时光。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_01.mp3
+msg,1,<outline width=2 color=black>「嗯……玩得真尽兴呢。\n你也累了吧？要不要稍微休息一下？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我在泳池边的椅子上坐下，稍作喘息。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>交谈暂时中断，我不经意地将视线投向库库露。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>大胆的泳装将她傲人的乳沟与纤细的腰身展露无遗，湿润的肌肤更是莫名地\n艳丽诱人……再次意识到她这副模样，我的心情不禁剧烈动摇。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_02.mp3
+msg,1,<outline width=2 color=black>「……真是的」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_03.mp3
+msg,1,<outline width=2 color=black>「被你这么盯着看，就算是我也会有点害羞啦。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_04.mp3
+msg,1,<outline width=2 color=black>「可是……比起害羞，一想到你的心思都能\n放在我身上，我就忍不住高兴起来，这大概就是爱上你的弱点吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_05.mp3
+msg,1,<outline width=2 color=black>「……呐。你呀，光是看着就满足了吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_06.mp3
+msg,1,<outline width=2 color=black>「如果这样能让你更加沉迷于我的话……不只是看，\n做些别的……比如摸一摸，也完全没问题哦。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_07.mp3
+msg,1,<outline width=2 color=black>「不。倒不如说……我希望你摸我。尽情地，想摸多久都可以。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_08.mp3
+msg,1,<outline width=2 color=black>「像我这样说出这种话的色情女孩……你讨厌吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_09.mp3
+msg,1,<outline width=2 color=black>「真是的，盯着人家的胸看太久了。你就那么喜欢我的胸吗？\n要是这样的话……呵呵。真开心呀。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_10.mp3
+msg,1,<outline width=2 color=black>「……没关系哦，你想对我做什么都可以哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_11.mp3
+msg,1,<outline width=2 color=black>「我最喜欢你了……只要是你对我做的事，无论是什么，我肯定都会\n高兴得不得了……所以不用客气……好吗？」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_12.mp3
+msg,1,<outline width=2 color=black>「啊嗯……啊、怎么这样，用舌头舔来舔去……嗯、呜……你的舌头\n暖暖的，好舒服呀。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_13.mp3
+msg,1,<outline width=2 color=black>「哈啊、啊、嗯呜呜……别、别只顾着弄尖端呀，嗯、呜、\n啊、会变硬的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_14.mp3
+msg,1,<outline width=2 color=black>「一兴奋起来，我的尖端……乳头……啊、呼、嗯呜……就会挺起来，\n硬邦邦地勃起哦……呼啊、啊、嗯、呜呜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_15.mp3
+msg,1,<outline width=2 color=black>「哈啊、嗯、呜……那、那个……我还想要更多……只是像这样\n舔舔尖端，实在让人心痒难耐……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_16.mp3
+msg,1,<outline width=2 color=black>「我想更深切地感受你……想让你把我弄得舒舒服服的。\n所以，来吧……再多给我一点，好吗？」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_17.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、嗯、呜……啊、你的手，正沿着我的那里摩挲……嗯、嗯呜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_18.mp3
+msg,1,<outline width=2 color=black>「呀、别、别这样蹭来蹭去……淫水会渗进泳衣里的，\n呜、啊呼、嗯呜……会变得黏糊糊的、呀。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_19.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……乳头也越来越敏感了……哈啊、嗯、我的身体\n被你这样抚摸，已经高兴起来了……啊、嗯呜、啊、嗯嗯。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_20.mp3
+msg,1,<outline width=2 color=black>「被你的唾液弄得湿漉漉、黏糊糊的……嗯啊、这样真的好色情呀。\n呜、啊……嗯、哈啊、嗯、呜呜……」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_21.mp3
+msg,1,<outline width=2 color=black>「嗯呜……！　嗯、啊啊、胸被你吸着……咿、呜、\n呼啊、哈、啊、啊啊啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_22.mp3
+msg,1,<outline width=2 color=black>「胸都被吸得拉长了，这也太色情了呀……呼啊、啊、嗯嗯、\n嗯啊、呜嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_23.mp3
+msg,1,<outline width=2 color=black>「小穴已经湿透了……嗯、呜、手指一动起来，\n就会发出咕啾咕啾的声音……咿、嗯啊、哈、啊、啊啊啊。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_24.mp3
+msg,1,<outline width=2 color=black>「呐、呐，我的胸好吃吗？　嗯啊、如果你想要的话，\n尽管多吸一会儿吧……至少现在，请只沉迷于我一个人……好吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_25.mp3
+msg,1,<outline width=2 color=black>「不只是胸，就连小穴也……不管哪里，都可以随你\n喜欢哦……嗯啊、你想怎么做都可以……嗯、啊啊……」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_26.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊……泳衣被拉开了，你的手指直接……嗯嗯、暖暖的，\n正贴在那里，呼啊、啊、嗯、呜呜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_27.mp3
+msg,1,<outline width=2 color=black>「入口像是吸住了你的手指一样……啊啊、好难为情，可是……\n这就说明，我已经如此沉迷于你了哦……？」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_28.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯……乳、乳头又被吸住了……咿呜、胸要被拉长了，\n嗯、咕、啊、嗯、呜呜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_29.mp3
+msg,1,<outline width=2 color=black>「胸尖一阵阵发麻……啊呼、嗯、呜、腰都要颤抖起来了，\n咿呜、啊、咕……嗯啊、哈、啊、嗯、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_30.mp3
+msg,1,<outline width=2 color=black>「小穴也已经湿得一塌糊涂了，嗯啊、你的手指……\n被我弄脏了，我自己也知道……啊、嗯呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_31.mp3
+msg,1,<outline width=2 color=black>「因为想让你更多地抚摸我……嗯嗯、正因为是你，我才想变得\n更加淫荡……所以小穴才会变成这样。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_32.mp3
+msg,1,<outline width=2 color=black>「所以，呐……给我吧……？　用你的手指，连小穴里面也\n搅个不停……用你让我舒服起来……好吗？」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_33.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咕、啊啊啊……！　哈、嗯嗯呜、进来了，你的手指，\n在我的里面咕啾咕啾地……咿呜、嗯、啊、哈、啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_34.mp3
+msg,1,<outline width=2 color=black>「乳头被吸着，小穴又被搅个不停……啊、咕、哈啊啊，\n整个人都要变成你的了……好、好兴奋……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_35.mp3
+msg,1,<outline width=2 color=black>「啊、咕、哈、啊、啊啊啊……！　嗯嗯呜、不、不行，要、要来了，\n嗯嗯、被你弄得这么舒服，我要高潮了呀……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_36.mp3
+msg,1,<outline width=2 color=black>「啊啊啊啊！　手、手指，好用力，嗯呜呜呜，乳头也……吸得\n好用力，咿呜、嗯、啊、啊啊、不、不行，真的要高潮了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_37.mp3
+msg,1,<outline width=2 color=black>「要去了、嗯嗯呜、我、已经、呼啊、哈、啊、啊啊、要来了，\n要被你弄到高潮了、呼啊、啊、啊、啊、啊啊啊——！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_38.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咕、哈、啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/105208/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_39.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、嗯、呜呜呜……！　啊、啊啊啊、我、高潮了，\n咿呜、啊、咕、哈、嗯呜呜呜……」</outline>,
+clickwait
+
+
+bg,download/character/105208/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1052/adu105208_01_40.mp3
+msg,1,<outline width=2 color=black>「哈啊、啊、嗯……对不起哦……只有我一个人舒服了……嗯、\n小穴都高潮了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_41.mp3
+msg,1,<outline width=2 color=black>「不过，你还没有呢……看着我淫荡的样子，你的鸡巴已经\n忍不住了，我知道哦……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_42.mp3
+msg,1,<outline width=2 color=black>「哪里都可以哦……？　不管是嘴里、胸上，还是小穴里。\n我都会让你在喜欢的地方射出来。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1052/adu105208_01_43.mp3
+msg,1,<outline width=2 color=black>「呐，告诉我吧？　你想用我的哪里，让鸡巴舒服起来？」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

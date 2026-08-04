@@ -1,0 +1,189 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11740300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:surprise,nowa,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_01.mp3
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,1,<outline width=2 color=black>「游泳对决？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_02.mp3
+msg,1,<outline width=2 color=black>「我为什么非得跟你这种人比啊？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_03.mp3
+msg,1,<outline width=2 color=black>「——啊。原来如此。我懂了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_04.mp3
+msg,1,<outline width=2 color=black>「反正你是打算说，谁输了就得听对方的话之类的吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_05.mp3
+msg,1,<outline width=2 color=black>「你该不会以为，我没注意到你从刚才起就一直盯着我看吧？\n你好像是想掩饰，但那点歪心思早就暴露无遗了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_06.mp3
+msg,1,<outline width=2 color=black>「所以你想在游泳上赢过我，然后对我为所欲为？\n真是肤浅的想法。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　“我不是那个意思……”,选项2　“没错”
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_07.mp3
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,1,<outline width=2 color=black>「找借口的样子真难看。\n还是说什么？你只是想跟我搞好关系？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_08.mp3
+msg,1,<outline width=2 color=black>「你先想想自己平时的品行和态度吧。\n你的行动，十有八九都别有用心。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:surprise,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_09.mp3
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,1,<outline width=2 color=black>「你、你为什么能承认得这么理直气壮啊？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_10.mp3
+msg,1,<outline width=2 color=black>「真让人退避三舍……你居然对我有那么强烈的想法……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:shy,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_11.mp3
+msg,1,<outline width=2 color=black>「——……要、要是我输了，你会让我做什么？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_12.mp3
+msg,1,<outline width=2 color=black>「呃，不对！我在想什么蠢事啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_13.mp3
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,1,<outline width=2 color=black>「哼……好吧。就破例接受你的挑战。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_14.mp3
+msg,1,<outline width=2 color=black>「既然你提出这种事，就说明你觉得只要比游泳，\n就能赢过我，对吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_15.mp3
+msg,1,<outline width=2 color=black>「你这份自负真让人受不了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:smile,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_16.mp3
+msg,1,<outline width=2 color=black>「放心吧。当然，这场比赛中我不会使用魔术，\n也不会动用身为《伊波恩原书》使徒的力量。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_17.mp3
+msg,1,<outline width=2 color=black>「就算不用那些，我也一样会赢……真遗憾呢。\n我对自己的游泳本领还是颇有自信的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_18.mp3
+msg,1,<outline width=2 color=black>「看来你挑错对手了呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_19.mp3
+msg,1,<outline width=2 color=black>「事到如今，可别说要当作没这回事哦？\n都已经走到这一步了，你就尽管挣扎给我看吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_20.mp3
+msg,1,<outline width=2 color=black>「啊，对了。我还没说我赢了之后要怎么办呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:smile,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_21.mp3
+msg,1,<outline width=2 color=black>「嗯……就让你暂时作为仆人，跪伏在我面前吧。\n让你跪在我脚边，感觉似乎也不会太差。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:smile,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_22.mp3
+msg,1,<outline width=2 color=black>「那么，你就好好加油吧。\n不过，无论你怎么努力，结果应该都不会改变。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:smile,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105306/adv/sound/fav105306_02_23.mp3
+msg,1,<outline width=2 color=black>「呵呵。我很期待比赛结束后，你会露出什么样的表情。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

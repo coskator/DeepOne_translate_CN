@@ -1,0 +1,271 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11740300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_01_01.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「嘿——！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_01_02.mp3
+msg,1,<outline width=2 color=black>「嗯呵呵……穿成这样紧紧抱在一起，怎么说呢，\n感觉心里怦怦直跳呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_01_03.mp3
+msg,1,<outline width=2 color=black>「我们身上好多地方都直接贴在一起了……嗯。\n这样下去，可能有点不太妙哦——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_04.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「嘿嘿。差不多就到这里吧。\n要是你变成大野兽，那可就糟糕了嘛。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_05.mp3
+msg,1,<outline width=2 color=black>「虽然被大野兽一口吃掉，我也不讨厌啦……不过现在，\n在那之前，难得我都穿成这样了，还是想先听你夸夸我嘛——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_06.mp3
+msg,1,<outline width=2 color=black>「呐……你觉得这件泳衣怎么样？适合我吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「再抱一次」,选项2　「看得我心跳加速」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_07.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「哎呀，你那点小心思全都暴露了哦……我的胸部\n紧紧压在你身上，就让你那么舒服吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_08.mp3
+msg,1,<outline width=2 color=black>「色鬼。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_09.mp3
+msg,1,<outline width=2 color=black>「不过……我也触碰着你的身体，也被你触碰着……然后心底深处\n就揪得紧紧的……让我好开心。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_10.mp3
+msg,1,<outline width=2 color=black>「所以，我可能也很好色呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_14.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「就是这样一个好色的女孩子，现在正为你神魂颠倒，\n甚至还想着要成为只属于你一个人的东西呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_11.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「诶——，怎么啦怎么啦？　你就这么迷恋我穿泳衣的样子吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_12.mp3
+msg,1,<outline width=2 color=black>「我也觉得这件泳衣的设计很可爱，所以听你这么说，我好开心呀。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_01_13.mp3
+msg,1,<outline width=2 color=black>「你看，这条沙滩裙又可爱又时髦……而且，\n还若隐若现的，很色情对吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_14.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「就是这样一个好色的女孩子，现在正为你神魂颠倒，\n甚至还想着要成为只属于你一个人的东西呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_15.mp3
+msg,1,<outline width=2 color=black>「甚至觉得……无论被你做什么都可以。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_16.mp3
+msg,1,<outline width=2 color=black>「……呵呵。开玩笑的啦♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_17.mp3
+msg,1,<outline width=2 color=black>「怎——么样？　以男孩子的角度来说，刚才有没有让你心头一跳？　有没有戳中你的心？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:surprise,kukuru,0,-170,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_18.mp3
+msg,1,<outline width=2 color=black>「啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:surprise,kukuru,0,-210,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_19.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「嗯、啊……那个……是不是效果有点太好啦？\n开玩笑的……啊、啊哈哈。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_20.mp3
+msg,1,<outline width=2 color=black>「……嗯，可以哦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_21.mp3
+msg,1,<outline width=2 color=black>「毕竟是我先勾引你的嘛……所以无论你对我做什么，\n我都没资格抱怨。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:normal,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_01_22.mp3
+msg,1,<outline width=2 color=black>「所以……你想怎么做？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_01_23.mp3
+msg,1,<outline width=2 color=black>「嗯……唔、啾、啾噗、啾……啾呜……哈、啊……啾噗、\n嗯、啾呜……呼、哈啊……好厉害、好色情的、吻……嗯、啾。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_01_24.mp3
+msg,1,<outline width=2 color=black>「被你这样亲的话……我会变得……更加色情的哦。\n嗯……啾。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

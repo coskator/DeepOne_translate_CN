@@ -1,0 +1,224 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11740300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm140.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_01.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「哦……你游得可真快啊。\n这水平就算去当职业选手，也完全没问题吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_02.mp3
+msg,1,<outline width=2 color=black>「不过话说回来……嗯，真是大饱眼福啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_03.mp3
+msg,1,<outline width=2 color=black>「湿漉漉的肌肤、不断滴落的水珠、撩起头发的动作……还有平时不太\n看得到的各种地方……嘿嘿嘿，小哥，你这身材可真不错啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「真让人下头……」,选项2　「你才是吧」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_04.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「哇、哇哇！　等等，别真的嫌弃我啊……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_05.mp3
+msg,1,<outline width=2 color=black>「不是的！　我只是有点不好意思……为了掩饰各种情绪，\n才不小心变得这么奇怪……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_06.mp3
+msg,1,<outline width=2 color=black>「呃，不过嘛，说你的身体很有魅力，这倒不是假话……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_07.mp3
+msg,1,<outline width=2 color=black>「但、但是啊，你不也会盯着我的胸和屁股看个不停\n吗！　这不是一样的嘛！　女孩子也会对男孩子的身体充满好奇啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_08.mp3
+msg,1,<outline width=2 color=black>「只是因为直接说出来实在太难为情了……结果一不小心，\n就变成了奇怪的人设」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_09.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「嘿嘿。听你这么说，我平时为了保持身材所做的\n努力也算没有白费啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_10.mp3
+msg,1,<outline width=2 color=black>「顺便一提……只有你，可以随时随地自由地\n摸我这副身体哦♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_02_11.mp3
+msg,1,<outline width=2 color=black>「呀！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_12.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「哦、哦哟……居然立刻就摸上来了，不愧是你啊。\n当、当然，也不是不可以啦……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_13.mp3
+msg,1,<outline width=2 color=black>「不过，说可以随便摸，果然还是有点说过头了吧……毕竟，\n我的心脏好像会受不了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_14.mp3
+msg,1,<outline width=2 color=black>「怎么也得收点回报才行吧——开玩笑的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_15.mp3
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,1,<outline width=2 color=black>「——咦？　你说摸……是、是让我摸你的身体吗？\n难道说，我可以随便摸？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_16.mp3
+msg,1,<outline width=2 color=black>「哦、哦哦……那、那我就不客气了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,kukuru,0.6_0.6,0.5,0
+anm,move,kukuru,0_-170,0.5,0
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm150.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-170,0.6,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_17.mp3
+msg,1,<outline width=2 color=black>「……啊，已经变大了。而且，好硬」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+anm,scale,kukuru,0.5_0.5,0.5,0
+anm,move,kukuru,0_-130,0.5,0
+endwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_18.mp3
+msg,1,<outline width=2 color=black>「哈！？　不、不是，你误会了……我只是看它好像鼓起来了，\n一时出于求知欲，手就不由自主地违背我的意志擅自动起来了！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_19.mp3
+msg,1,<outline width=2 color=black>「别用那种看痴女一样的眼神看我啦！\n虽、虽然突然就去摸那里，可能确实有点那个……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_20.mp3
+msg,1,<outline width=2 color=black>「可是，换成你的话，要是立场反过来，你也会去摸我身上色色的地方\n吧？　这不是一样的嘛！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_21.mp3
+msg,1,<outline width=2 color=black>「说到男人身上色色的地方，最首要的果然就是那里嘛！\n说可以随便摸的人明明是你吧！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,kukuru,0.4_0.4,0.5,0
+anm,move,kukuru,0_-100,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru,0,-100,0.4,0,,,,
+playvoice,1,download/character/105208/adv/sound/fav105208_02_22.mp3
+msg,1,<outline width=2 color=black>「等、别嫌弃我，也别离我那么远啊！　我知道了，我的身体也可以\n随你摆布！　就算把我弄得乱七八糟也行！　所以……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105208/adv/atlas/stand_a,body:shy,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105208/adv/sound/fav105208_02_23.mp3
+msg,1,<outline width=2 color=black>「等、等等我嘛——！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

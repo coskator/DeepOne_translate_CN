@@ -1,0 +1,291 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606420_013_01.mp3
+msg,1,<outline width=2 color=black>「一般说到玩水，总觉得应该是在阳光下进行，\n不过夜晚的泳池也别有一番新鲜感，挺有趣的呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_02.mp3
+msg,1,<outline width=2 color=black>「只是……这个泳池的灯光为什么会是这种粉红色呢？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_03.mp3
+msg,1,<outline width=2 color=black>「……呐。总觉得气氛有点色情……只有我这么觉得吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>米露瓦微笑着贴近了我。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>的确，沐浴在粉红色灯光下的她，\n散发着一股比平时更加妩媚的气息……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606420_013_04.mp3
+msg,1,<outline width=2 color=black>「呵呵，怎么了？你的目光好像都变得火热起来了哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_05.mp3
+msg,1,<outline width=2 color=black>「难道是有那种感觉了？\n而且这里，好像也渐渐鼓起来了呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>米露瓦纤细的指尖隔着泳装，轻抚起我已经有了反应的那里，\n那股刺激令我的腰不由得一颤。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606420_013_06.mp3
+msg,1,<outline width=2 color=black>「哎呀，已经忍不住了吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_07.mp3
+msg,1,<outline width=2 color=black>「看到你有这种反应，我也心跳得好快……让人忍不住想让你\n更加舒服呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>米露瓦的手指搭在了我的泳装上。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606420_013_08.mp3
+msg,1,<outline width=2 color=black>「呐，可以吧？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606420_013_09.mp3
+msg,1,<outline width=2 color=black>「你的，已经变得这么大了……因为想让我帮你弄，\n所以才变得这么大的吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_10.mp3
+msg,1,<outline width=2 color=black>「明明是每次都把我的小穴弄得舒服极了的大鸡巴……\n可一想到这里，不知怎么又觉得它好可爱呢。」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_11.mp3
+msg,1,<outline width=2 color=black>「啾、噗……啾、舔……嗯、呵呵，只是稍微舔了几下，\n就这么舒服地有反应了，真的好可爱……啪嗒、舔、舔。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_12.mp3
+msg,1,<outline width=2 color=black>「我会让你的鸡巴舒服个够……所以，再让我看看你更可爱的\n样子，好吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_13.mp3
+msg,1,<outline width=2 color=black>「舔、啾噗、嗯、啾、噗……嗯、鸡巴还能变得更硬呢。\n你就这么喜欢被我舔吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_14.mp3
+msg,1,<outline width=2 color=black>「我很喜欢舔你的鸡巴哦……啾，因为这样就能\n尽情看到你舒服时的样子了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_15.mp3
+msg,1,<outline width=2 color=black>「所以……我会让你更舒服的。」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_16.mp3
+msg,1,<outline width=2 color=black>「嗯咕、啾、滋溜……嗯、呼，真的，好大……嗯滋、\n嘴里，被鸡巴塞得满满的……嗯、呼、滋、滋、滋溜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_17.mp3
+msg,1,<outline width=2 color=black>「滋、滋啾、嗯、咕、呼……嗯唔、啾、滋滋、嗯噗、滋、滋溜、\n嗯、呜……嗯、呵呵，你的表情，看起来开心极了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_18.mp3
+msg,1,<outline width=2 color=black>「被我含着鸡巴，很舒服对吧……那就，再来……咕噗咕噗、\n嗯唔、滋、啾……嗯咕、嗯、呜、滋溜、滋溜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_19.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呜……先走液，都溢出来了……啾噗、嗯、咕、呜、\n你的味道，变得更浓了……弄得我都兴奋起来了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_20.mp3
+msg,1,<outline width=2 color=black>「啾噗、嗯噗、滋、啾……滋溜溜……嗯、呼、啾噗、\n鸡巴，好好吃……咕噗、滋啾、嗯、滋溜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_21.mp3
+msg,1,<outline width=2 color=black>「真是的，不行了……小穴，都开始发痒了……嗯啾、啾噗、\n嗯、呜呜……啾啵……哈、啊啊。」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_22.mp3
+msg,1,<outline width=2 color=black>「啊呼、嗯、啊、啊啊……果然，一含着你的鸡巴，\n我的小穴就已经湿透了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_23.mp3
+msg,1,<outline width=2 color=black>「喏，听见了吗？　手指只是稍微动一动，就发出了咕啾咕啾的\n淫荡声音呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_24.mp3
+msg,1,<outline width=2 color=black>「啊……呵呵，鸡巴，猛地跳了一下……看着我自慰，\n又兴奋起来了吗……？」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_25.mp3
+msg,1,<outline width=2 color=black>「既然这样……舔、啾，这样一起舒服起来吧……\n啪嗒、啾、舔、溜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_26.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……一边舔鸡巴，一边玩弄小穴，\n真的好色情啊……啪嗒、舔、溜、啾、嗯、啊、啾、啾。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_27.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……我也，啾、噗……一边舔一边自慰，\n舒服得……浑身都在颤栗……啾溜、嗯、啊、舔啾。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_28.mp3
+msg,1,<outline width=2 color=black>「再多一点……咕啾、嗯、啊……啾、噗、啾、啾，鸡巴，\n再多给我一点……好吗？」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_29.mp3
+msg,1,<outline width=2 color=black>「嗯噗、嗯、呼、嗯呜……滋、啾、嗯咕、嗯、滋、滋溜溜……！\n咕噗、咕噗……嗯啾、嗯、呼、啾溜溜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_30.mp3
+msg,1,<outline width=2 color=black>「鸡巴，好厉害，一跳一跳地颤抖着……咕噗、嗯噗、嗯噗、\n嗯、呼、滋啾……嘴里，被你的鸡巴塞得满满的……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_31.mp3
+msg,1,<outline width=2 color=black>「小穴和嘴巴，都被塞得满满的……啾噗、嗯咕、嗯、呼、\n人家都快要坏掉了……嗯啾、啾噗、嗯咕、嗯、嗯、嗯呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_32.mp3
+msg,1,<outline width=2 color=black>「嗯、呼、滋、啾溜……嗯呜、嗯、呜！　快、射出来，把精液，\n射进来……把我的嘴巴，灌得满满的……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_33.mp3
+msg,1,<outline width=2 color=black>「我的小穴……嗯嗯，也快要去了……所以，你也……\n嗯噗、啾噗、滋滋、咕噗咕噗、嗯、呼、滋溜溜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_34.mp3
+msg,1,<outline width=2 color=black>「嗯啾、嗯、呼、嗯呜、滋、啾溜溜……！　往我的嘴穴里，\n满满地内射进来……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_35.mp3
+msg,1,<outline width=2 color=black>「咕噗、嗯咕、嗯、呼、滋、滋溜溜、嗯呜、嗯、呜呜、\n滋、啾溜溜、嗯咕、嗯呜、嗯、嗯嗯嗯呜呜呜呜……！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6064/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_36.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯嗯呜呜……！　嗯呼、嗯、咕、嗯咕……滋、啾溜、\n嗯、呜、滋滋……嗯咕……咕咚、嗯。」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_37.mp3
+msg,1,<outline width=2 color=black>「精液，好多……咕咚、嗯、咕……感觉都快要，\n淹没在你的精液里了……滋、啾……嗯呜、嗯、咕……嗯呜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_38.mp3
+msg,1,<outline width=2 color=black>「啾、啾呜呜……嗯咕、嗯……呼、嗯、呼……啾呜、\n啾、啾呜……嗯啊、哈、啊啊。」</outline>,
+clickwait
+
+
+bg,download/character/6064/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6064/606420_013_39.mp3
+msg,1,<outline width=2 color=black>「哈啊、嗯、呵呵……我们一起高潮了呢……嗯嗯、\n你看？　我也喷出了这么多潮液」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_40.mp3
+msg,1,<outline width=2 color=black>「啾、啾、噗……鸡巴被精液弄脏了，\n我来帮你舔干净……舔溜、啾溜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_41.mp3
+msg,1,<outline width=2 color=black>「你很喜欢让我帮你舔干净吧……啪嗒、舔、啾、\n竟然让女孩子为你做这种事，真是个坏人……啾、啾」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_42.mp3
+msg,1,<outline width=2 color=black>「不过，我也喜欢被你弄得不得不帮忙舔干净哦……所以，\n我会多舔一会儿的……啾、啾溜……嗯、呼……咕啾」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606420_013_43.mp3
+msg,1,<outline width=2 color=black>「ちゅ、ちゅぅっ……ふふ、おちんちんも、せーえきも、おいしい……\nぴちゃ、ちゅ、りゅ……ん、ちゅ、ちゅっ」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
