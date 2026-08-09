@@ -1,0 +1,273 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+sprite,download/character/6064/image/606411.png,card,0,0,1,0.5,,,,
+endwait,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_01.mp3
+msg,1,<outline width=2 color=black>「啊，米露瓦姐姐大人，您今天也依旧美丽……能像这样待在\n姐姐大人身边，今天真是个好日子啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_01.mp3
+msg,1,<outline width=2 color=black>「呵呵，艾尔玛也已经完全乐在泳池中了呢？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_02.mp3
+msg,1,<outline width=2 color=black>「是！　只要能和姐姐大人在一起，无论是泳池还是大海，\n哪怕是滚烫的锅里，艾尔玛都会觉得很开心！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_02.mp3
+msg,1,<outline width=2 color=black>「嗯——，最后那个我就敬谢不敏了，\n真要进去的话，能请你一个人去吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_03.mp3
+msg,1,<outline width=2 color=black>「不过光是在旁边看着应该也挺有意思的，有机会的话一定要让我见识一下哦。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_03.mp3
+msg,1,<outline width=2 color=black>「是！　到时候请务必让我来！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_04.mp3
+msg,1,<outline width=2 color=black>「不过话说回来，这座泳池里漂浮着好多灯，\n即使到了晚上也非常明亮，又漂亮，气氛也特别欢乐呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_04.mp3
+msg,1,<outline width=2 color=black>「这里似乎就是人们常说的那种“夜间泳池”。\n一般来说，比起游泳，来这里享受氛围和社交的人似乎更多呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_05.mp3
+msg,1,<outline width=2 color=black>「哦……特意在晚上穿着泳装，总觉得有些色情呢。\n露出肌肤，似乎正适合用来诱惑别人。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_05.mp3
+msg,1,<outline width=2 color=black>「米、米露瓦姐姐大人……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_032_06.mp3
+msg,1,<outline width=2 color=black>「的确，听姐姐大人这么一说，这里的气氛好像确实有些那种感觉……。\n而且，米露瓦姐姐大人在夜晚灯光照耀下的肌肤也无比美丽……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_06.mp3
+msg,1,<outline width=2 color=black>「呵呵，谢谢。不过艾尔玛也非常漂亮，\n让我都有些羡慕了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_07.mp3
+msg,1,<outline width=2 color=black>「不、不是的，艾尔玛这点姿色连米露瓦姐姐大人的美貌都\n远远比不上！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_07.mp3
+msg,1,<outline width=2 color=black>「我觉得没这回事啊……就连他，不也总是夸\n艾尔玛很可爱吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_08.mp3
+msg,1,<outline width=2 color=black>「为、为什么要提起那个男人……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_08.mp3
+msg,1,<outline width=2 color=black>「有什么关系嘛。艾尔玛也并不讨厌他吧——」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_09.mp3
+msg,1,<outline width=2 color=black>「我讨厌他！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_032_10.mp3
+msg,1,<outline width=2 color=black>「……明明米露瓦姐姐大人如此倾心于他，他却还沉迷于其他女人，\n这种男人，我……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_09.mp3
+msg,1,<outline width=2 color=black>「呵呵。是吗……那就当作是这样吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_10.mp3
+msg,1,<outline width=2 color=black>「对了，艾尔玛。你一直在后面推着我的泳圈，\n不会觉得累吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_11.mp3
+msg,1,<outline width=2 color=black>「是，完全没问题！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_032_12.mp3
+msg,1,<outline width=2 color=black>「只要能如此近距离地欣赏身穿泳装的米露瓦姐姐大人，沉浸在这份幸福之中，\n艾尔玛无论游上多少天都不会停下来！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_11.mp3
+msg,1,<outline width=2 color=black>「那就再拜托你推一会儿吧。像这样一直漂浮在水面上，\n感觉莫名地舒服，我都有些喜欢上了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_13.mp3
+msg,1,<outline width=2 color=black>「请交给我吧！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_12.mp3
+msg,1,<outline width=2 color=black>「艾尔玛看起来真的很开心呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_14.mp3
+msg,1,<outline width=2 color=black>「能够为米露瓦姐姐大人效劳，\n对我来说就是至高无上的喜悦！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_13.mp3
+msg,1,<outline width=2 color=black>「是吗。开心成这样的艾尔玛还真有意思，\n让人怎么看都不会腻呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_14.mp3
+msg,1,<outline width=2 color=black>「……不过，还是有点可惜呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_15.mp3
+msg,1,<outline width=2 color=black>「诶？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_15.mp3
+msg,1,<outline width=2 color=black>「如果你姐姐也在一起，艾尔玛是不是就能玩得更开心了呢？\n艾尔玛也很喜欢自己的姐姐吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_16.mp3
+msg,1,<outline width=2 color=black>「我和姐姐两个人一起坐在大泳圈上，\n再像现在这样让艾尔玛推着我们之类的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_17.mp3
+msg,1,<outline width=2 color=black>「那样一来，你不光能看到我的泳装，\n就连姐姐穿泳装的样子也能在近处看个够哦？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_16.mp3
+msg,1,<outline width=2 color=black>「莉、莉迪亚姐姐大人的……！？　怎、怎么会，光是米露瓦姐姐大人\n就已经令我惶恐万分了，竟然还能在近处看到如此美妙的光景……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_18.mp3
+msg,1,<outline width=2 color=black>「而且，艾尔玛一边推着我们两个人的泳圈，\n一边不停地游，就算是你肯定也会累的吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_19.mp3
+msg,1,<outline width=2 color=black>「即使累了，也依然为了我们拼命坚持游下去的艾尔玛。\n啊，我真想在近处看看你那副模样呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_17.mp3
+msg,1,<outline width=2 color=black>「既然米露瓦姐姐大人如此期望，\n艾尔玛就算双腿游到断掉，也会一直游到死为止！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_20.mp3
+msg,1,<outline width=2 color=black>「哎呀。让你痛苦到感觉快要死掉倒是不错，\n可要是艾尔玛真的死了，我还是会有点困扰呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_21.mp3
+msg,1,<outline width=2 color=black>「毕竟那样一来，就没人像这样帮我推泳圈，\n也没人照顾我了嘛。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_18.mp3
+msg,1,<outline width=2 color=black>「米露瓦姐姐大人需要艾尔玛……？\n这、这是梦？　是在做梦吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_032_19.mp3
+msg,1,<outline width=2 color=black>「啊，就算是梦也无所谓！　如此幸福的美梦，请永远不要醒来……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_22.mp3
+msg,1,<outline width=2 color=black>「呵呵，艾尔玛果然怎么看都不会腻呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6064/606412_013_23.mp3
+msg,1,<outline width=2 color=black>「喂，能稍微加快一点速度吗？　难得独占了这么宽敞的泳池，\n我想再玩得尽兴一点。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾尔玛・莉丝菲尔特</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_032_20.mp3
+msg,1,<outline width=2 color=black>「遵命，米露瓦姐姐大人！\n艾尔玛会全速前进，努力让姐姐大人尽情享受！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+playvoice,1,download/adv/voice/character/6064/606412_013_24.mp3
+msg,1,<outline width=2 color=black>「嗯，那就拜托你了，艾尔玛。」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
