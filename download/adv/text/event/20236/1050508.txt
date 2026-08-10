@@ -1,0 +1,447 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11740300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm193.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「…………真是莫名其妙」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>「你们居然能跟那种疯子相处得下去，也真够厉害的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,0,<outline width=2 color=black>「的确，像米露瓦小姐那样的人，若是过着普通的生活，\n或许确实不该与她有太多牵扯。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不过，我觉得库库露小姐说的也并非没有道理。\n当然，也不能一概而论，说所有事情都完全如她所说。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>「如果凡事都试图用所谓的普通与常识去衡量……那么，\n许多事情一定都会变得无法维系。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>「比如，对一个绝不能原谅的人，就这样永远无法释怀……之类的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「……？　你举的这是什么例子啊。\n既然无法原谅，那不原谅不就好了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,0,<outline width=2 color=black>「话是这么说，但又并非如此。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,-300,-130,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「……怎么连你也说这种莫名其妙的话。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「我希望有一天，诺瓦和米露瓦也能好好相处。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「别突然说这种奇怪的话。\n那种事根本不可能。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:smile,patrisia,300,-200,0.5,0.5,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,0,<outline width=2 color=black>「呵呵。世事可是难以预料的哦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,-300,-130,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「别再说这些让人不寒而栗的话了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……真是的。我为什么非得因为这种事而心烦意乱啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「诺瓦。像这样会动摇的心情，也请你好好珍惜。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「因为我相信，那份动摇也一定有它的意义。\n我也觉得，那是诺瓦心中很重要的一部分」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:anger,nowa,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「只是不快而已。这种东西没必要当成宝贝珍藏一辈子吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「……哼」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我去游一会儿。活动一下身体，心情应该也会好些吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「啊，那我也一起——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「你看起来笨手笨脚的，真的会游泳吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「呃……只、只游一会儿的话还行」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「我可不想给人当保姆」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0.5,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,0,<outline width=2 color=black>「哎呀，别这么说嘛。就算不擅长游泳，比如在泳池里\n玩玩球，不也挺好的吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺瓦·瓦拉德</outline>,
+msg,0,<outline width=2 color=black>「不好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:normal,nowa,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>「别来妨碍我」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105306/adv/atlas/stand_a,body:sad,nowa,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我现在只想一个人待着」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_048.mp3
+anm,move,nowa,-900_-130,0.8,0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「啊……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……诺瓦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>潘多莉西亚・波特曼</outline>,
+msg,0,<outline width=2 color=black>「虽然很遗憾，但太过勉强她恐怕只会适得其反。\n今后我们就慢慢和她熟悉起来吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101654/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我想，若要与身为伊波恩原书使徒、立场特殊的她交流，\n我们也必须更加了解她才行」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103717/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「……嗯」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「——我好像有点明白，为什么库库露平时只会在诺瓦的名字后面\n加上“小”了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,card1,320,0,640,720,0.5,,,,
+sprite,download/character/6064/image/606411.png,card2,0,0,0,0,,,,
+imgconf,card2,card1,-420,-50,,,0,1.3,1.3,0.5
+
+
+mask,card3,-320,0,640,720,0.5,,,,
+sprite,download/character/105208/image/main.png,card4,0,0,0,0,,,,
+imgconf,card4,card3,100,0,,,0,1,1,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「嗯？　你觉得是为什么？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「或许是因为诺瓦很可爱吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「诺瓦和大家不一样」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「她什么都没有。她说出口的每一句话，都让我觉得无比空洞」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「啊。我还是第一次遇到聊起天来那么无趣的人。\n正因为无趣，所以才特别有意思」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「米露瓦，你是不是那种对一个方向产生强烈感情后，\n就会绕上一圈，直接走向另一个极端的人？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「或许是吧。\n比如——甜味浓到极点，反而会感觉不到甜味一样」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「啊。你是说那个沿着另一种可能性发展下去的世界里，绝望的影子？\n这么说来，的确还有过那种事呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「呵呵。我还想和诺瓦多聊些各种各样的事呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「聊天啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「——……虽然我经常和诺瓦待在一起，\n但从来没和她聊过家人的事呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「虽然这是理所当然的，但诺瓦肯定也有父母。\n可别说是过去的回忆了，我甚至从没听她提过他们究竟是生是死」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「但她给人的感觉，也不像是有着什么难以启齿的痛苦过去，\n所以才刻意避开这个话题」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「她明明经常把<ruby>血|瓦拉德</ruby>挂在嘴边，\n对家人却始终漠不关心」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「或者说，她是不是打从心底就根本没想过家人和自己的过去呢。\n无所谓的事，不是很快就会忘掉，甚至压根不会想到吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「不只是家人。就连她自己也一样……对诺瓦而言，\n除了瓦拉德这个名字以外，恐怕根本没有多少称得上重要的东西」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「可即便如此，我觉得她也该像曾经的某个人一样，\n为自己没有明确的自我认同这件事本身而烦恼才对……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「什么都没有吗……的确，或许真是这样」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「要是诺瓦失去了<ruby>歼灭超越者之人|瓦拉德</ruby>这个身份特征，\n她究竟会变成什么样呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「……啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「果然，库库露觉得诺瓦很可爱，而且还——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「——再往下说出来，就有点不解风情了吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「诺瓦是我可爱的挚友哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「呵、呵呵」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「果然，我也想和诺瓦好好相处呢。不知道能不能和她成为朋友」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>库库露·Y·特雷塞纳</outline>,
+msg,0,<outline width=2 color=black>「关于这件事，我也不好说啊。\n不过，你们尽量别吵架哦。大家也会担心的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「…………话说回来」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「艾尔玛又一直沉在泳池底下，真的没事吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>米露瓦・林德曼</outline>,
+msg,0,<outline width=2 color=black>「嗯。她那么努力地帮我推游泳圈，我只是摸了摸她的头作为答谢而已，\n她为什么会沉下去呢……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
