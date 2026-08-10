@@ -1,0 +1,294 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>走在拉莱耶的走廊里时，我发现了一个有些少见的背影。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>她东张西望地环顾四周，几次疑惑地歪了歪脑袋，\n随后走进了附近的仓库。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>她的举动令我有些在意，于是为了弄清缘由，我跟在她身后走进仓库……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>唯</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8102200_01.mp3
+msg,1,<outline width=2 color=black>「唔……哦哦，是汝啊。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_02.mp3
+msg,1,<outline width=2 color=black>「汝来这种储物间所为何事？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_03.mp3
+msg,1,<outline width=2 color=black>「莫非……汝也迷路了？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_04.mp3
+msg,1,<outline width=2 color=black>「哎，不必害羞。拉莱耶到处都是相似的走廊，实在令人头疼。\n甚至让人忍不住怀疑，这里莫不是为了让人迷路才建成这样的。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>照这情形来看，唯似乎是迷路了。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>唯</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8102200_05.mp3
+msg,1,<outline width=2 color=black>「呵呵呵。哎呀呀，谁知道汝在说什么。妾身只是……对了，算了一卦。\n卦象显示待在这里会遇上有趣之事，所以妾身便在此等候了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_06.mp3
+msg,1,<outline width=2 color=black>「仅此而已，妾身绝非迷路了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_07.mp3
+msg,1,<outline width=2 color=black>「哎呀，汝那是什么眼神……莫非觉得妾身是在找借口？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_08.mp3
+msg,1,<outline width=2 color=black>「可事实上，汝不是就这样找来了吗？\n这便说明妾身的占卜并没有错。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>唯说着，面带笑意地贴近了我。\n我们之间的距离转眼便消失无踪，她那丰满的胸脯也紧紧压在了我身上。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>唯</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8102200_09.mp3
+msg,1,<outline width=2 color=black>「在这般昏暗的地方，孤男寡女独处一室。\n在旁人看来，只会觉得我们是在幽会吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_10.mp3
+msg,1,<outline width=2 color=black>「在拉莱耶背着其他人，与汝偷偷交合，\n似乎也颇为有趣。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_11.mp3
+msg,1,<outline width=2 color=black>「能品尝妾身的身体，对汝而言也是意外之喜吧？\n汝也坦率地顺从自己的欲望吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_12.mp3
+msg,1,<outline width=2 color=black>「无需忍耐……妾身这副身体，任凭汝随意享用便是。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/9000/98102200/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>唯</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8102200_13.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……瞧，这样随时都能插进来了吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_14.mp3
+msg,1,<outline width=2 color=black>「看起来汝也已经兴致勃勃了……忍耐太久\n可是有害身体的哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_15.mp3
+msg,1,<outline width=2 color=black>「若是在这种地方交合，还叫出声来，或许会被别人发现。\n但正因为身处这种情形，才会有与平时不同的兴奋吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_16.mp3
+msg,1,<outline width=2 color=black>「可别说不是……毕竟汝的鸡巴，\n早已兴致勃勃地挺立起来了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_17.mp3
+msg,1,<outline width=2 color=black>「来吧……别一直只顾着看，快些过来。\n好好品尝妾身的肉穴吧。」</outline>,
+clickwait
+
+
+bg,download/character/9000/98102200/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8102200_18.mp3
+msg,1,<outline width=2 color=black>「啊、哈、啊、嗯嗯嗯……哈、啊啊、进来了，汝的鸡巴，\n一直插进妾身最深处……咿、嗯、呜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_19.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯……前端，都顶到子宫了……嗯、啊、那里，被硬顶进来，\n刺激、好强……啊、呼、嗯嗯。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_20.mp3
+msg,1,<outline width=2 color=black>「哈啊、啊、嗯、呜呜……啊、呜、粗大的鸡巴，在妾身里面，\n不停搅动……啊呼、嗯、呜、妾身里面，全被汝填满了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_21.mp3
+msg,1,<outline width=2 color=black>「不过，现在才刚刚开始吧……？　嗯嗯、啊、汝真正的本事，\n可不止这点程度。」</outline>,
+clickwait
+
+
+bg,download/character/9000/98102200/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8102200_22.mp3
+msg,1,<outline width=2 color=black>「嗯、呜嗯……啊、抓住妾身臀上的肉……啊呼、嗯、呜、毫不客气地\n揉捏着……嗯嗯，怎么，汝也喜欢那里吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_23.mp3
+msg,1,<outline width=2 color=black>「好极了……哈、用汝的手，再多揉揉吧……嗯嗯，像揉妾身的胸脯\n那样，尽情地玩弄臀肉……呼、啊、嗯呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_24.mp3
+msg,1,<outline width=2 color=black>「嗯咕、唔、嗯呜，这样就像是被汝强烈渴求着一般……感觉、\n还不坏……咿呜、咕、哈、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_25.mp3
+msg,1,<outline width=2 color=black>「小穴被不停顶弄的同时……屁股也任凭汝随意摆弄，呼啊、\n啊、咕、嗯、嗯、嗯、嗯嗯……！」</outline>,
+clickwait
+
+
+bg,download/character/9000/98102200/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8102200_26.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咕、啊、嗯呜……鸡、鸡巴，越来越激烈了、\n咿呜、屁、屁股也被用力抓住……咿呜、哈、啊、嗯、呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_27.mp3
+msg,1,<outline width=2 color=black>「这、这样被抓住的话，就逃不掉了、嗯、啊啊、子宫、\n被顶撞的快感，直接感受到了……啊咕、嗯、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_28.mp3
+msg,1,<outline width=2 color=black>「妾身的、身体，被随心所欲地蹂躏着、嗯咕、哈、啊、嗯嗯、\n这、实在太舒服了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_29.mp3
+msg,1,<outline width=2 color=black>「又要、被教会更多快感了、嗯嗯、要被鸡巴、弄得失去理智了、\n妾身、要变成鸡巴痴女了、啊、哈啊、嗯咿、咕、啊、哈啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_30.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯呜！　里、里面，鸡巴、又变硬了、啊、啊啊，怎么这样、\n翘得这么厉害，小穴、都被刮蹭着、啊、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_31.mp3
+msg,1,<outline width=2 color=black>「嗯咕、啊、咿、哈、啊、啊啊啊……！　已、已经到极限了、嗯啊、\n妾身、脑子里面、已经全都是、鸡巴了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_32.mp3
+msg,1,<outline width=2 color=black>「除了这根鸡巴以外，妾身、已经无法得到满足了、嗯咿、咕、哈、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_33.mp3
+msg,1,<outline width=2 color=black>「咿呜、啊、啊、啊啊啊，等、等等，这样弄的话、嗯嗯嗯！\n妾身、要去了、要高潮了、嗯咕、呼啊、哈、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_34.mp3
+msg,1,<outline width=2 color=black>「汝也、射出来吧、嗯嗯嗯呜，在妾身里面、\n用滚烫的精液、灌得满满的……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_35.mp3
+msg,1,<outline width=2 color=black>「呼啊、唔、啊、咕、哈、啊、啊啊啊啊！　嗯咕、嗯、呜呜呜、\n要来了、已、已经来了、高潮、啊、咿、去、去了、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_36.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咕、哈、啊啊！　嗯咕、唔、呼啊、啊、咕、哈、啊、\n啊啊啊、去了、小穴、变得奇怪了、要、去了、呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_37.mp3
+msg,1,<outline width=2 color=black>「嗯咿、啊、咕、哈、啊、嗯嗯、啊、啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/9000/98102200/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8102200_38.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯呜……！　啊、好烫、哈、啊啊啊，鸡巴一边抽动，一边把\n种子灌进来……哈、啊、嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_39.mp3
+msg,1,<outline width=2 color=black>「还、还在射，啊、嗯嗯呜，妾身的里面，被汝的精液填满了……。\n咿呜、嗯啊、哈、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+bg,download/character/9000/98102200/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8102200_40.mp3
+msg,1,<outline width=2 color=black>「哈啊、嗯、呜……全、全都射干净了吗……？　鸡巴里面，\n已经没有精液残留了、吗……？」</outline>,
+clickwait
+
+
+bg,download/character/9000/98102200/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8102200_41.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……嗯、啊……鸡巴、拔出去了……嗯、咕……怎么回事，\n顶在妾身屁股上的东西，怎么还硬着呢……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_42.mp3
+msg,1,<outline width=2 color=black>「真是的，汝的欲望还真是无穷无尽啊……好吧好吧，既然如此，就只需让汝\n再多释放一些出来便是。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_43.mp3
+msg,1,<outline width=2 color=black>「妾身也正想着，还想被那根鸡巴弄得更加疯狂一些呢……。\n所以，嗯……就这样，再从后面狠狠地多干妾身几次吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8102200_44.mp3
+msg,1,<outline width=2 color=black>「毕竟汝可以随心所欲地享用妾身的身体……自然不会有任何怨言吧？」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

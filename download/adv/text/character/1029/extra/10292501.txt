@@ -1,0 +1,405 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11030300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm189.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_01.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「这身衣服是……埃尔塔大人的……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_01.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「嗯……看来我和罗泽特穿的是同款」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「看来确实如此。虽然有些惊讶，不过既然是在幻梦境，\n发生这种事也不足为奇吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_03.mp3
+msg,1,<outline width=2 color=black>「……只是，我心里多少有些对不住埃尔塔大人。\n还请您暂且睁一只眼闭一只眼」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_02.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「……？　为什么罗泽特会觉得对不起我？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_04.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「像罗泽特这般卑微之人，竟与埃尔塔大人穿着相同，实在是惶恐至极。\n想必埃尔塔大人也不会觉得愉快……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:unique,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_03.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「……罗泽特是不是有点傲慢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_05.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_04.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「像这样擅自替别人决定心情，就是一种傲慢的想法。\n我希望你不要以为，自己能这么轻易地猜透我的心思」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_06.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「这、这确实如您所言。\n若是让您感到不快，我再次向您致歉……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_05.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「嗯，我要你道歉。明明我刚才还满心雀跃的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_07.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「……满心雀跃吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_06.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「对啊。我可从没说过，和罗泽特穿同款让我觉得讨厌」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:smile,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_07.mp3
+msg,1,<outline width=2 color=black>「倒不如说，情侣装看起来就像关系很好一样，我甚至还有点开心。耶」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_08.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「埃尔塔大人……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_08.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「还是说，罗泽特不喜欢和我穿同款？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_09.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「不、不是！绝无此事……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:smile,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_09.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「那就没问题了。罗泽特这身打扮也很适合你」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_10.mp3
+msg,1,<outline width=2 color=black>「你也这么觉得吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「非常可爱」,选项2　「有种与平时不同的魅力」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:shy,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_10.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「诶，啊，那、那个……谢、谢谢您」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:unique,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_11.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「唔……反应比我夸她的时候还好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_11.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「是、是这样吗……埃尔塔大人的夸奖也让我非常高兴，\n若是让您产生了那种感觉，实在非常抱歉」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_12.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「从刚才起就一直在道歉……算了。\n这次就当是对手太强了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:smile,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_13.mp3
+msg,1,<outline width=2 color=black>「就算是我，要和这个人相比的话，输了也是没办法的事。\n……毕竟，我也明白那种心情」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_12.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「魅、魅力吗……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_13.mp3
+msg,1,<outline width=2 color=black>「那个，罗泽特也明白，和埃尔塔大人站在一起，自然会显得逊色，\n所以您不必特意顾虑我……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_14.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「罗泽特应该再自信一点。这人的表情不像是在奉承你。\n看起来分明是对现在的罗泽特充满了兴趣」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_14.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「……是、是这样吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:shy,rozet,300,-100,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_15.mp3
+msg,1,<outline width=2 color=black>「那个……如果您真的喜欢我这副打扮，就算再仔细地\n欣赏一番也无妨……您、您意下如何？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_15.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「要是让你就这样只顾着迷罗泽特，可有损我性感埃尔塔的名号」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_16.mp3
+msg,1,<outline width=2 color=black>「所以，今天就由我和罗泽特两个人一起，\n让你为我们神魂颠倒」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_16.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「连、连我罗泽特也要一起……吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_17.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「嗯。性感埃尔塔和可爱罗泽特联手，必定天下无敌。\n要让他彻底迷上我们，变得神魂颠倒」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_18.mp3
+msg,1,<outline width=2 color=black>「然后，他会变得没有我们的魅力就活不下去，\n为了得到我们，从今往后不断献上巧克力」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_19.mp3
+msg,1,<outline width=2 color=black>「哦，多么罪孽深重的女人……有时连我自己都觉得自己很可怕」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_20.mp3
+msg,1,<outline width=2 color=black>「所以也希望罗泽特能助我一臂之力。这对罗泽特来说，\n应该也不是坏事……最重要的是，为了我的巧克力」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_17.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「埃尔塔大人……这种话还是不要随便说出口为好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_18.mp3
+msg,1,<outline width=2 color=black>「非常抱歉，但如果您的目的是为了得到巧克力而\n利用这位大人，那我罗泽特恕难从命」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:unique,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_21.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「唔……没关系。刚才只是个俏皮的玩笑。埃尔塔式笑话」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_19.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「是、是这样吗……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_22.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「真的，真的。我不骗人。所以罗泽特也穿着\n和我同款的服装，尽情展现自己的魅力就好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_23.mp3
+msg,1,<outline width=2 color=black>「由性感埃尔塔和可爱罗泽特联手，让他心满意足。\n这样的话，罗泽特就没有意见了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_20.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「……我明白了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_21.mp3
+msg,1,<outline width=2 color=black>「虽然不知道罗泽特究竟能做到什么程度，\n但只要是为了这位大人，我愿献上自己的一切」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_02_24.mp3
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「嗯。觉悟不错」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:smile,rozet,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_22.mp3
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+msg,1,<outline width=2 color=black>「您若有什么需要罗泽特去做的事，\n也请尽管吩咐」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102925/adv/atlas/stand_a,body:smile,rozet,300,-100,0.5,0,,,,
+playvoice,1,download/character/102925/adv/sound/fav102925_01_23.mp3
+msg,1,<outline width=2 color=black>「还请您多多关照」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,352 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_01.mp3
+msg,1,<outline width=2 color=black>「这座宅邸好像特别大，要是一个房间一个房间地查看，\n恐怕得花上很长时间呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_01.mp3
+msg,1,<outline width=2 color=black>「确实如此……不仅楼上有房间，还有通往地下的楼梯，\n目前甚至无法确定这里究竟有多少个房间……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_02.mp3
+msg,1,<outline width=2 color=black>「所以，我们分头行动吧。我从最上面开始。\n罗泽特和你从下面依次查看。明白了吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02.mp3
+msg,1,<outline width=2 color=black>「罗泽特自然没有异议，不过埃尔塔大人一个人没问题吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_03.mp3
+msg,1,<outline width=2 color=black>「完全没问题。毕竟我很厉害。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_04.mp3
+msg,1,<outline width=2 color=black>「那就这么定了，我先过去看看。\n我们来比比谁查看的地方更多吧。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>——就这样，与埃尔塔分开后，我和罗泽特从地下开始\n逐处调查，然而既没有任何发现，也没遇到什么问题，最后回到了一楼。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_03.mp3
+msg,1,<outline width=2 color=black>「……这样可不行呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>罗泽特忽然小声嘟囔了一句。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_04.mp3
+msg,1,<outline width=2 color=black>「能够像这样与您独处，竟让我感到了一丝欣喜。\n我绝不是觉得埃尔塔大人碍事，可即便如此……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_05.mp3
+msg,1,<outline width=2 color=black>「啊，非、非常抱歉。明明还没有调查完整座宅邸，\n我却产生了这种念头……必须好好集中精神才行呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>罗泽特红着脸打住了话头，\n可都听她说到这里了，我反而更加在意后面的话。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>我想让她说出后面的话……想听见她最坦率的心声。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_06.mp3
+msg,1,<outline width=2 color=black>「啊、呃……那、那个，您突然抱住我，是想做什么……那个，\n罗泽特我——嗯、呜、啾、啾……嗯、呼……啊、啾、啾」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_07.mp3
+msg,1,<outline width=2 color=black>「您、您是想要罗泽特我吗……？\n只要是您所期望的，罗泽特当然不会拒绝。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_08.mp3
+msg,1,<outline width=2 color=black>「不会拒绝的，只是……埃尔塔大人恐怕也快要与我们会合了，\n所以……唯独今天，能请您尽快结束吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_09.mp3
+msg,1,<outline width=2 color=black>「罗泽特也会努力让您尽兴的……\n还请您好好享用。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+movie,download/character/102925/adv/anm/102925_01.mp4,mov1,1,,,,,,,,,
+wait,0.01,
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_10.mp3
+msg,1,<outline width=2 color=black>「请吧……您专用的泄精肉穴，已经做好了\n供您使用的准备。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_11.mp3
+msg,1,<outline width=2 color=black>「罗泽特的这里，是只属于您的泄欲工具，是用来\n服侍您肉棒的侍奉肉穴。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_12.mp3
+msg,1,<outline width=2 color=black>「无论何时、无论何地、无论什么情况下都能任您使用，是您专用的\n小穴。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_13.mp3
+msg,1,<outline width=2 color=black>「现在也因为被您索求的喜悦……像这样\n湿透了，所以请您……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_14.mp3
+msg,1,<outline width=2 color=black>「尽情使用罗泽特这工具小穴吧。」</outline>,
+clickwait
+
+
+movieoff,mov1,1,,,,,,,,,,
+movie,download/character/102925/adv/anm/102925_02.mp4,mov2,1,,,,,,,,,
+wait,0.01,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_15.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊啊……！　啊、咕、罗泽特的里面，被您的形状\n撑开了……嗯啊、哈、嗯、嗯嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_16.mp3
+msg,1,<outline width=2 color=black>「嗯咕、呼啊、啊、嗯嗯……主人、啊啊、肉棒，摩擦着里面，\n嗯、咕呜……这样罗泽特也会有感觉的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_17.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯……顶、顶到深处了，咿呜、嗯、嗯嗯、那里，\n是承接主人种子的地方……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_18.mp3
+msg,1,<outline width=2 color=black>「这里是能让您随意灌注精液、只属于您的泄精肉穴，\n所以请您想射多少，就射多少吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_19.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊……肉、肉棒翘起来了……您也在罗泽特的工具小穴里，\n感受到快感了吧……既然如此，就再更加……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_20.mp3
+msg,1,<outline width=2 color=black>「请随您喜欢地使用……嗯、嗯嗯、舒舒服服地射出来，\n射在罗泽特里面吧……哈、啊、嗯、呜呜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_21.mp3
+msg,1,<outline width=2 color=black>「您、嗯、啊、的动作……咿、嗯、嗯嗯、肉棒，好激烈，\n嗯啊、啊、嗯、呜、快感、越来越强……咿、啊、啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_22.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯嗯、肉棒、再、嗯、呜、啊、啊、啊、再更加，\n用力一些、也没关系……请用罗泽特的小穴、尽情感受吧……」</outline>,
+clickwait
+
+
+movieoff,mov2,1,,,,,,,,,,
+movie,download/character/102925/adv/anm/102925_03.mp4,mov3,1,,,,,,,,,
+wait,0.01,
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_23.mp3
+msg,1,<outline width=2 color=black>「哈啊、啊、嗯、啊啊……！　肉、肉棒、又变得好激烈、啊、\n啊、咕、啊啊、真、真的、好雄伟……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_24.mp3
+msg,1,<outline width=2 color=black>「撞、撞到罗泽特的最深处、子宫了……啊啊、您要把精液\n灌进那里吧……随时、都请射进来……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_25.mp3
+msg,1,<outline width=2 color=black>「罗泽特的那里，是只属于您的、可以随意倾泻精液的泄欲便器、\n也是供您播种的孕袋……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_26.mp3
+msg,1,<outline width=2 color=black>「请您想灌多少、就灌多少……多射一些，直到把罗泽特的那里\n灌得鼓起来吧！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_27.mp3
+msg,1,<outline width=2 color=black>「咿、嗯、啊、哈、啊啊啊……！　您、嗯呜、\n您、这样渴求罗泽特、罗泽特好幸福……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_28.mp3
+msg,1,<outline width=2 color=black>「要、要去了、小穴、要高潮了……请您也\n和罗泽特一起……嗯咕、啊、嗯、嗯、嗯嗯嗯呜――」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_05.mp3
+msg,1,<outline width=2 color=black>『一路上都没碰见她们，也不知道罗泽特她们调查到哪里了。』</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_29.mp3
+msg,1,<outline width=2 color=black>「――――！　埃、埃尔塔大人……！？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_06.mp3
+msg,1,<outline width=2 color=black>『嗯——……没事先约好会合地点，真是失策了。\n看来只能先把房间一间间找过去了。』</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_30.mp3
+msg,1,<outline width=2 color=black>「您、您先等等……咿、嗯、咕、嗯嗯、请、请停一下、\n嗯呜、埃尔塔大人就在附近……嗯咿、咕、呜、嗯嗯嗯……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_31.mp3
+msg,1,<outline width=2 color=black>「要、要是被她知道，调查途中罗泽特还在供您使用……\n嗯咕、嗯、呼、嗯、嗯呜呜、不、不行，会忍不住叫出声的……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_32.mp3
+msg,1,<outline width=2 color=black>「呼、嗯嗯嗯、嗯咕、啊、嗯嗯……！　嗯、呼、嗯唔、\n嗯啊、哈、啊、嗯嗯呜呜！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_07.mp3
+msg,1,<outline width=2 color=black>『哈……！　说不定他们刚一独处，就觉得机会难得，\n趁机做起色色的事情了。』</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_33.mp3
+msg,1,<outline width=2 color=black>「――――嗯嗯嗯呜！？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>埃尔塔・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_02_08.mp3
+msg,1,<outline width=2 color=black>『也就是说，他们极有可能就在地下。\n名侦探埃尔塔的推理绝不会错……！』</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_34.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呜呜――呼啊、啊、啊啊啊、埃、埃尔塔大人，\n已经走远了，所、所以，请趁现在，射出来吧……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_35.mp3
+msg,1,<outline width=2 color=black>「请用您的炽热，灌满罗泽特这淫荡的小穴、啊、\n咿、啊、啊啊！　要去了、罗泽特、就要去了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_36.mp3
+msg,1,<outline width=2 color=black>「啊、咿、啊、哈啊啊！　主人、嗯嗯呜、主人！\n嗯、咕呜、呼啊、哈、啊、啊、啊、啊啊啊――！」</outline>,
+clickwait
+
+
+movieoff,mov3,1,,,,,,,,,,
+movie,download/character/102925/adv/anm/102925_04.mp4:download/character/102925/adv/anm/102925_05.mp4,mov4:mov5,1,,,,,,,,,
+wait,0.01,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_37.mp3
+msg,1,<outline width=2 color=black>「――嗯啊、哈、啊、啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_38.mp3
+msg,1,<outline width=2 color=black>「啊、嗯、呜呜呜呜！　哈、啊啊、射、射出来了，\n主人的、种子、在、子宫里面、好多……嗯、呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_39.mp3
+msg,1,<outline width=2 color=black>「哈、啊……嗯啊、哈、啊啊……竟然给罗泽特的小穴\n播下了这么多种子……真是、非常感谢您。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_40.mp3
+msg,1,<outline width=2 color=black>「能让主人在罗泽特体内射精，罗泽特真的非常开心、非常幸福，\n也很想继续感受这份炽热……可是埃尔塔大人还在这里。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_41.mp3
+msg,1,<outline width=2 color=black>「如果您还想继续的话……可以等到稍后、再来吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_42.mp3
+msg,1,<outline width=2 color=black>「啊……不能让肉棒就这样脏着，\n罗泽特马上就为您舔干净。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1029/adu102925_02_43.mp3
+msg,1,<outline width=2 color=black>「您尽管把罗泽特的嘴当成抹布使用，\n请让罗泽特为您清理干净吧。」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+movieoff,mov4,,,,,,,,,
+movieoff,mov5,,,,,,,,,
+bg,color_0_0_0,0.1,255,,,,,,,,,
+endwait,,,,,,,,,,,
+
+name,<outline width=2 color=black>罗泽特・萨维尼</outline>,
+playvoice,1,download/adv/voice/character/1029/adu102925_02_44.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……啾噗、滋、啾……嗯、呼、滋、啾、啾噜――」</outline>,
+clickwait
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+name, 
+endwmsg, 
+bgoff,1.0
+stopbgm
+endwait
