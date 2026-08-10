@@ -1288,13 +1288,13 @@ t.isDead || (e = !0);
 }, this);
 return e;
 },
-addDamageRecord: function(t, e) {
+addDamageRecord: function(t, e, i) {
 t.damageArr.push(e);
-if (t.attacker.isEnemy) a.playerTotalDamageTaken += e; else {
+if (i) {
 a.playerTotalDamageGiven += e;
 a.playerMaxSingleDamageGiven = Math.max(a.playerMaxSingleDamageGiven, e);
 a.oneActionDamageGiven += e;
-}
+} else a.playerTotalDamageTaken += e;
 },
 addBuffDamageRecord: function(t, e) {
 t ? a.playerTotalDamageGiven += e : a.playerTotalDamageTaken += e;
@@ -6899,6 +6899,8 @@ QUEST_STAGE_GET_MASTER_DATA: "getMasterQuestStageData",
 QUEST_STAGE_GET_MASTER_DATA2: "getMasterQuestStageData2",
 QUEST_STAGE_GET_MASTER_DATA3: "getMasterQuestStageData3",
 ITEM_GET_MASTER_DATA: "getMasterItemData",
+ITEM_MAIN_GET_MASTER_DATA: "getMasterItemMainData",
+ITEM_SELECT_GET_MASTER_DATA: "getMasterItemSelectData",
 ITEM_SET_GET_MASTER_DATA: "getMasterItemSetData",
 ITEM_SET_GET_MASTER_DATA2: "getMasterItemSetData2",
 SHOP_GET_MASTER_DATA: "getMasterShopData",
@@ -6961,6 +6963,7 @@ CABIN_MISSION_GET_USER_DATA: "getUserCabinMissionData",
 CABIN_RECEIVE: "cabinReceive",
 PRESENT_GET_MASTER_DATA: "getMasterPresentData",
 EVENT_GET_MASTER_DATA: "getMasterEventData",
+EVENT_POINT_REWARD_GET_MASTER_DATA: "getMasterEventPointRewardData",
 EVENT_GET_USER_DATA: "getUserEventData",
 EVENT_QUEST_START_BATTLE: "eventQuestStartBattle",
 EVENT_QUEST_START_PRACTICE: "eventQuestStartPractice",
@@ -11764,7 +11767,8 @@ Singleton: "Singleton"
 BattleBossUnit: [ function(t, e, i) {
 "use strict";
 cc._RF.push(e, "5820bqm90FCzJ10V+Y3Gn9T", "BattleBossUnit");
-var a = t("BattleMonsterUnit"), n = t("BattleData"), o = t("BattleFunction"), r = t("CommonFunction"), s = t("BattleConstants"), c = t("MemoryManager"), l = t("Singleton"), u = t("GameEffectQueue").EffectData, h = t("BattleBossFunction"), d = t("GameConst"), p = 0, m = 1, g = 2, f = 3, E = 0, C = 1, T = 2;
+var a = t("BattleMonsterUnit"), n = t("BattleData"), o = t("BattleFunction"), r = t("CommonFunction"), s = t("BattleConstants"), c = t("MemoryManager"), l = t("Singleton"), u = t("GameEffectQueue").EffectData, h = t("BattleBossFunction"), d = (t("GameConst"), 
+0), p = 1, m = 2, g = 3, f = 0, E = 1, C = 2;
 cc.Class({
 extends: a,
 properties: {
@@ -11824,15 +11828,17 @@ n.UI_M.beatBossUIParent.destroyAllChildren();
 n.UI_M.beatBossUIParent.addChild(i.node);
 i.setActiveHpBar(!0);
 this.unitController = i;
-this._armorState = m;
+t.active = !1;
+this._armorState = p;
 this._armorBlakeAttack = 0;
-this._beatState = C;
+this._beatState = E;
 this.updateCurrentRageData();
 this.isTrialBattle() && i.setActiveHpBar(!1);
 } else {
 this.unitController = t.getComponent("BossUnitCtrl");
-this._armorState = p;
-this._beatState = E;
+this.unitController.enemy_gaugeInAnim.node.opacity = 0;
+this._armorState = d;
+this._beatState = f;
 }
 this.unitController.initBossUnitCtrl(this, e);
 this.avatarController = e.getComponent("MonsterAvatarCtrl");
@@ -11855,8 +11861,8 @@ this.spineRageBack = u;
 c.instance.storeRes(u.skeletonData, sp.SkeletonData);
 var h = this.battleMonsterModel.getSpineScale();
 this.avatarController.mainUnitAdjustPos.setScale(cc.v2(h, h));
-var d = r.clamp(this.getAttribute() - 1, 0, n.UI_M.elementImages.length - 1);
-this.unitController.elementIcon.spriteFrame = n.UI_M.elementImages[d];
+var m = r.clamp(this.getAttribute() - 1, 0, n.UI_M.elementImages.length - 1);
+this.unitController.elementIcon.spriteFrame = n.UI_M.elementImages[m];
 if (this.getSubAttribute() > 0) {
 var _ = r.clamp(this.getSubAttribute() - 1, 0, n.UI_M.elementImages.length - 1);
 this.unitController.subElementIcon.spriteFrame = n.UI_M.elementImages[_];
@@ -11919,7 +11925,7 @@ return this.isRageMode && i[1] || i[0];
 executeTurnEndProcess: function() {
 if (this.isBeatBoss()) {
 switch (this._armorState) {
-case g:
+case m:
 this.executeTurnEndProcessAfterArmorBreak();
 break;
 
@@ -12026,8 +12032,8 @@ return this._currentArmorDamage >= this.getMaxBeatArmorHp();
 },
 isNowBreakArmor: function() {
 switch (this._armorState) {
-case m:
-case f:
+case p:
+case g:
 return this.isBrokenArmor();
 }
 return !1;
@@ -12038,7 +12044,7 @@ if (!t) return !1;
 var e = _.find(this.battleSkillList, function(e) {
 return e.getSkillGroupIndex() === t.beatSkillIndex;
 });
-this._beatState = T;
+this._beatState = C;
 if (e) {
 this.mySkill = e;
 return !0;
@@ -12064,16 +12070,16 @@ getCurrentBeatArmorHp: function() {
 return Math.max(this.getMaxBeatArmorHp() - this._currentArmorDamage, 0);
 },
 getArmorRate: function() {
-return this._armorState === g ? 0 : this.getCurrentBeatArmorHp() / this.getMaxBeatArmorHp();
+return this._armorState === m ? 0 : this.getCurrentBeatArmorHp() / this.getMaxBeatArmorHp();
 },
 _addArmorDamage: function(t) {
 if (this.isBeatBoss() && !(t.damage < 0)) {
 t.armorDamage = h.calculateArmorDamage(t.damage, t.curActionData, this._getOrFindCurrentRageData(), t.isUnisonAttack);
 this._currentArmorDamage += t.armorDamage;
 t.armorRate = this.getArmorRate();
-if (t.curActionData && this.isNowBreakArmor() && this._armorState !== f) {
+if (t.curActionData && this.isNowBreakArmor() && this._armorState !== g) {
 this._armorBlakeAttack = t.armorDamage;
-this._armorState = f;
+this._armorState = g;
 t.curActionData.armorBreakUnit = this;
 }
 }
@@ -12090,35 +12096,31 @@ this.unitController.setHpGaugeColor(this.getCurrentGaugeColor());
 },
 executeArmorBreakProcess: function(t) {
 this._beatCounter = 0;
-this._armorState = g;
+this._armorState = m;
 t.query.addAction(new u(void 0, this.unitController.playArmorBreak.bind(this.unitController)));
 this.processBeatIconDraw(t.query);
 n.bossData.armorBreakCount++;
 },
 executeTurnEndBeetCountCalc: function() {
 switch (this._beatState) {
-case C:
+case E:
 this.setBeatCounter(Math.min(this._beatCounter + 1, this.getBeatInterval()));
 break;
 
-case T:
+case C:
 this.setBeatCounter(0);
-this._beatState = C;
+this._beatState = E;
 }
 },
 executeTurnEndProcessAfterArmorBreak: function() {
 this._initArmor();
 this.unitController.setArmorRate(this.getArmorRate());
 },
-isTrialBattle: function() {
-var t = o.getStageData().getCategory();
-return !!t && t === d.WORLD_CATEGORY.TRIAL_EVENT;
-},
 _initArmor: function() {
 this._currentArmorDamage = 0;
 this._armorBlakeAttack = 0;
 this._breakCount += 1;
-this._armorState = m;
+this._armorState = p;
 this.unitController.playArmored();
 }
 });
@@ -12561,6 +12563,7 @@ o.cur_WaveTurnCount = 1;
 o.playerUseItemCount = 0;
 o.playerSkillCount = 0;
 o.playerNormalAttackCount = 0;
+o.playerAllAttackCount = 0;
 o.playerTotalDamageGiven = 0;
 o.playerTotalDamageTaken = 0;
 o.bossData = void 0;
@@ -12657,6 +12660,7 @@ o.cur_WaveTurnCount = 1;
 o.playerUseItemCount = t.playerUseItemCount;
 o.playerSkillCount = t.playerSkillCount;
 o.playerNormalAttackCount = t.playerNormalAttackCount;
+o.playerAllAttackCount = t.playerAllAttackCount;
 o.playerTotalDamageGiven = t.playerTotalDamageGiven;
 o.playerTotalDamageTaken = t.playerTotalDamageTaken;
 o.isNowPlayerTurn = t.isNowPlayerTurn;
@@ -12927,6 +12931,7 @@ cur_AddWaveCount: 0,
 playerUseItemCount: 0,
 playerSkillCount: 0,
 playerNormalAttackCount: 0,
+playerAllAttackCount: 0,
 playerTotalDamageGiven: 0,
 playerTotalDamageTaken: 0,
 playerMaxSingleDamageGiven: 0,
@@ -14068,6 +14073,7 @@ e.cur_TurnCount = a.cur_TurnCount;
 e.playerUseItemCount = a.playerUseItemCount;
 e.playerSkillCount = a.playerSkillCount;
 e.playerNormalAttackCount = a.playerNormalAttackCount;
+e.playerAllAttackCount = a.playerAllAttackCount;
 e.playerTotalDamageGiven = a.playerTotalDamageGiven;
 e.playerTotalDamageTaken = a.playerTotalDamageTaken;
 e.isNowPlayerTurn = a.isNowPlayerTurn;
@@ -14134,6 +14140,7 @@ useItemCount: a.playerUseItemCount,
 isSkillFinish: T,
 skillCount: a.playerSkillCount,
 attackCount: a.playerNormalAttackCount,
+allAttackCount: a.playerAllAttackCount,
 totalDamageGiven: Math.floor(a.playerTotalDamageGiven),
 totalDamageTaken: Math.floor(a.playerTotalDamageTaken),
 dropSetting: R,
@@ -14471,8 +14478,7 @@ cc._RF.pop();
 BattleMonsterUnit: [ function(t, e, i) {
 "use strict";
 cc._RF.push(e, "fbc3cY23G1ItYaXbhAEGJK0", "BattleMonsterUnit");
-var a = t("BattleData"), n = t("GameEffectQueue").GameEffectQueue, o = t("GameEffectQueue").EffectQuery, r = t("GameEffectQueue").EffectData, s = t("CommonFunction"), c = t("BattleMonsterModel"), l = t("BattleNormalAttack"), u = t("BattleFunction"), h = t("BattleConstants"), d = t("EnumTypes"), p = t("BattleUnit"), m = (t("GameConst"), 
-t("MemorialConst")), _ = t("BattleSkill"), g = t("BattleAbility"), f = t("MemoryManager"), E = cc.Class({
+var a = t("BattleData"), n = t("GameEffectQueue").GameEffectQueue, o = t("GameEffectQueue").EffectQuery, r = t("GameEffectQueue").EffectData, s = t("CommonFunction"), c = t("BattleMonsterModel"), l = t("BattleNormalAttack"), u = t("BattleFunction"), h = t("BattleConstants"), d = t("EnumTypes"), p = t("BattleUnit"), m = t("GameConst"), _ = t("MemorialConst"), g = t("BattleSkill"), f = t("BattleAbility"), E = t("MemoryManager"), C = cc.Class({
 extends: p,
 properties: {
 battleMonsterModel: {
@@ -14518,7 +14524,7 @@ this.battleSkillList = new Array();
 if (t) {
 var e = t.getSkillData();
 for (var i in e) {
-var a = new _(this);
+var a = new g(this);
 a.initWithObjectData(e[i]);
 this.battleSkillList.push(a);
 }
@@ -14530,7 +14536,7 @@ this.battleAbilityMainList = [];
 if (t) {
 var e = t.getAbilityData();
 for (var i in e) {
-var a = new g(this);
+var a = new f(this);
 a.initWithObjectData(e[i]);
 this.battleAbilityMainList.push(a);
 }
@@ -14539,6 +14545,7 @@ this.battleAbilityMainList.push(a);
 initBattleUnit: function(t, e) {
 this.unitController = t.getComponent("MonsterUnitCtrl");
 this.unitController.myBattleUnit = this;
+this.isTrialBattle() && (t.opacity = 0);
 this.avatarController = e.getComponent("MonsterAvatarCtrl");
 this.avatarController.myBattleUnit = this;
 var i = new cc.Node(), n = i.addComponent(sp.Skeleton);
@@ -14549,7 +14556,7 @@ i.setScale(0);
 i.setPosition(cc.v2(0, 140));
 i.zIndex = 1;
 this.mainAvatar = n;
-f.instance.storeRes(n.skeletonData, sp.SkeletonData);
+E.instance.storeRes(n.skeletonData, sp.SkeletonData);
 var o = this.battleMonsterModel.getSpineScale();
 this.avatarController.mainUnitAdjustPos.setScale(cc.v2(o, o));
 var r = s.clamp(this.getAttribute() - 1, 0, a.UI_M.elementImages.length - 1);
@@ -14564,6 +14571,10 @@ this.initComplete = !0;
 },
 isBoss: function() {
 return !1;
+},
+isTrialBattle: function() {
+var t = u.getStageData().getCategory();
+return !!t && t === m.WORLD_CATEGORY.TRIAL_EVENT;
 },
 getAttribute: function() {
 return this.battleMonsterModel.getAttribute();
@@ -14699,7 +14710,7 @@ for (var i = a.GM, n = 0; n < this.battleAbilityMainList.length; n++) if (i.abil
 return !1;
 },
 getUnisonType: function() {
-return m.INVALID_UNISON_TYPE;
+return _.INVALID_UNISON_TYPE;
 },
 isWaitingRage: function() {
 return !1;
@@ -14708,7 +14719,7 @@ isWaitingBeat: function() {
 return !1;
 }
 });
-e.exports = E;
+e.exports = C;
 cc._RF.pop();
 }, {
 BattleAbility: "BattleAbility",
@@ -20429,7 +20440,7 @@ i.deadUnitList.push(this);
 i.deadUnitList = [].concat(a(new Set(i.deadUnitList)));
 }
 }
-i && Array.isArray(i.damageArr) ? o.GM.actionController.addDamageRecord(i, e) : o.GM.actionController.addBuffDamageRecord(this.isEnemy, e);
+i && Array.isArray(i.damageArr) ? o.GM.actionController.addDamageRecord(i, e, this.isEnemy) : o.GM.actionController.addBuffDamageRecord(this.isEnemy, e);
 },
 processDamageShow: function(t) {
 cc.log("processDamageShow");
@@ -20629,7 +20640,8 @@ this.unitController.node.destroy();
 },
 doSkill: function(t) {
 cc.log("doSkill");
-var e = o.GM.effectQueue, i = o.GM.cameraController, r = o.RM, l = t.attacker.mySkill, p = l.actionList[0], m = p.getActionType(), _ = h.getUnitList(this.isEnemy), g = o.GM.gameRoot.poolManager, f = [], E = !1, C = this.checkTargetOnAttackConditionTrigger(t.target), T = this.checkTargetOnAttackGoodConditionTrigger(t.target), S = this.checkTargetHpRatioTrigger(t.target);
+var e = o.GM.effectQueue, i = o.GM.cameraController, r = o.RM, l = t.attacker.mySkill, p = l.actionList[0], m = p.getActionType(), _ = (p.getTargetType(), 
+h.getUnitList(this.isEnemy)), g = o.GM.gameRoot.poolManager, f = [], E = !1, C = this.checkTargetOnAttackConditionTrigger(t.target), T = this.checkTargetOnAttackGoodConditionTrigger(t.target), S = this.checkTargetHpRatioTrigger(t.target);
 if (!t.attacker.isEnemy) {
 (A = new Map()).targetList = t.target;
 A.isEnemyAttacker = t.attacker.isEnemy;
@@ -20737,6 +20749,7 @@ for (var K = 0; K < t.target.length; K++) t.target[K].checkErosion();
 this.processAfterSkillAttack(e, t, !0);
 (q = f).push.apply(q, a(t.target));
 E = !0;
+t.attacker.isEnemy || p.getTargetType() !== u.TargetRange.ENEMY_ALL || (o.playerAllAttackCount += 1);
 } else o.GM.skillController.checkEachAction(t, p, l.actionList);
 this.curSkillRate = 0;
 R = new s();
@@ -20761,7 +20774,7 @@ if (this.isAttackBySkillSubAction(J.getActionType())) {
 if (o.GM.actionController.checkInvoke(J)) {
 C = this.updateCheckTriggerOnAttackCondition(t.target, C);
 T = this.updateCheckTriggerOnAttackGoodCondition(t.target, T);
-this.doSkillAttackBySubAction(e, J, f, !E);
+this.doSkillAttackBySubAction(e, J, f, !E, t.attacker);
 E = !0;
 }
 } else o.GM.skillController.checkEachAction(t, J, j);
@@ -20822,28 +20835,29 @@ case u.ActionType.ATTACK_RANDOM_HIT:
 return !0;
 }
 },
-doSkillAttackBySubAction: function(t, e, i, n) {
-var r = h.getUnitList(this.isEnemy), l = h.getUnitList(!this.isEnemy), d = 1;
-e.getActionType() === u.ActionType.ATTACK_RANDOM_HIT && (d = parseInt(e.getEffectLimit() / e.getEffectValue()));
-var p = this.myNormalAttack, m = {}, _ = p.getHitEffectName();
-m.resourceName = h.getRefName(this.getId(), _);
-m.animationName = p.getHitEffectAniName();
-for (var g = 0; g < d; g++) {
-var f = o.GM.actionController.getActionDataBySubAction(this, r, l, e), E = new s();
-for (var C in f.target) {
-(T = f.target[C]).checkTriggerInvoke(u.TriggerType.BE_ATTACK_BEFORE_TIMING);
+doSkillAttackBySubAction: function(t, e, i, n, r) {
+var l = h.getUnitList(this.isEnemy), d = h.getUnitList(!this.isEnemy), p = 1;
+e.getActionType() === u.ActionType.ATTACK_RANDOM_HIT && (p = parseInt(e.getEffectLimit() / e.getEffectValue()));
+r.isEnemy || e.getActionType() !== u.ActionType.ATTACK || e.getTargetType() !== u.TargetRange.ENEMY_ALL || (o.playerAllAttackCount += 1);
+var m = this.myNormalAttack, _ = {}, g = m.getHitEffectName();
+_.resourceName = h.getRefName(this.getId(), g);
+_.animationName = m.getHitEffectAniName();
+for (var f = 0; f < p; f++) {
+var E = o.GM.actionController.getActionDataBySubAction(this, l, d, e), C = new s();
+for (var T in E.target) {
+(S = E.target[T]).checkTriggerInvoke(u.TriggerType.BE_ATTACK_BEFORE_TIMING);
 }
-E = new s();
-for (var C in f.target) {
-var T = f.target[C];
-E.addAction(new c(m, T.unitController.playSpineOnNode.bind(T.unitController)));
-E.addAction(T.beAttacked(f));
+C = new s();
+for (var T in E.target) {
+var S = E.target[T];
+C.addAction(new c(_, S.unitController.playSpineOnNode.bind(S.unitController)));
+C.addAction(S.beAttacked(E));
 }
-t.addQuery(E);
-for (var C in f.target) f.target[C].checkErosion();
-this.processAfterSkillAttack(t, f, n);
-i.push.apply(i, a(f.target));
-o.curActionData.damageArr.length || (o.curActionData.damageArr = f.damageArr);
+t.addQuery(C);
+for (var T in E.target) E.target[T].checkErosion();
+this.processAfterSkillAttack(t, E, n);
+i.push.apply(i, a(E.target));
+o.curActionData.damageArr.length || (o.curActionData.damageArr = E.damageArr);
 }
 },
 doAbilityAttack: function(t) {
@@ -20887,6 +20901,7 @@ delayTime: .1
 (i = new s()).addAction(new c(E, o.UI_M.delayTime.bind(o.UI_M)));
 e.addQuery(i);
 o.playerNormalAttackCount += 1;
+t.attacker.isEnemy || t.targetType !== u.TargetRange.ENEMY_ALL || (o.playerAllAttackCount += 1);
 },
 doAbilityAttackRandomAnimation: function() {
 var t = o.GM.effectQueue, e = new s(), i = new Map();
@@ -22669,10 +22684,10 @@ case n.BuffType.LOW_HP_DEF_CHANGE:
 return this.power >= 0 ? "HPが低いほど防御力UP" : "HPが低いほど防御力DOWN";
 
 case n.BuffType.ATK_CHANGE_BY_BUFF_COUNT:
-return this.power >= 0 ? "バフの数が多いほど攻撃力UP" : "バフの数が多いほど攻撃力DOWN";
+return this.power >= 0 ? "バフの数が多いほど攻撃力UP" : "デバフの数が多いほど攻撃力DOWN";
 
 case n.BuffType.DEF_CHANGE_BY_BUFF_COUNT:
-return this.power >= 0 ? "バフの数が多いほど防御力UP" : "バフの数が多いほど防御力DOWN";
+return this.power >= 0 ? "バフの数が多いほど防御力UP" : "デバフの数が多いほど防御力DOWN";
 
 case n.BuffType.ATK_CHANGE_BY_ELEMENT:
 return "属性攻撃力UP";
@@ -27176,7 +27191,7 @@ TYPE: 11
 PROMOTE_FILTER_GROUP_END: {
 ATTRIBUTE: 5,
 RARITY: 9,
-SKILL_ABIRILY: 43
+SKILL_ABIRILY: 44
 },
 SELL_FILTER_GROUP_END: {
 ATTRIBUTE: 5,
@@ -39133,9 +39148,14 @@ a.call.apply(a, [ this ].concat(Array.prototype.slice.call(arguments)));
 o.prototype = Object.create(a.prototype);
 o.prototype.constructor = o;
 o.prototype.OnGetDef = function(t, e) {
-for (var i = 0, a = 0; a < e.buffList.length; ++a) null != e.buffList[a].spriteFrameIcon && e.buffList[a].isGoodBuff() && i++;
-this.powerType === n.PowerType.FIX ? this.powerValSub ? t.fixStockable += Math.min(this.power * i, this.powerValSub) : t.fixStockable += this.power * i : this.powerValSub ? t.ratioStockable += Math.min(this.power * i, this.powerValSub) / 10 : t.ratioStockable += this.power * i / 10;
+var i = 0;
+if (e.isEnemy) for (var a = 0; a < e.buffList.length; ++a) null === e.buffList[a].spriteFrameIcon || e.buffList[a].isGoodBuff() || i++; else for (var o = 0; o < e.buffList.length; ++o) null !== e.buffList[o].spriteFrameIcon && e.buffList[o].isGoodBuff() && i++;
+this.powerType === n.PowerType.FIX ? this.powerValSub ? t.fixStockable += r(this.power * i, this.powerValSub) : t.fixStockable += this.power * i : this.powerValSub ? t.ratioStockable += r(this.power * i, this.powerValSub) / 10 : t.ratioStockable += this.power * i / 10;
 };
+function r(t, e) {
+var i = Math.min(Math.abs(t), Math.abs(e));
+return Math.sign(t) * i;
+}
 e.exports = o;
 cc._RF.pop();
 }, {
@@ -48239,6 +48259,12 @@ var a = t("RESTClient"), n = t("ApiConstants");
 a.RESTClient.graft({
 name: n.EVENT_GET_MASTER_DATA,
 path: "event/getMasterData",
+method: "GET",
+type: "binary"
+});
+a.RESTClient.graft({
+name: n.EVENT_POINT_REWARD_GET_MASTER_DATA,
+path: "event/getMasterEventPointRewardData",
 method: "GET",
 type: "binary"
 });
@@ -76863,6 +76889,18 @@ method: "GET",
 type: "binary"
 });
 a.RESTClient.graft({
+name: n.ITEM_MAIN_GET_MASTER_DATA,
+path: "item/getMasterItemMainData",
+method: "GET",
+type: "binary"
+});
+a.RESTClient.graft({
+name: n.ITEM_SELECT_GET_MASTER_DATA,
+path: "item/getMasterItemSelectData",
+method: "GET",
+type: "binary"
+});
+a.RESTClient.graft({
 name: n.ITEM_SET_GET_MASTER_DATA,
 path: "item/getMasterItemSetData",
 method: "GET",
@@ -82578,6 +82616,8 @@ EXCHANGE_ITEM_DETAIL: a.EXCHANGE_ITEM_DETAIL_GET_MASTER_DATA,
 EXCHANGE_ITEM_DETAIL2: a.EXCHANGE_ITEM_DETAIL_GET_MASTER_DATA2,
 PRESENT: a.PRESENT_GET_MASTER_DATA,
 ITEM: a.ITEM_GET_MASTER_DATA,
+ITEM_MAIN: a.ITEM_MAIN_GET_MASTER_DATA,
+ITEM_SELECT: a.ITEM_SELECT_GET_MASTER_DATA,
 ITEM_SET: a.ITEM_SET_GET_MASTER_DATA,
 ITEM_SET2: a.ITEM_SET_GET_MASTER_DATA2,
 MISSION: a.MISSION_GET_MASTER_DATA,
@@ -82596,6 +82636,7 @@ TOWER: a.TOWER_GET_MATER_DATA,
 STORY: a.STORY_GET_MASTER_DATA,
 PAYMENT: a.PAYMENT_DMM_GET_MASTER_DATA,
 EVENT: a.EVENT_GET_MASTER_DATA,
+EVENT_POINT_REWARD: a.EVENT_POINT_REWARD_GET_MASTER_DATA,
 RAID: a.RAID_GET_MASTER_DATA,
 LOGIN_BONUS: a.LOGIN_BONUS_GET_MASTER_DATA,
 LOGIN_PACK: a.LOGIN_PACK_GET_MASTER_DATA,
@@ -82659,6 +82700,8 @@ EXCHANGE_ITEM_DETAIL: "EXCHANGE_ITEM_DETAIL",
 EXCHANGE_ITEM_DETAIL2: "EXCHANGE_ITEM_DETAIL2",
 PRESENT: "PRESENT",
 ITEM: "ITEM",
+ITEM_MAIN: "ITEM_MAIN",
+ITEM_SELECT: "ITEM_SELECT",
 ITEM_SET: "ITEM_SET",
 ITEM_SET2: "ITEM_SET2",
 EQUIPMENT: "EQUIPMENT",
@@ -82677,6 +82720,7 @@ TOWER: "TOWER",
 STORY: "STORY",
 PAYMENT: "PAYMENT",
 EVENT: "EVENT",
+EVENT_POINT_REWARD: "EVENT_POINT_REWARD",
 RAID: "RAID",
 LOGIN_BONUS: "LOGIN_BONUS",
 LOGIN_PACK: "LOGIN_PACK",
@@ -83306,14 +83350,9 @@ CHARACTER_LINK: [ {
 key: a.DATA_KEY.CHARACTER_LINK
 } ],
 ITEM: [ {
-key: a.DATA_KEY.ITEM_MAIN,
-mapKey: "ItemId"
-}, {
 key: a.DATA_KEY.ITEM_RECIPE
 }, {
 key: a.DATA_KEY.ITEM_CATEGORY
-}, {
-key: a.DATA_KEY.ITEM_SELECT
 }, {
 key: a.DATA_KEY.ITEM_QUEST_LOCK
 }, {
@@ -83324,6 +83363,13 @@ key: a.DATA_KEY.ITEM_AP_RECOVERY_GEM
 key: a.DATA_KEY.ITEM_SELL_BONUS
 }, {
 key: a.DATA_KEY.ITEM_VOTE
+} ],
+ITEM_MAIN: [ {
+key: a.DATA_KEY.ITEM_MAIN,
+mapKey: "ItemId"
+} ],
+ITEM_SELECT: [ {
+key: a.DATA_KEY.ITEM_SELECT
 } ],
 ITEM_SET: [ {
 key: a.DATA_KEY.ITEM_SET,
@@ -83699,8 +83745,6 @@ key: a.DATA_KEY.EVENT_HELP
 }, {
 key: a.DATA_KEY.EVENT_SUB_HELP
 }, {
-key: a.DATA_KEY.EVENT_POINT_REWARD
-}, {
 key: a.DATA_KEY.EVENT_DAMAGE_REWARD
 }, {
 key: a.DATA_KEY.EVENT_FRIENDSHIP
@@ -83714,6 +83758,9 @@ key: a.DATA_KEY.EVENT_STORY_LINK
 key: a.DATA_KEY.EVENT_REWARD_RARITY
 }, {
 key: a.DATA_KEY.EVENT_SEASON
+} ],
+EVENT_POINT_REWARD: [ {
+key: a.DATA_KEY.EVENT_POINT_REWARD
 } ],
 RAID: [ {
 key: a.DATA_KEY.RAID_BATTLE
@@ -85961,7 +86008,7 @@ AUTO_DECK_FILTER_FUNC_NAME: "getFilterFlgByUnisonType",
 FILTER_GROUP_END: {
 UNISON: 2,
 TYPE: 4,
-ABILILY: 35
+ABILILY: 36
 }
 }
 });
@@ -99393,24 +99440,36 @@ o && o();
 }, this));
 var p = cc.sequence(d);
 this.node.runAction(p);
-c.on("finished", function(t) {
+this.setEndAnimation(r, c, function() {
 r.destroy();
-}.bind(this), this);
-c.play();
+});
 } else if (h) {
 h.endAction = o;
-c.on("finished", function(t) {
+this.setEndAnimation(r, c, function() {
 r.destroy();
-}.bind(this), this);
+});
 c.play();
 } else {
-c.on("finished", function(t) {
+this.setEndAnimation(r, c, function() {
 r.destroy();
 o && o();
-}.bind(this), this);
+});
 c.play();
 }
 return r;
+},
+setEndAnimation: function(t, e, i) {
+if (null !== e.defaultClip) {
+e.on("finished", function(t) {
+i();
+}, this);
+e.play();
+} else {
+var a = t.getComponent(sp.Skeleton);
+a && a.setCompleteListener(function() {
+i();
+});
+}
 },
 getSpriteFrameIcon: function(t) {
 switch (t.type) {
@@ -157628,6 +157687,7 @@ for (var p = 0; p < r.length; p++) {
 this.numSprites[p].spriteFrame = e[r[p]];
 this.numSprites[p].node.parent.active = !0;
 this.numSprites[p].node.active = !0;
+this.numSprites[p].node.stopAllActions();
 var m = this._createJumpAnimation(this.numSprites[p].node, p, r.length);
 this.numSprites[p].node.runAction(m);
 }
