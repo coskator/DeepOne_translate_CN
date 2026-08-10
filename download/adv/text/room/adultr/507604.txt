@@ -531,7 +531,7 @@ clickwait
 bg,download/character/5076/adv/image/113.jpg,0.5,255
 endwait,
 playvoice,1,download/adv/voice/character/5076/adu5076_093_42.mp3
-msg,1,<outline width=2 color=black>「は、ぁぁ……あ、ん、ん、ふふ、いっぱいでたね、パパ……\n私で、こんなに感じてくれたんだ」</outline>,
+msg,1,<outline width=2 color=black>「哈、啊啊……啊、嗯、嗯、呼呼，射了好多呢，爸爸……\n能因为我而舒服成这样啊……」</outline>,
 clickwait
 
 

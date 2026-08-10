@@ -276,7 +276,7 @@ clickwait
 
 
 playvoice,1,download/adv/voice/character/6064/606420_013_43.mp3
-msg,1,<outline width=2 color=black>「ちゅ、ちゅぅっ……ふふ、おちんちんも、せーえきも、おいしい……\nぴちゃ、ちゅ、りゅ……ん、ちゅ、ちゅっ」</outline>,
+msg,1,<outline width=2 color=black>「啾、啾呜……呵呵，鸡鸡和精液，都好好吃……\n啪嗒、啾、噜……嗯、啾、啾。」</outline>,
 clickwait
 
 
