@@ -1,0 +1,573 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm069.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我忽然梦见了来到拉莱耶之前，发生在夜晚海滩上的事。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我的身体天生就破败不堪，根本无药可救。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>不只用过常规医疗手段，也尝试过魔法手段，可这是深入到了我的灵质层面的缺陷。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>归根结底，我想，拖着这具破败不堪的身体活下去，\n就是我的命运。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>但我并不怨恨。因为我根本没空去怨恨。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>因为我已经决定了，等那一天终将到来之时，\n一定要好好告诉生下我、爱着我的父母。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>谢谢你们生下了我。\n我的这一生，过得无比充实而幸福——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>为此，我看了各种各样的事物，接触了各种各样的东西，\n坦率地面对自己的兴趣，度过了每一天都充满感动的生活。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>就这样，有一天……我意识到自己的身体差不多已经到极限了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可我不知为何，忽然很想看看大海。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>于是，我拖着摇摇晃晃的身体来到月影浮动的海边……最后终于耗尽力气，\n一头倒在了沙滩上。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>——就在这时，“某个人”出现了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「唔，彻底治好是不可能了，不过只用手头现有的东西，\n应该也能让你多活个一年左右吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>意识朦胧之中，我感觉模糊视野里映出的那道人影，\n俯身窥视着我，似乎还轻轻笑了一下。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>在那之后，我的意识便沉入了黑暗之中……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……然后，我在朝霞映照的海滩上醒了过来。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>胸闷气短的感觉和身体的疼痛几乎都消失了，\n口袋里还放着一份我平时所用药物的改良配方。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我不知道那个人是谁。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可是……我被某个人救了。\n这个事实让我既感激又欣喜，心中满是谢意。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>或许，正是这份心情又化作了支撑我活到明天的动力。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>那个人虽然说只能让我多活一年，但即便一年过去了，我的身体状况\n依然十分稳定，就这样一直生活到了今天。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>在那段模糊的记忆中，我几乎不记得任何关于那个人的事。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>勉强还记得的，就只有那个人身材娇小，\n以及头发束在一侧。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>——总有一天。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>总有一天，我想再见那个人一面。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>然后，我想向那个人表达给予我今日时光的感激……亲口说一声谢谢。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「唔……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「我说，莉音……果然就是她吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「莉濑也这么觉得？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「就你说的这些来看，我觉得基本可以确定了……她不仅拥有高超的医疗技术，\n就连体型和发型特征也都对得上……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「而且，听说正好就在那个时期，附近还曾有人目击到异端的人出没……\n对吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯……不过，我实在不觉得异端那种敢公然触犯禁忌的组织里，\n会有人出手救我，所以之前才没把他们列为人选……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「但实际像这样接触下来，如果是梅琪露，\n会做出那种事也并不奇怪吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「当然，既然她曾经隶属于异端，\n我也不会说她是什么正经人就是了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「可是，正因为梅琪露觉得救人比遵守秩序和道德更重要，\n所以她才会做出那些触犯禁忌的事……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯……果然，当时救了我的人就是……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「嗯？怎么了，从刚才开始就一直盯着我看。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「啊，不，那个……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「难道是身体不舒服？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「莉音之后也要参加想索吧？不舒服的话就休息吧。\n我也会参加，等想索结束后有时间的话，可以帮你检查一下。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「不，身体没事。我精神得很。前阵子梅琪露给我开的药，\n也特别适合我的身体……总之，我真的没事。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「是吗？那就好……不过面对医生，\n可别莫名逞强，故意装成身体没事的样子哦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:smile,metiru,-300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「啊，还有，要是哪天你觉得不做人也无所谓了，随时都可以\n来找我哦。到时候管它什么禁忌，我保证把莉音的身体彻底治好。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「至、至少现在，我还不想为了延长自己的寿命，\n连做人的底线都不要了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:sad,metiru,-300,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「真可惜啊。明明有办法治好，却偏偏不选。\n难道你已经放弃活下去了吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「才没有。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我绝对不会主动放弃活下去，绝对不会。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「可是，如果为此连人都不做了，那等将来见到爸爸妈妈的时候，\n我总觉得自己就没法挺起胸膛，说我好好活过了属于自己的人生。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以，至少现在，我打算继续作为一个人，\n拼尽全力，顽强地活下去。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「哦……那看来，我也没什么能帮得上你的了。真遗憾。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「都说了才不是这样嘛。我不是说过，梅琪露亲的药帮了我很大的忙吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「我还没厚颜无耻到会把那点小事说成帮了你。\n毕竟那种药，也只能解一时之急而已。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「欸欸，话说回来，梅琪露。\n你以前是不是救过一个倒在某处海边的女孩？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「等、莉濑亲……！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:surprise,metiru,-300,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「嗯？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:surprise,metiru,-300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「嗯……谁知道呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我在很多地方照顾过病人和伤员，\n光凭这点信息，我也不太好判断啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「那这么说，那个人就是莉音——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「差、差不多该去想索了，梅琪露亲！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:surprise,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「等、莉音！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「这件事以后再说！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:sad,metiru,-300,-20,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,rlin,-100_-60,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,-100,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「好啦，走吧走吧！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:sad,metiru,-300,-20,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_020.mp3
+anm,move,rlin,-300_-60,0.5,0
+anm,move,metiru,-500_-20,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:sad,metiru,-500,-20,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「等、你不用这么推我啦……怎么突然这样啊？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「今天也要加油哦——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:sad,metiru,-500,-20,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_018.mp3
+anm,move,rlin,-1200_-60,0.5,0
+anm,move,metiru,-1400_-20,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「……怎么偏偏在这里蒙混过去了呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「以前救过莉音的，\n我觉得肯定就是梅琪露……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「难道是因为一想到对方是自己的恩人，就紧张起来了……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「嗯……算了，再追问下去就是多管闲事了吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,yui1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui2,0,0,0,0,,,,
+imgconf,yui2,yui1,0,-190,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

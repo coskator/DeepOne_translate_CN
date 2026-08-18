@@ -1,0 +1,299 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>和莉音一起尽情享受在幻梦境中重现的夏祭之夜。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>逛过许多摊位、玩得尽兴后，我们决定到\n附近发现的一栋建筑里稍作休息。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_01.mp3
+msg,1,<outline width=2 color=black>「嗯～。能和哥哥一起逛夏祭，真的太开心啦～♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_02.mp3
+msg,1,<outline width=2 color=black>「呐，哥哥觉得怎么样？\n和我一起逛夏祭约会，你也觉得开心吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_03.mp3
+msg,1,<outline width=2 color=black>「啊，不过……说到夏祭上的甜蜜约会，\n最后应该还得来个收尾吧。感想是不是等那之后再问比较好？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>莉音说着，露出恶作剧般的笑容，将手放在了我的大腿上。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_04.mp3
+msg,1,<outline width=2 color=black>「幸福约会的最后，果然也会\n期待做那种事吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_05.mp3
+msg,1,<outline width=2 color=black>「毕竟，这是和最喜欢的人共度的时光嘛。\n既然如此，当然得留下一段无比特别的回忆才行。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_06.mp3
+msg,1,<outline width=2 color=black>「我呀，可是期待得不得了哦。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_07.mp3
+msg,1,<outline width=2 color=black>「所以……哥哥也不用客气哦？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_08.mp3
+msg,1,<outline width=2 color=black>「呐――你想怎么做？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_09.mp3
+msg,1,<outline width=2 color=black>「呵呵……像这样紧贴在一起，总觉得心跳都变快了呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_10.mp3
+msg,1,<outline width=2 color=black>「哥哥的，变得好大……都变成这样了，\n原来你这么期待呀？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_11.mp3
+msg,1,<outline width=2 color=black>「我也，好想要哥哥的……里面，已经变得湿漉漉的了\n所以……这就放进来哦」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_12.mp3
+msg,1,<outline width=2 color=black>「啊、嗯、嗯呜……！　嗯、呜……嗯嗯……哥哥的，\n进来了、啊……噗滋一下，顶到最里面了……嗯、嗯啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_13.mp3
+msg,1,<outline width=2 color=black>「最深的地方……被这么粗的摩擦着……哈、啊、嗯呜，肚子里面，\n好像就要被舒服的感觉填满了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_14.mp3
+msg,1,<outline width=2 color=black>「哥哥，也来接吻吧？\n因为我想用自己的一切感受哥哥……啾、嗯、呜」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_15.mp3
+msg,1,<outline width=2 color=black>「嗯、啾噗、啾、噗呜……舔、啾、噗……嗯嗯、\n一边接吻，一边把腰啪啪地撞过来……啾、舔溜、嗯、呜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_16.mp3
+msg,1,<outline width=2 color=black>「啾、舔溜、舔、啾、溜呜……嗯呼、嗯、嗯嗯……啾噗、\n嗯咕、呼、嗯、呜、嗯嗯……！」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_17.mp3
+msg,1,<outline width=2 color=black>「呐，哥哥……接下来，要不要来个会让我们变得更色情的吻？」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_18.mp3
+msg,1,<outline width=2 color=black>「来，把哥哥也最喜欢的，色情药……喝下去？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_19.mp3
+msg,1,<outline width=2 color=black>「啾溜、啾、舔……舔舔、嗯、啾呜……啾、舔溜、\n嗯、嗯……噗、哈啊」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_20.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呜……哥哥的，在里面变得硬邦邦的了。\n药已经起效了呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_21.mp3
+msg,1,<outline width=2 color=black>「再来……嗯、咕嗯，再一起变得更奇怪吧？\n把平时用的贴片，也贴上吧……？」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_22.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊啊♪　哈、啊啊……贴片，贴上去了……啊、嗯、\n一股热流，从胸部扩散开来……嗯啾、嗯、呜呜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_23.mp3
+msg,1,<outline width=2 color=black>「啊、来了，热热的感觉，冲进脑袋里，要变成笨蛋了……嗯啊、\n哈、啊、嗯嗯嗯♪」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_24.mp3
+msg,1,<outline width=2 color=black>「来、了，嗯咕、啊、哈、啊啊……身体，被药浸透了、\n舒服得，好厉害、呀呜、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_25.mp3
+msg,1,<outline width=2 color=black>「嗯、呼、呵呵，一片还不够、对吧……哥哥，\n再变得更笨一点吧……？　一、起，嗯啊、嗯、来，啪嗒♪」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_26.mp3
+msg,1,<outline width=2 color=black>「啊、咿、哈、啊、啊啊啊♪　嗯咕、呜、嗯嗯、\n呀、这个、不行，已经、只知道舒服、了，嗯咿、咕、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_27.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯嗯呜♪　哥、哥，啊、啊啊、那、样，猛顶的话，\n啊、咿、嗯嗯呜、我要去了，我、啊、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_28.mp3
+msg,1,<outline width=2 color=black>「我、也……看着哥哥、这么兴奋，\n嗯、嗯、还想、变得更舒服……啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_29.mp3
+msg,1,<outline width=2 color=black>「哥、哥，亲、亲，来亲吧……现在、亲亲的话，\n肯定、会很舒服、所以，多亲几下，嗯、呜呜♪」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_30.mp3
+msg,1,<outline width=2 color=black>「嗯嗯、啾、舔溜、啾、噗……舔、舔溜、啾、啾溜，\n嗯呼、好舒、服……脑子、要融化了，嗯、嗯嗯呜♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_31.mp3
+msg,1,<outline width=2 color=black>「嗯、呜、哥、哥，喜、欢，最喜欢了♪\n哥哥也、用我、变得奇怪吧……嗯、嗯嗯呜」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_32.mp3
+msg,1,<outline width=2 color=black>「啾、啾噜、舔、啾、啾噜噜，把药、喝得\n饱饱的，变成、笨蛋……啾噗啾溜、嗯、咕、嗯、嗯、嗯嗯呜♪」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_33.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、哦哦♪　哥、哥，好厉害，嗯嗯呜、\n咕噜咕噜、好激烈，嗯咿、嗯、呜、嗯嗯嗯♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_34.mp3
+msg,1,<outline width=2 color=black>「嗯咿、咕、哈、啊啊啊啊！　要坏掉了，我、\n脑袋、要坏掉了，嗯咿、啊、咕、啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_35.mp3
+msg,1,<outline width=2 color=black>「嗯咕、呀呜、啊、咿、哈、嗯、哦哦♪\n哥、哥哥，射出来，多多地、咻咻、射出来♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_36.mp3
+msg,1,<outline width=2 color=black>「射到、我里面，把哥哥的精液、咻咻地、\n全都给我♪　嗯咿、咕、啊、啊、啊啊啊啊♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_37.mp3
+msg,1,<outline width=2 color=black>「嗯咿、嗯、哦、哦、哦♪　嗯、咕、呜呜呜、\n要去了，嗯、呜呜、要去了、要、去了，嗯、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_38.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咿、啊、啊、啊啊啊啊啊啊啊啊♪」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/103957/adv/image/110.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_39.mp3
+msg,1,<outline width=2 color=black>「哦、哦哦……♪　嗯嗯呜呜、射出来了，好烫的、\n流进、子宫里了，嗯、咿……哈、嗯、啊啊啊♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_40.mp3
+msg,1,<outline width=2 color=black>「精液、在里面、好烫、好舒服、太舒服了♪\n嗯咕、啊、哈、嗯、呜呜……♪」</outline>,
+clickwait
+
+
+bg,download/character/103957/adv/image/111.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_41.mp3
+msg,1,<outline width=2 color=black>「呼啊、哈、哈啊、哈啊♪　身体、抽搐、停不下来、\n嗯、啊啊啊、一直、都在高潮♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1039/adu103957_01_42.mp3
+msg,1,<outline width=2 color=black>「药效、一直都没退、嗯咿、哥哥、\n现在、身体一颤、我、又高潮了――」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+playvoice,1,download/adv/voice/character/1039/adu103957_01_43.mp3
+msg,1,<outline width=2 color=black>「――啊、嗯、呜呜呜呜呜呜呜♪」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

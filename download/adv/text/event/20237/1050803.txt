@@ -1,0 +1,462 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>来到拉莱耶之前，我想，我大概一直都没有余力顾及这些。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>拖着这副破破烂烂的身体，也不知道自己还能活多久。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可是，为了回应已经离世的父母对我的爱，为了能说自己这一生\n过得很美好，我想让所剩无几的日子变得有价值。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>这份焦虑，不知不觉间把我对父母的感情变成了类似使命感的东西，\n也让我的心变得愈发固执封闭。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>结果，我又开始把别人的担心当成怜悯，\n觉得被人怜悯就像是被人瞧不起一样……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……不过，现在不一样了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>担心一个人，本来就没有任何不对。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>这是再理所当然不过的事，而我之所以会把它当成怜悯，\n正是因为不是别人，而是我自己比任何人都更认定自己是个值得怜悯的对象。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>有人愿意为我操心。\n对此我本该心怀感激，反倒生气才是不合情理。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>如果不想被人怜悯……如果不想当个可怜人，\n而是想和对方做平等的朋友，只要把这些话说出来就好了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>没想到，我竟然连这么理所当然、这么简单的事都做不到。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>回想起不久前的自己，总觉得有点难为情。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11670300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm169.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「……朋友。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「诶，你这是什么反应？\n难道一直把我们当成朋友的只有我？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「那可真是我最近这段时间受到的最大打击了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「啊、不、不是！　怎么会……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「只是，那个……钰明明什么都没能为莉音小姐做，\n这样也可以和您成为朋友吗……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「……？　呃，什么啊。小钰是那种连友情都要讲利益关系的人？\n没用的家伙就不算朋友，是这意思？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「不、不是！　钰从来没有过哪怕一丁点这种想法！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「那我和小钰做朋友，不就没什么问题了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「莉音小姐……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「呃、那个……像钰这样的人真的可以做您的朋友吗——……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……唔，不、不是，请当钰刚才什么都没说！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「呃，那个……就是……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:unique,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「唔、呜……啊、呜呜……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「那个，小钰……你怎么了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「那、那个，那个……那个！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯、嗯。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「那个！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「――请、请和钰做朋友」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「………………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「…………………………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「……？　那、那个，莉音、小姐……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「等等。我正在想该怎么回答。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:unique,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「咿！？　回、回答还要犹豫，也就是说，您要拒绝钰吗！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「啊，不是，不是那样。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「把自己的心意化作语言传达给对方……我知道，\n这对小钰来说，是一件非常困难的事。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「明明身负只凭一句话就能扭曲他人的意愿、让对方言听计从的力量……\n即便如此，小钰还是愿意向我传达自己的心意，这让我很开心。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以我就在想，只是简单地回答一句，或许不太够吧——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不过，也不能因此让小钰感到不安呢。\n而且仔细想想，答案果然没法说得那么复杂。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「――我很乐意。今后也请多多关照啦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「啊……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「真、真的吗……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「怎么啦？　你该不会是在担心，我只是被你的力量控制了，\n才会答应你的吧？　你自己感觉不到力量有没有发动吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「钰、钰并没有那个意思……可是，说不定，\n万一钰在毫无自觉的情况下使用了力量……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「放心啦。假如小钰刚才的话真的带有力量，扭曲了我的\n意愿，那我还会为该怎么回答而苦恼这么久吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「这……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「再说了，就算小钰的力量真的发动了，也根本没关系啦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不管有没有被命令，我本来就打定主意要和小钰做朋友了呀？\n或者说，我早就把你当成朋友了呀？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以在意那种事，纯属白费力气、白费力气、白费力气♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「…………嗯。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:smile,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「谢谢您！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「这也不是什么需要道谢的事啦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:smile,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「即便如此……钰还是非常开心。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:smile,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以，那个……或许是钰多管闲事了，\n但钰也想为自己的朋友做些什么。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯？　我刚才也说过了吧，我可不是想从友情里谋求什么利益哦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「钰也不是那个意思……可是，那个……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「其实在开始想索之前，钰无意间偷听到了\n莉音小姐和莉濑小姐她们的谈话。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「关于梅琪露小姐的事，钰就在想，自己是不是也能帮上什么忙……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「想为朋友做些什么……那个，应该不是什么奇怪的事，\n对吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「你是说小莉濑的那些话？　还是和小梅琪露有关的事？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「呃……抱歉，我完全想不起来了。\n你说的到底是什么事来着？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「……咦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

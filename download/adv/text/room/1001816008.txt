@@ -1,0 +1,459 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+roombg,1816,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-1200,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,rise,0_-100,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「梅琪露，现在有空吗——？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:surprise,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「咦，等等？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,-300,-340,0.5,0.5,,,,
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-340,0.5,0.5,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:surprise,rise,-350,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「……莎夏为什么正跪坐在石板路上？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「莎夏放了定期体检的鸽子。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:sad,metiru,350,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我明明也忙得要命，却还特意为了莎夏\n挤出时间来。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:smile,metiru,350,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「而且她连一句道歉都没有。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以现在就成这样了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「啊——事情的经过我大概明白了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-340,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「我、我都说多少遍了，我不是故意的！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「就算不是故意的，你放了鸽子也是事实吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「话是这么说没错，但都怪<ruby>悲狂戮葬|埃策尔・安特拉姆</ruby>啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「你是不是觉得，不管什么事都推到魔导书头上就行了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「它确实会消除我的记忆啊！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:unique,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「唉，从刚才开始就一直找借口。看来你反省得还不够，\n要不接下来在你膝盖上放块岩石或者砖头？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「不，这也太可怜了吧……我以前也被紫阳花这样罚过，\n记得那滋味简直难受得要命。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:unique,metiru,350,-20,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「主人被侍女拷问什么的，也太好笑了吧。\n到底发生了什么才会变成那样啊？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「我把偶然得到的高级羊羹全都吃掉了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「事情败露后，我先是被一拳揍飞到了院子里，接着又被罚跪在鹅卵石上，\n身上还压着院子里的石灯笼……呜，那次真的痛死我了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:surprise,metiru,350,-20,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「那种程度，真的只是痛而已吗……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「莎夏，那真的特别难熬，\n所以你还是老老实实道个歉吧！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「呜……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……我的确忘记了约定，这是事实……好吧，是我不对啦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:unique,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「咦——完全不行。根本感受不到你的诚意——\n唉——看来果然还是得惩罚你一下才行吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「为什么啊！我不是已经道歉了吗！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「呵。开玩笑的啦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「毕竟魔导书的副作用，我比任何人都清楚。\n事到如今，我才不会再因为这个一件件地责怪你呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:surprise,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「不是，我现在明明就正在被罚跪啊！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:smile,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「我不会责怪你，但还是会捉弄你哦。毕竟很好玩嘛。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「你的性格也太恶劣了吧！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「好啦好啦。喏，你现在可以起来了哦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「真是的……——呜！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-340,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……腿、腿麻了，动不了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,350,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「啊……这样啊。真辛苦呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,metiru,200_-20,0.5,0
+endwait
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:surprise,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「等、你、你为什么要靠过来……等等，你想做什么——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:unique,metiru,200,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「戳戳」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「呀呜！？　等、别、别用脚戳我！　咿！\n我现在真的……呀、啊嗯！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:smile,metiru,200,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「啊哈，一颤一颤地乱蹦，真有意思——。\n来呀来呀，再不逃的话，我可要继续戳你喽——♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「要是能逃，我早就逃了——呀呜！？　嗯、嗯嗯，喂、\n真的住手、啊、都、都说了不行啦……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-350,-100,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「梅琪露和莎夏的关系真好呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-340,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「哪里好了！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:unique,metiru,200,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「是呀——我们关系特别好，对吧——？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「呀啊嗯！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:normal,metiru,200,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「呵呵。莉濑也要和莎夏“亲近亲近”吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「哈！？　你干吗拉她一起做这种怪事——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:unique,rise,-350,-100,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「呵呵呵，既然你都邀请了，我可不能不给面子啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,rise,-200_-100,0.5,0
+endwait
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「等、你、你该不会……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:smile,rise,-200,-100,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+msg,0,<outline width=2 color=black>「戳戳」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「呀、啊、嗯嗯！？　呜咕、唔……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:unique,metiru,200,-20,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「戳戳」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「咿呜、嗯、啊、啊……！　真、真的，别这样……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181604/adv/atlas/stand_a,body:smile,metiru,100,-20,0.5,0.5,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:smile,rise,-100,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露＆莉瀬</outline>,
+msg,0,<outline width=2 color=black>「戳戳」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-340,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莎夏・奥唐纳</outline>,
+msg,0,<outline width=2 color=black>「你、你们两个，闹够了没有——！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

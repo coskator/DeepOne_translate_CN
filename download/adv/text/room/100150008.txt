@@ -1,0 +1,293 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+roombg,1050,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0.5,,,,
+anm,tint,clau,150_150_150,0.0001,0
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,-350,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「嗯……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「钰小姐，您怎么了吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「从刚才起，您好像就一直很在意脚下……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,-350,-90,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「啊，不……也没什么大不了的，\n就是有点在意地板上的缝隙」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,-350,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「这种地方明明很容易积攒污垢，\n可清理起来又很麻烦，不是吗」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「确实……毕竟缝隙很细，只是普通地扫一遍或擦一遍，\n可能没办法彻底清理干净呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「原来如此。听您这么一说，确实能看到一些细小的污垢。\n不过，我想若不是仔细盯着看，应该也不会注意到」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,-350,-90,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「是啊。不过这种东西一旦注意到了，\n就会一直忍不住在意呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「我懂。正因为是这种细枝末节，反而会让人特别在意，\n确实有这种情况呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「既然如此，直接把根源清除掉，\n不是最省事的办法吗」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>「仓库里应该有刷毛细密、适合清理这种缝隙的\n刷子之类的工具，要我去找找吗」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,-350,-90,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「啊，不。再怎么说，也不能劳烦您做到这个地步……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「请不必介意。不仅是钰大人，吾主似乎也开始在意了。\n既然如此，消除这份困扰也是我的职责」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,-350,-90,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「可是，还要特意劳烦您去仓库找工具，实在是……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizel,0,-120,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「我觉得没必要这么大费周章哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我觉得就算不用工具，也能轻松清理干净。要是能简单解决的话，\n钰小姐应该也不会觉得过意不去了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,-350,-90,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「呃，这个……比起特意去仓库里找，确实……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:normal,clau,350,-130,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「可是，吾主。您打算如何清理呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「这种地板的材质，应该不像木地板那样\n容易被划伤」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:smile,zizel,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「只要有尖锐的东西能把缝隙里的污垢剔出来，应该就没问题了吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:unique,clau,350,-130,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「…………吾、吾主？您把我的剑身取出来，\n究竟是想做什么……难、难道说……不，应该不是吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:smile,zizel,0,-120,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「克劳索拉斯的剑尖正好能伸进这条缝隙里」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,-350,-90,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「吉、吉泽尔小姐？那个……我记得是你们家的传家宝吧……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:smile,zizel,0,-120,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「嗯，确实也有人这么说呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,480,720,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zizel1,0,0,480,720,0.5,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:normal:weapon_white,zizel2,0,0,0,0,,,,
+imgconf,zizel2,zizel1,720,720,,,0,0.8,0.8,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「嘿！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:normal,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「咦，比想象中还要顽固呢……是不是再多使一点劲\n比较好呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0.5,,,,
+anm,tint,yui,150_150_150,0.0001,0
+spriteatlas,download/character/104001/adv/atlas/stand_a,body:unique,clau,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>克劳索拉斯</outline>,
+msg,0,<outline width=2 color=black>「啊、啊啊啊……我的剑身……这次竟然被拿来清理地缝……我可是支撑着芭德薇家\n走到今天的黄金……是传承悠久的光辉……如今却被伸进地缝里……啊啊啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,clau,300_-1200,0.7,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_020.mp3
+spriteoff,clau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「啊！？克、克劳索拉斯小姐，你没事吧！？\n吉泽尔小姐，克劳索拉斯小姐昏倒了……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:smile,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>吉泽尔·芭德薇</outline>,
+msg,0,<outline width=2 color=black>「啊，就是这个力度。原来如此，我逐渐掌握诀窍了。\n这种清洁工作，意外地还挺有趣呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「振、振作一点，克劳索拉斯小姐！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「克劳索拉斯小姐——！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

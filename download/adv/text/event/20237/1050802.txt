@@ -1,0 +1,645 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11060300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11060300.jpg,bg,450,0,2,1
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm194.mp3,0,
+endwait,,,,,,,,,,,
+
+
+anm,move,bg,-450_0,30,0
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,metiru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru2,0,0,0,0,,,,
+imgconf,metiru2,metiru1,0,-20,,,0,1.5,1.5,0.5
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「哦——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「这就是所谓的日本夏日祭？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「好像是呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:normal,rin,-300,-120,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「哇——！　快看，好多摊位排在一起……而且，\n闻起来也好香啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100604/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「……唔。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:surprise,rin,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「咦？　怎么了，芙拉小姐？\n你好像一脸严肃的样子……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100604/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「夏日祭的领域可是很危险的哦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:surprise,elica,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「危险……？　你的意思是，察觉到了什么异常吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:anger,rin,-300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「难道是虚像吗？　如果是的话，就交给我吧！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100604/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「不。不是那回事……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:sad,rin,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「那到底有什么危险的呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「——啊，原来如此。是这么回事啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「说起来，我倒是听过一些传闻，说夏日祭领域里的摊位，\n总会闹出各种各样的意外……好像是这么说的吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:smile,elica,300,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「比如会曝光羞耻往事的射击游戏，或是强迫人做出特定行为的\n抽签……嗯，确实发生过不少事呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,-300,-20,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「然后每次大哥哥都能看到女孩子害羞的模样，\n还捞到了不少好处，是吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「有这回事吗？」,选项2　「这次也很期待」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:unique,elica,300,-100,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「哎呀。你的记忆还真是只记对自己有利的事呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:smile,elica,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>「为了让没有记性的下贱东西回想起来发生过什么，\n要不要再把同样的事情重演一遍呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100604/adv/atlas/stand_a,body:shy,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「不、不行啦……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:surprise,rin,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「到底发生过什么事呢……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,-300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「谁知道？　不过，大概是很有意思的事吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「我是还想再多享受一会儿这段对话啦，\n不过一直放着不在这里的那两个人不管，真的好吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:surprise,rin,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「咦……啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:surprise,rin,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「莉音小姐和钰小姐到处都找不到……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「看来是在进入幻梦境的时候走散了呢。\n芙拉，你能感觉到她们两个的气息吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100604/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「哥哥……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「真是的，你这下贱东西就不能努力把自己的歪心思藏好一点吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「呵。哎呀，被这么多穿着可爱浴衣的美少女围着，\n大哥哥会忍不住想些色色的事情，或许也没办法吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「我是还想再多享受一会儿这段对话啦，\n不过一直放着不在这里的那两个人不管，真的好吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:surprise,rin,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「咦……啊！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:surprise,rin,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「莉音小姐和钰小姐到处都找不到……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「看来是在进入幻梦境的时候走散了呢。\n芙拉，你能感觉到她们两个的气息吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100604/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「呃，她们好像就在离这里不远的地方。\n我想很快就能会合」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:normal,rin,-300,-120,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+spriteatlas,download/character/103320/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+msg,0,<outline width=2 color=black>「是吗。那我们赶快过去吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101808/adv/atlas/stand_a,body:normal,rin,-300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+msg,0,<outline width=2 color=black>「好！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+bg,download/bg/bg_11670300.jpg,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm146.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0.5,,,,
+anm,tint,yui,150_150_150,0.0001,0
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「那么……看来这里只有我和小钰呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「呃，接下来我们该怎么办……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯——，让我想想」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「那边好像传来了祭典乐曲的声音，\n总之先朝那边走走看吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「虽然不知道这个领域究竟是什么地方，\n但待在显眼的地方，应该也更容易和大家会合」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「明白了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯，毕竟只有我们两个，别着急，小心前进吧。\n毕竟在幻梦境里，谁也不知道会发生什么」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「好……呃，那么就由钰走在前面吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯？不用这么替我操心啦。\n真要这么说的话，不是更应该由我走在前面吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「小钰不太像是习惯打打杀杀的那种人吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「这……可、可是，来到拉莱耶之后，\n钰也一直在尽自己所能努力」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「啊，抱歉。我刚才并不是想说小钰靠不住，\n也没有别的类似意思」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「小钰有多努力，我多少还是知道的。\n你经常在练习魔术吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「咦……您、您知道吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「那当然，身为情报贩子，自然也少不了调查身边的人嘛」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不过，这也不是什么值得我摆架子吹嘘的事。\n我想应该有不少人都知道哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:shy,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「原、原来是这样啊……真难为情」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「钰还差得很远……总是让大家看到自己不中用的样子，\n实在太没出息了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「才没有那回事。你应该再自信一点」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「尽管一直被与生俱来的力量摆布，但如今你已经开始正视它，\n寻找自己力所能及的事，并为此不断努力」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「这已经是一件非常了不起的事了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「您能这么说，我很高兴。\n可是，钰一定已经算是非常幸运的了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「……嗯——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「小钰啊，你是觉得我身体已经破破烂烂的，所以才想照顾我，主动走在前面，\n还觉得跟这样的我相比，自己的遭遇根本不算什么吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「啊，不，不是的，钰并没有……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯—哼—哼—。你都露出一副被我说中了的表情了，可没什么说服力哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「——别自顾自地可怜别人，还拿别人来作比较。\n我最讨厌这种事了。我可没理由被别人说成可怜」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「唔……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「——之类的。要是换作不久前的我，或许会这么说吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「咦……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「谢啦。小钰也是在用自己的方式\n担心我，对吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不过，说实话，完全是多管闲事就是了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「但是，嗯。还是谢谢你。谢谢你担心我、体谅我」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「莉音小姐……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「不过，再有下次我可就要生气了。以后别再用这种方式体谅我了哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:unique,yui,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「噫！？　对、对不起……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「嗯。原谅你了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>「说到底，我们是彼此平等的伙伴和朋友吧。\n所以这一点，我们都别弄错了哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

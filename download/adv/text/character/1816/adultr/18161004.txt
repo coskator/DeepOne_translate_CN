@@ -1,0 +1,282 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>我和换上浴衣的梅琪露一起，沿着在幻梦境中发现的参道向前走去。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>虽然她穿着与平日不同的浴衣，但梅琪露那悠然的步伐甚至让人感到几分优雅，\n映在夜色中的身姿显得格外美丽。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_01.mp3
+msg,1,<outline width=2 color=black>「怎么啦，大哥哥？一直这样目不转睛地盯着人家。\n难道是被我穿浴衣的样子迷住了吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_02.mp3
+msg,1,<outline width=2 color=black>「一直被你用这么肆无忌惮的眼神盯着，\n人家都要担心什么时候会被你袭击，怕得浑身发抖了呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_03.mp3
+msg,1,<outline width=2 color=black>「呵呵……怎么啦？摆出一副自己根本没那种打算的表情。\n可一点说服力都没有哦，尤其是大哥哥你。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_04.mp3
+msg,1,<outline width=2 color=black>「其实你心里一直很期待吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_05.mp3
+msg,1,<outline width=2 color=black>「在这种昏暗的地方和我独处……还能规规矩矩地\n忍耐下去的理性，大哥哥你根本就没有吧？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>面带笑意的梅琪露缓缓向我伸出手，\n隔着浴衣轻轻抚摸我的小腹。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>那甜美的触感，让我的腰不由得颤了一下。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_06.mp3
+msg,1,<outline width=2 color=black>「啊哈♪　你果然已经忍不住想做那种事了吧？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_07.mp3
+msg,1,<outline width=2 color=black>「没关系呀。\n反正我从一开始就没对大哥哥的理性抱过期待。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_08.mp3
+msg,1,<outline width=2 color=black>「而且不是常说忍耐有害身体嘛。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_09.mp3
+msg,1,<outline width=2 color=black>「我就特别照顾一下大哥哥吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_10.mp3
+msg,1,<outline width=2 color=black>「坦率一点吧……好不好？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_11.mp3
+msg,1,<outline width=2 color=black>「好啦。大哥哥，认命把勃起的鸡巴掏出来吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_12.mp3
+msg,1,<outline width=2 color=black>「反正早就被我看出来它已经变大了。\n乖乖掏出来的话，我就让你舒服哦？」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_13.mp3
+msg,1,<outline width=2 color=black>「啊哈♪　大哥哥，你还真是忠于自己的欲望呢—」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_14.mp3
+msg,1,<outline width=2 color=black>「好乖好乖，能老老实实把鸡巴掏出来，真了不起呀—♪\n真棒—真棒—」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_15.mp3
+msg,1,<outline width=2 color=black>「呜哇……鸡巴猛地抖了一下……刚才那句话让你兴奋了？\n大哥哥果然是个变态呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_16.mp3
+msg,1,<outline width=2 color=black>「不过，既然都答应你了……我就好好让这根变态鸡巴\n舒服起来吧……嗯、啾、舔……」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_17.mp3
+msg,1,<outline width=2 color=black>「舔、舔……啪嗒、呃、舔……呼，鸡巴变得好烫。\n舌头都快被烫伤了」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_18.mp3
+msg,1,<outline width=2 color=black>「大哥哥很喜欢被舔前端吧……这个完全露出来的\n地方，被舔来舔去很舒服吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_19.mp3
+msg,1,<outline width=2 color=black>「舔、啾噗、啾、啾噜……嗯啊，鸡巴又跳起来了……。\n啪嗒、舔……变得好硬……嗯、啾呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_20.mp3
+msg,1,<outline width=2 color=black>「敏感的地方被欺负，很舒服吧……咕啾、舔舔、\n嗯、呼……啾、啪……啾、啾噜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_21.mp3
+msg,1,<outline width=2 color=black>「不过，要是一直舔这里，这根软弱鸡巴很快就会射掉，\n所以我也舔舔这边吧……嗯啊、呃、舔呜」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_22.mp3
+msg,1,<outline width=2 color=black>「舔、啾噗、舔、舔呜……大哥哥也喜欢这里吧……？\n被舌尖钻弄冠状沟，很有感觉吧……舔、啾、噗」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_23.mp3
+msg,1,<outline width=2 color=black>「哈、啊，越来越硬了……被我弄得这么舒服，\n鸡巴都硬邦邦的了……舔、舔噜、嗯、啾呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_24.mp3
+msg,1,<outline width=2 color=black>「嗯呼、呃……前列液、溢出来了……啾、啾、明明只是在舔，\n居然就流出这么多透明的液体……鸡巴、也太弱了吧……♪」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_25.mp3
+msg,1,<outline width=2 color=black>「不过……啾、就算是这么弱的鸡巴，我也会好好疼爱\n它的……一起爽个够吧—？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_26.mp3
+msg,1,<outline width=2 color=black>「来吧……把我的嘴、变得像小穴一样……让大哥哥的鸡巴，\n每一处都感受到快感……嗯啊、哈、啊、唔」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_27.mp3
+msg,1,<outline width=2 color=black>「嗯唔、嗯、呼……啾噗、嗯、咕、嗯、呼呜呜……啾噗、\n嗯咕、嗯、唔、滋、啾噜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_28.mp3
+msg,1,<outline width=2 color=black>「嘴巴小穴、被塞得、满满的……咕噗、咕噗、滋啾、\n嗯唔、嗯、呜、嗯、咕、鸡巴、好大、嗯唔、嗯、嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_29.mp3
+msg,1,<outline width=2 color=black>「嗯噗、啾、啾噜……嗯、嗯嗯、前列液、越来越多了，\n嗯啾、滋滋、嗯、咕……呼、嗯、呼、啾噜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_30.mp3
+msg,1,<outline width=2 color=black>「咕噗咕噗、呃、嗯唔、嗯、嗯嗯……！　龟头、勾到、\n嘴唇了……发出了、好下流的声音，咕啵、嗯咕、啾噗……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_31.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯……！　大哥格、好像快要射了……鸡巴、\n抖个不停、在为射精、做准备，我都知道……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_32.mp3
+msg,1,<outline width=2 color=black>「咕噗、嗯咕、啾噗啾噜……！　嗯咕、嗯、呼、滋、滋啾噜、\n嗯、咕、嗯唔、嗯、呜呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_33.mp3
+msg,1,<outline width=2 color=black>「快点、射粗来……嗯噗、嗯、呼呜、啾、滋、啾滋滋……！\n嗯嗯、射进嘴巴小穴里……啾噗滋、啾噜噜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_34.mp3
+msg,1,<outline width=2 color=black>「啾噜、嗯、滋滋、啾、噜、啾噜噜……！　嗯、嗯嗯、要来了，\n精液、涌上来了、嗯噗、嗯咕、嗯、呼、滋、啾噜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_35.mp3
+msg,1,<outline width=2 color=black>「滋噜、啾、滋噜噜、嗯咕、嗯、呼、嗯、呜呜、\n啾、嗯、噗、滋、啾噜噜噜噜——！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/181610/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_36.mp3
+msg,1,<outline width=2 color=black>「嗯唔、嗯嗯嗯呜呜呜……！　嗯、呼……滋、啾……咕、\n嗯咕……滋滋、嗯咕……咕啾……嗯唔、嗯、呜」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_37.mp3
+msg,1,<outline width=2 color=black>「滋、啾……嗯、呼……大哥格、精液、射太多了……。\n缠在喉咙里……好臭啊……嗯、呵呵……啾、啪……」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_38.mp3
+msg,1,<outline width=2 color=black>「嗯、啊、哈啊啊……射出来的精液、居然连嘴里都装不下……再怎么说，\n这精液也太多了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_39.mp3
+msg,1,<outline width=2 color=black>「嘴巴里、还沾满了大哥哥那臭烘烘的味道……哈啊、\n真是的、差劲透了♪」</outline>,
+clickwait
+
+
+bg,download/character/181610/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1816/adu181610_01_40.mp3
+msg,1,<outline width=2 color=black>「啾、噗、啾噜……舔、啾、啾姆……嗯、呵呵♪\n让我喝下这么臭的东西，还一副很开心的样子，真是变态……啾噗、啾」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_41.mp3
+msg,1,<outline width=2 color=black>「哈、啊……啾、舔噜、嗯、咕……这种、变态鸡巴，可不能放着\n不管……啾噗、再稍微来一下……啾、啾呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1816/adu181610_01_42.mp3
+msg,1,<outline width=2 color=black>「再稍微让你舒服一会儿、吧……啾噜、\n啾噜……要好好感谢我哦、大锅锅……舔噜、啾、啾噜♪」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
