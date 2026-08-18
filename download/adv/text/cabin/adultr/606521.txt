@@ -1,0 +1,309 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>我和艾丽卡一起调查了这个重现神社及其辖地的区域。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>我们沿着长长的参道前行，也四处查看了尽头的神社境内，\n但并没有发现什么异常。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606521_033_01.mp3
+msg,1,<outline width=2 color=black>「这里真安静呢……你看。那里好像有一间偏房。\n正好，我们过去稍微休息一下吧。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>随后，我和艾丽卡一起走进了那栋建筑，可是……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606521_033_02.mp3
+msg,1,<outline width=2 color=black>「这是……」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>不知为何，房间里竟然铺着一床被褥。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>面对这出乎意料的景象，我不由得看向身旁的艾丽卡。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606521_033_03.mp3
+msg,1,<outline width=2 color=black>「——哎呀，你那是什么眼神？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_04.mp3
+msg,1,<outline width=2 color=black>「不过是我们偶然进来的地方正好铺着一床被褥罢了。\n你有必要这么鬼鬼祟祟的吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_05.mp3
+msg,1,<outline width=2 color=black>「不过嘛……毕竟是下贱胚子。\n反正你肯定正对眼下的情形想入非非吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_06.mp3
+msg,1,<outline width=2 color=black>「真伤脑筋。一旦动了那种心思，下贱胚子怎么可能\n克制得住自己呢……这样一来，想让身体好好休息根本就是痴人说梦。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_07.mp3
+msg,1,<outline width=2 color=black>「——所以，为了能好好休息，得先把你的欲望发泄出来才行呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_08.mp3
+msg,1,<outline width=2 color=black>「啾……咕啾、啾噗……啾溜、唔、嗯、呼……嗯、啊、\n真是个让人操心的下贱胚子……嗯、啾噗、啾呜。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/201.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606521_033_09.mp3
+msg,1,<outline width=2 color=black>「真是的，现在不用我说，你也知道主动戴上套了呢。\n呵呵，变得挺乖的嘛……就这么急着想进到我里面来吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_10.mp3
+msg,1,<outline width=2 color=black>「不过……难道你连先问我一声都做不到吗？\n问问我有没有必要戴套之类的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_11.mp3
+msg,1,<outline width=2 color=black>「那样的话……说不定我会允许你不戴套，\n直接生插呢——」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/202.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_12.mp3
+msg,1,<outline width=2 color=black>「——嗯啊、啊、呜、呜呜！　嗯、啊、啊！　下、下流胚子、人家的话、\n要听到最后、呀、嗯嗯、戴套的肉棒、进来了……嗯、呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_13.mp3
+msg,1,<outline width=2 color=black>「你到底是多么忍耐不住的野兽啊……啊呼、嗯、啊、啊、\n我明明还没说可以呢……呀、啊、呜、啊、啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_14.mp3
+msg,1,<outline width=2 color=black>「突、突然就这么动腰……嗯嗯！　你就那么\n想要我的小穴吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_15.mp3
+msg,1,<outline width=2 color=black>「既然这样，嗯、呜、就别隔着这种套子……直接、呀、\n啊、啊、啊啊！　肉、肉棒、翘起来了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_16.mp3
+msg,1,<outline width=2 color=black>「嗯呜！　啊、哈、啊、嗯、呜呜……！　嗯嗯、啊、呜、呜、\n啊、嗯嗯！　什、什么、啊、啊、里面、鼓起来了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_17.mp3
+msg,1,<outline width=2 color=black>「怎么、啊、啊啊、这么快就要射了……呀、嗯、啊、啊、啊啊、\n你就这么忍不住、这么喜欢我吗……嗯呜、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_18.mp3
+msg,1,<outline width=2 color=black>「呀、不行、嗯、嗯嗯、还戴着套呢……！　这样、呀呜、嗯、\n啊、啊！　会被装走的、下流胚子的精液、全装进套里、啊、呜、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_19.mp3
+msg,1,<outline width=2 color=black>「呀啊！　呜、啊、啊、哈啊啊！　顶、顶到子宫了、嗯呜呜！\n啊、啊啊！　等等、下流胚子、呀、还不能、射出来、啊、嗯、呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_20.mp3
+msg,1,<outline width=2 color=black>「呼啊、哈、啊、嗯、呜呜！　不、真的要射出来了、\n精液、要射进套子里了、啊、嗯、呜呜、哈、嗯嗯嗯呜呜呜呜呜！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6065/adv/image/203.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_21.mp3
+msg,1,<outline width=2 color=black>「啊、嗯、呜呜……！　射了、精液射进套子里了……嗯、呜、\n呼啊、哈、嗯、呜呜。」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/204.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_22.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……下流胚子，你只往套里射了一次，\n肯定还没有满足吧……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_23.mp3
+msg,1,<outline width=2 color=black>「我知道，下流胚子的肉棒要是不直接射进女人里面，根本满足不了……\n所以快点，把这个摘掉……」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/205.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_24.mp3
+msg,1,<outline width=2 color=black>「啊，居然往套子里射了这么多……都多到把套子撑起来了，\n白白浪费了这么多精液……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_25.mp3
+msg,1,<outline width=2 color=black>「把那个套子摘下来……拿到这边，给我」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/206.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_26.mp3
+msg,1,<outline width=2 color=black>「嗯啊，积了这么多……下流胚子的气味也好浓……嗯啊、啾、\n啾、滋、啾噜……嗯、咕」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_27.mp3
+msg,1,<outline width=2 color=black>「只射在套子里就结束，实在太可怜了……啾、滋噜、\n而且这么美味，浪费掉也太可惜了……啾滋、嗯、吱、滋噜」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/207.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_28.mp3
+msg,1,<outline width=2 color=black>「咕噜……哈、呼……已经，全都没有了……明明还想要\n更多热乎乎的精液」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_29.mp3
+msg,1,<outline width=2 color=black>「快点……我知道下流胚子也已经忍不住了……用肉棒，\n直接插进来……往最里面射好多好多」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_30.mp3
+msg,1,<outline width=2 color=black>「比射进套子里的还要浓，下流胚子的特浓精子……多给我一些，\n多到能把子宫都灌得鼓起来……好吗？」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/208.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_31.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊啊啊！　终于、进来了、啊……没戴套的肉棒、好烫，\n嗯咿、咕、啊、哈啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_32.mp3
+msg,1,<outline width=2 color=black>「嗯咕、啊、啊啊！　下流胚子、啊、啊啊、比刚才、还要、激烈……！\n无套做爱，让你很兴奋……吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_33.mp3
+msg,1,<outline width=2 color=black>「我也、啊、啊啊、兴奋起来了，好舒服、嗯嗯、戴套的肉棒，\n已经、满足不了我了、不行……咿、啊、咕、哈、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_34.mp3
+msg,1,<outline width=2 color=black>「咿、咕、啊、啊啊！　嗯嗯、没戴套的肉棒、好棒、嗯、啊啊、\n喜欢没戴套的肉棒、好喜、欢、啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_35.mp3
+msg,1,<outline width=2 color=black>「啊、咕、哈、啊、啊啊！　嗯呜、明明还想、再要、更多、\n啊、啊啊、要去了、无套插入、舒服得过头了、嗯、呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_36.mp3
+msg,1,<outline width=2 color=black>「下流胚子也射出来！　射在里面、嗯呜、给我无套内射！\n啊、咕、呼啊、啊、咿、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_37.mp3
+msg,1,<outline width=2 color=black>「嗯呜！　下流胚子、下流胚子、啊、啊啊、要去了、\n小穴要去了、要、去、了、嗯、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_38.mp3
+msg,1,<outline width=2 color=black>「呀、啊、啊啊啊、要来了、好厉害的来了、呃、啊、啊啊、\n要去了要去了要、呃、嗯、啊、啊、啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6065/adv/image/210.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_39.mp3
+msg,1,<outline width=2 color=black>「啊、呃、嗯、滚烫的、射出来了、呃、嗯嗯！　子宫、被灌得满满的、\n鼓起来了……嗯啊、哈啊、啊、嗯、哈啊啊啊……！」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/211.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_40.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊……果、然，无套做爱、好厉害……嗯嗯、\n播种射精、舒服、过头了……嗯啊、啊、啊啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_41.mp3
+msg,1,<outline width=2 color=black>「不是无套的、生肉棒，就不行了……嗯嗯、滚烫的精液、\n想要好多……哈啊……嗯、呼」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/212.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606521_033_42.mp3
+msg,1,<outline width=2 color=black>「啊啊……下流胚子的精液、居然这么多……嗯嗯、能感觉到小穴和子宫、\n全都被精液浸透了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_43.mp3
+msg,1,<outline width=2 color=black>「可是、还不够……还想要、更多……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_44.mp3
+msg,1,<outline width=2 color=black>「必须比刚才浪费在套子里的、射得更多才行、所以……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606521_033_45.mp3
+msg,1,<outline width=2 color=black>「来吧……把生肉棒、插进来……不停地和我播种做爱，\n用精液把里面灌到、再也装不下为止……好吗？」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

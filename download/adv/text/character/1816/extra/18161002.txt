@@ -1,0 +1,199 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11060300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm194.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_01.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「呵呵。话说回来，大哥哥……你是不是忘了什么？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_02.mp3
+msg,1,<outline width=2 color=black>「唔……还装出一脸茫然的样子。怎么，你是真的不明白吗？\n本来就又弱又没用，还这么迟钝，我觉得可不太好哦。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_03.mp3
+msg,1,<outline width=2 color=black>「这么可爱的女孩子，特意让你看她穿可爱浴衣的样子，\n你居然一点反应都没有？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_04.mp3
+msg,1,<outline width=2 color=black>「还是说，在大哥哥眼里，我根本算不上可爱的女孩子？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「女孩子……」,选项2　「才没有那回事」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_05.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「哈？你那是什么反应？信不信我给你扎三倍剂量的针？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_06.mp3
+msg,1,<outline width=2 color=black>「我可先说好了，大哥哥。女孩子不管到什么时候，都是女孩子哦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_07.mp3
+msg,1,<outline width=2 color=black>「我就特别告诉你吧，这世上有些事实是绝对不能指出来的，\n现实和感情有时也会互不相容，明白吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_08.mp3
+msg,1,<outline width=2 color=black>「所以说……大哥哥。\n连同你刚才说了失礼的话该做的道歉在内……你应该有话要对我说吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_09.mp3
+msg,1,<outline width=2 color=black>「啊，不过，都铺垫到这个份上了，\n你可别再说什么陈腐又老套的话哦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_10.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「既然如此，为什么没有第一时间夸我呢——？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_11.mp3
+msg,1,<outline width=2 color=black>「啊，现在才说也已经晚了哦。就算你事后再说我可爱，\n我也不会相信——♪ 我才不需要那种只为敷衍当下而说的场面话呢——♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_12.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「呵呵……来，你打算怎么办呢，大哥哥？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:shy,metiru,0,-20,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/181610/adv/sound/fav181610_02_13.mp3
+msg,1,<outline width=2 color=black>「啊……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.6,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_14.mp3
+msg,1,<outline width=2 color=black>「……呵呵。怎么，难道就只是牵手？\n光是这样，我可什么都感受不到哦——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.6,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_15.mp3
+msg,1,<outline width=2 color=black>「所以……来吧，试着做点比这更加特别的事呀。\n现在的话，不管你做什么，我都可以特别允许哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-40,0.7,0.5,,,,
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,metiru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru2,0,0,0,0,,,,
+imgconf,metiru2,metiru1,0,-20,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181610/adv/sound/fav181610_02_16.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「嗯……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-40,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_17.mp3
+msg,1,<outline width=2 color=black>「呜哇，都到这一步了，居然只是亲脸颊。\n怎么突然就怂了呀，逊毙了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-40,0.7,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_18.mp3
+msg,1,<outline width=2 color=black>「真是的，大哥哥一到这种时候就完全不行呢。\n根本就没办法让我满足嘛」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-40,0.7,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_19.mp3
+msg,1,<outline width=2 color=black>「……不过嘛，没能满足的部分，就留到下次再期待好了。\n太轻易就被满足的话，那样反而也会让我有点不爽呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-40,0.7,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_20.mp3
+msg,1,<outline width=2 color=black>「要是总被没用没用、弱弱的、杂鱼杂鱼大哥哥随意摆布，\n我自己都会觉得自己太没出息了嘛」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-40,0.7,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_21.mp3
+msg,1,<outline width=2 color=black>「所以……今后也要继续努力，争取让我满足哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-40,0.7,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_22.mp3
+msg,1,<outline width=2 color=black>「等我感受到大哥哥确实有在努力的时候，到那时……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-40,0.7,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_02_23.mp3
+msg,1,<outline width=2 color=black>「我也会送给你一份特别的谢礼哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,215 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm194.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,metiru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:shy,metiru2,0,0,0,0,,,,
+imgconf,metiru2,metiru1,0,-20,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181610/adv/sound/fav181610_03_01.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「――嗯、呜……啊、进去了……伸进小孔里……啊、再进去一点，\n嗯……啊啊、啊……呀」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11060300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-800,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,metiru,0_-20,1,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_02.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「啊——。纸绳又断了……钓水气球还挺难的嘛」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_03.mp3
+msg,1,<outline width=2 color=black>「话说回来，哥哥钓得怎么样了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_04.mp3
+msg,1,<outline width=2 color=black>「连我都很难钓上来，\n菜鸡哥哥怎么可能轻轻松松就钓到――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:surprise,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_05.mp3
+msg,1,<outline width=2 color=black>「――咦？　哈？　你那一大堆水气球是怎么回事。\n难不成，那些全都是你钓上来的……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_06.mp3
+msg,1,<outline width=2 color=black>「呜哇……一脸得意扬扬的样子。烦死了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_07.mp3
+msg,1,<outline width=2 color=black>「居然被哥哥这种人炫耀，\n实在让人不爽，我也稍微认真一点好了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_08.mp3
+msg,1,<outline width=2 color=black>「先说好，我可是连外科手术都做得一流的医生哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_09.mp3
+msg,1,<outline width=2 color=black>「本来觉得玩这种游戏还动真格太不成熟，所以之前只是随便玩玩，\n但只要我切换到工作模式认真起来，这点小事根本不在话下」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「哦」,选项2　「我也还没认真呢」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:anger,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_10.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「……哈，你还真是从容嘛。明明只是个哥哥，还想挑衅我？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_11.mp3
+msg,1,<outline width=2 color=black>「啊，嗯，行啊。既然你这么有余裕，\n那就定成输的人接受惩罚游戏吧。当然，你会接受的吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_12.mp3
+msg,1,<outline width=2 color=black>「让我想想……要是我赢了，\n就让你把一整船热腾腾的章鱼烧全塞进嘴里吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_13.mp3
+msg,1,<outline width=2 color=black>「放心吧，医生就在这里哦。\n就算烫伤了，我也会好好照顾你的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_14.mp3
+msg,1,<outline width=2 color=black>「所以，就让哥哥毫不客气地把美味又滚烫的章鱼烧\n塞得满嘴都是吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_15.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「你这话，是说我赢不了哥哥吗？\n哼——……哥哥，你还真是相当有自信呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_16.mp3
+msg,1,<outline width=2 color=black>「既然这样，那我们就认真比一场吧。\n输的人必须无条件答应对方一件事，怎么样？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_17.mp3
+msg,1,<outline width=2 color=black>「该让哥哥做些什么羞耻的事情呢，\n我现在就已经非常期待了呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,metiru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru2,0,0,0,0,,,,
+imgconf,metiru2,metiru1,0,-20,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181610/adv/sound/fav181610_03_18.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「――呵呵」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru2,0,0,0,0,,,,
+imgconf,metiru2,metiru1,0,-20,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181610/adv/sound/fav181610_03_19.mp3
+msg,1,<outline width=2 color=black>「真是的。哥哥你啊，真的越来越让我\n着迷了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_20.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「嗯，没什么——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_21.mp3
+msg,1,<outline width=2 color=black>「只是想说，我今后也会继续期待哥哥的表现」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_22.mp3
+msg,1,<outline width=2 color=black>「我很期待今后也能看着哥哥那副没出息的样子，\n好好笑个够哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_23.mp3
+msg,1,<outline width=2 color=black>「总之，先在钓水气球上一鼓作气地取得压倒性胜利，\n再好好欣赏哥哥那副凄惨的模样吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_03_24.mp3
+msg,1,<outline width=2 color=black>「……我真的很期待哦，哥哥♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

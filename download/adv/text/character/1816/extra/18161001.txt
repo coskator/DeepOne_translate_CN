@@ -1,0 +1,178 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11060300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm070.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_01.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「哦。今天的领域是重现了日本庙会的领域啊。\n有好多各式各样的摊位，看起来很好玩呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_02.mp3
+msg,1,<outline width=2 color=black>「探查了一下，似乎既没有敌人也没有陷阱，\n简直就像是在叫我们尽情玩个痛快呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_03.mp3
+msg,1,<outline width=2 color=black>「嗯？　怎么啦，哥哥。你好像很惊讶，该不会\n连我为了探查周围而启动了术式都没察觉吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_04.mp3
+msg,1,<outline width=2 color=black>「开玩笑的，没察觉也是理所当然的啦。要一个连魔术都不会的菜鸡哥哥\n发现这种事，未免也太强人所难了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_05.mp3
+msg,1,<outline width=2 color=black>「呵呵。事到如今还会因为这点小事消沉，哥哥真可爱呀。\n难道连内心都这么脆弱吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_06.mp3
+msg,1,<outline width=2 color=black>「真是的……每个人都有擅长和不擅长的事，这不是理所当然的吗，\n你到现在都还没能彻底接受这一点，真是个小笨蛋」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_07.mp3
+msg,1,<outline width=2 color=black>「不过，放心吧。就算是这么菜又这么笨的哥哥，\n也有能做好的事情哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_08.mp3
+msg,1,<outline width=2 color=black>「难得赶上祭典，我们来约会吧。\n哄女孩子开心，哥哥不是也很擅长吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_09.mp3
+msg,1,<outline width=2 color=black>「我对日本的祭典也不太了解，就让哥哥\n好好带着我逛一逛吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「你是第一次参加祭典吗？」,选项2　「其实我也不太了解」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_10.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「是啊。爷爷虽说是日本人，但我从来没有参加过这种日本的传统活动。\n以前也一直没有余裕享受属于自己的时间呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_11.mp3
+msg,1,<outline width=2 color=black>「可如今，虽说是在幻梦境里，我却打算像这样享受祭典，\n人生还真是难以预料呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_12.mp3
+msg,1,<outline width=2 color=black>「话虽如此，这可是我第一次参加夏日祭典的回忆。\n所以你要负起责任，让我尽情享受哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_13.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「也是，哥哥之前毕竟也一直被困在拉莱耶。\n不过，你以前应该也有过在幻梦境的这种领域里游玩的经历吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_14.mp3
+msg,1,<outline width=2 color=black>「就算抛开那些经历不谈，哥哥也是个会为了让与别人共度的时光\n变得充实而努力的人」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_15.mp3
+msg,1,<outline width=2 color=black>「所以，我才特别期待哥哥的表现哦。\n我相信哥哥一定能让我玩得很开心」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_16.mp3
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,1,<outline width=2 color=black>「不过，这对哥哥来说是不是有点太难了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_17.mp3
+msg,1,<outline width=2 color=black>「哎，就算哥哥露出没出息的一面，最后搞砸了，\n我也会笑给你看的，所以放心吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_18.mp3
+msg,1,<outline width=2 color=black>「不管成功还是失败，我都会好好拿哥哥——不对，是和哥哥一起\n寻开心。有我这么优秀的女人陪着，哥哥真是走运呢。呵呵」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_19.mp3
+msg,1,<outline width=2 color=black>「不过，还是有点值得努力的盼头比较好吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_20.mp3
+msg,1,<outline width=2 color=black>「我想想……要是哥哥真能把我招待得有模有样，\n要不要给你一点奖励呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_21.mp3
+msg,1,<outline width=2 color=black>「哥哥这么单纯，只要我这么一说，立刻就会有干劲了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_22.mp3
+msg,1,<outline width=2 color=black>「至于是什么奖励，保密。就交给哥哥自己想象喽」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_23.mp3
+msg,1,<outline width=2 color=black>「哈。瞧你这么明显地来劲了。\n哥哥究竟想象了什么样的奖励呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_24.mp3
+msg,1,<outline width=2 color=black>「色鬼」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,0,-20,0.5,0,,,,
+playvoice,1,download/character/181610/adv/sound/fav181610_01_25.mp3
+msg,1,<outline width=2 color=black>「算了，我不会太期待的，\n哥哥就尽你所能好好加油吧♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

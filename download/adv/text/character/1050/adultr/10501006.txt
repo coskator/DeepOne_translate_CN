@@ -1,0 +1,301 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>我走在幻梦境中发现的一片仿佛重现了祭典之夜的区域里，\n不知不觉来到了一座昏暗的神社院内。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>钰</outline>,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_01.mp3
+msg,1,<outline width=2 color=black>「……钰也不讨厌祭典热闹的氛围，\n不过，钰也很喜欢在安静的地方和夫君大人独处」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_02.mp3
+msg,1,<outline width=2 color=black>「因为这样，钰就能感觉夫君大人离自己更近了」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>钰一边这么说，一边轻轻贴近我的身体，我不禁重新打量起她的模样。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>可爱的浴衣穿在钰身上十分合适，\n与这样的她紧贴在一起，令我的心跳稍稍加快。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>总觉得继续沉默下去，就会被她察觉到我的心跳，\n于是我开口告诉钰，这身浴衣很适合她。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>钰</outline>,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_03.mp3
+msg,1,<outline width=2 color=black>「谢谢您。能得到夫君大人的夸奖，\n钰真的非常开心」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_04.mp3
+msg,1,<outline width=2 color=black>「……不过，心情或许也有一点复杂。听说浴衣这种衣服，\n那个……好、好像更适合胸部小的人穿」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_05.mp3
+msg,1,<outline width=2 color=black>「钰个子本来就矮，胸部还这么小……呜。\n果然，像钰这样的小不点，根本没办法吸引夫君大人……」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我下意识地将突然消沉下去的钰搂进怀里。\n她怎么可能没有魅力。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>钰</outline>,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_06.mp3
+msg,1,<outline width=2 color=black>「夫、夫君大人……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_07.mp3
+msg,1,<outline width=2 color=black>「……再多一点」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_08.mp3
+msg,1,<outline width=2 color=black>「钰想让您再多触碰一些……想让最喜欢的夫君大人，\n更用力地抱紧钰……渴求钰」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_09.mp3
+msg,1,<outline width=2 color=black>「如果您说……即使是这样的钰，也能让夫君大人满足，\n那就请您用钰的身体证明……这句话不是谎言」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_10.mp3
+msg,1,<outline width=2 color=black>「请对钰尽情发情，和钰做色色的事情吧」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>――就在那一瞬间，我感觉钰话语中蕴含的力量被弹了回去。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>钰</outline>,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_11.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊♡　夫君大人，钰、又要……嗯、呜、啊、身、身体、发情、\n了……嗯、咕、哈啊啊……钰在、对夫君大人、发情哦♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_12.mp3
+msg,1,<outline width=2 color=black>「夫君大人♡　夫君大人啊♡　请享用钰这具、发情的身体吧♡\n请用钰的一切，尽情地、尽情地……做到您满足为止♡」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+bg,download/character/105010/adv/image/201.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>钰</outline>,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_13.mp3
+msg,1,<outline width=2 color=black>「嗯、呜、哈啊……夫君大人啊♡　钰的小穴、已经准备万全了，\n请快点把肉棒插进来吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_14.mp3
+msg,1,<outline width=2 color=black>「这是只属于夫君大人、一下子就会发情的淫荡小穴哦♡\n最喜欢夫君大人肉棒的小穴，请让它尽情感受吧♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_15.mp3
+msg,1,<outline width=2 color=black>「快点、快点……请把肉棒给钰吧，夫君大人啊」</outline>,
+clickwait
+
+
+bg,download/character/105010/adv/image/202.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_16.mp3
+msg,1,<outline width=2 color=black>「嗯啊、呃、哈、嗯呜♡　肉棒、进来了，夫君大人的\n大肉棒，噗滋一下顶进最里面了，嗯、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_17.mp3
+msg,1,<outline width=2 color=black>「啪、啪地、发出声音了……呼啊、好棒、呃、\n夫君大人的肉棒、好厉害……嗯咿、哈、啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_18.mp3
+msg,1,<outline width=2 color=black>「为了让夫君大人、也能舒服，钰会用力夹紧的♡\n小穴、夹紧紧♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_19.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯呜♡　这样、钰也会有感觉的，呃、小穴、里面、\n硬硬的东西、正在来回摩擦……咿呜、啊、咕、嗯嗯♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_20.mp3
+msg,1,<outline width=2 color=black>「夫君大人，再多一点♡　再多给钰一点，钰的小穴、\n想被您狠狠地做，做到坏掉为止♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_21.mp3
+msg,1,<outline width=2 color=black>「请用夫君大人的肉棒，一下又一下地插满钰的最深处，狠狠地侵犯钰吧♡」</outline>,
+clickwait
+
+
+bg,download/character/105010/adv/image/203.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_22.mp3
+msg,1,<outline width=2 color=black>「嗯咿、哈、啊、啊啊啊♡　嗯、咕、肉、肉棒、好厉害、\n好雄壮、呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_23.mp3
+msg,1,<outline width=2 color=black>「小穴、被弄得、一塌糊涂、咿、啊、啊啊、\n钰、又要变得、最喜欢夫君大人的肉棒了♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_24.mp3
+msg,1,<outline width=2 color=black>「啊、咕、啊、啊啊啊、夫君大人、嗯、嗯呜、夫君、大人、\n咿呜、啊、咕、嗯咿、咕、啊、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_25.mp3
+msg,1,<outline width=2 color=black>「肉、肉棒、好威武♡　钰、想被这根威武的\n肉棒、弄怀孕呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_26.mp3
+msg,1,<outline width=2 color=black>「夫君大人、请给钰、请用精液把钰的最深处、灌得满满的\n呀、咿呜、嗯、啊、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_27.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊啊♡　肉、肉棒、又变大了、哈、啊啊、\n夫君大人也想让钰的小穴、怀孕吧♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_28.mp3
+msg,1,<outline width=2 color=black>「可以哦，夫君大人的孩子，无论多少个钰都会生下来♡\n钰想生、嗯、啊啊、所以、夫君大人、嗯咕、啊、啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_29.mp3
+msg,1,<outline width=2 color=black>「请给钰、射进钰的里面、把夫君大人的种子、\n大量灌进来，让钰高潮吧……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_30.mp3
+msg,1,<outline width=2 color=black>「嗯咿、咕、哈、啊、啊啊啊♡　夫君大人、夫君大人啊♡\n嗯咕、啊、啊啊、嗯咕、啊、咿、咕、啊、嗯嗯嗯♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_31.mp3
+msg,1,<outline width=2 color=black>「宝宝的房间、被撞得硬邦邦的、啊、咕、那里、不行呀♡\n刺激、太强了，小穴会坏掉的、啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_32.mp3
+msg,1,<outline width=2 color=black>「要、变成笨蛋了♡　肉棒、太厉害了，小穴、\n变得、奇怪、咕、嗯、呜、啊咕、哈、啊、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_33.mp3
+msg,1,<outline width=2 color=black>「嗯、哦、哦哦♡　夫、夫君大人、嗯咕、那样、狠狠撞进来的话、\n会被撞开的、子宫、要被硬生生撬开了、咕、哈啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_34.mp3
+msg,1,<outline width=2 color=black>「哦、咕、嗯嗯呜、已经在做怀孕的准备了、钰的小穴、\n正等着夫君大人射精、嗯咿、嗯、呜、快点、快、点呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_35.mp3
+msg,1,<outline width=2 color=black>「嗯哦♡　夫君大人、嗯咿、嗯、呜呜、对、不起、\n钰、已经要高潮了、咿呜、咕、哦、哦哦哦♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_36.mp3
+msg,1,<outline width=2 color=black>「被夫君大人的肉棒、这样侵犯，嗯、咿、嗯嗯呜、\n钰的小穴、要高潮了呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_37.mp3
+msg,1,<outline width=2 color=black>「夫君大人也、射出来、去、去了♡\n请射出来，让钰的小穴、怀上孩子呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_38.mp3
+msg,1,<outline width=2 color=black>「嗯、咕、嗯咿、咕、嗯、哦哦♡　咿呜、嗯嗯呜、\n嗯咕、哈、啊、啊、啊啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_39.mp3
+msg,1,<outline width=2 color=black>「夫、夫君大人、喜欢、最喜欢、好喜欢呀♡\n嗯、呜呜、哦、呼、嗯、呜呜呜呜――」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_40.mp3
+msg,1,<outline width=2 color=black>「――嗯啊、哈、啊、啊啊啊啊啊啊啊啊啊啊♡」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/105010/adv/image/204.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_41.mp3
+msg,1,<outline width=2 color=black>「哦、哦哦♡　滚烫的精液、咕嘟咕嘟地、呃、嗯嗯呜、\n钰、正在被播种、嗯咿、咕、嗯、呼呜呜呜♡」</outline>,
+clickwait
+
+
+bg,download/character/105010/adv/image/205.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1050/adu105010_02_42.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哈、啊啊啊♡　夫君大人的精液、灌满了子宫、\n嗯、呜呜、射精、好厉害、呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_43.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊、现在、夫君大人的精液、正在钰的体内游动、\n想让钰怀孕呢♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_44.mp3
+msg,1,<outline width=2 color=black>「夫君大人、再多来一些……♡　再多侵犯钰一些，请灌进来、\n灌到钰绝对会怀孕为止……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1050/adu105010_02_45.mp3
+msg,1,<outline width=2 color=black>「来嘛、快一点、夫君大人……再多一些、更多更多地、\n和钰做播种交媾吧♡」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

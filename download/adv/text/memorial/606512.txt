@@ -1,0 +1,275 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+sprite,download/character/6065/image/606511.png,card,0,0,1,0.5,,,,
+endwait,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm194.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_01.mp3
+msg,1,<outline width=2 color=black>「哇……我一直以为烟花都是更大、更绚丽的那种，\n不过这种烟花也非常漂亮呢！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_01.mp3
+msg,1,<outline width=2 color=black>「听说这叫线香烟花。似乎也是日本的传统烟花呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_02.mp3
+msg,1,<outline width=2 color=black>「以前一提到烟花，我也总会想到升上天空绽放的那种，\n不过像这样欣赏在眼前闪耀的烟花，也别有一番乐趣呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_02.mp3
+msg,1,<outline width=2 color=black>「嗯——啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_018_03.mp3
+msg,1,<outline width=2 color=black>「……烟、烟花掉下来了……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_03.mp3
+msg,1,<outline width=2 color=black>「呵呵。这种烟花很纤细，所以必须一动不动，\n免得前端的火球掉下来哦。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_04.mp3
+msg,1,<outline width=2 color=black>「呜……艾丽卡小姐的完全没有要掉下来的样子呢。\n难道说，艾丽卡小姐其实是烟花大师吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_04.mp3
+msg,1,<outline width=2 color=black>「我可不记得自己当过什么烟花大师，\n只不过以前也稍微玩过几次这种烟花罢了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_05.mp3
+msg,1,<outline width=2 color=black>「那时候，下郎说他在仓库里发现了烟花，便来叫我一起——」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_06.mp3
+msg,1,<outline width=2 color=black>「……不，果然还是别说这件事了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_05.mp3
+msg,1,<outline width=2 color=black>「咦？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_07.mp3
+msg,1,<outline width=2 color=black>「这并不是什么适合讲给别人听的回忆。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_08.mp3
+msg,1,<outline width=2 color=black>「是啊……只要将它珍藏在我心中，就足够了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_06.mp3
+msg,1,<outline width=2 color=black>「…………？呃，虽然我不太明白……总之，我也想\n继续好好享受这种烟花！请教教我诀窍吧！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_09.mp3
+msg,1,<outline width=2 color=black>「当然，这倒是没问题……不过你问我诀窍，我也很难回答呢。\n毕竟这并不需要什么特别的技巧……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_07.mp3
+msg,1,<outline width=2 color=black>「可是，您现在也和我不一样，线香烟花根本没有掉下来……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_10.mp3
+msg,1,<outline width=2 color=black>「就像刚才说的，我只是在尽量不让它晃动而已。\n保持注意，但也不要太过用力……大概就是这样吧。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_08.mp3
+msg,1,<outline width=2 color=black>「保持注意，但不要用力……是吗？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_11.mp3
+msg,1,<outline width=2 color=black>「嗯。首先，试着放松肩膀吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_12.mp3
+msg,1,<outline width=2 color=black>「想要尽情享受的心情固然很好，但越是想着不能让它掉下来、\n不能乱动，身体反而越容易使出多余的力气。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_13.mp3
+msg,1,<outline width=2 color=black>「要是太过用力，力道就会不自然地传过去，\n反倒容易让前端的火球掉下来……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_09.mp3
+msg,1,<outline width=2 color=black>「原、原来如此……也就是说，要注意……不能用力……放松肩膀……\n不要紧张……注意……不能让它掉下来……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_018_10.mp3
+msg,1,<outline width=2 color=black>「…………呃、那个，对不起。我好像越来越糊涂了……\n具体来说，我到底该怎么做才好呢？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_14.mp3
+msg,1,<outline width=2 color=black>「呵呵。看来是我没解释好呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_15.mp3
+msg,1,<outline width=2 color=black>「或许说得更简单一点，不要想太多，只管享受就好。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_16.mp3
+msg,1,<outline width=2 color=black>「反正还有不少线香烟花，就算偶尔掉下来几根，\n也不用太放在心上……总之，先试试下一根吧？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_11.mp3
+msg,1,<outline width=2 color=black>「可是，那样的话，就只有我一直在用线香烟花，\n艾丽卡小姐的份就……那样实在太过意不去了……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_17.mp3
+msg,1,<outline width=2 color=black>「凛果然总是顾虑得太多呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_18.mp3
+msg,1,<outline width=2 color=black>「能看到你顺利玩好烟花，我也很开心哦。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_19.mp3
+msg,1,<outline width=2 color=black>「而且，除了线香烟花之外，还有其他烟花呢。\n要是线香烟花用完后还想继续玩，用那些就好了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_12.mp3
+msg,1,<outline width=2 color=black>「可是……艾丽卡小姐很温柔，所以才会这么说，\n但我总是这样一味依赖别人的温柔……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_018_13.mp3
+msg,1,<outline width=2 color=black>「我觉得这样是不行的。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_20.mp3
+msg,1,<outline width=2 color=black>「凛或许不要把事情想得太严重，试着再多信任一下\n身边的人会比较好哦。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_14.mp3
+msg,1,<outline width=2 color=black>「信任……吗？　呃，我并没有怀疑大家啊？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_21.mp3
+msg,1,<outline width=2 color=black>「我不是那个意思。依赖别人绝不是什么坏事，你也可以倚靠别人。\n我是希望你能相信这一点，放心地把自己托付给别人。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_033_22.mp3
+msg,1,<outline width=2 color=black>「而且，如果你自己对此感到过意不去，\n那就在将来的某一天，以某种方式回报对方就好了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_15.mp3
+msg,1,<outline width=2 color=black>「艾丽卡小姐……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_23.mp3
+msg,1,<outline width=2 color=black>「烟花也是一样。比如这次，假如我没能玩到线香烟花，\n那你只要下次再补偿我就好了。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_16.mp3
+msg,1,<outline width=2 color=black>「咦……？　那、那难道是说，您以后还愿意像这样，\n再和我一起放烟花吗……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_24.mp3
+msg,1,<outline width=2 color=black>「哎呀，难道凛以后不愿意再和我一起放烟花了吗？\n那可有点让人寂寞呢。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_17.mp3
+msg,1,<outline width=2 color=black>「不、不是的！我们再一起放吧，一定要！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_018_18.mp3
+msg,1,<outline width=2 color=black>「在那之前，我一定会练到能让线香烟花坚持到最后都不掉下来，\n还会带很多艾丽卡小姐的那一份线香烟花过来的！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>艾丽卡・露比娅</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_033_25.mp3
+msg,1,<outline width=2 color=black>「带得太多也会让我为难的……不过既然这样，\n下次我们就比比看，谁能让烟花坚持得更久不掉下来吧。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606512_018_19.mp3
+msg,1,<outline width=2 color=black>「好！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606512_018_20.mp3
+msg,1,<outline width=2 color=black>「我也很期待再次和艾丽卡小姐一起放烟花的那一天！」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
