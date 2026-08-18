@@ -1,0 +1,297 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606520_018_01.mp3
+msg,1,<outline width=2 color=black>「总、总觉得这里的气氛有点阴森呢。\n大哥哥，你可千万不要离开我身边哦？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>那天搜寻时踏入的神社境内已被夜幕笼罩，\n昏暗之中，凛不安地紧紧抱着我的胳膊。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>这样一来，她那丰满得惊人的胸部自然而然地紧贴在了我的胳膊上\n……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606520_018_02.mp3
+msg,1,<outline width=2 color=black>「啊，大、大哥哥，不行哦。你为什么要躲开呀？\n不如再贴紧一点……对，就像这样，紧紧地……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_03.mp3
+msg,1,<outline width=2 color=black>「……？　呃，你为什么走起路来那么别扭……啊，是因为我\n贴得太紧了吧！　对不起，我都没替大哥哥着想……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_04.mp3
+msg,1,<outline width=2 color=black>「——咦，你说不是……？　那为什么……啊。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>凛的视线忽然向下移去。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606520_018_05.mp3
+msg,1,<outline width=2 color=black>「大、大哥哥……那个……那里，好像变大了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_06.mp3
+msg,1,<outline width=2 color=black>「呃，那个……难道说，真的是因为我吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_07.mp3
+msg,1,<outline width=2 color=black>「…………我是不是应该负起责任来？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_08.mp3
+msg,1,<outline width=2 color=black>「可、可以哦？　我很喜欢和大哥哥做那种事。\n而且只要能感受到大哥哥的温暖，我就会觉得很安心……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_09.mp3
+msg,1,<outline width=2 color=black>「所以……积在大哥哥这里的东西，\n要不要用我来好好释放出来呢？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>凛・洛温</outline>,
+playvoice,1,download/adv/voice/character/6065/606520_018_10.mp3
+msg,1,<outline width=2 color=black>「嘿嘿，大哥哥的鸡鸡，整个都夹进我的胸里了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_11.mp3
+msg,1,<outline width=2 color=black>「我很喜欢用胸给鸡鸡弄呢……像这样夹着，就能清楚地感受到\n大哥哥有多兴奋……不知怎么的，让我觉得好开心。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_12.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯……大哥哥，腰已经忍不住动起来了……在我的胸中间，\n进进出出的……这样简直就像在用胸做爱呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_13.mp3
+msg,1,<outline width=2 color=black>「我的胸，舒服吗……？　还是说，像这样——」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_14.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……像这样紧紧夹住，用力贴上去，\n会让大哥哥更舒服吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_15.mp3
+msg,1,<outline width=2 color=black>「哈、嗯、呜呜……鸡鸡开心得直发抖……这样夹着，\n更舒服吗……？　既然如此，就继续这样……嗯、嗯嗯。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_16.mp3
+msg,1,<outline width=2 color=black>「就这样紧紧夹住……我会让鸡鸡舒舒服服的，\n所以大哥哥也要多多动腰哦。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_17.mp3
+msg,1,<outline width=2 color=black>「ぁ、んぅ、はあ……あ、んん、おにーさんの、どんどん熱くなって……\nボクで、こんなに興奮してくれてるんですね……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_18.mp3
+msg,1,<outline width=2 color=black>「一想到大哥哥正舒服着，我的身体深处也开始\n发热了……啊呼，我也变得好想让鸡鸡感受到更多舒服。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_19.mp3
+msg,1,<outline width=2 color=black>「啊、嗯、嗯嗯……鸡鸡在胸中间摩擦着……哈啊，\n这样滋、滋地蹭着，好舒服……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_20.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哈、嗯、嗯呜……嘿嘿，简直就像插进小穴里一样，\n用胸做起爱来了呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_21.mp3
+msg,1,<outline width=2 color=black>「啊……不过，如果是真正的小穴，我一定会被大哥哥弄得很舒服，\n湿得一塌糊涂吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_22.mp3
+msg,1,<outline width=2 color=black>「要是把胸也弄湿，会不会变得更像小穴呢？\n嗯、呜……大哥哥，请稍微等我一下哦。」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_23.mp3
+msg,1,<outline width=2 color=black>「嗯啊……啊、呼、哈啊、啊、啊啊……虽然这样有点不雅，\n不过我要把口水滴下来……把胸弄得滑溜溜的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_24.mp3
+msg,1,<outline width=2 color=black>「咧呜……哈啊、啊、啊啊……嗯、呼，胸中间\n渐渐积满口水了……嗯唔、嗯、咧……哈、啊啊。」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_25.mp3
+msg,1,<outline width=2 color=black>「像这样……动着胸部……把整个鸡鸡都弄得\n滑溜溜的哦……嗯啊、咧……嗯、啊……啾、咧呜……」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_26.mp3
+msg,1,<outline width=2 color=black>「嗯、呼……这个、嗯、好厉害……变得滑溜溜以后，胸部就像\n吸住鸡鸡一样……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_27.mp3
+msg,1,<outline width=2 color=black>「比刚才更能感受到大哥哥的形状了……嗯、嗯、\n我也变得心跳加速了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_28.mp3
+msg,1,<outline width=2 color=black>「大哥哥，感觉怎么样……我的胸部，有好好变成小穴吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_29.mp3
+msg,1,<outline width=2 color=black>「哈啊、啊、呼……每次动胸部，都会发出咕啾、咕啾的淫荡声音\n……嗯、咕……听着这种声音，小穴里面都变得又痒又难受了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_30.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呜……鸡、鸡鸡又抽动了……而且，嗯呜，\n还有暖暖的东西流出来了……嗯、嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_31.mp3
+msg,1,<outline width=2 color=black>「嗯、咕，我也会再……用更多口水，把这里弄得滑溜溜的。\n所以请射在我的胸穴里吧，大哥哥。」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_32.mp3
+msg,1,<outline width=2 color=black>「嗯啊……嗯诶、咧呜……哈啊、啊、嗯、呼……随时都可以哦。\n大哥哥想射的时候，就把精液射出来吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_33.mp3
+msg,1,<outline width=2 color=black>「希望大哥哥像射进小穴里一样，也在我的胸部里面射好多好多。\n嗯诶……诶、呜、咧诶……嗯、呜……哈、啊、嗯呜。」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_34.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯、嗯嗯……！　大、大哥哥，腰动得越来越快了……啊、啊，\n是不是快要射了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_35.mp3
+msg,1,<outline width=2 color=black>「可以哦，请射好多出来……射在我的胸部\n里面吧……像射进小穴一样……嗯、呜呜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_36.mp3
+msg,1,<outline width=2 color=black>「嗯咕、呼、啊……哈啊、啊、嗯、呜呜……鸡、鸡鸡\n胀起来了……这就是，要射精时的……嗯啊、哈、嗯嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_37.mp3
+msg,1,<outline width=2 color=black>「大哥哥……大哥哥、啊、啊啊，要来了，\n滚烫的精液，要噗嗤地射出来了……嗯、啊、哈、嗯、呜呜呜——！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/6065/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_38.mp3
+msg,1,<outline width=2 color=black>「——啊、嗯、呜呜呜！　哈、啊、啊啊啊，胸、胸部里面，\n鸡鸡在不停抽动……嗯、呜呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_39.mp3
+msg,1,<outline width=2 color=black>「呼啊、哈、啊、嗯嗯……还、还在射……胸穴里面，\n全都是精液……啊、呼、哈、啊啊啊……」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_40.mp3
+msg,1,<outline width=2 color=black>「大哥哥，有好好地全部射出来了吗……？　嗯、嗯……\n鸡鸡里面，没有剩下吧……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_41.mp3
+msg,1,<outline width=2 color=black>「嗯……看来有好好地全部射出来了呢……诶嘿嘿，\n我的胸部，被大哥哥的精液弄得黏糊糊的了」</outline>,
+clickwait
+
+
+bg,download/character/6065/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/6065/606520_018_42.mp3
+msg,1,<outline width=2 color=black>「ん、ぁ……すごい、おっぱいから、おにーさんの濃いにおいがして……\nん、ふぅ、頭のなか、くらくらしちゃいそうで……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_43.mp3
+msg,1,<outline width=2 color=black>「那、那个，大哥哥……嗯，还能继续吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_44.mp3
+msg,1,<outline width=2 color=black>「大哥哥能用我的胸部获得快感，我很开心……可是小穴已经\n快要忍不住了……所以……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/6065/606520_018_45.mp3
+msg,1,<outline width=2 color=black>「这次，希望大哥哥能用真正的小穴，\n让鸡鸡彻底释放出来」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
