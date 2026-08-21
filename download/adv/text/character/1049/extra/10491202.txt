@@ -1,0 +1,188 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm185.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_01.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「……喂，我有件事想问你」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_02.mp3
+msg,1,<outline width=2 color=black>「刚才，我想查看装在姐姐房间里的摄像头，却发现全都被\n拆掉了。还有窃听器也……明明直到昨天晚上，都还好好装在那里的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_03.mp3
+msg,1,<outline width=2 color=black>「平时没什么特殊情况的时候，姐姐是不会拆掉我装的那些东西的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_04.mp3
+msg,1,<outline width=2 color=black>「姐姐会在什么情况下拆掉摄像头和窃听器……我也能\n猜个八九不离十」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_05.mp3
+msg,1,<outline width=2 color=black>「比如说……事先约好了你要去她房间的时候」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_06.mp3
+msg,1,<outline width=2 color=black>「……我觉得应该不是……我也希望不可能是那样，但你给我老实回答。\n今天晚上，你打算在哪里做什么？准备去哪里？回答我」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm132.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_07.mp3
+msg,1,<outline width=2 color=black>「你、你这个反应……果然……果然，你是打算去姐姐的房间\n吧……！你和姐姐约好了，对不对……！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_08.mp3
+msg,1,<outline width=2 color=black>「跑到姐姐的房间里，尽情享受姐姐的气味，再对她那对\n软绵绵的棉花糖胸部为所欲为……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_09.mp3
+msg,1,<outline width=2 color=black>「还、还有姐姐的体温、声音、表情……而、而且，还要和姐姐，\n那个……啊、啊、啊啊啊……独占姐姐一个人……哈、哈啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_10.mp3
+msg,1,<outline width=2 color=black>「做一大堆我没法为姐姐做的事，把姐姐……和姐姐一起……\n呜呜、啊、啊啊、呃、脑、脑子都快要沸腾了……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「总之先冷静下来吧」,选项2　「……那就下次再聊吧」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_11.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「这叫我怎么冷静得下来，你个阴沟里的垃圾混蛋……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_12.mp3
+msg,1,<outline width=2 color=black>「我的姐姐，居然要被这种男人为所欲为……唔、呜呜，\n姐姐今天到底要……会、会做些什么……做、怎样的事……――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_13.mp3
+msg,1,<outline width=2 color=black>「是要玩胸部吗？还、还是说，果然要……呜、咕呜。\n姐姐会主动勾引你、让你上她？难道还会稍微强硬一点，之类的……哈、呜呜」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_14.mp3
+msg,1,<outline width=2 color=black>「还会用上道具，玩些不正常的花样……咿、咕、啊。\n姐、姐姐也会因为那些，感到舒服……嗯、啊啊啊、呃」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_15.mp3
+msg,1,<outline width=2 color=black>「哈、啊、哈啊啊……姐姐，我的姐姐明明就要被玷污了，\n为什么我的身体却这么热……哈、哈啊、啊……呃」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_16.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「哈？你以为我会放你走吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_17.mp3
+msg,1,<outline width=2 color=black>「今天我无论如何都不会放过你。只有你一个人尽情享受姐姐……！\n明明我也想和姐姐更加亲热……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_18.mp3
+msg,1,<outline width=2 color=black>「可、可是……一想到待会儿姐姐会被这种男人肆意蹂躏，\n我……我、我就……呼、呼呜呜……呃」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_19.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「我、我不能眼睁睁地看着姐姐今晚落入你的毒手……\n可是，姐姐一定也很期待和这个男人共度的时光……呜呜呜」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_20.mp3
+msg,1,<outline width=2 color=black>「和姐姐两个人独处……在、在我看不见的地方，姐姐只会对这个男人\n露出的表情、发出的声音……还会做那种事，甚至连这种事也……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_21.mp3
+msg,1,<outline width=2 color=black>「啊、啊、呜……呜、咕、呜呜呜呜……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_22.mp3
+msg,1,<outline width=2 color=black>「——呃，也要对我做！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:shy,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_23.mp3
+msg,1,<outline width=2 color=black>「今晚你对姐姐做过的事……明天全部告诉我。\n然后对我也做同样的事！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:shy,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_24.mp3
+msg,1,<outline width=2 color=black>「虽然我真的、真的很不情愿……但这是为了姐姐的幸福，\n我也会忍耐……可是，至少我也想和姐姐一样……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:shy,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_02_25.mp3
+msg,1,<outline width=2 color=black>「这已经是我所能做出的最大让步了……说好了。\n可别忘了，你这个阴沟里的垃圾混蛋」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

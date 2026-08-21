@@ -1,0 +1,309 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_01.mp3
+msg,1,<outline width=2 color=black>「――说起来，你昨天又和姐姐做了吧？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>正在幻梦境中搜寻时，她突然冒出这么一句话，让我不由得僵住了。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_02.mp3
+msg,1,<outline width=2 color=black>「装傻也没用。姐姐做过什么，我怎么可能不知道。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_03.mp3
+msg,1,<outline width=2 color=black>「姐姐居然被这种男人随意玩弄……呜、呜呜，不能原谅。\n姐姐的身体……那对乳房，还有……啊啊啊，我脑子都要坏掉了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_04.mp3
+msg,1,<outline width=2 color=black>「你昨天对姐姐做了什么？都做了些什么？姐姐是什么反应？\n她有什么反应、是什么感觉……呜、咕、呜呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_05.mp3
+msg,1,<outline width=2 color=black>「还是算了……要是从你这臭水沟里的渣滓嘴里听到那些事，\n我真的感觉自己会变得不正常。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_06.mp3
+msg,1,<outline width=2 color=black>「可是，关于姐姐的事，无论什么我都想知道……所以。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_07.mp3
+msg,1,<outline width=2 color=black>「像对姐姐那样，做和姐姐同样多的事……也对我做。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_08.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、呜、要来了，我又要、嗯、啊、\n哈、啊、啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/104912/adv/image/201.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_09.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊……哈、啊、啊啊……又被灌进里面了，\n嗯、呜、子宫，被灌得满满的、呜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_10.mp3
+msg,1,<outline width=2 color=black>「居然、嗯、呜呜……这么多、次……哈、啊、啊啊啊，你到底往姐姐体内、\n射了多少、精液……嗯、嗯嗯、啊、啊……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_11.mp3
+msg,1,<outline width=2 color=black>「把姐姐娇小的身体推倒，再把阴茎硬塞进去，\n直到子宫里都灌得满满当当……嗯、嗯嗯呜、你这臭水沟里的渣滓♡」</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/202.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_12.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、啊、哈、啊、啊啊啊、又、又是阴茎、还在、呃、\n咿啊、啊、啊嗯呜、好激、烈……嗯咿、咕、哈、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_13.mp3
+msg,1,<outline width=2 color=black>「精液、被搅来搅去、呃、嗯嗯呜、在小穴里、嗯、啊啊、\n被蹭得到处都是、啊、啊啊、被精液、做上标记、了、呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_14.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊啊啊、臭水沟渣滓的阴茎、嗯咕、啊、啊、\n在里面使劲碾、嗯咿、咕、哈、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_15.mp3
+msg,1,<outline width=2 color=black>「我的、身体、被随便摆弄、好舒、服……嗯咕、\n嗯、呜呜、脑袋、越来越烫了呀……呼啊、啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_16.mp3
+msg,1,<outline width=2 color=black>「再、再多来点、嗯啊、啊、啊啊啊♡　要和姐姐、一样。\n嗯、嗯呜、用这根阴茎、像对姐姐一样、弄我的小穴♡」</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/203.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_17.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、哦哦♡　呼、哦、阴茎、一直顶最里面、嗯啊、啊、\n这样、不行、嗯咿、咕、啊、嗯嗯嗯呜♡　要变得、奇怪了♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_18.mp3
+msg,1,<outline width=2 color=black>「明明、已经塞不下了、子宫却被一下下地顶着、还在期待、\n嗯嗯呜、小穴、想要你射在里面……咿呜、嗯、哦、呼呜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_19.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊、再来、嗯、啊啊啊♡　再像对姐姐那样、多来点、\n嗯呜、呃、要比姐姐、还要更多♡　啊、啊、啊、啊啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_20.mp3
+msg,1,<outline width=2 color=black>「嗯咕、嗯、呜、嗯嗯嗯……！　啊、咕、哈、啊、啊啊、\n阴、阴茎在发抖、呃、嗯、啊、又要、射出来了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_21.mp3
+msg,1,<outline width=2 color=black>「我也、要去了♡　嗯嗯呜、小穴、又要被弄到高潮……嗯咿、\n咕、啊、哈、啊啊啊……要去了、要去了、嗯、呜呜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_22.mp3
+msg,1,<outline width=2 color=black>「射吧、射出来、嗯嗯呜、把我的小穴、当成专门用来\n排泄你精液的厕所、也没关系、嗯、哦、咕、嗯、嗯嗯呜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_23.mp3
+msg,1,<outline width=2 color=black>「哦、咕、嗯、呜呜呜♡　要来了、要来惹、要射进来了、呃、\n嗯咿、咕、哈、啊、啊、啊啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_24.mp3
+msg,1,<outline width=2 color=black>「嗯咿、咕、哈、啊、啊啊啊、嗯、啊、哈啊啊啊啊啊啊啊啊♡」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/104912/adv/image/204.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_25.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊、哈、啊啊啊啊……♡　嗯、哦哦、射、出来惹、\n你的精液、在最里面、噗滋、噗滋地……嗯啊、咕、呼、呜呜呜♡」</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/205.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_26.mp3
+msg,1,<outline width=2 color=black>「又、被射进来、了……精液、肆意地、灌进来、\n肚子、都被弄得沉甸甸的……嗯、呜、哈啊啊……♡」</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/206.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_27.mp3
+msg,1,<outline width=2 color=black>「嗯、呜、都、第五次了……为什么……嗯、啊啊、阴茎、\n还这么硬……你对姐姐、也做了、这么多次吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_28.mp3
+msg,1,<outline width=2 color=black>「臭水沟渣滓、呃……臭水沟渣滓的阴茎……别、开玩笑了啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_29.mp3
+msg,1,<outline width=2 color=black>「这种东西、不能、推给姐姐♡　所、所以、\n我……必须由我来、照顾才行……咿、啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_30.mp3
+msg,1,<outline width=2 color=black>「等、等一下、又这么弄、人、人家的小穴已经高潮好多次了、\n稍微、等一――嗯咿、咕、啊、哈、嗯、呜呜呜呜♡」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/207.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_31.mp3
+msg,1,<outline width=2 color=black>「嗯、啊……咕、呼、啊、哈、啊啊啊……♡\n阴茎、还、这么大……嗯、哈啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_32.mp3
+msg,1,<outline width=2 color=black>「我、里面、也、被弄得一团糟了、呃、嗯、啊啊、\n子宫、也快被压扁了……嗯咿、哈、呜、嗯嗯呜……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_33.mp3
+msg,1,<outline width=2 color=black>「我、还在、高潮……嗯、呜呜、小穴高潮、根本停不下来、\n哈、啊、啊、啊啊……嗯、呜呜、身体、都要坏掉、了……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_34.mp3
+msg,1,<outline width=2 color=black>「比、对姐姐时、射得、更多了吗？　嗯、哈、啊啊♡\n我代替姐姐、帮你处理精液了吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_35.mp3
+msg,1,<outline width=2 color=black>「嗯、咕、呼啊、咿、嗯、呜、嗯嗯！　阴、阴茎、变得更激烈了、\n啊、啊啊、居然、还这么……嗯咕、呜、啊、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_36.mp3
+msg,1,<outline width=2 color=black>「咿咕、嗯、哈咿、嗯哦、啊、啊、啊啊啊♡\n要被当成厕所、射进来了、呜、嗯啊啊、精液、要来了♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_37.mp3
+msg,1,<outline width=2 color=black>「松松垮垮的小穴、被侵犯着、呃、嗯咿、啊、哈啊啊、我也、\n要来了、脑袋、要变得一片空白了……嗯、咿、咕啊、哈、嗯、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_38.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊、啊啊啊啊……要、去了、嗯咿、咕……呼啊、\n哈、嗯、啊、小穴、高潮了、哈、嗯、呜呜……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_39.mp3
+msg,1,<outline width=2 color=black>「嗯啊、咕、哈、啊、呃……嗯咿、啊、咕、哈、啊啊啊啊啊啊啊啊♡」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/104912/adv/image/208.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_40.mp3
+msg,1,<outline width=2 color=black>「嗯、咿、啊、啊啊啊……好、好烫的、进、来了♡\n子宫、已经、再也承受不住了……嗯咕、啊、嗯、嗯嗯呜呜♡」</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/209.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_41.mp3
+msg,1,<outline width=2 color=black>「咿呜、啊、啊……嗯啊、哈、啊……啊啊啊……哈、嗯嗯呜、\n这、这样下去、我真的、要变得、不正常了……啊、嗯、呜呜♡」</outline>,
+clickwait
+
+
+bg,download/character/104912/adv/image/210.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1049/adu104912_02_42.mp3
+msg,1,<outline width=2 color=black>「第、第十次了♡　我、被你、射了足足十次、\n嗯、咕呜♡　小穴、都被弄得满是精液味了、啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_43.mp3
+msg,1,<outline width=2 color=black>「哈啊……啊、啊啊……臭水沟渣滓的阴茎、好棒……喜欢、嗯呜、最喜欢了♡\n舒服的感觉、最喜欢了、呃……啊呼、嗯、啊、哈啊啊……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_44.mp3
+msg,1,<outline width=2 color=black>「再、多来点……♡　嗯、啊、啊啊、阴茎、再多操操、\n我的小穴吧♡　把小穴和子宫、全都弄得一团糟吧♡</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1049/adu104912_02_45.mp3
+msg,1,<outline width=2 color=black>「用臭水沟渣滓的阴茎、把我弄坏吧……♡」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

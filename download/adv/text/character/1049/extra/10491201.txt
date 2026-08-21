@@ -1,0 +1,192 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm157.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_01.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「——喂，这是怎么回事？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_02.mp3
+msg,1,<outline width=2 color=black>「这三天为什么甜点里都没有巧克力？\n是在故意刁难姐姐吗？真搞不懂，信不信我把这里砸了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「怎么突然说这个？」,选项2　「为什么跟我说？」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_03.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「一点也不突然。我已经忍了三天，姐姐也一直在忍。\n你没看到没有巧克力吃时，姐姐脸上的表情吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_04.mp3
+msg,1,<outline width=2 color=black>「每次看到姐姐那副难过的表情，\n我的心也像被揪紧了一样……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_05.mp3
+msg,1,<outline width=2 color=black>「话说，你这反应……难道你根本没在意\n最近一直没有供应巧克力吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_06.mp3
+msg,1,<outline width=2 color=black>「那你现在立刻给我改正这种想法。巧克力每天——不，\n每顿饭都应该供应。至少姐姐必须有。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_07.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「如果是你开口，亚纱花应该会听，\n马上给我们做巧克力点心吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_08.mp3
+msg,1,<outline width=2 color=black>「……其实可以的话，我也想直接去跟她交涉。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_09.mp3
+msg,1,<outline width=2 color=black>「可是姐姐特意叮嘱过我，不许违抗亚纱花，\n所以我很难直接跟她说……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_10.mp3
+msg,1,<outline width=2 color=black>「要是得到允许，我甚至想用武力逼她答应。亚纱花虽然是个强敌，\n但只要我事先好好准备陷阱和仪式，再发动突袭，应该就能拿下她。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_11.mp3
+msg,1,<outline width=2 color=black>「……不过既然是姐姐的吩咐，我会忍住的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_12.mp3
+name,<outline width=2 color=black>玛利亚・塔拉丝库</outline>,
+msg,1,<outline width=2 color=black>「总之，你要替我好好跟亚纱花说清楚，让她每顿饭都必须供应巧克力。\n明白了吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_13.mp3
+msg,1,<outline width=2 color=black>「只要能说服亚纱花，在饮食方面，\n整个拉莱耶就没有人能违抗她。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_14.mp3
+msg,1,<outline width=2 color=black>「真是的……本来我也不想拜托你做事，\n但这是为了姐姐的幸福，也是没办法的事。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_15.mp3
+msg,1,<outline width=2 color=black>「先说好，这件事对你也有好处。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_16.mp3
+msg,1,<outline width=2 color=black>「你可以看到姐姐吃下巧克力后那幸福的笑容。\n那可是胜过世间一切幸福的无上享受。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_17.mp3
+msg,1,<outline width=2 color=black>「说不定姐姐会因为吃巧克力吃得太投入，不小心把巧克力沾到脸颊上，\n啊、要是运气好，或许还能让我替她擦掉……唔。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_18.mp3
+msg,1,<outline width=2 color=black>「沾在姐姐脸颊上的巧克力……绝对、绝对很好吃。\n肯定带着无比甜美的罪恶滋味……啊啊，要是尝到那种滋味，我就……唔。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-100,0.4,0.5,,,,
+endwait
+wait,0.5
+endwait
+anm,move,maria,0_-120,0.5,0
+anm,scale,maria,0.5_0.5,0.5,0
+endwait
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_19.mp3
+msg,1,<outline width=2 color=black>「你怎么擅自想溜到别处去？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_20.mp3
+msg,1,<outline width=2 color=black>「接下来，你得立刻去说服亚纱花。\n在你办完之前，我是不会放你走的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_21.mp3
+msg,1,<outline width=2 color=black>「你的安排和计划都与我无关。\n比起那些事，姐姐的笑容理所当然要放在第一位。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_22.mp3
+msg,1,<outline width=2 color=black>「先说好，就算反抗也没用。\n乖乖听话才对我们彼此都有好处。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_23.mp3
+msg,1,<outline width=2 color=black>「最坏的情况下，哪怕与整个拉莱耶为敌，我也做好了掰断你手指的觉悟。\n……听懂了就赶紧去亚纱花那里。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_24.mp3
+msg,1,<outline width=2 color=black>「就在我们说话的这段时间里，姐姐还在饱受巧克力缺乏症的折磨，所以给我全力冲刺。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104912/adv/sound/fav104912_01_25.mp3
+msg,1,<outline width=2 color=black>「快，赶紧的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
