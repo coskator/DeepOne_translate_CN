@@ -8084,6 +8084,54 @@
             "animationPositionX": 0,
             "animationPositionY": 0,
             "releaseDate": ""
+        },
+        {
+            "furnitureId": 20030,
+            "furnitureCategory": 1,
+            "furnitureType": 201,
+            "mapCategory": 2,
+            "name": "参道石畳",
+            "description": "水に強く汚れれば水洗いできる。快適さよりも利便性を重視する人に。",
+            "spineName": "",
+            "fromDate": "",
+            "toDate": "",
+            "eventId": 0,
+            "maxCount": 1,
+            "maxLimitCount": 999,
+            "sizeX": 5,
+            "sizeY": 2,
+            "sizeZ": 3,
+            "anchorX": 0.5,
+            "anchorY": 0,
+            "characterAnimation": "",
+            "furnitureAnimation": "",
+            "animationPositionX": 0,
+            "animationPositionY": 0,
+            "releaseDate": ""
+        },
+        {
+            "furnitureId": 60040,
+            "furnitureCategory": 1,
+            "furnitureType": 601,
+            "mapCategory": 6,
+            "name": "呪いの薬箪笥",
+            "description": "異様な雰囲気漂う古びた箪笥。時折、引き出しが勝手にカタカタ震える。",
+            "spineName": "",
+            "fromDate": "",
+            "toDate": "",
+            "eventId": 0,
+            "maxCount": 1,
+            "maxLimitCount": 999,
+            "sizeX": 4,
+            "sizeY": 5,
+            "sizeZ": 1,
+            "anchorX": 0.5,
+            "anchorY": 0,
+            "characterAnimation": "",
+            "furnitureAnimation": "",
+            "animationPositionX": 0,
+            "animationPositionY": 0,
+            "releaseDate": ""
         }
     ],
     "FurnitureCost": [
@@ -9640,6 +9688,12 @@
             "costType": 801,
             "costId": 801010,
             "costCount": 1600
+        },
+        {
+            "furnitureId": 20030,
+            "costType": 801,
+            "costId": 801010,
+            "costCount": 2000
         }
     ],
     "FurnitureCollect": [
@@ -9819,6 +9873,14 @@
             "shortName": "ロザリー",
             "name": "胸満たす幸福",
             "visibleDate": "20260814170000",
+            "releaseDate": ""
+        },
+        {
+            "characterGroupId": 1043,
+            "specialRoomId": 4043080,
+            "shortName": "ゼロ",
+            "name": "柔く包むぬくもり",
+            "visibleDate": "",
             "releaseDate": ""
         }
     ],
@@ -10010,6 +10072,16 @@
             "bgFileName": "c405701_sp_bg_2",
             "frontFileName": "c405701_sp_bg_1",
             "spVoiceFileName": "sp405701_01.mp3",
+            "textBoxPositionX": 440,
+            "textBoxPositionY": -70
+        },
+        {
+            "specialRoomId": 4043080,
+            "spineDirectoryPath": "4043080",
+            "spineFileName": "c404380_sp",
+            "bgFileName": "c404380_sp_bg_2",
+            "frontFileName": "c404380_sp_bg_1",
+            "spVoiceFileName": "sp404380_01.mp3",
             "textBoxPositionX": 440,
             "textBoxPositionY": -70
         }
@@ -10710,6 +10782,36 @@
             "tapPoint": "head",
             "boneName": "front_hair_6",
             "slotName": "front_hair_6"
+        },
+        {
+            "specialRoomId": 4043080,
+            "tapPoint": "face",
+            "boneName": "base_head",
+            "slotName": "head"
+        },
+        {
+            "specialRoomId": 4043080,
+            "tapPoint": "waist",
+            "boneName": "base_lowbody",
+            "slotName": "low_body"
+        },
+        {
+            "specialRoomId": 4043080,
+            "tapPoint": "waist",
+            "boneName": "pose3_hair_back9",
+            "slotName": "pose3_back_hair_7"
+        },
+        {
+            "specialRoomId": 4043080,
+            "tapPoint": "breast",
+            "boneName": "base_bust_L1",
+            "slotName": "left_bust"
+        },
+        {
+            "specialRoomId": 4043080,
+            "tapPoint": "breast",
+            "boneName": "base_bust_R1",
+            "slotName": "right_bust"
         }
     ],
     "SpecialRoomText": [
@@ -35024,6 +35126,1286 @@
             "skinName": "default",
             "voiceFile": "405701_160",
             "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380001,
+            "text": "没想到竟然能和你共度如此宁静的时光……虽然从未想象过……但我真的很幸福。",
+            "skinName": "default",
+            "voiceFile": "404380_01",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380002,
+            "text": "这、这身打扮，果然还是穿得太少了吧。我去披件衣服——咦，不、不行？为什么啊……",
+            "skinName": "default",
+            "voiceFile": "404380_02",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380003,
+            "text": "呵呵，明明块头这么大，像这样撒娇时的表情却让人觉得有点可爱呢……来，让我再仔细看看？",
+            "skinName": "default",
+            "voiceFile": "404380_03",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380004,
+            "text": "真是的，你从刚才起一直在看哪里啊……人家会害羞的，拜托你别老是盯着看。",
+            "skinName": "default",
+            "voiceFile": "404380_04",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380005,
+            "text": "你总是喜欢勉强自己，所以偶尔也要好好休息。只是借你枕一下大腿的话，我随时都可以。",
+            "skinName": "default",
+            "voiceFile": "404380_05",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380006,
+            "text": "要是让芙拉或诺恩看到我像这样独占着你，恐怕会嫉妒我呢。",
+            "skinName": "default",
+            "voiceFile": "404380_06",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380007,
+            "text": "困了的话，随时都可以睡哦……在你醒来之前，我会一直好好陪在你身边的。",
+            "skinName": "default",
+            "voiceFile": "404380_07",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380008,
+            "text": "你没必要连在我面前都逞强……累了的话，无论什么时候，都可以靠在我身上。",
+            "skinName": "default",
+            "voiceFile": "404380_08",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380009,
+            "text": "你总是这么勉强自己，会让我很不安的。所以，不要老是让我担心，好吗？",
+            "skinName": "default",
+            "voiceFile": "404380_09",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380010,
+            "text": "我多少有帮到你一些吗？如果连我也能成为你的依靠……那我会很开心的。",
+            "skinName": "default",
+            "voiceFile": "404380_10",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380011,
+            "text": "真是的，只能再亲一会儿哦？啾、啾、噗……嗯、呼……哈……嗯……这下满足了吗？",
+            "skinName": "default",
+            "voiceFile": "404380_11",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380012,
+            "text": "嗯、啾、啾、啾……你就这么喜欢这样做吗？啾、嗯、呼……啾、啾。",
+            "skinName": "default",
+            "voiceFile": "404380_12",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380013,
+            "text": "嗯嗯……呀、连舌头都伸进来……唔、啾、嗯、呼……真、是的……啾、嗯、啾。",
+            "skinName": "default",
+            "voiceFile": "404380_13",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380014,
+            "text": "啾、啾、嗯、呜……亲得这么激烈……你还能忍得住吗……？啾、啾、嗯、哈……",
+            "skinName": "default",
+            "voiceFile": "404380_14",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380015,
+            "text": "你、你怎么了……难道说，你已经有那种感觉了？嗯、可就算这样，你也太不客气了……嗯嗯。",
+            "skinName": "default",
+            "voiceFile": "404380_15",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380016,
+            "text": "呀、嗯、我是想着你累了，才这样陪着你的……啊、呀、你、你要是这样弄的话……嗯。",
+            "skinName": "default",
+            "voiceFile": "404380_16",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380017,
+            "text": "嗯……真是的……就连累了的时候，你也忍不住非要做这种事吗？",
+            "skinName": "default",
+            "voiceFile": "404380_17",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380018,
+            "text": "嗯、啊……所以说……你到底打算摸到什么时候？　真是的，你这人啊……嗯。",
+            "skinName": "default",
+            "voiceFile": "404380_18",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380019,
+            "text": "还、还说想让我也摸摸这边……你再怎么说也太得意忘形了吧……啊……都、都已经变成这样了……。",
+            "skinName": "default",
+            "voiceFile": "404380_19",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380020,
+            "text": "真是的……都已经变成这样了，根本就顾不上消除疲劳了呢……要我也摸摸这边吗？",
+            "skinName": "default",
+            "voiceFile": "404380_20",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380021,
+            "text": "是因为我，才变成这样的吧……？　既然如此，我是不是也该稍微帮你一下呢……。",
+            "skinName": "default",
+            "voiceFile": "404380_21",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380022,
+            "text": "啊……你的，已经这么……不只是疲劳，连这方面也积攒了不少吗……？",
+            "skinName": "default",
+            "voiceFile": "404380_22",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380023,
+            "text": "不许熬夜，到了晚上就要乖乖睡觉。要不然，我以后可就不宠你了哦？",
+            "skinName": "default",
+            "voiceFile": "404380_23",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380024,
+            "text": "明天有什么安排吗？　有需要的话，早上要不要我叫你起床？",
+            "skinName": "default",
+            "voiceFile": "404380_24",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380025,
+            "text": "……我说，怎么过了零点以后，你的视线好像变得更明目张胆了？",
+            "skinName": "default",
+            "voiceFile": "404380_25",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380026,
+            "text": "要睡的话，就去床上好好睡哦。你要是就这样睡着，我的腿会麻掉的。",
+            "skinName": "default",
+            "voiceFile": "404380_26",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380027,
+            "text": "呵呵，好大一个哈欠。你这个样子，总觉得特别像个小孩子呢。",
+            "skinName": "default",
+            "voiceFile": "404380_27",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380028,
+            "text": "睡不着的话，要不要我给你唱首摇篮曲？　呵呵，开玩笑的。毕竟这实在不符合我的性格。",
+            "skinName": "default",
+            "voiceFile": "404380_28",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380029,
+            "text": "不会吧，都已经这个时间了……？　再怎么说也该睡了。哪怕只睡一会儿也比不睡好。",
+            "skinName": "default",
+            "voiceFile": "404380_29",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380030,
+            "text": "芙拉和诺恩有没有乖乖睡觉呢？　尤其是诺恩，一看就很像会熬夜的样子……。",
+            "skinName": "default",
+            "voiceFile": "404380_30",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380031,
+            "text": "与其因为想事情想到睡不着，不如来找我商量。好歹我还是能听你倾诉一下的哦？",
+            "skinName": "default",
+            "voiceFile": "404380_31",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380032,
+            "text": "呵呵，一脸迷迷糊糊的样子。看来脑子也还没清醒，要不要去洗把脸？",
+            "skinName": "default",
+            "voiceFile": "404380_32",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380033,
+            "text": "今天一天也要好好加油哦。累了的时候，无论何时，我都可以为你做这点事。",
+            "skinName": "default",
+            "voiceFile": "404380_33",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380034,
+            "text": "早上总会让人想一直懒懒散散地拖到最后一刻吧？　然后就这么睡个回笼觉之类的。",
+            "skinName": "default",
+            "voiceFile": "404380_34",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380035,
+            "text": "早上想喝红茶还是咖啡？　我的话……要看心情，不过现在应该会选红茶吧。",
+            "skinName": "default",
+            "voiceFile": "404380_35",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380036,
+            "text": "如果你还没有安排，要不要就这样再悠闲一会儿？　你愿意的话，我也可以帮你掏掏耳朵哦？",
+            "skinName": "default",
+            "voiceFile": "404380_36",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380037,
+            "text": "没想到这种什么也不做的平淡时光，竟会让我觉得如此幸福。",
+            "skinName": "default",
+            "voiceFile": "404380_37",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380038,
+            "text": "毕竟没有人能一直努力下去，所以趁现在好好休息一下吧。",
+            "skinName": "default",
+            "voiceFile": "404380_38",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380039,
+            "text": "或许我应该说一句“你还要懒散到什么时候”才对……可我还是希望你能再像这样待一会儿。",
+            "skinName": "default",
+            "voiceFile": "404380_39",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380040,
+            "text": "和你一起度过的平淡时光，对我而言似乎比什么都重要，也最能让我感到满足。",
+            "skinName": "default",
+            "voiceFile": "404380_40",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380041,
+            "text": "差不多到午饭时间了呢……呐，你有什么想吃的吗？　简单的东西，我也会做哦。",
+            "skinName": "default",
+            "voiceFile": "404380_41",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380042,
+            "text": "有什么想让我做的，就尽管说吧。啊，不过，太色情的事可不行哦？",
+            "skinName": "default",
+            "voiceFile": "404380_42",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380043,
+            "text": "都到中午了还穿成这样，是不是有点太不像样了？　不过……看你这么开心，或许也没关系吧。",
+            "skinName": "default",
+            "voiceFile": "404380_43",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380044,
+            "text": "要是我就这样一直霸占着你，芙拉和诺恩会不会吃醋呢？",
+            "skinName": "default",
+            "voiceFile": "404380_44",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380045,
+            "text": "说起来，芙拉说过要做点心呢。她应该会拿一些来分给我们吧。真让人期待呢。",
+            "skinName": "default",
+            "voiceFile": "404380_45",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380046,
+            "text": "听说午睡能让头脑变得清醒，还有很多好处呢。我会叫你起来的，要试试看吗？",
+            "skinName": "default",
+            "voiceFile": "404380_46",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380047,
+            "text": "瞧你这副彻底放松下来的表情……被我这样对待，就这么开心吗？　我也……不讨厌这样做。",
+            "skinName": "default",
+            "voiceFile": "404380_47",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380048,
+            "text": "看来今天最后也会就这样悠闲散漫地度过呢。不过，我倒觉得这样也无妨。",
+            "skinName": "default",
+            "voiceFile": "404380_48",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380049,
+            "text": "人们常说，满足的时光总是过得很快，看来是真的呢。回过神来，都已经到傍晚了。",
+            "skinName": "default",
+            "voiceFile": "404380_49",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380050,
+            "text": "呐、呐，偶尔……那个……要不要一起洗澡……怎么样？　我可以帮你擦背哦？",
+            "skinName": "default",
+            "voiceFile": "404380_50",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380051,
+            "text": "前阵子，亚纱花还闹着别扭，说被你逼着看了恐怖电影。捉弄她也要适可而止哦。",
+            "skinName": "default",
+            "voiceFile": "404380_51",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380052,
+            "text": "要是明天也能像这样和你一起度过，我也会非常开心的……你觉得呢？",
+            "skinName": "default",
+            "voiceFile": "404380_52",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380053,
+            "text": "怎、怎么感觉，到了晚上以后，你的视线越来越肆无忌惮了？　你……一直都在盯着我的胸看吧？",
+            "skinName": "default",
+            "voiceFile": "404380_53",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380054,
+            "text": "再像这样悠闲地聊一会儿吧。我还想和你说更多更多的话。",
+            "skinName": "default",
+            "voiceFile": "404380_54",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380055,
+            "text": "今天该做的事情，都好好做完了吗？　要是拖到很晚才开始着急，可就麻烦了哦？",
+            "skinName": "default",
+            "voiceFile": "404380_55",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380056,
+            "text": "下次叫上芙拉和诺恩，大家一起开个留宿会怎么样？　我和她们两个都有很多话想聊呢。",
+            "skinName": "default",
+            "voiceFile": "404380_56",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380057,
+            "text": "那、那个，被你这样一直盯着看，我也会在意的……难道说，你是在期待什么吗……不、不行哦。",
+            "skinName": "default",
+            "voiceFile": "404380_57",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380058,
+            "text": "今天一整天也辛苦你了。真棒，真棒。呵呵，这样是不是有点太把你当小孩子了？",
+            "skinName": "default",
+            "voiceFile": "404380_58",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380059,
+            "text": "我明白星期一会让人觉得很忧郁，可你一直摆出一副无精打采的表情也无济于事哦？",
+            "skinName": "default",
+            "voiceFile": "404380_59",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380060,
+            "text": "只要你好好度过这一周，我就为你准备一份奖励，所以这周也要加油哦。",
+            "skinName": "default",
+            "voiceFile": "404380_60",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380061,
+            "text": "这周很忙吗？要是累了，我还会像这样让你枕在腿上的，所以不用客气，尽管告诉我哦。",
+            "skinName": "default",
+            "voiceFile": "404380_61",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380062,
+            "text": "希望这一周对你来说，会是美好的一周。",
+            "skinName": "default",
+            "voiceFile": "404380_62",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380063,
+            "text": "工作日行程又多，肯定很辛苦吧。所以到了休息日，我们就一起悠闲地度过吧。",
+            "skinName": "default",
+            "voiceFile": "404380_63",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380064,
+            "text": "诺恩在生气哦，说你都不陪她。要不明天抽点时间陪陪她？",
+            "skinName": "default",
+            "voiceFile": "404380_64",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380065,
+            "text": "现在像这样待在一起，我又一次觉得，你的身体真的很结实呢。我可以稍微摸一下吗？",
+            "skinName": "default",
+            "voiceFile": "404380_65",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380066,
+            "text": "和你在一起时，总觉得一天过得特别快……说不定一周也是转眼就过去了呢。",
+            "skinName": "default",
+            "voiceFile": "404380_66",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380067,
+            "text": "没积攒太多疲劳吧？努力是好事，但可不能勉强自己哦？",
+            "skinName": "default",
+            "voiceFile": "404380_67",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380068,
+            "text": "前阵子，芙拉因为肌肉酸痛，浑身都在发抖……我觉得她没必要那么勉强自己。说实话，她本来也不适合这个。",
+            "skinName": "default",
+            "voiceFile": "404380_68",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380069,
+            "text": "真不可思议，明明应该是我在宠你，可像这样触碰着你，连我自己也变得开心起来了。",
+            "skinName": "default",
+            "voiceFile": "404380_69",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380070,
+            "text": "柘榴的房间又开始变乱了。不过我们也算是住在一起，你觉得我是不是也该帮忙打扫一下？",
+            "skinName": "default",
+            "voiceFile": "404380_70",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380071,
+            "text": "差不多到了开始积攒疲劳的时候吧，不过只差最后一把劲了，要加油哦。",
+            "skinName": "default",
+            "voiceFile": "404380_71",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380072,
+            "text": "看起来稍微有些累呢，不过像这样待着，应该能让你稍微打起精神吧……你一直都很努力，真棒，真棒。",
+            "skinName": "default",
+            "voiceFile": "404380_72",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380073,
+            "text": "周末要做什么，已经决定好了吗？出去玩也不错，不过也要让身体好好休息一下哦。",
+            "skinName": "default",
+            "voiceFile": "404380_73",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380074,
+            "text": "总觉得，你的眼神看起来特别渴望……至、至少那种事，就不能忍到周末吗？",
+            "skinName": "default",
+            "voiceFile": "404380_74",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380075,
+            "text": "如果有时间的话，可以告诉我这一周都发生了些什么吗？",
+            "skinName": "default",
+            "voiceFile": "404380_75",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380076,
+            "text": "今天你就好好休息一下吧。如果有需要的话，那个……只是陪你睡的话，也不是不可以。",
+            "skinName": "default",
+            "voiceFile": "404380_76",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380077,
+            "text": "只要想到熬过今天就是周末了，多少也能转移一下注意力吧？而且还有奖励等着你呢，对吧？",
+            "skinName": "default",
+            "voiceFile": "404380_77",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380078,
+            "text": "这一周你都很努力呢。真乖真乖，呵呵。",
+            "skinName": "default",
+            "voiceFile": "404380_78",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380079,
+            "text": "难得休息，想怎么悠闲地度过都可以吧？我的膝盖可以借给你，想枕多久都行哦。",
+            "skinName": "default",
+            "voiceFile": "404380_79",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380080,
+            "text": "这个周末要怎么过，你已经决定好了吗？如果还没决定，就再悠闲一会儿吧。",
+            "skinName": "default",
+            "voiceFile": "404380_80",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380081,
+            "text": "像这样什么都不做，悠闲地度过假日，总觉得有种奢侈的感觉呢。",
+            "skinName": "default",
+            "voiceFile": "404380_81",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380082,
+            "text": "你也一直忍耐到现在了吧……而且明天也是星期天……那个，想要奖励吗？",
+            "skinName": "default",
+            "voiceFile": "404380_82",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380083,
+            "text": "假日真的一眨眼就过去了呢……可以再陪我像这样待一会儿吗？",
+            "skinName": "default",
+            "voiceFile": "404380_83",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380084,
+            "text": "从明天开始，又要努力一周了，能做到吗？如果你表现得好，到了周末我还会奖励你的。",
+            "skinName": "default",
+            "voiceFile": "404380_84",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380085,
+            "text": "以后或许也可以叫上芙拉和诺恩，一家人一起度过假日呢。",
+            "skinName": "default",
+            "voiceFile": "404380_85",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380086,
+            "text": "那个……看你好像这一周也很努力，所以只是稍微摸一摸的话……可、可以哦。",
+            "skinName": "default",
+            "voiceFile": "404380_86",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380087,
+            "text": "新的一年也开始了，或许可以定个今年的目标呢。",
+            "skinName": "default",
+            "voiceFile": "404380_87",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380088,
+            "text": "今年也要让我们一家人都幸福地度过这一年哦。",
+            "skinName": "default",
+            "voiceFile": "404380_88",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380089,
+            "text": "我知道几种新年时的游戏和过法，难得有这个机会，要不要一起试试看？",
+            "skinName": "default",
+            "voiceFile": "404380_89",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380090,
+            "text": "和你们共同度过的这一年，等以后回头再看时，肯定也会觉得转眼间就过去了吧。",
+            "skinName": "default",
+            "voiceFile": "404380_90",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380091,
+            "text": "这个时节还穿成这样，确实可能有点冷呢……诶，你说摸一摸就能暖和起来，你呀……",
+            "skinName": "default",
+            "voiceFile": "404380_91",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380092,
+            "text": "要是你感冒了，大家恐怕会争着照顾你。为了家里安宁，你也要注意身体健康。",
+            "skinName": "default",
+            "voiceFile": "404380_92",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380093,
+            "text": "我知道天冷时会懒得从床上起来，但也不能总是这么懒懒散散的哦？",
+            "skinName": "default",
+            "voiceFile": "404380_93",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380094,
+            "text": "呐，你不冷吗？如果你觉得冷的话……要不要再贴紧一点？",
+            "skinName": "default",
+            "voiceFile": "404380_94",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380095,
+            "text": "暖和的日子也渐渐多起来了，过阵子找个地方出去走走，应该也不错吧。",
+            "skinName": "default",
+            "voiceFile": "404380_95",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380096,
+            "text": "在日本的话，差不多也到樱花盛开的时节了吧。开得最盛的樱花非常漂亮，真想和你一起去看呢。",
+            "skinName": "default",
+            "voiceFile": "404380_96",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380097,
+            "text": "季节交替时的变化虽然很容易被忽略……但我还是想好好珍惜时光的流逝。",
+            "skinName": "default",
+            "voiceFile": "404380_97",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380098,
+            "text": "呵呵，你看起来好像很困哦。果然一到这个时节，人就特别容易犯困呢。",
+            "skinName": "default",
+            "voiceFile": "404380_98",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380099,
+            "text": "四季之中，春天总让人觉得格外短暂。正因如此，我们才更应该珍惜每一天。",
+            "skinName": "default",
+            "voiceFile": "404380_99",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380100,
+            "text": "困了就别勉强，直接睡吧。还是说，让我摸摸你的头，会更容易睡着呢？",
+            "skinName": "default",
+            "voiceFile": "404380_100",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380101,
+            "text": "叫上芙拉她们，大家一起去赏花，感觉也会很开心呢。",
+            "skinName": "default",
+            "voiceFile": "404380_101",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380102,
+            "text": "无论是什么季节，只要和你一起度过，就会成为一段美好的回忆。我是这么想的。",
+            "skinName": "default",
+            "voiceFile": "404380_102",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380103,
+            "text": "你今天的表情还真是松懈呢。真是的，你这样子还挺可爱的。",
+            "skinName": "default",
+            "voiceFile": "404380_103",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380104,
+            "text": "这个时节虽然很舒适，但也正因如此容易放松警惕，所以还是要多注意一点哦。",
+            "skinName": "default",
+            "voiceFile": "404380_104",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380105,
+            "text": "现在的气候虽然很宜人，但一想到再过不久就要进入梅雨季，我现在就有些郁闷了。",
+            "skinName": "default",
+            "voiceFile": "404380_105",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380106,
+            "text": "春天马上也要结束了呢……季节的更迭原来有这么快吗？",
+            "skinName": "default",
+            "voiceFile": "404380_106",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380107,
+            "text": "气温升高后，疲劳也更容易积累，所以一定要记得补充水分，好好休息。",
+            "skinName": "default",
+            "voiceFile": "404380_107",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380108,
+            "text": "气温偏高的日子渐渐多了起来，不过多亏有空调，一年四季都能过得很舒适，真该感谢现代科技呢。",
+            "skinName": "default",
+            "voiceFile": "404380_108",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380109,
+            "text": "没想到今年已经过去一半了，实在让人吃惊。你这半年过得充实吗？",
+            "skinName": "default",
+            "voiceFile": "404380_109",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380110,
+            "text": "今年夏天和芙拉、诺恩一起去游泳池怎么样？她们两个穿泳装的样子，一定非常可爱吧。",
+            "skinName": "default",
+            "voiceFile": "404380_110",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380111,
+            "text": "虽然我不喜欢夏天的炎热，但总觉得今年能留下许多美好的回忆。虽然只是种感觉啦。",
+            "skinName": "default",
+            "voiceFile": "404380_111",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380112,
+            "text": "我姑且问一下……你对我的泳装什么的……会不会有点兴趣……？",
+            "skinName": "default",
+            "voiceFile": "404380_112",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380113,
+            "text": "听说就算待在有空调的地方，也可能中暑或脱水，所以一定要记得经常补充水分。",
+            "skinName": "default",
+            "voiceFile": "404380_113",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380114,
+            "text": "为了避免苦夏，就算没有食欲也要好好吃饭。还有，别总吃冰凉的东西哦。",
+            "skinName": "default",
+            "voiceFile": "404380_114",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380115,
+            "text": "说实话，夏天的夜晚又闷又难熬呢。这也是我不太喜欢这个季节的原因之一。空调万岁。",
+            "skinName": "default",
+            "voiceFile": "404380_115",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380116,
+            "text": "诺恩说夏天就该看恐怖片，所以我陪她一起看了一部……可是，巨大西瓜袭击人类也算恐怖片吗？",
+            "skinName": "default",
+            "voiceFile": "404380_116",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380117,
+            "text": "嗯，贴得这么紧，确实好像会有点出汗呢……要是觉得介意，一定要马上告诉我哦？",
+            "skinName": "default",
+            "voiceFile": "404380_117",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380118,
+            "text": "女性对视线可是很敏感的，所以不能盯着穿得清凉的人一直看……真是的，你这人啊。",
+            "skinName": "default",
+            "voiceFile": "404380_118",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380119,
+            "text": "之后还有不少天气重新热起来的日子，可别太过大意，弄坏了身体哦。",
+            "skinName": "default",
+            "voiceFile": "404380_119",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380120,
+            "text": "这个时节空气清澈，月亮看起来也格外漂亮。下次我们一起去赏月吧。",
+            "skinName": "default",
+            "voiceFile": "404380_120",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380121,
+            "text": "等天气再凉快一些，舒适宜人的日子多起来后，出门也会方便不少呢。",
+            "skinName": "default",
+            "voiceFile": "404380_121",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380122,
+            "text": "真不敢相信居然已经九月了。希望在这一年结束之前，还能留下许多美好的回忆。",
+            "skinName": "default",
+            "voiceFile": "404380_122",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380123,
+            "text": "总觉得每年的秋老虎都越来越厉害了……再这样下去，以后秋天该不会消失吧？",
+            "skinName": "default",
+            "voiceFile": "404380_123",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380124,
+            "text": "秋天有那么多好吃的，就连吃饭都比平时更让人期待了，你不觉得吗？",
+            "skinName": "default",
+            "voiceFile": "404380_124",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380125,
+            "text": "都说秋天适合艺术创作，我也和芙拉一起画画什么的……不，还是算了吧。感觉会很受打击。",
+            "skinName": "default",
+            "voiceFile": "404380_125",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380126,
+            "text": "气温也舒适多了，或许一年之中，就属这个时节最宜人吧。",
+            "skinName": "default",
+            "voiceFile": "404380_126",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380127,
+            "text": "今年剩下的时间也越来越少了，为了不留下什么没做完的事，或许还是制订个计划比较好。",
+            "skinName": "default",
+            "voiceFile": "404380_127",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380128,
+            "text": "热乎乎的饮品，总能让人心里放松下来呢。你愿意的话，我帮你准备点什么吧？",
+            "skinName": "default",
+            "voiceFile": "404380_128",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380129,
+            "text": "是不是有点冷了……喂。我们再贴紧一点，会不会暖和些呢？",
+            "skinName": "default",
+            "voiceFile": "404380_129",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380130,
+            "text": "我就是想问问，作为参考……下个月不是圣诞节吗？那个，你有什么想要的东西吗？",
+            "skinName": "default",
+            "voiceFile": "404380_130",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380131,
+            "text": "与其等到一年快结束时再手忙脚乱，不如平时一点点地打扫，最后反而会轻松一些哦。",
+            "skinName": "default",
+            "voiceFile": "404380_131",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380132,
+            "text": "柘榴房间的大扫除，我是不是也去帮忙比较好呢……你能帮我问问爱花她们吗？",
+            "skinName": "default",
+            "voiceFile": "404380_132",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380133,
+            "text": "一年以前也过得这么快吗……或许，这正说明我这一年过得很充实吧。",
+            "skinName": "default",
+            "voiceFile": "404380_133",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380134,
+            "text": "今年也能和你一起度过，真是美好的一年。虽然还有点早，不过明年也请多多关照哦。",
+            "skinName": "default",
+            "voiceFile": "404380_134",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380135,
+            "text": "你看起来有些心不在焉呢。要是累了，哪怕只是闭目休息一会儿，也会好很多哦？",
+            "skinName": "default",
+            "voiceFile": "404380_135",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380136,
+            "text": "你今天还真是安静呢……要是不舒服，就别勉强自己，一定要好好告诉我哦？",
+            "skinName": "default",
+            "voiceFile": "404380_136",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380137,
+            "text": "被你这样一言不发地盯着，我实在有些静不下心来……你是有什么想让我做的吗？",
+            "skinName": "default",
+            "voiceFile": "404380_137",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380138,
+            "text": "喂，我可以披件外套吗？　……我真的要把上衣穿上了哦？　可以吗？",
+            "skinName": "default",
+            "voiceFile": "404380_138",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380139,
+            "text": "……那个，像现在这样，你是不是不太开心？　我不习惯做这种事，所以没什么自信。",
+            "skinName": "default",
+            "voiceFile": "404380_139",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380140,
+            "text": "呼——……呵呵。谁让你一直摆出一副呆呆的表情，我就忍不住捉弄了你一下。",
+            "skinName": "default",
+            "voiceFile": "404380_140",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380141,
+            "text": "喂……如果有什么想让我做的，就好好说出来哦？　毕竟我没那么机灵，不说的话可猜不到。",
+            "skinName": "default",
+            "voiceFile": "404380_141",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380142,
+            "text": "呃，那个……只摸一会儿的话，胸部也可以让你摸……要摸吗？",
+            "skinName": "default",
+            "voiceFile": "404380_142",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380143,
+            "text": "新年快乐。今年也让我们一家人幸福地度过这一年吧。",
+            "skinName": "default",
+            "voiceFile": "404380_143",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380144,
+            "text": "毕竟是情人节，我也准备了巧克力……机会难得，要不要我喂你吃？",
+            "skinName": "default",
+            "voiceFile": "404380_144",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380145,
+            "text": "呵呵，居然连我的回礼都准备了，你还真是有心呢。不过，我真的很开心。看来明年也得继续努力才行呢。",
+            "skinName": "default",
+            "voiceFile": "404380_145",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380146,
+            "text": "咦？　你说要成为特尔蒂亚家的孩子……就、就算是愚人节，也有些谎话是不能说的啊……！",
+            "skinName": "default",
+            "voiceFile": "404380_146",
+            "animation": "03_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380147,
+            "text": "今后，我也想继续和你……和家里的大家一起度过这样的每一天。只要是为了这个，我什么都愿意做。",
+            "skinName": "default",
+            "voiceFile": "404380_147",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380148,
+            "text": "七夕要许什么愿，我早就决定好了。因为无论何时，我都在祈愿你们能够幸福。",
+            "skinName": "default",
+            "voiceFile": "404380_148",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380149,
+            "text": "听说芙拉和诺恩要变装……那、那个，就算是万圣节，也不可以穿得太色情哦？",
+            "skinName": "default",
+            "voiceFile": "404380_149",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380150,
+            "text": "明天能和我一起过吗？　要是能把芙拉和诺恩也叫来，大家一起度过，我会很开心的……",
+            "skinName": "default",
+            "voiceFile": "404380_150",
+            "animation": "02_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380151,
+            "text": "圣诞快乐。难得过一次圣诞节，我们一起多创造些特别的回忆吧。",
+            "skinName": "default",
+            "voiceFile": "404380_151",
+            "animation": "04_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380152,
+            "text": "今年这一年，你也很努力了呢。明年也一起过个好年吧。",
+            "skinName": "default",
+            "voiceFile": "404380_152",
+            "animation": "01_loop"
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380153,
+            "text": "啊、嗯……等、等一下，一大早就这样……你已经，忍不住了吗……？",
+            "skinName": "default",
+            "voiceFile": "404380_153",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380154,
+            "text": "大白天就这样……啾、啵、啾、啾……要是光接吻满足不了你，该怎么办呀……啾。",
+            "skinName": "default",
+            "voiceFile": "404380_154",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380155,
+            "text": "就算到了晚上，你摸得也太不客气了……嗯嗯、啊、别、这么用力……嗯、呜嗯。",
+            "skinName": "default",
+            "voiceFile": "404380_155",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380156,
+            "text": "这里都已经变成这样了……你就这么期待吗？　既然这样，那、那个……要做吗？",
+            "skinName": "default",
+            "voiceFile": "404380_156",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380157,
+            "text": "就算今天是星期天，你这一大早的在干什么呀，真是的……可以让你摸，不过只能摸一会儿哦？",
+            "skinName": "default",
+            "voiceFile": "404380_157",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380158,
+            "text": "啾、啾啵、咕啾、嗯、哈啊……这样一来，这周也有干劲努力了吧？　要是还不够，要不要再来一会儿？",
+            "skinName": "default",
+            "voiceFile": "404380_158",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380159,
+            "text": "你也一直忍耐着吧……明天是星期天，我会好好疼爱这里，让你尽情享受的。",
+            "skinName": "default",
+            "voiceFile": "404380_159",
+            "animation": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "textId": 404380160,
+            "text": "不光积了一身疲劳，连这边也积了不少吗？　真拿你没办法……不过不能弄得太晚，只准来一次哦？",
+            "skinName": "default",
+            "voiceFile": "404380_160",
+            "animation": ""
         }
     ],
     "SpecialRoomCondition": [
@@ -42863,6 +44245,420 @@
             "month": 0,
             "day": 0,
             "dayType": "日",
+            "startTime": "220000",
+            "endTime": "235959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080010,
+            "month": 0,
+            "day": 0,
+            "dayType": "日",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080011,
+            "month": 0,
+            "day": 0,
+            "dayType": "月",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080012,
+            "month": 0,
+            "day": 0,
+            "dayType": "火",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080013,
+            "month": 0,
+            "day": 0,
+            "dayType": "水",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080014,
+            "month": 0,
+            "day": 0,
+            "dayType": "木",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080015,
+            "month": 0,
+            "day": 0,
+            "dayType": "金",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080016,
+            "month": 0,
+            "day": 0,
+            "dayType": "土",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080020,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "000000",
+            "endTime": "015959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080021,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "020000",
+            "endTime": "035959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080022,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "040000",
+            "endTime": "055959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080023,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "060000",
+            "endTime": "075959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080024,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "080000",
+            "endTime": "095959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080025,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "100000",
+            "endTime": "115959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080026,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "120000",
+            "endTime": "135959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080027,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "140000",
+            "endTime": "155959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080028,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "160000",
+            "endTime": "175959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080029,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "180000",
+            "endTime": "195959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080030,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "200000",
+            "endTime": "215959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080031,
+            "month": 0,
+            "day": 0,
+            "dayType": "",
+            "startTime": "220000",
+            "endTime": "235959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080100,
+            "month": 1,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080101,
+            "month": 2,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080102,
+            "month": 3,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080103,
+            "month": 4,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080104,
+            "month": 5,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080105,
+            "month": 6,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080106,
+            "month": 7,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080107,
+            "month": 8,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080108,
+            "month": 9,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080109,
+            "month": 10,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080110,
+            "month": 11,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080111,
+            "month": 12,
+            "day": 0,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080200,
+            "month": 1,
+            "day": 1,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080201,
+            "month": 2,
+            "day": 14,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080202,
+            "month": 3,
+            "day": 14,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080203,
+            "month": 4,
+            "day": 1,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080204,
+            "month": 5,
+            "day": 12,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080205,
+            "month": 7,
+            "day": 7,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080206,
+            "month": 10,
+            "day": 31,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080207,
+            "month": 12,
+            "day": 24,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080208,
+            "month": 12,
+            "day": 25,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080209,
+            "month": 12,
+            "day": 31,
+            "dayType": "",
+            "startTime": "",
+            "endTime": ""
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080310,
+            "month": 0,
+            "day": 0,
+            "dayType": "日",
+            "startTime": "080000",
+            "endTime": "095959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080311,
+            "month": 0,
+            "day": 0,
+            "dayType": "月",
+            "startTime": "080000",
+            "endTime": "095959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080312,
+            "month": 0,
+            "day": 0,
+            "dayType": "土",
+            "startTime": "220000",
+            "endTime": "235959"
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080313,
+            "month": 0,
+            "day": 0,
+            "dayType": "水",
             "startTime": "220000",
             "endTime": "235959"
         }
@@ -67179,6 +68975,1286 @@
             "tapPoint": "face",
             "isAdv": 1,
             "textId": 405701160
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380001
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380002
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380003
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380004
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380005
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380006
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380007
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380008
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380009
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380010
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "face",
+            "isAdv": 1,
+            "textId": 404380011
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "face",
+            "isAdv": 1,
+            "textId": 404380012
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "face",
+            "isAdv": 1,
+            "textId": 404380013
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "face",
+            "isAdv": 1,
+            "textId": 404380014
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380015
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380016
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380017
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380018
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380019
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380020
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380021
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380022
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080020,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380023
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080020,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380024
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080020,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380025
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080021,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380026
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080021,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380027
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080021,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380028
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080022,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380029
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080022,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380030
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080022,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380031
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080023,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380032
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080023,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380033
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080023,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380034
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080024,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380035
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080024,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380036
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080024,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380037
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080025,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380038
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080025,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380039
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080025,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380040
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080026,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380041
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080026,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380042
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080026,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380043
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080027,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380044
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080027,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380045
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080027,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380046
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080028,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380047
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080028,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380048
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080028,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380049
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080029,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380050
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080029,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380051
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080029,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380052
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080030,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380053
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080030,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380054
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080030,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380055
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080031,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380056
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080031,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380057
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080031,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380058
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080011,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380059
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080011,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380060
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080011,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380061
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080011,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380062
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080012,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380063
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080012,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380064
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080012,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380065
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080012,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380066
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080013,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380067
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080013,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380068
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080013,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380069
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080013,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380070
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080014,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380071
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080014,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380072
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080014,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380073
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080014,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380074
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080015,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380075
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080015,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380076
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080015,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380077
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080015,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380078
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080016,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380079
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080016,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380080
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080016,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380081
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080016,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380082
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080010,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380083
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080010,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380084
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080010,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380085
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080010,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380086
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080100,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380087
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080100,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380088
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080100,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380089
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080100,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380090
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080101,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380091
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080101,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380092
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080101,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380093
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080101,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380094
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080102,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380095
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080102,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380096
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080102,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380097
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080102,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380098
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080103,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380099
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080103,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380100
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080103,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380101
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080103,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380102
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080104,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380103
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080104,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380104
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080104,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380105
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080104,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380106
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080105,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380107
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080105,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380108
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080105,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380109
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080105,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380110
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080106,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380111
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080106,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380112
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080106,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380113
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080106,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380114
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080107,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380115
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080107,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380116
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080107,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380117
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080107,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380118
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080108,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380119
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080108,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380120
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080108,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380121
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080108,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380122
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080109,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380123
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080109,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380124
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080109,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380125
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080109,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380126
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080110,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380127
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080110,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380128
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080110,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380129
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080110,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380130
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080111,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380131
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080111,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380132
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080111,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380133
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080111,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380134
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380135
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380136
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380137
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380138
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380139
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380140
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380141
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080001,
+            "playType": 1,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380142
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080200,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380143
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080201,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380144
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080202,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380145
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080203,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380146
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080204,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380147
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080205,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380148
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080206,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380149
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080207,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380150
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080208,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380151
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080209,
+            "playType": 0,
+            "tapPoint": "",
+            "isAdv": 0,
+            "textId": 404380152
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080023,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380153
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080027,
+            "playType": 0,
+            "tapPoint": "face",
+            "isAdv": 1,
+            "textId": 404380154
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080031,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380155
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080020,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380156
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080310,
+            "playType": 0,
+            "tapPoint": "breast",
+            "isAdv": 1,
+            "textId": 404380157
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080311,
+            "playType": 0,
+            "tapPoint": "face",
+            "isAdv": 1,
+            "textId": 404380158
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080312,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380159
+        },
+        {
+            "specialRoomId": 4043080,
+            "actionId": 4043080313,
+            "playType": 0,
+            "tapPoint": "waist",
+            "isAdv": 1,
+            "textId": 404380160
         }
     ]
 }
