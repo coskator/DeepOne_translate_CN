@@ -1,0 +1,570 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_01.mp3
+msg,1,<outline width=2 color=black>「不好意思啊，莉濑。你难得来找我玩，却还让你帮忙整理东西\n」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_01.mp3
+msg,1,<outline width=2 color=black>「别在意啦，毕竟是我自己擅自跑过来的。\n而且我反正也闲着没事嘛」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_02.mp3
+msg,1,<outline width=2 color=black>「不过话说回来，路易斯的房间里还真是摆了各种各样的东西啊。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_03.mp3
+msg,1,<outline width=2 color=black>「咦，等等？　路易斯，这是什么？\n我翻出了一个感觉很有日式风格的盒子……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_02.mp3
+msg,1,<outline width=2 color=black>「啊，那个啊……我之前去日本的时候，别人硬塞给我的。\n说是被施了什么奇怪的诅咒，让我随便找个办法处理掉」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_03.mp3
+msg,1,<outline width=2 color=black>「结果一直没机会处理，就这样一路带到这里来了。\n唉……真是的，一个两个的，到底把我当成什么人了啊。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_04.mp3
+msg,1,<outline width=2 color=black>「路易斯还真是个劳碌命啊。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_05.mp3
+msg,1,<outline width=2 color=black>「不过，既然是这种事，那就交给我吧！　别看莉濑我这样，\n好歹也是个阴阳师，这点小诅咒三两下就能搞定啦。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_04.mp3
+msg,1,<outline width=2 color=black>「呃，不是，你乱碰的话真的会很危险，还是住手吧……！\n比起这种事，你明明更擅长直接用拳头解决吧。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_06.mp3
+msg,1,<outline width=2 color=black>「唔，总觉得你好像把我当成只会动蛮力的肌肉笨蛋了。\n我可是意外地会不少东西哦！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_05.mp3
+msg,1,<outline width=2 color=black>「你自己都说“意外”了啊……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_07.mp3
+msg,1,<outline width=2 color=black>「总之就交给我吧。放心啦，这种东西就算意外闹到不可收拾，\n最后狠狠揍上一顿，基本也都能解决的。」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_06.mp3
+msg,1,<outline width=2 color=black>「你果然就是个肌肉笨蛋嘛！　这话根本让人一点都放心不下来啊！？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_08.mp3
+msg,1,<outline width=2 color=black>「所以说，看招——！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>突然，我收到了路易斯发来的消息，要我“马上来她房间”。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>见她的语气似乎十分焦急，我连忙赶去了她的房间，然而——</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_09.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊、呃、哥哥……是哥哥呀……呃」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_07.mp3
+msg,1,<outline width=2 color=black>「哈啊……嗯、呀、你、你终于来了……嗯呜、呃、呀、莉濑，别蹭我」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_10.mp3
+msg,1,<outline width=2 color=black>「嗯啊、呃、路易斯才是，别扭腰呀……嗯、嗯呜、\n被你、这样蹭来蹭去的话……嗯、啊、啊啊……呃」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_08.mp3
+msg,1,<outline width=2 color=black>「呼、啊、啊、嗯嗯……那、那个，刚才，莉濑把诅咒的封印，\n解开了……所以，身体就变得很奇怪……哈啊、啊、嗯嗯呃」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_11.mp3
+msg,1,<outline width=2 color=black>「哥、哥哥，我已经……嗯、哈啊、不、不行了……好、好想变得，\n舒服起来……哪怕对象是路易斯，忍耐起来，也好难受……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_12.mp3
+msg,1,<outline width=2 color=black>「所以，想让哥哥帮帮我们……可、可是，变成这样……嗯、啊、\n一想到哥哥就在身边，就变得更加忍不住了」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_09.mp3
+msg,1,<outline width=2 color=black>「现在虽然还用符咒压制着，可这好像也快撑不住了。\n所、所以，我希望你也能来帮忙」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_10.mp3
+msg,1,<outline width=2 color=black>「只要把这股发情的欲望彻底发泄出来，诅咒应该也能想办法解决……所以，\n跟、跟我们做爱吧……让我们的身体，好好舒服起来……好吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_11.mp3
+msg,1,<outline width=2 color=black>「我也、嗯、啊……小腹深处，越来越饥渴，已经不行了……小穴，\n一直一抽一抽的……想、想让你，狠狠地蹂躏我」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/102.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_13.mp3
+msg,1,<outline width=2 color=black>「咿啊、呃、嗯嗯……路易斯，别揉我的胸、啊、呃、\n现在这样……嗯、啊、感觉会特别强烈……啊呼、嗯、哈、啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_12.mp3
+msg,1,<outline width=2 color=black>「抱歉……可是，手自己就……嗯、啊啊、莉濑你才是，又把小穴\n贴上来蹭……嗯啊、啊、嗯呜、呃」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_14.mp3
+msg,1,<outline width=2 color=black>「因、因为，嗯、啊、啊，好、好想要舒服的感觉……已经、\n不行了……人家忍不住了嘛……哈、啊、啊」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_15.mp3
+msg,1,<outline width=2 color=black>「咿、啊、啊啊！？　嗯、呜……！　哥、哥哥，那里，啊、啊、\n别摸小穴，我、那里，一下子就会舒服起来，嗯呜呜、啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_16.mp3
+msg,1,<outline width=2 color=black>「嗯、呜、呼、啊、嗯、呼呜呜……哥哥的手指，在里面摩擦，嗯啊、啊、\n已、已经不行了……小穴还想要、想要更多舒服的感觉……嗯、呜呜」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_17.mp3
+msg,1,<outline width=2 color=black>「哈、啊、啊啊，符咒都变得湿透了……啊、啊啊，呀、符咒，\n湿漉漉的，害得小穴痒得更厉害了……嗯呜、啊、呼、嗯……嗯、呜」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_13.mp3
+msg,1,<outline width=2 color=black>「呀、啊、不行……嗯嗯，符咒要是被弄湿了，就压制不住诅咒了\n呀，嗯、啊啊，身体会变得更加、发情……可、可是……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_18.mp3
+msg,1,<outline width=2 color=black>「已、已经无所谓了，只要是哥哥，就没关系。把这个揭下来……快点，\n不要再隔着符咒了，让我直接感受哥哥……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_19.mp3
+msg,1,<outline width=2 color=black>「快点、快点嘛……嗯、嗯啊，哥哥，求你了，把符咒揭下来，\n摸摸我的小穴……让我的小穴，尽情舒服起来」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_20.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……啊、啊啊……被哥哥看见了……因为诅咒而\n发情、变得湿漉漉的小穴……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_21.mp3
+msg,1,<outline width=2 color=black>「呐，哥哥……光是手指已经不够了……我想要肉棒。\n想用哥哥的肉棒，舒服起来……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_22.mp3
+msg,1,<outline width=2 color=black>「哥哥看着莉濑和路易斯发情的样子，\n也兴奋起来了吧……？　那就快点，给我吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_23.mp3
+msg,1,<outline width=2 color=black>「用哥哥的肉棒插进我里面，让我舒服到快要坏掉吧……」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_24.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、嗯呜……！　啊、啊啊，进来了，哥哥的肉棒，\n顶到最深处了……嗯呜、咿、嗯嗯嗯」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_14.mp3
+msg,1,<outline width=2 color=black>「呜、呜……莉濑，太狡猾了……我明明也一直忍着，只有莉濑的小穴\n能被他摸……甚至连肉棒都……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_25.mp3
+msg,1,<outline width=2 color=black>「对不起，路易斯，可是，嗯嗯，我真的、忍不住了，\n啊、呜，肉、肉棒，好厉害，好舒服……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_26.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊……小穴里面，被搅得咕啾咕啾的，\n咿、呜、啊、啊啊，这个、好舒服，再多给我一点……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_27.mp3
+msg,1,<outline width=2 color=black>「莉濑发情的小穴，想让哥哥用肉棒狠狠干到\n舒服得不得了……呼、啊、呜、嗯、啊、啊啊……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_15.mp3
+msg,1,<outline width=2 color=black>「莉濑看起来好舒服……让我看到这种样子，我也……嗯、呜」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_16.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……啊、手指，在玩弄我的小穴……啊呼、嗯、呜……所、所以，\n都说了不行啦……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_17.mp3
+msg,1,<outline width=2 color=black>「被你这么弄的话……小穴会流出口水，把符咒弄脏的……\n那样就压制不住诅咒了……咿、嗯、呜、嗯嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_18.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊……不、不行，身体都没力气了……嗯呜、啊、呼……嗯嗯、\n小穴，好舒、服……嗯、呼、啊、呜、嗯、呜呜……」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/108.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_28.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯……！　路、路易斯，又把我的胸部\n抓得这么紧……啊、嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_29.mp3
+msg,1,<outline width=2 color=black>「小穴和胸部一起被玩弄，咿、啊、呜、啊、啊啊，\n这样、感觉太强烈了，嗯、呜呜呜！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_19.mp3
+msg,1,<outline width=2 color=black>「对不、起，可是，啊、啊啊，不行，小穴被这样玩弄，啊啊，\n真的、受不了了……嗯啾、呜、呼、嗯嗯呜……」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_20.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊……符咒湿掉了……嗯啊、呜嗯……身体的燥热，变得越来越\n强烈……咿、啊、哈、啊啊啊」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_30.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯、嗯嗯！　啊、嗯嗯呜，哥、哥哥，嗯嗯，别、\n把肉棒弄得这么激烈……咿、呜、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_31.mp3
+msg,1,<outline width=2 color=black>「我要去了……嗯嗯，小穴感觉太强烈，马上就要\n去了呀……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_21.mp3
+msg,1,<outline width=2 color=black>「莉濑，快点高潮吧……我也想要那根肉棒……嗯、呜、\n我会多摸摸你的胸部，所、所以……啊、嗯嗯」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_32.mp3
+msg,1,<outline width=2 color=black>「咿啊、啊呜、哈、啊啊啊啊！　等、等等，嗯嗯，再这样、弄下去，\n我要去了，浑身上下、全都舒服得不得了，咿、嗯、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_33.mp3
+msg,1,<outline width=2 color=black>「咿、啊、啊啊啊！　要去、要去了，啊啊啊，哥、哥哥，嗯嗯，\n哥、哥，我、已经……！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_22.mp3
+msg,1,<outline width=2 color=black>「莉濑，快高潮吧……嗯咿、呜、啊、嗯呜……小穴、快高潮，快点、\n换我……嗯、嗯、嗯嗯」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_34.mp3
+msg,1,<outline width=2 color=black>「咿、嗯呜呜！　呼啊、哈、啊、啊啊啊，小穴要去了，呜、\n胸部也要去了，嗯咿、呜、哈、啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_35.mp3
+msg,1,<outline width=2 color=black>「要去了、去了去了，呜、呼啊、啊呜、哈、啊、啊啊啊，\n啊、嗯呜呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_36.mp3
+msg,1,<outline width=2 color=black>「哥、哥哥，射吧、射进来，给我中出……！\n嗯咿、呜、啊、啊、啊啊啊——啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5077/adv/image/110.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_37.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、呜、嗯、呜呜呜呜呜！　哈、啊啊啊，射出来了，\n哥哥滚烫的精液，射了好多……嗯、呜呜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_38.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯，哥哥，就这样射吧……让子宫里，全都装满\n哥哥的精液……啊呼、嗯、呜、哈、啊啊啊」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/111.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_39.mp3
+msg,1,<outline width=2 color=black>「哈啊、嗯、啊……肚子深处，全都被哥哥的精液灌满了。\n又暖又沉……被中出的感觉，好舒服……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_23.mp3
+msg,1,<outline width=2 color=black>「可、可别说只射给莉濑就结束了哦……？\n我也一直忍着……真的、已经到极限了……」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/112.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_40.mp3
+msg,1,<outline width=2 color=black>「嗯啊……鸡、鸡巴被拔出去了……不过，路易斯好像也\n到极限了，确实该换人了呢」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_24.mp3
+msg,1,<outline width=2 color=black>「是啊……符咒已经被淫液浸透，彻底失效了，\n快点把它揭下来……准备好让鸡巴插进来……」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/113.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_25.mp3
+msg,1,<outline width=2 color=black>「快点、啊……别再吊我胃口了，快把鸡巴给我，\n主人……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_26.mp3
+msg,1,<outline width=2 color=black>「请让这只中了诅咒、已经湿得一塌糊涂的母狗小穴，\n好好舒服个够吧……」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/114.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_27.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊、啊啊啊！　嗯呜，终于、进来了，\n鸡巴、噗嗤一下插进来了……嗯咿、呜、哈、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_28.mp3
+msg,1,<outline width=2 color=black>「主、主人的鸡巴，啊、啊啊，好厉害，又硬、\n又大……嗯呜、哈、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_29.mp3
+msg,1,<outline width=2 color=black>「明明才刚射给莉濑，却还是这么大……咿啊、哈、啊啊，\n主人的鸡巴、真威武……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_30.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、咿、啊、啊、啊啊……！　小、小穴，被弄得一塌糊涂了……\n啊、呜呼、啊、哈、啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_31.mp3
+msg,1,<outline width=2 color=black>「主人也、嗯、请好好享受吧、好吗……尽情地侵犯母狗的\n小穴，然后射出来吧……嗯」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/115.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_41.mp3
+msg,1,<outline width=2 color=black>「咿、嗯嗯……！　路、路易斯，又在揉我的胸……嗯咕、啊、\n我现在很敏感……咿、啊、咕、嗯、嗯、嗯呜呜」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_32.mp3
+msg,1,<outline width=2 color=black>「对不起、不行、啊、啊、啊啊，鸡巴太舒服了，我满脑子\n都是这个……嗯嗯、已经什么都搞不清楚了……啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_33.mp3
+msg,1,<outline width=2 color=black>「主人，再给我、嗯呜、再多给我一些鸡巴吧……！\n像是在侵犯母狗的小穴一样，用力地、不断顶进来……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_34.mp3
+msg,1,<outline width=2 color=black>「嗯咕、呜、呼啊、啊、咿、啊、哈、啊、啊啊啊啊！\n咿呜、嗯啊、哈、啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_42.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呜、胸部被紧紧抓住了、我、啊、啊啊、\n身体又要变得奇怪了、所以……嗯咿、咕、哈、啊啊啊！」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_35.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯、嗯、嗯嗯！　鸡、鸡巴又开始猛烈地、呜、嗯、\n嗯咿、咕、啊、哈、啊啊啊！　主人、啊、主人、主人！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_36.mp3
+msg,1,<outline width=2 color=black>「母狗路易斯的小穴是属于主人的、所以、\n哪怕侵犯到坏掉也没关系……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_37.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯、请给我更多、更多……！　无论是鸡巴、精液，\n还是舒服的感觉，全都给我……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_38.mp3
+msg,1,<outline width=2 color=black>「嗯咿、咕、哈、啊、啊、啊啊啊！　要去了、我要去了、\n主人、主人、主人……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_39.mp3
+msg,1,<outline width=2 color=black>「嗯咿、咕、啊、哈、啊、啊啊啊、啊、啊啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/5077/adv/image/116.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_40.mp3
+msg,1,<outline width=2 color=black>「啊、嗯、呜呜呜！　呼啊、啊、啊、啊啊啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_034_41.mp3
+msg,1,<outline width=2 color=black>「射、射出来了……主人的精液，咕啵、咕啵地，\n灌进来了……啊、咕、呼啊、哈、啊、啊啊啊」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/117.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_42.mp3
+msg,1,<outline width=2 color=black>「谢谢您、主人……给我射了这么多，\n我喜欢精液……嗯咕、啊、嗯、呜」</outline>,
+clickwait
+
+
+bg,download/character/5077/adv/image/118.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_43.mp3
+msg,1,<outline width=2 color=black>「嗯嗯……哈啊，为、为什么拔出去了……鸡巴明明还硬着，\n还可以继续做吧……？」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>火乃渡莉濑</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_43.mp3
+msg,1,<outline width=2 color=black>「路易斯，不可以一个人独占，不可以的啦……\n我也还想再要一次大哥哥的鸡巴」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/5077/adu5077_036_44.mp3
+msg,1,<outline width=2 color=black>「我的身体还一直这么热……只做一次，根本就完全不够。\n所以，呐……大哥哥」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>路易斯・贝雷斯福德</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_034_44.mp3
+msg,1,<outline width=2 color=black>「嗯……我的诅咒也还没有解除……还想要更多鸡巴，\n所以……」</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>莉瀬＆路易斯</outline>,
+playvoice,1,download/adv/voice/character/5077/adu5077_036_45.mp3
+msg,1,<outline width=2 color=black>「再多多地和我们做爱，好吗……？」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

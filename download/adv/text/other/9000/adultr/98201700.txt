@@ -1,0 +1,318 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>继承了“魔术师杀手”昆西之名并一路战斗至今的她，其视角和\n思维方式中，也包含着与普通魔术师不同的东西。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>我想着，接触昆西的知识与经验，或许也能从中有所收获，\n所以偶尔会请她抽出时间，让我听她讲述这些事情。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_01.mp3
+msg,1,<outline width=2 color=black>「啊，已经这个时间了……对不起。一不留神就讲了这么久。\n和你待在一起时，我总会不知不觉忘记时间的流逝呢。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_02.mp3
+msg,1,<outline width=2 color=black>「今天就先到这里吧。\n……虽然还有一点舍不得和你分开。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>说着，昆西露出了一个隐约透着几分寂寞的笑容。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_03.mp3
+msg,1,<outline width=2 color=black>「你本来每天就已经很努力了，\n所以一定要珍惜休息的时间。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我当然明白，她是出于对我的关心才这么说的。\n而且她说得应该也没错。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>可是……我无论如何都无法对昆西刚才那寂寞的神情\n视而不见。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>更何况，因为共度的时光即将结束而感到寂寞的，\n也不只有她一个人……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_04.mp3
+msg,1,<outline width=2 color=black>「啊……！」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我轻轻将昆西拥入怀中，她那娇小的肩膀猛地颤了一下。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_05.mp3
+msg,1,<outline width=2 color=black>「诶，那、那个……突、突然这样抱住我，是想做什么……啊、呜。\n不可以，要是被你这样抱着……我会更想和你待在一起的……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_06.mp3
+msg,1,<outline width=2 color=black>「——嗯、唔、嗯嗯！？　啾、啾噗……嗯、呼、啾呜、咕啾、\n啾……啾噗、啾……嗯嗯……哈、啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_07.mp3
+msg,1,<outline width=2 color=black>「唔……被、被你这样亲吻的话……我会忍不住自己的感情的……\n明明不想成为你的负担……」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>昆西的感情绝不会成为我的负担。\n为了将这份心意传达给她，我再次吻上了她的双唇。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_08.mp3
+msg,1,<outline width=2 color=black>「啾、啾噗、嗯、啾呜……呼、啊……我、我其实，还想要更多。\n嗯、啾呜……我还想、和你待在一起……嗯呜、啾噗、啾」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_09.mp3
+msg,1,<outline width=2 color=black>「所以……今晚，我可以一直陪在你身边吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_10.mp3
+msg,1,<outline width=2 color=black>「嗯、哈啊……我能感觉到，你很期待呢。在我的身下\n变得越来越硬……而且，还一直目不转睛地盯着我的胸部看……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_11.mp3
+msg,1,<outline width=2 color=black>「被你这样看着，我也兴奋起来了，\n嗯……身体变得越来越热……忍不住、想要了。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_12.mp3
+msg,1,<outline width=2 color=black>「好想让你的肉棒，进到我的小腹深处……好想让你把里面\n填得满满的……所以，现在已经可以放进来了吧……？」</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_13.mp3
+msg,1,<outline width=2 color=black>「啊、嗯嗯嗯呜……！　哈、啊、咕……你的、好大，\n顶到小腹深处了……嗯嗯、这样、好舒服。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_14.mp3
+msg,1,<outline width=2 color=black>「嗯嗯、我会多多扭动腰的……所以，你也要舒服起来\n哦……嗯咕、啊、嗯、嗯、嗯嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_15.mp3
+msg,1,<outline width=2 color=black>「呼、嗯、嗯嗯……啊、咕、这么大的，在里面、全都磨蹭着、嗯、呜呜、\n我快要叫出声了……咿呜、嗯、咕、呼、嗯、呼、嗯、嗯嗯呜。」</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_16.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯……啊、嗯，你一直盯着、我胸部被揉捏的地方看\n……肉棒、又变硬了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_17.mp3
+msg,1,<outline width=2 color=black>「这是因为兴奋了吧……既然这样，虽然很害羞，\n但我会让你尽情摸的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_18.mp3
+msg,1,<outline width=2 color=black>「再兴奋一点吧……嗯、嗯、嗯嗯……请用我的身体、好好舒服起来\n吧……嗯咕、嗯、嗯、呼、嗯、嗯、嗯嗯……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_19.mp3
+msg,1,<outline width=2 color=black>「啊呼、咕、嗯、呜呜……哈啊、嗯、嗯嗯、肉、肉棒、又硬、\n又大……被这样的东西顶着，嗯、呜呜、我已经、忍不住了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_20.mp3
+msg,1,<outline width=2 color=black>「快点、射出来……嗯呜、请把精液射出来、吧……不然的话、\n我真的、要发出淫荡的声音了、嗯、呜呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_21.mp3
+msg,1,<outline width=2 color=black>「我会、再多摸摸胸部的……腰也会、使劲扭动、所以。\n快、点嘛……」</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_22.mp3
+msg,1,<outline width=2 color=black>「咿、嗯啊、哈、嗯呜呜……！　啊啊、乳、乳头、揉弄一下……咿、\n嗯嗯、这样、很让人兴奋、对吧……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_23.mp3
+msg,1,<outline width=2 color=black>「胸部和乳头、我都会自己揉弄……啊、嗯嗯、在你的身上、\n扭动腰肢……嗯咕、嗯、呜、嗯、嗯嗯……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_24.mp3
+msg,1,<outline width=2 color=black>「我会、让你看到更多淫荡的地方、所以……快点、射出来吧、\n嗯嗯嗯、不然的话、声音、已经、忍不住了、嗯啊、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_25.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊、不行、泄出来了、淫荡的声音、停不下、\n咿、咕、哈、啊、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_26.mp3
+msg,1,<outline width=2 color=black>「明明、很害羞、可是小穴和胸部、舒服得过头了、已经、\n忍不住、不行了、真的不行了、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_27.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯！　肉、肉棒、在里面、抽动了……呼啊、啊、嗯嗯、\n我能感觉到、你因为我的声音、兴奋起来了……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_28.mp3
+msg,1,<outline width=2 color=black>「可是、真的、太害羞了、我都要变得奇怪了、嗯、呜呜！\n嗯咕、嗯啊、啊、咕、啊、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_29.mp3
+msg,1,<outline width=2 color=black>「舒服的感觉、不断涌出来……啊、啊啊、已经、什么都\n没法思考了、咿、咕、啊、啊啊、胸部、这边也……」</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_30.mp3
+msg,1,<outline width=2 color=black>「咿啊、啊、啊、嗯呜！　两边的乳头、都揉弄着、啊、啊啊、\n这样、好舒服、嗯咿、啊、咕、哈、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_31.mp3
+msg,1,<outline width=2 color=black>「胸部的尖端、被这样一捻、小穴就收紧了……嗯嗯、\n肉棒、又感觉到了……啊、嗯、呜、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_32.mp3
+msg,1,<outline width=2 color=black>「嗯嗯、好舒服……小穴和乳头、都好舒服、啊、啊啊、\n这个、好厉害、啊、嗯嗯、太厉害了、要高潮了、要去了……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_33.mp3
+msg,1,<outline width=2 color=black>「请射出来、你也、用我的身体、舒服起来、\n请射、射精吧、嗯咿、咕、啊、哈、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_34.mp3
+msg,1,<outline width=2 color=black>「嗯啊、咕、啊、啊、啊、啊啊啊！　肉、肉棒、向上顶、\n好激、烈、咿、咕、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_35.mp3
+msg,1,<outline width=2 color=black>「嗯、呜呜！　要来了、呀、要、去、呃……嗯呀、呃、嗯、哦、\n呀、嗯啊、啊、呃、啊、啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_36.mp3
+msg,1,<outline width=2 color=black>「嗯呀、要去了、乳头、小穴、一起、啊、呃、\n哈、啊、啊、啊、嗯、啊、啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_37.mp3
+msg,1,<outline width=2 color=black>「啊、呀、哈、啊、啊、嗯呃、啊、啊、啊啊啊啊啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/9000/98201700/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_38.mp3
+msg,1,<outline width=2 color=black>「呀、哈、啊啊啊啊……！　啊、呜呜、嗯呃、嗯、呜、\n啊、呜、啊啊啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_39.mp3
+msg,1,<outline width=2 color=black>「射、出来了、肉棒、在抽动、嗯嗯、正、在射精、\n呀、嗯呀、呃、啊、哈、啊、啊啊啊……」</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_40.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、啊啊啊……肚子、里面、精液、满满的……呜呜」</outline>,
+clickwait
+
+
+bg,download/character/9000/98201700/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/9000/adu8201700_41.mp3
+msg,1,<outline width=2 color=black>「呀……明、明明肉棒都拔出去了、却还停不下揉胸部……\n哈、啊啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_42.mp3
+msg,1,<outline width=2 color=black>「请、请不要看……明明、啊、啊啊、这么羞耻、\n手、却停不下来、嗯、呜呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/9000/adu8201700_43.mp3
+msg,1,<outline width=2 color=black>「我、为什么……嗯嗯、明明才刚高潮、乳头、\n却变得、这么……不行、呀、啊、又要去了、揉着乳头、又要、啊——」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>昆西</outline>,
+playvoice,1,download/adv/voice/character/9000/adu8201700_44.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊呜、嗯、呜呜呜呜呜呜……！」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

@@ -1,0 +1,417 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11060300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm194.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103957/adv/atlas/stand_a,body:anger,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>莉音・阿尔比蒂露</outline>,
+msg,0,<outline width=2 color=black>「好，那就开始吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20110201/adv/image/20110201.png,enemy1,0,50,1,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>敌人</outline>,
+msg,0,<outline width=2 color=black>「―――――――――――！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0.5,,,,
+anm,tint,yui,150_150_150,0.0001,0
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「呵呵，会怎么样呢？钰觉得莉音能赢吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「呃，我也不知道……不过，莉音小姐说过自己用过枪，\n所以感觉她应该比其他人更擅长吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「不过，真枪的射击水平能在多大程度上影响软木塞枪，\n这点还真有些难说呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不过，要是莉音这次输了，那可就真的无路可退了，\n或许还是暂时撤退比较好吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:unique,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「呵呵。要是大家都发情了，那我和钰也干脆顺势加入，\n一起度过一个快乐的夜晚，好像也不错呢♪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「……梅琪露小姐，你是不是已经猜到，\n莉音小姐失去的究竟是什么记忆了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:surprise,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「――……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm171.mp3,0,
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「你为什么会这么想？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「从刚才开始，你就一直说不恢复记忆也没关系……不，应该说，\n我感觉你好像反而不希望她恢复记忆……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「简直就像……莉音小姐失去的那段记忆，\n对梅琪露小姐来说，一直消失着反而更有利一样……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「所以你觉得，既然这样，我应该也猜到那究竟是什么记忆了，是吗」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……嗯，差不多吧。我大概已经猜到了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「那、那为什么……莉音小姐明明还对梅琪露小姐心怀感激――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「――我并没有打算漠视患者的感谢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「别人对我说谢谢，我就回答不用谢。\n而且说实话，被人感谢的感觉也不坏。这正是当医生的价值所在吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「即便如此……虽然这种话，医生绝对不该说出口。\n但有时候，我其实并没有做什么值得患者感谢的事」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:surprise,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「这是什么意思……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「比如延命治疗。病症无法根治，只能让患者当前的状况\n稍微好转一些的时候」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「即便如此，患者还是会感谢医生。\n毕竟自己的生命得以延续，正常来说，当然会心怀感激吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「但那只是站在患者的角度。换成医生的角度，你不觉得事情就不一样了吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「即便延长了患者的生命，医生也比患者本人更清楚，终点依然在步步逼近」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「明明只是把问题往后拖了，却还因此受到感谢，\n你觉得医生真能坦然接受吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「医生绝不能漠视患者的感谢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「但医生也绝不能对患者的问题视而不见」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「明明根本没有治好患者，明明即将走到生命尽头的患者就在眼前，\n却听到对方说谢谢……这种心情，钰能想象吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「这个……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「“这句话”，是医生绝对不能说出口的。\n它既否定了自己的治疗，也是对患者不负责任的话」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「“我并没有做什么大不了的事”」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不用感谢我……每当这样的话涌到喉咙口时，\n我都会在即将说出口的那一刻咽回去」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「那种感觉嘛……说实话，并不好受」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「梅琪露小姐……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:smile,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「嘛，这不过是一个小医生那点微不足道的自尊。\n跟患者一丁点关系都没有」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「即便如此……正因如此，我觉得莉音就算一直忘记说谢谢，\n其实也没什么不好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「如果我们能一直装作彼此都不知情，就这么糊弄过去，\n说实话，那样反倒更轻松」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>「如果连那句谢谢都还无法坦然接受，我就不想回答什么“不用谢”」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……即便如此」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「梅琪露小姐救了莉音小姐，这是事实；莉音小姐对此心怀感激，也同样是事实。\n钰觉得，这些都不应该被抹去」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:sad,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「如果这一切都变得像从未发生过一样……钰会觉得很难过」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「因为钰会觉得难过，所以呢？　钰明明又不是当事人吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「是的。可是钰……真的受过很多帮助」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「钰不明白梅琪露小姐心中的痛苦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「但是……因为有人替自己延续了未来，心中满怀感激而感到痛苦，\n这种心情，钰自认为能够理解」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「莉音小姐一定也一样。心中的感激让她备受煎熬，\n其实，她一直都很想把这份心意告诉梅琪露小姐……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「钰之前一直不明白，莉音小姐为什么不向梅琪露小姐表达多年前的谢意」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「或许是因为她无法确定，当年真正救了自己的人究竟是不是梅琪露小姐。\n也或许是因为，她不好意思说出自己的心意」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「钰也曾这么想过……但大概并不是这样吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「莉音小姐是不是早已在不知不觉间，\n察觉到了梅琪露小姐的心意呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:surprise,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「平时莉音小姐也常常需要请梅琪露小姐开药，和其他人相比，\n她应该有更多机会接触梅琪露小姐……钰想，她一定从中感受到了什么」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「她一定察觉到了，把自己的感激告诉梅琪露小姐，\n对梅琪露小姐来说并不是一件值得高兴的事」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181610/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+anm,tint,yui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>梅琪露・梅尔库里</outline>,
+msg,0,<outline width=2 color=black>「明明是个局外人，却这么毫不客气地闯进来。\n钰原来是会说这种话的人吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:anger,yui,-300,-90,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>钰</outline>,
+msg,0,<outline width=2 color=black>「――因为钰是莉音小姐的朋友」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:anger,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「既然莉音小姐如此痛苦，钰就想为她做些什么。\n所以，即使钰知道这么说很不负责任……也请让钰把话说完」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:normal,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「梅琪露小姐」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105010/adv/atlas/stand_a,body:smile,yui,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「请你好好负起救了她的责任――负起让她心怀这份几乎要压垮心灵的感激之情的责任」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
