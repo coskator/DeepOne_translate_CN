@@ -31,7 +31,7 @@ clickwait,,,,,,,,,,,
 
 spriteatlas,download/character/103957/adv/atlas/stand_a,body:unique,rlin,0,-60,0.5,0,,,,
 playvoice,1,download/character/103957/adv/sound/fav103957_01_04.mp3
-msg,1,<outline width=2 color=black>「作为当事人的房东几乎什么都不肯告诉我，\n所以我只知道些模模糊糊的传闻，不过想必不是什么正经玩意儿吧」</outline>,,,,,,,,,
+msg,1,<outline width=2 color=black>「作为当事人的大家几乎什么都不肯告诉我，\n所以我只知道些模模糊糊的传闻，不过想必不是什么正经玩意儿吧」</outline>,,,,,,,,,
 clickwait,,,,,,,,,,,
 
 

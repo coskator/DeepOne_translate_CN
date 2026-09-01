@@ -300,7 +300,7 @@ clickwait
 
 
 playvoice,1,download/adv/voice/character/1047/adu104711_02_43.mp3
-msg,1,<outline width=2 color=black>「あなたの精液で、ぐちゃぐちゃになった穴、どっちでも……\nまた、いっぱい……ちんぽ、ねじ込んで」</outline>,
+msg,1,<outline width=2 color=black>「被你的精液弄得黏糊糊、一塌糊涂的洞，不管哪一个都可以……\n再把鸡巴……狠狠地、塞进去……塞得满满的……」</outline>,
 clickwait
 
 

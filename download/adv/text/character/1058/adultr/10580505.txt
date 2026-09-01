@@ -34,7 +34,7 @@ clickwait
 
 
 playvoice,1,download/adv/voice/character/1058/adu105805_02_03.mp3
-msg,1,<outline width=2 color=black>「难、难道说……明明才刚和房东分开，你就已经发情了吗？」</outline>,
+msg,1,<outline width=2 color=black>「难、难道说……明明才刚和大家分开，你就已经发情了吗？」</outline>,
 clickwait
 
 
