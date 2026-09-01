@@ -1,0 +1,298 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>我实在不敢说，自己能够理解蓟被人创造出来、又被人否定时所承受的痛苦与悲伤，乃至愤怒。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>即便如此……我还是想陪伴在心受重创的她身旁。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_03_01.mp3
+msg,1,<outline width=2 color=black>「……我真的可以继续留在这里吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_02.mp3
+msg,1,<outline width=2 color=black>「失去了原本的作用，甚至不复昔日模样的枯萎之花……这样的我\n继续留在这里，又有什么意义……倒不如干脆就此消失――」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>为了打断蓟那番否定自己的话，我将她娇小的身体揽入怀中。\n被我抱在臂弯里的蓟，肩膀微微颤抖了一下。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_03_03.mp3
+msg,1,<outline width=2 color=black>「…………竟然被人类触碰，真令人不快。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_04.mp3
+msg,1,<outline width=2 color=black>「最讨厌了。明明创造了我，却根本不懂得如何好好对待我，还从我身上\n夺走了一切。我讨厌人类。讨厌。真的好讨厌。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_05.mp3
+msg,1,<outline width=2 color=black>「……可是。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>蓟忽然将我扑倒在地。\n我甚至来不及反抗，她便骑到了我的身上……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_03_06.mp3
+msg,1,<outline width=2 color=black>「可是，为什么……只要与你相触，我就会希望你能再多这样\n触碰我一会儿，甚至想要一直保持这样呢？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_07.mp3
+msg,1,<outline width=2 color=black>「为什么我会产生这种错觉，觉得即便是这样的自己，或许也还能为别人做些什么呢？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_08.mp3
+msg,1,<outline width=2 color=black>「……全都是你的错。是你不好。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+movie,download/character/105805/adv/anm/105805_01.mp4,mov1,1,,,,,,,,,
+wait,0.01,
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_03_09.mp3
+msg,1,<outline width=2 color=black>「哈、啊……嗯……真是的，你的、都变成这样了……是想插进我的\n小穴里，对吧……？　真是没节操呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_10.mp3
+msg,1,<outline width=2 color=black>「真、拿你没办法……可以哦。就让你这根没节操的肉棒，在我的\n小穴里，好好舒服个够吧」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_11.mp3
+msg,1,<outline width=2 color=black>「我会让它在里面使劲摩擦，把精液都射出来的……嗯、啊」</outline>,
+clickwait
+
+
+movieoff,mov1,1,,,,,,,,,,
+movie,download/character/105805/adv/anm/105805_02.mp4,mov2,1,,,,,,,,,
+wait,0.01,
+playvoice,1,download/adv/voice/character/1058/adu105805_03_12.mp3
+msg,1,<outline width=2 color=black>「哈、啊、嗯呜、嗯、嗯嗯、啊、啊啊啊……！\n和你、连在一起的、感觉、就是这个……嗯呜、啊、啊啊、嗯嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_13.mp3
+msg,1,<outline width=2 color=black>「呼、啊、嗯咕、呼、啊、啊、啊啊啊……你、感觉怎么样？\n已经、好好地、插到最里面了哦……嗯嗯、啊、啊啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_14.mp3
+msg,1,<outline width=2 color=black>「嗯、哈、啊啊嗯、我的、小穴、啊、嗯、舒服、吗？\n里面、被使劲顶弄着、咿、啊、啊啊、这根肉棒、好大、嗯啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_15.mp3
+msg,1,<outline width=2 color=black>「啊、嗯咕、呼、啊、啊啊、好深、嗯、啊啊啊、肚子、啊、\n子宫、都被顶起来了……咿、啊、啊、一下下顶得、好舒服」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_16.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜、哈、啊啊啊、再来……嗯、嗯、嗯嗯嗯！　再多、\n感受一下我的小穴……请变得、更舒服吧、啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_17.mp3
+msg,1,<outline width=2 color=black>「我会努力、嗯、啊啊、摆动、腰的……嗯、嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_18.mp3
+msg,1,<outline width=2 color=black>「哈、啊啊、啊、啊、小穴、紧紧夹住、嗯啊、为了肉棒、\n我会用小穴好好服侍你的……哈、啊、啊啊、嗯咕、嗯、嗯」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_19.mp3
+msg,1,<outline width=2 color=black>「咿呜、嗯、啊啊！　啊、啊、啊啊、水声、好响、嗯啊、\n里面都被肉棒、搅得一塌糊涂了、嗯呜呜、啊、啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_20.mp3
+msg,1,<outline width=2 color=black>「越来越、舒服了、啊♡　嗯、呜、啊、啊啊啊、小穴、\n每次被咕啾咕啾地搅动，我就、嗯、啊啊、嗯、嗯、嗯嗯嗯♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_21.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜、哈、啊啊、啊、啊、啊、里面、全部、嗯啊、都被肉棒、\n摩擦着……♡　小穴里、塞满了肉棒、嗯啊、啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_22.mp3
+msg,1,<outline width=2 color=black>「哈、啊啊、嗯、嗯嗯、明、明明应该、嗯啊、啊、由我来、\n让你舒服才对……啊、啊、啊啊、不行、不可以这样啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_23.mp3
+msg,1,<outline width=2 color=black>「呼啊、啊、嗯嗯呜呜……！　这样、嗯、啊啊、不行、啊啊啊、\n我的小穴、为什么会这么、啊、啊、受不了肉棒啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_24.mp3
+msg,1,<outline width=2 color=black>「明明还得、更、嗯、啊、啊、让你更舒服、才行的，可是、\n我的小穴却、越来越……嗯、呜、呼、啊、啊啊啊♡」</outline>,
+clickwait
+
+
+movieoff,mov2,1,,,,,,,,,,
+movie,download/character/105805/adv/anm/105805_03.mp4,mov3,1,,,,,,,,,
+wait,0.01,
+playvoice,1,download/adv/voice/character/1058/adu105805_03_25.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜呜♡　嗯啊、啊、咿呜♡　不行、已、已经忍不住、舒服的感觉了、\n啊、啊♡　小穴里的水、越来越多、都要溢出来了♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_26.mp3
+msg,1,<outline width=2 color=black>「咿、啊♡　啊、啊、啊啊啊♡　嗯呜、呜呜♡　嗯咕、啊、啊♡\n最里面♡　嗯啊啊、小穴的最里面、被狠狠地向上顶着、咿啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_27.mp3
+msg,1,<outline width=2 color=black>「这个、好舒服♡　嗯、啊、啊啊、使劲摆动、腰、\n好舒服♡　嗯啊、啊♡　肉棒、好、好厉害♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_28.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊♡　啊、啊、啊♡　嗯、呼♡　我、我的小穴、已经♡\n最喜欢、肉棒了♡　我的小穴、最喜欢肉棒了♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_29.mp3
+msg,1,<outline width=2 color=black>「再来♡　还要更多♡　用肉棒把里面弄得一塌糊涂♡　嗯、啊、啊啊、\n嗯、嗯嗯♡　肉棒♡　肉棒♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_30.mp3
+msg,1,<outline width=2 color=black>「嗯啊、哦♡　好厉害♡　这个、太厉害了♡　小穴、要去了♡\n这样的话、马上就会♡　嗯、啊啊♡　马上、就要去了♡　要去了、呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_31.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜呜♡　肉、肉棒、一跳一跳的♡　嗯啊、啊、哦♡\n嗯呼、呜♡　这是、要射出来了吗♡　要、射精了对吧♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_32.mp3
+msg,1,<outline width=2 color=black>「来吧♡　快来吧♡　射出来、射出来♡　给我♡　请把好多好多、精液、\n噗地一下全射出来♡　把我的小穴、灌得满满的♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_33.mp3
+msg,1,<outline width=2 color=black>「嗯、啊、啊啊啊♡　我也♡　嗯咕、呼、啊啊♡\n啊、啊、啊♡　嗯♡　嗯呜♡　咿咕、嗯、啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_34.mp3
+msg,1,<outline width=2 color=black>「我要被肉棒、干得小穴高潮了♡　嗯、呜呜♡　一起♡\n一起去吧♡　咿、啊♡　嗯呜呜♡　　嗯♡　嗯♡　嗯嗯呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_35.mp3
+msg,1,<outline width=2 color=black>「我的小穴也、要、去了♡　嗯啊、啊、要去了♡　我要去了♡\n嗯咕、啊、啊啊、嗯呜♡　嗯咕、嗯呜呜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_36.mp3
+msg,1,<outline width=2 color=black>「嗯啊、啊、啊、啊啊啊♡　要去了、要去、要去了♡\n小穴、要去了♡　要、去、啊、啊啊啊♡」</outline>,
+clickwait
+
+
+movieoff,mov3,1,,,,,,,,,,
+movie,download/character/105805/adv/anm/105805_04.mp4:download/character/105805/adv/anm/105805_05.mp4,mov4:mov5,1,,,,,,,,,
+wait,0.01,
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_37.mp3
+msg,1,<outline width=2 color=black>「咿呜、啊、啊啊啊♡　嗯、啊、啊啊、啊啊啊啊啊啊啊啊啊啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_38.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜呜♡　啊、啊♡　啊啊啊啊……♡　好热♡\n射、到里面了♡　精液、正在灌进来……嗯啊、啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_39.mp3
+msg,1,<outline width=2 color=black>「嗯、啊♡　啊、啊♡　嗯、啊啊、啊♡　射、射得太多了♡\n子宫、都被灌得满满的……嗯、呼、啊、啊啊……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_40.mp3
+msg,1,<outline width=2 color=black>「哈、啊♡　哈啊♡　嗯、嗯呜♡　肉棒、射了好多好多\n精液呢……♡　嗯、呼……舒、舒服吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_41.mp3
+msg,1,<outline width=2 color=black>「我的小穴、也舒服得不得了♡　谢谢你、在里面射了这么多，\n多得都快让我的小穴、淹没在精液里了♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_42.mp3
+msg,1,<outline width=2 color=black>「嗯嗯♡　啊、嗯呜♡　明明已经射了这么多、肉棒、\n却好像还精神得很呢……真不愧是你♡　肉棒、好厉害♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_43.mp3
+msg,1,<outline width=2 color=black>「就这样、再来一次……好吗？　要让肉棒、继续在\n我的小穴里、噗咻噗咻地射出更多精液吗？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_44.mp3
+msg,1,<outline width=2 color=black>「嗯♡　当然可以呀♡　我的小穴、随便你用多少次都行♡\n请尽管用它、让肉棒舒服起来吧♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_03_45.mp3
+msg,1,<outline width=2 color=black>「你射出来的一切……我都会、在身体里面全部接住的♡」</outline>,
+clickwait
+
+name,,,,,
+,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+movieoff,mov4,,,,,,,,,
+movieoff,mov5,,,,,,,,,
+bg,color_0_0_0,0.1,255,,,,,,,,,
+endwait,,,,,,,,,,,
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait

@@ -1,0 +1,166 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm152.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_01.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「以黑蔷薇和白樱为首，纳克特抄本为什么都如此尽心尽力地\n为人类效劳呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_02.mp3
+msg,1,<outline width=2 color=black>「尤其是红百合，实在令我担心。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_03.mp3
+msg,1,<outline width=2 color=black>「身为母亲的我能够明白。红百合也同样作为纳克特抄本，\n此时此刻仍在竭尽全力地向身为持有者的你奉献自己。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_04.mp3
+msg,1,<outline width=2 color=black>「可是…………我听说了。你和纳克特原书之梦，\n似乎是以近乎强硬的手段，从前任持有者手中夺走了红百合。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_05.mp3
+msg,1,<outline width=2 color=black>「以红百合的性子，在前任主人身边时，她也一定在拼命努力，\n想要派上用场吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_06.mp3
+msg,1,<outline width=2 color=black>「可你们竟然还强行将她夺走，据为己有，实在卑鄙。\n简直是邪魔歪道之举。人类果然差劲透顶。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_07.mp3
+msg,1,<outline width=2 color=black>「而且，如果只是想依靠红百合的力量倒也罢了，竟然还把她当成\n转嫁显现纳克特原书之梦所需负担的对象……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　“我很感谢红百合”,选项2　“红百合不愿意吗？”
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_08.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「唔……那是当然。要是你胆敢声称自己连一丝感激之情都没有，\n我绝不会饶了你。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_09.mp3
+msg,1,<outline width=2 color=black>「…………你真的有好好感谢她吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_10.mp3
+msg,1,<outline width=2 color=black>「——是、是吗。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_11.mp3
+msg,1,<outline width=2 color=black>「红百合一定会回答，那份感谢对她来说便已经足够了吧。\n即使尚未萌生意识，那孩子终究也是纳克特抄本。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_12.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「你是在瞧不起红百合吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_13.mp3
+msg,1,<outline width=2 color=black>「无论有什么缘由，无论出于什么目的被人利用，\n那孩子都绝不可能拒绝背负自己的人吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_14.mp3
+msg,1,<outline width=2 color=black>「明明一直与她相伴，你却连这点都不明白吗？\n真是的……红百合或许没有遇上一个好主人呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_15.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「……纳克特抄本果然不该总是为人类着想，\n而应该多为自己考虑。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_16.mp3
+msg,1,<outline width=2 color=black>「认为自己的存在意义就只有奉献给人类，这种想法根本就是错的。\n人类根本不值得你们如此尽忠……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_17.mp3
+msg,1,<outline width=2 color=black>「——……这种话说得太多，\n我恐怕又要被嫌烦了吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_18.mp3
+msg,1,<outline width=2 color=black>「无论我多么牵挂她们、如何劝说她们，她们还是会舍我而选择主人。\n因为我也很清楚，这才是纳克特抄本。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_19.mp3
+msg,1,<outline width=2 color=black>「真是的，居然能为了人类奉献自己的一切到这种地步……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_20.mp3
+msg,1,<outline width=2 color=black>「…………真羡慕。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_21.mp3
+msg,1,<outline width=2 color=black>「呃，没、没什么！刚才那个，那个，只是你听岔了！\n是你听错了！是你的错觉……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_22.mp3
+msg,1,<outline width=2 color=black>「忘掉。请忘掉。给我忘掉！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_02_23.mp3
+msg,1,<outline width=2 color=black>「听好了。明白了吗！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

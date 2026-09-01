@@ -1,0 +1,317 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>作为纳克特抄本们的原型，蓟自称是她们的母亲。\n虽说这应该也不算错……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_01.mp3
+msg,1,<outline width=2 color=black>「唔……怎么了？为什么一直盯着我看？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>老实说，以她那副可爱的容貌，与其说是母亲，\n倒更像是姐妹——而且说是妹妹还更贴切。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_02.mp3
+msg,1,<outline width=2 color=black>「你该不会是在打什么坏主意——……把那种卑劣的淫念\n投向我吧，你这个变态！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_03.mp3
+msg,1,<outline width=2 color=black>「所以说人类就是……哪怕是野兽，都比你们更懂得节制。\n嘴上说着理性、道德之类的话，果然本质上连野兽都不如呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>面对她这番突如其来的指控，我本想开口纠正，但要是把刚才心里想的\n原原本本告诉她，蓟肯定又会因为另一层意思而生气吧。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>我一时想不出别的话来，只得沉默不语。\n蓟一脸不悦地——悄悄朝我伸出了手。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_04.mp3
+msg,1,<outline width=2 color=black>「虽然我非常不情愿，但如果黑蔷薇或白樱在这里，\n她们一定会照顾你的吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_05.mp3
+msg,1,<outline width=2 color=black>「既然如此，如今那两个孩子不在，就由身为她们原型与母亲的我，\n代替她们履行这一职责，也算是理所当然吧。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_06.mp3
+msg,1,<outline width=2 color=black>「所以，那个……我是迫不得已才这么做的。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_07.mp3
+msg,1,<outline width=2 color=black>「我可是迫不得已才帮你的，你可别产生什么奇怪的误会哦。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/101.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>蓟</outline>,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_08.mp3
+msg,1,<outline width=2 color=black>「已、已经这么大了……还是老样子，好大……而且，又硬、\n又烫……嗯、呜、嗅、嗅……气味，好浓……真、真不洁。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_09.mp3
+msg,1,<outline width=2 color=black>「这么脏的鸡巴，必须马上帮你舔干净才行呢。」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/102.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_10.mp3
+msg,1,<outline width=2 color=black>「嗯、呃……啾噜、舔、啾噗……嗯、舔噜、舔呜……嗯、呼、\n鸡巴的味道，也好浓……啾噜、舔、啾噗、舔舔。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_11.mp3
+msg,1,<outline width=2 color=black>「哈、嗯、这里、啾噜、舔哦，这处凸起下面凹进去的地方……\n舔、舔呜、啾噜噜、滋噜、舔呜……舔舔。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_12.mp3
+msg,1,<outline width=2 color=black>「啾噗、舔、舔啾、嗯……这里的气味和味道，\n感觉都特别浓……啾噜、舔、舔、啾噜噜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_13.mp3
+msg,1,<outline width=2 color=black>「咕啾、啾噗、咕啾……嗯啊、哈，那条筋的地方，得再用舌头\n仔细抠舔才行……舔啾、嗯、咕啾、舔舔、滋噜噜。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_14.mp3
+msg,1,<outline width=2 color=black>「呼、呜、嗯嗯、滋滋、滋……滋噜噜、啾噜噜……舔舔……嗯、\n哈……整根鸡巴，我都会帮你舔得更加干干净净……啊、唔。」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/103.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_15.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯咕、嗯、唔……啾噗、咕噗、噗……嗯、呼呜、唔、滋啾、\n滋噜噜、啾噜、咕啾……啾噜噜……嗯嗯。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_16.mp3
+msg,1,<outline width=2 color=black>「鸡、鸡巴，好大……啾噜、滋噗、咕噗、咕噗、嗯呜……\n偶的、嘴……啾噜、滋滋、咕噗、嗯咕、连最里面、都用上。」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_17.mp3
+msg,1,<outline width=2 color=black>「啾噜噜、滋噜噜、嗯、滋滋、滋啾、滋噜噜……鸡、鸡巴，\n偶会全部、好好擦舔干净……滋噗、嗯、嗯、咕噗、滋噜噜。」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/104.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_18.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯嗯……！？　呀、嗯啾♡　嗯嗯嗯♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_19.mp3
+msg,1,<outline width=2 color=black>「嗯、噗啊……！　咳、咳♡　嗯、嗯嗯♡　咿、啊、啊♡\n你、你在做什么、嗯啊♡　怎、怎么突然摸我的小穴♡　嗯呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_20.mp3
+msg,1,<outline width=2 color=black>「不、不行♡　现在、嗯啊、我、我正在服侍鸡巴、咿啊♡\n小、小穴已经湿成这样了、嗯呜♡　咿、啊、现在被你这么弄的话♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_21.mp3
+msg,1,<outline width=2 color=black>「嗯呜呜♡　嗯、啊、啊、不行♡　不要♡　别、别把手指插进小穴，\n马上就会变得好舒服、嗯呜♡　咿、啊、啊啊、别来回抽插呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_22.mp3
+msg,1,<outline width=2 color=black>「咿呜、嗯、哦♡　嗯啊、啊、嗯♡　不行、现在不能弄小穴，\n不行♡　这样就没法专心服侍鸡巴了♡　咿、啊♡　啊♡　嗯啊啊♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/106.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_23.mp3
+msg,1,<outline width=2 color=black>「嗯、嗯、嗯嗯♡　别、别再摸了，我受不了了，让我好好地\n用嘴服侍鸡巴吧♡　求你让我继续吧♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/105.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_24.mp3
+msg,1,<outline width=2 color=black>「嗯呜呜♡　哦、嗯呜♡　手指、好深、啊♡　那里♡　那里不行♡\n小穴最舒服的地方、不要一直蹭呀♡　嗯嗯呜呜呜♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/107.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_25.mp3
+msg,1,<outline width=2 color=black>「唔、啾噜噜♡　舔、舔♡　舔舔、舔呜呜♡　嗯、啾噜、\n滋滋、啾噜噜呜呜♡　哈、啊、得、得好好服侍鸡巴才行♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_26.mp3
+msg,1,<outline width=2 color=black>「舔舔、舔噜♡　啾噜噜♡　嗯、咕啾、舔啾♡　舔呜♡\n服侍鸡巴♡　嗯啊♡　我会、让你舒服的♡　啾噜噜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_27.mp3
+msg,1,<outline width=2 color=black>「舔啾♡　舔呜♡　咕啾咕啾♡　嗯、嗯嗯♡　嗯啊♡　哈、啊啊♡\n鸡、鸡巴，舔呜、啾噗、感觉、怎么样♡　啾噜、啾噜噜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_28.mp3
+msg,1,<outline width=2 color=black>「嗯啊♡　小、小穴、嗯呜♡　不要、弄得咕啾咕啾的♡　舔呜♡\n啾噜噜♡　嗯、呜嗯♡　小穴、好舒、服♡　啾噜噜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_29.mp3
+msg,1,<outline width=2 color=black>「我、我也、还要、嗯♡　啾噜噜、舔呜♡　舔舔♡　舔啾♡\n舔呜呜♡　舔噜舔噜♡　鸡巴♡　鸡巴、还要……嗯♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/108.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_30.mp3
+msg,1,<outline width=2 color=black>「嗯咕、咕噗、噗♡　嗯咕♡　啾滋、啾噗♡　嗯、唔♡\n咕噗、咕啵♡　嗯咕♡　咕噗♡　咕啵♡　啾滋滋滋♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_31.mp3
+msg,1,<outline width=2 color=black>「射出来♡　嗯咕、嗯♡　请、请射出来♡　啾噗、嗯♡\n啾噜噜♡　咕啵♡　咕啵♡　咕噗、噗呜♡　啾滋滋滋滋♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_32.mp3
+msg,1,<outline width=2 color=black>「呼、呜♡　呼呜♡　嗯、嗯、嗯嗯♡　嗯咕♡　嗯噗♡　鸡巴、\n一抽一抽的♡　嗯啾、啾噜噜♡　射出来、射出来♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_33.mp3
+msg,1,<outline width=2 color=black>「请给我、精液♡　嗯啾、啾噗♡　嗯、嗯、嗯嗯呜♡\n呀♡　嗯噗♡　嗯嗯♡　我、我也、小穴♡　嗯嗯呜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_34.mp3
+msg,1,<outline width=2 color=black>「啾噗♡　啾滋♡　嗯、唔、咕啵♡　咕噗♡　咕噗、噗♡\n啾滋滋♡　啾噜♡　啾噜噜呜♡　咕噗♡　咕噗♡　嗯、嗯嗯♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_35.mp3
+msg,1,<outline width=2 color=black>「咕噗♡　啾噜噜♡　滋、啾噜♡　啾噗♡　嗯、呜♡　嗯嗯♡\n嗯、嗯、嗯♡　啾噜噜噜噜呜呜——♡」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/105805/adv/image/109.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_36.mp3
+msg,1,<outline width=2 color=black>「嗯噗♡　嗯、嗯嗯呜呜呜♡　嗯呜、唔♡　嗯、嗯嗯……♡\n啾滋、啾噜噜♡　嗯……滋滋♡　嗯咕♡　咕、咕噜♡　嗯咕♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/110.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_37.mp3
+msg,1,<outline width=2 color=black>「呼——♡　嗯、唔♡　呼呜呜♡　啾噜、噜……滋滋♡\n嗯咕、咕咚♡　嗯呜、呜♡　精液、好多♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_38.mp3
+msg,1,<outline width=2 color=black>「嗯呜♡　射、射在嘴里了、嗯咕、嗯嗯呜♡　我、我也、\n嗯、呼呜呜♡　小穴、也高潮了♡　嗯、呼呜呜♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_39.mp3
+msg,1,<outline width=2 color=black>「啾噜、滋滋♡　啾噜噜♡　啾噜噜呜……♡」</outline>,
+clickwait
+
+
+bg,download/character/105805/adv/image/111.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1058/adu105805_01_40.mp3
+msg,1,<outline width=2 color=black>「啾、噗啊……♡　嗯、哈啊啊♡　哈啊♡　嗯、啊、射了好多好多呢♡\n射出了这么多精液，鸡巴真厉害呀♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_41.mp3
+msg,1,<outline width=2 color=black>「一边玩弄我的小穴一边射精，很舒服吗……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_42.mp3
+msg,1,<outline width=2 color=black>「嗯、哈啊♡　嘴巴里被射得满满的同时，小穴也高潮了，真的……好舒服……♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_43.mp3
+msg,1,<outline width=2 color=black>「舔♡　啾噜、噜♡　舔呜呜♡　鸡巴上还黏着好多精液呢♡\n啾噗、舔噜舔噜♡　哈、啊啊♡」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1058/adu105805_01_44.mp3
+msg,1,<outline width=2 color=black>「我来把它全部舔干净吧♡　嗯、舔♡　啾噜、舔噜呜♡\n啾噜噜、啾噜噜呜♡」</outline>,
+clickwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
