@@ -1,0 +1,180 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm191.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_01.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「话虽如此，人类果然还是一种让人无法彻底理解的生物。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_02.mp3
+msg,1,<outline width=2 color=black>「尤其是你，实在让人摸不着头脑。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_03.mp3
+msg,1,<outline width=2 color=black>「我明明已经说过很多次讨厌你了。可你面对我如此嫌恶的感情，竟然还\n回以笑容，不管怎么说都很奇怪吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_04.mp3
+msg,1,<outline width=2 color=black>「反正你肯定又按照对自己有利的方式去理解了吧？\n真是的。人类果然是一种既自私又爱想当然的生物呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_05.mp3
+msg,1,<outline width=2 color=black>「看来，我果然应该再次证明一下，自己对人类究竟怀有多么强烈的\n厌恶之情。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_06.mp3
+msg,1,<outline width=2 color=black>「而且，我还想到了一个绝妙的主意，能让你深刻认识到人类这种存在有多么丑陋。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_07.mp3
+msg,1,<outline width=2 color=black>「——你这贱民。请不要随随便便靠近我。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_08.mp3
+msg,1,<outline width=2 color=black>「呵，怎么样？前些日子我偶然听说，在拉莱耶似乎也有人会用这种\n带有侮辱意味的称呼来叫你吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_09.mp3
+msg,1,<outline width=2 color=black>「居然称别人为什么贱民，明明同为人类，却要贬低并伤害对方，\n真是个过分的称呼。你肯定也觉得非常不舒服吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_10.mp3
+msg,1,<outline width=2 color=black>「……咦、咦？为什么你还是一脸若无其事……甚至还\n笑了……难道这种程度的侮辱，你还能一笑置之吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_11.mp3
+msg,1,<outline width=2 color=black>「唔……那、那么，这句话实在太过恶毒卑劣，我本来还想\n忍住不说的……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_12.mp3
+msg,1,<outline width=2 color=black>「你、你这个阴、阴、阴沟里的渣滓……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「再来点」,选项2　「我受伤了」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_13.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「什、还、还要……贱民啦、阴、阴沟里的渣滓啦……这些话未免\n也太过分了吧？你不会觉得受伤吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_14.mp3
+msg,1,<outline width=2 color=black>「不用勉强自己逞强哦？要是真的受伤了，只要\n坦率地告诉我，那我也不会再继续……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_15.mp3
+msg,1,<outline width=2 color=black>「而且，就算你让我再多说点，\n我也不可能一下子想出比这更过分的话啊。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_16.mp3
+msg,1,<outline width=2 color=black>「比阴沟里的渣滓还过分的说法是什么啊？到底要我怎么办嘛……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_17.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「咦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_18.mp3
+msg,1,<outline width=2 color=black>「啊，对、对不起，果然还是太过分了吧。\n“阴沟里的渣滓”这种话，确实不该用来骂人吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_19.mp3
+msg,1,<outline width=2 color=black>「对不起。我以后不会再说了……那个……你能原谅我吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_20.mp3
+name,<outline width=2 color=black>蓟</outline>,
+msg,1,<outline width=2 color=black>「这种话果然不能说。要是有人使用这种说法，\n我也会劝他最好别再说了。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_21.mp3
+msg,1,<outline width=2 color=black>「不过，你也有不对的地方哦。谁让你总是一味纵容别人，\n才会有人得寸进尺，对你说出难听的话。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_22.mp3
+msg,1,<outline width=2 color=black>「还拿“合群”或“温柔”这种对自己有利的说辞来敷衍过去，\n全盘接受，这也是人类不好的地方呢，真是的。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_23.mp3
+msg,1,<outline width=2 color=black>「喂，你笑什么？我可是为了你好\n才告诉你的，所以你要认真听进去，以后好好改正。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_24.mp3
+msg,1,<outline width=2 color=black>「……唔。你真的听明白了吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105805/adv/sound/fav105805_01_25.mp3
+msg,1,<outline width=2 color=black>「又这样把别人的忠告当耳边风。\n所以我才讨厌人类……哼！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
