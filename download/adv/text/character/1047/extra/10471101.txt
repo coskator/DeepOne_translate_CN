@@ -1,0 +1,172 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm152.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_01.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「重新想来，纳克特抄本还真是种奇怪的存在呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_02.mp3
+msg,1,<outline width=2 color=black>「那是人类从纳克特原书的梦之沉淀中捞取出来，偶然创造出的东西。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_03.mp3
+msg,1,<outline width=2 color=black>「可是，即便对人类而言是奇迹的产物，\n在我们看来，也不过是不值一提的东西。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_04.mp3
+msg,1,<outline width=2 color=black>「……我曾经是这么想的，可那已经是多久以前的事了呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_05.mp3
+msg,1,<outline width=2 color=black>「回过神来，我的目光已经不只投向人类，也开始关注起了纳克特抄本。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_06.mp3
+msg,1,<outline width=2 color=black>「因为我觉得，它们比我更贴近人类。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_07.mp3
+msg,1,<outline width=2 color=black>「就连曾身处纳克特原书梦之座的我都未能抵达的境地，\n它们反而更加接近……这一定是事实。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_08.mp3
+msg,1,<outline width=2 color=black>「既然如此，或许也有值得我向它们学习的地方吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_09.mp3
+msg,1,<outline width=2 color=black>「诞生于纳克特原书，虽非人类，却与人类相互接触。\n……因为它们正是介于我们和你们之间的存在。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「特尔蒂亚也已经很贴近我了」,选项2　「你尤其在意的是？」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_10.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「是吗……可我自己觉得，我只是在装得像那么回事而已，\n并不认为自己真正做到了贴近你。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_11.mp3
+msg,1,<outline width=2 color=black>「——不，说不定在这件事上，我自己有何感受，\n其实根本无关紧要。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_12.mp3
+msg,1,<outline width=2 color=black>「既然说的是贴近他人，那么判断的标准理应交给对方，\n所以，这其实取决于你如何看待我，又对我有怎样的感受。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_13.mp3
+msg,1,<outline width=2 color=black>「而且……在此基础上，如果你确实对我有这样的感受，\n那或许，我正在自己都未曾察觉的地方悄然改变。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_14.mp3
+msg,1,<outline width=2 color=black>「连自己都不了解自己，真是一种不可思议的感觉呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_15.mp3
+msg,1,<outline width=2 color=black>「今后，我是否也会像这样，不断经历连自己都未曾察觉的变化呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_16.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「你是指，在纳克特抄本之中吗？\n如果是的话，换作不久之前，我应该还是会回答黑蔷薇吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_17.mp3
+msg,1,<outline width=2 color=black>「不过现在……虽然这个回答可能有些偏离你的问题，\n但我很在意灰蓟的存在。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_18.mp3
+msg,1,<outline width=2 color=black>「它虽是纳克特抄本的原型，却不同于其他纳克特抄本，\n是一个不具备任何意义的存在。虽是<ruby>魔导书|道具</ruby>，却是被剥夺了职责后留下的残骸。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_19.mp3
+msg,1,<outline width=2 color=black>「扭曲、空虚……但也正因如此，我才觉得它更接近人类。\n毕竟，人也不是生来便具有某种意义的，不是吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_20.mp3
+msg,1,<outline width=2 color=black>「人会自己寻找自身的意义，不是为了别人赋予自己的理由，\n而是凭自己的意志迈步前行。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_21.mp3
+msg,1,<outline width=2 color=black>「灰蓟今后究竟会以何种方式，与你们……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_22.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「……我有些期待呢。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_23.mp3
+msg,1,<outline width=2 color=black>「是的。我正对这件事感到期待。\n明明还什么都不知道，却对未来满怀期待。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_01_24.mp3
+msg,1,<outline width=2 color=black>「呐。人类究竟会如何称呼这种感情呢？\n如果是你的话，能告诉我答案吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

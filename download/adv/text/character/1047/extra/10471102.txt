@@ -1,0 +1,172 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm152.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_01.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「灰蓟将其与纳克特抄本之间的关系比作人与人之间的关系，\n并将其定义为母女」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_02.mp3
+msg,1,<outline width=2 color=black>「荒谬……若是从前的我，大概会这么说吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_03.mp3
+msg,1,<outline width=2 color=black>「可是，就像黑蔷薇爱着赤井亚纱花。\n就像白樱爱着爱花·维纳迪奥一样」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_04.mp3
+msg,1,<outline width=2 color=black>「又或者，就像你们兄妹对我抱有一定程度的信任。\n非人之物与人……不同的存在之间，也会有相通的感情」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_05.mp3
+msg,1,<outline width=2 color=black>「既然不同的存在之间尚且如此，那么同为<ruby>魔导书|格里摩瓦</ruby>，\n或许也能建立起一种以母女之情彼此相连的关系」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_06.mp3
+msg,1,<outline width=2 color=black>「不过，身为当事人的黑蔷薇和白樱，\n似乎都不太愿意坦率地称灰蓟为母亲」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,选项1　「她们只是不够坦率而已」,选项2　「那特尔蒂亚和灰蓟又是什么关系？」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_07.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「是啊……她们并没有否定灰蓟所渴望的那种联结方式，\n反倒让我觉得，她们更想主动向灰蓟靠近」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_08.mp3
+msg,1,<outline width=2 color=black>「既然如此，我倒觉得她们大可以更坦率地交流……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_09.mp3
+msg,1,<outline width=2 color=black>「不过，这件事乍看之下极其简单，实际上却一定没有那么简单吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_10.mp3
+msg,1,<outline width=2 color=black>「因为我一直在近旁观察着你们……观察着人类，所以多少能够明白。\n感情绝非画出一条线便能简单分明的东西」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_11.mp3
+msg,1,<outline width=2 color=black>「可是，亲眼看到她们如此纠葛的模样……又让我再次觉得，\n她们真的已经变得很像人类了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_12.mp3
+msg,1,<outline width=2 color=black>「明明我至今还有太多事情不明白。\n感觉她们已经走到了遥远的前方，甚至令我产生了一丝类似不甘的情绪」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:surprise,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_13.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「我和灰蓟……是啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_14.mp3
+msg,1,<outline width=2 color=black>「你偶尔会开玩笑地叫我母亲，那么，尽管存在形式多少有些\n不同，由纳克特原书衍生而来的灰蓟，或许也算是我的孩子之一吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_15.mp3
+msg,1,<outline width=2 color=black>「——……？你为什么有点闹别扭？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_16.mp3
+msg,1,<outline width=2 color=black>「这点情绪变化我还是看得出来的。\n你以为，我陪在你身边多久了？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:surprise,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_17.mp3
+msg,1,<outline width=2 color=black>「……应该不至于吧，难道你是在嫉妒？\n就因为我把灰蓟称作自己的孩子……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:surprise,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_18.mp3
+msg,1,<outline width=2 color=black>「这个……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_19.mp3
+msg,1,<outline width=2 color=black>「……真是的。人心果然不可理喻到了极点」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_20.mp3
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+msg,1,<outline width=2 color=black>「我本应是为了理解人类、理解人类的爱才待在这里，可至今却依然\n满是无法理解的事情……究竟要到何时，我才能真正理解呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_21.mp3
+msg,1,<outline width=2 color=black>「——啊。果然还是无法理解」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_22.mp3
+msg,1,<outline width=2 color=black>「理解这一切，正是我存在的理由。是我唯一需要一心追寻的事物」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_23.mp3
+msg,1,<outline width=2 color=black>「明明如此……为什么在这连一丝理解的端倪都尚未窥见的过程中，\n我却感受到了一种充实呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104711/adv/sound/fav104711_02_24.mp3
+msg,1,<outline width=2 color=black>「真是完全无法解释」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

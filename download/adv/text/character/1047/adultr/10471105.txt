@@ -1,0 +1,315 @@
+name, 
+stopbgm
+fadeoutblack,1.5
+endwait
+playbgm,/download/sound/bgm/bgm005.mp3,0,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>特尔蒂亚总是陪伴在我们身边，默默守护着我们。\n不知从什么时候起，这让我产生了一种强烈的安心感。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>可是……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_01.mp3
+msg,1,<outline width=2 color=black>「如果只要陪在身边就能让你感到安心，那像这样做的话，\n是不是就能让你感受到更多的安心呢？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>我坐在沙发上，侧坐在我腿上的特尔蒂亚伸手搂住我的脑袋，\n将我紧紧抱在她的双乳之间。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_02.mp3
+msg,1,<outline width=2 color=black>「难道我很重吗？　如果是这样，要不要换成由我抱着你的姿势？\n不过，我还以为你会更喜欢现在这样呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>特尔蒂亚根本一点都不重，而且她说的话从一开始就完全偏离了重点。</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>像这样紧密贴在一起，被迫感受着她身体的触感，\n我哪还有心思体会什么安心感。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_03.mp3
+msg,1,<outline width=2 color=black>「啊……原来如此。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>看来是我的心情传达给了她，\n特尔蒂亚一副恍然大悟的样子点了点头……</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_04.mp3
+msg,1,<outline width=2 color=black>「心怀欲念的话，确实没办法平静下来呢。\n要不要先发泄一次？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>根本不是这么回事。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_05.mp3
+msg,1,<outline width=2 color=black>「哎呀……不是这么回事吗？」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>——虽然根本不是这么回事，可面对她刚才那句话，\n我却说不出否定的话，只能下意识地移开视线。</outline>,
+clickwait
+
+
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_06.mp3
+msg,1,<outline width=2 color=black>「呵呵。果然，你在这种事情上真的很诚实呢。」</outline>,
+clickwait
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>…………</outline>,
+clickwait
+
+
+msg,0,<outline width=2 color=black>………………</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/201.jpg,0.5,255
+endwait,
+name,<outline width=2 color=black>特尔蒂亚</outline>,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_07.mp3
+msg,1,<outline width=2 color=black>「来吧……随时，都可以哦……把你的鸡巴，往这里……往小穴里\n狠狠插进来，让自己舒服个够吧……嗯、啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_08.mp3
+msg,1,<outline width=2 color=black>「……？　鸡巴，在往哪里，蹭……那边是……嗯。\n说起来，人类有时也会，用那里做呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_09.mp3
+msg,1,<outline width=2 color=black>「真难理解，居然会……啊、嗯、还这么用力顶着……真是的。\n不过，也可以哦……如果你想，用那里做的话……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_10.mp3
+msg,1,<outline width=2 color=black>「我的，屁眼……就用你的鸡巴，随你喜欢地，侵犯吧」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/202.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_11.mp3
+msg,1,<outline width=2 color=black>「嗯、唔……啊、啊啊、嗯嗯……！　哈、啊……这个、嗯、呜、\n果然，还是有点，难受……嗯、啊、啊、嗯咕」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_12.mp3
+msg,1,<outline width=2 color=black>「呼、啊……唔、果然这边的洞，不是为了容纳，鸡巴\n而长的……嗯咕、啊、啊、别、那么、动……嗯咕、嗯呜」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_13.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊、肚子、里面、咿、呜、嗯啊、啊、嗯咕、\n鸡巴、啊、啊、往上摩擦着……咿、啊、啊、啊啊」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_14.mp3
+msg,1,<outline width=2 color=black>「这个……唔、嗯咕、啊、啊啊、被鸡巴、嗯、啊啊、把屁眼……嗯、\n啊、啊啊、越撑、越开了……啊、嗯呜、嗯、啊啊、哦」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_15.mp3
+msg,1,<outline width=2 color=black>「嗯呜、呜、啊、啊啊、哦、明明不是、小穴、嗯啊、\n却被鸡巴、狠狠顶弄着、咿、啊、嗯、哦、哦、啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_16.mp3
+msg,1,<outline width=2 color=black>「这个、咿、啊、鸡巴在里面、一跳一跳的、唔、嗯啊、啊、\n屁眼、这、后庭小穴，就有那么舒服吗……？」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/203.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_17.mp3
+msg,1,<outline width=2 color=black>「咿、咕、嗯嗯嗯！　嗯、啊、哦、嗯呜呜！　好猛、嗯嗯！\n啊、啊、鸡巴、一直顶到最深处、嗯、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_18.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊、啊、啊、嗯嗯嗯！　这个、嗯啊、唔、哦、这个、为什么、\n后庭小穴被弄得一塌糊涂，会这么……咿、啊啊、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_19.mp3
+msg,1,<outline width=2 color=black>「嗯嗯、啊、哦、嗯嗯呜呜！　啊、啊、啊、鸡巴在后庭小穴里、\n颤抖着……啊、啊、啊啊、这是，要射了吗？　嗯、啊、啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_20.mp3
+msg,1,<outline width=2 color=black>「要、被射在后庭小穴里、了、嗯、啊啊、哦、哦、嗯嗯呜！\n精液、啊、啊啊、要来了、嗯、嗯啊、来了、要来了、啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_21.mp3
+msg,1,<outline width=2 color=black>「嗯、啊啊、哦、哦、嗯呜、啊、啊、啊、啊啊啊啊啊啊！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/104711/adv/image/204.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_22.mp3
+msg,1,<outline width=2 color=black>「嗯嗯嗯呜！　啊、啊啊、哦、嗯呜……！　啊、好烫……嗯、\n呼呜……啊、啊啊、啊啊……精液、灌进来、了……咿、啊、啊啊」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/205.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_23.mp3
+msg,1,<outline width=2 color=black>「呼、哈啊啊……啊、嗯、呜……呜、啊……这样的、后庭小穴、\n被精液、灌得、满满的……嗯、嗯嗯呜……！？」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/206.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_24.mp3
+msg,1,<outline width=2 color=black>「哦……嗯、嗯嗯……不、现在、拔出来的话……呼、呜、呜呜、啊、\n后庭小穴、呜、咕、精液、会漏、出来的……嗯、呼呜、呜呜」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/207.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_25.mp3
+msg,1,<outline width=2 color=black>「咿呜、嗯嗯呜呜！？　嗯咕、啊、啊、哦、嗯呜……！\n哦、哦、嗯嗯！　不要、啊、鸡巴、现在还……咿、嗯嗯呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_26.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊、哦、嗯呜！　明明才刚在后庭小穴里中出过，\n却又、啊、啊啊、用鸡巴、这样弄小穴……咿、嗯嗯呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_27.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊、啊啊！　嗯咕、呜、啊、啊啊啊、啊！　鸡巴、\n为什么还、这么硬、嗯、哦、嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_28.mp3
+msg,1,<outline width=2 color=black>「最深处、啊、啊啊、别、那样往上顶……啊、嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_29.mp3
+msg,1,<outline width=2 color=black>「不、行……屁股、啊、啊、后庭小穴、要合不上了、\n嗯呜、哦、精液、要溢出来了……怎么会、啊、咿、嗯呜呜！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_30.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊！　这个、嗯、啊啊、不、为什么、比平时还要、\n咿、啊、啊啊、能感觉到鸡巴……鸡巴、好舒服、嗯啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_31.mp3
+msg,1,<outline width=2 color=black>「啊、啊、啊啊啊！　嗯、哦、啊、啊啊啊、要去了、嗯、啊、\n又要、被鸡巴、弄到高潮了、咿、啊、啊啊啊！　嗯、嗯嗯嗯！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_32.mp3
+msg,1,<outline width=2 color=black>「要去了、要去了、去、哦、嗯嗯、嗯、啊啊啊啊！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_33.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊啊、嗯、啊啊啊啊啊啊啊啊啊啊————！」</outline>,
+clickwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/character/104711/adv/image/208.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_34.mp3
+msg,1,<outline width=2 color=black>「嗯嗯呜呜！　咿、啊、嗯咕呜！　啊、啊……又有、\n嗯呜、哦、滚烫的、射出来了……咿、啊、啊啊啊……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_35.mp3
+msg,1,<outline width=2 color=black>「呼、呜、啊、啊啊……！　小穴、嗯、哦、连子宫、也被、\n灌得满满的、了……嗯咕、呼、哈啊啊、啊、啊……嗯嗯」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/209.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_36.mp3
+msg,1,<outline width=2 color=black>「嗯、呼呜呜……哈、啊……啊嗯、哈啊……前面、后面、都……嗯、\n被你的、精液、弄成这样……嗯……肚子里面、全被填满了……」</outline>,
+clickwait
+
+
+bg,download/character/104711/adv/image/210.jpg,0.5,255
+endwait,
+playvoice,1,download/adv/voice/character/1047/adu104711_02_37.mp3
+msg,1,<outline width=2 color=black>「哦、嗯嗯！　呼、啊……嗯咕、呜……！　拔、出来了……啊、啊啊、\n已经、合不上了……啊、啊、精液、要漏出来了、嗯呜呜……！」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_38.mp3
+msg,1,<outline width=2 color=black>「啊、啊啊、啊……全都、变得黏糊糊的了……哈啊、嗯、呜……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_39.mp3
+msg,1,<outline width=2 color=black>「小穴和、后庭小穴……都还残留着、舒服的感觉……\n嗯、哈啊、啊……」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_40.mp3
+msg,1,<outline width=2 color=black>「嗯…………鸡巴、还是、这么大呢」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_41.mp3
+msg,1,<outline width=2 color=black>「……可以、哦」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_42.mp3
+msg,1,<outline width=2 color=black>「你还、想继续做吧……？」</outline>,
+clickwait
+
+
+playvoice,1,download/adv/voice/character/1047/adu104711_02_43.mp3
+msg,1,<outline width=2 color=black>「あなたの精液で、ぐちゃぐちゃになった穴、どっちでも……\nまた、いっぱい……ちんぽ、ねじ込んで」</outline>,
+clickwait
+
+
+fadeinblack,0.5
+endwait
+name, 
+endwmsg, 
+spriteoff,all,0.5
+endwait
+bgoff,1.0
+stopbgm
+endwait
