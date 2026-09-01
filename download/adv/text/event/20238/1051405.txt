@@ -1,0 +1,845 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm190.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我不明白。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我不明白。我不明白。我不明白。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>为什么要做到这种地步？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>这些孩子，到底想做什么？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>非要让我说出“那句话”，又能怎么样呢？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,azami1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「唔……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>存在于我心中的东西。\n憎恨、羡慕、悔恨、羞耻，以及那种甚至无法形容、几乎要将胸口压垮的感情。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>怀抱着这些东西，却还使用“家人”这个词，\n其实我一直觉得，这是不对的。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>所以，我无法将比这更进一步的话，说出口……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……可是。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>那些孩子却说，这样就好。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>这既非道理，也非常识，更非伦理。\n她们说，无论去别处怎么寻找，都不可能找到答案。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>那简直就像是接受了我的全部，\n仿佛在说，这本身就是答案……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>这种话，未免也太合我心意了……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,azami1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「……其实」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>如果你们真的觉得，这样就好的话――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我……就连我……其实也一直想说出口。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>因为那些孩子，毫无疑问都是我的继嗣。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>因为我确实为那些孩子能够帮助他人\n而感到骄傲。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>因为想要今后也继续陪伴在那样的孩子们身边――这份不由自主萌生的心愿，\n无论如何，就连我自己也无法彻底否定。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,azami1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「……我想和你们，在一起」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:unique,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我想和你们在一起……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_stage_05.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm195.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/103723/image/main.png,frau1,420,-210,2,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「太好了……终于，真正连在一起了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「彼此牵挂的心意……想要留在这里，也希望对方能留在这里的愿望。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+sprite,download/character/103525/image/main.png,norn1,-270,-230,2,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,frau1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺恩</outline>,
+msg,0,<outline width=2 color=black>「真是的，到底要绕多大一圈啊……明明根本没那么复杂」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「答案，已经呼之欲出了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「来吧……接下来，就交给你了，可以吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10060200.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「是啊……终于好好得出了答案」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「嗯」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「灰蓟……――蓟」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「啊……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「我们不希望你现在就消失」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:smile,aika_s,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「这个搞不太懂的所谓家人，就再继续当一阵子吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「可、可是，只要我还在――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「是啊。关于这一点，就连我们也无能为力」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以，就拜托有能力解决这件事的存在吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「红百合一直都在背后支撑着我们，\n偶尔回报它一下也没什么不行吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「为了<ruby>纳克特抄本|我们</ruby>，你就想想办法啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「呃……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11350300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「――……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「这里，是……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「失去了被赋予的职责，力量也遭到剥夺，只剩下一具残骸，\n却还从那些被自己称为继嗣的人身上汲取养分」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「真是卑劣啊」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「难道，你是……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……我自己最清楚，这种行为有多么卑劣」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「正因如此，我才觉得自己不该留在这里」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「可是，你还是想和他们在一起吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「那是……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……只是一时鬼迷心窍罢了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我明白事理，也知道分寸」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「如果光凭这种话，就能压下你所谓的一时迷惘，\n那感情这种东西还真是简单得很呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「可它并没有那么简单，不是吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「……你到底想让我说什么？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「你也想像那些孩子一样，让我渴望未来吗？\n那个本不该存在的未来……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「…………不」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「咦？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「我和纳克特抄本他们的想法并不相同。\n对我而言，重要的是见证人类所选择的未来」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「就目前而言，你的存在只会成为阻碍」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「尽管他们、她们即便如此也仍在拼命设法留下你，\n但这很不合理。根本没有理由把不必要的危险引入自己体内」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「既然想消失，那就消失好了。\n这样一来，就不会发生任何问题了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「……谈、谈得还真是干脆呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「如果是你的话，应该做得到吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不留任何后患，也不给那些孩子带来不好的影响，现在立刻抹去我这个\n碍事的存在……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「既然如此，就请你动手吧。越快越好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「可以。那就在这幻梦境中不留下任何痕迹，彻底消失吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「如果这也是为了你自己」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playse,/download/character/102302/se/se_c02303_skill_05.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730302.jpg,1,255
+sprite,download/bg/bg_11730301.jpg,bg,0,0,1.2,1
+anm,fade,bg,0,1,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,azami1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「啊、唔……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,azami2,0.5
+spriteoff,black1,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――回过神时，我已在昏暗的天空中不断坠落。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>啊啊，这次坠落便是我的终结。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>虽然发生了许多事，但已经无所谓了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我只是有些厌倦继续思考了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我本就是注定无法成为任何事物，最终消失的存在。\n本不该像这样获得言语与心灵的存在。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>不过是恢复原状。不过是迎来本应属于我的结局。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,fade,bg,26,0.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――……可是。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,fade,bg,51,0.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我真的很开心。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>虽然给大家添了麻烦，\n虽然什么也没能为大家做。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,fade,bg,77,0.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可大家承认了我是家人。\n还愿意和我一起走向未来。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>只要这样……对我来说，就已经足够了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>已经足够了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>诺恩</outline>,
+msg,0,<outline width=2 color=black>「啊，真是的，你这个死脑筋的家伙……！　为什么非要这么固执啊！\n你明明可以把事情想得更简单一点吧！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730302.jpg,1,255
+sprite,download/bg/bg_11730301.jpg,bg,0,0,1.2,1
+anm,fade,bg,77,1,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「不讲道理，也不受常识和伦理观念的束缚。\n由无法用理性压制的感情所结成的羁绊——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我想，那就是所谓的家人。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730302.jpg,1,255
+sprite,download/bg/bg_11730301.jpg,bg,0,0,1.2,1
+anm,fade,bg,102,1,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>斋条柘榴</outline>,
+msg,0,<outline width=2 color=black>「都已经替你把台阶铺到这份上了，而且白樱和黑蔷薇\n也都把话说到这份上了，已经可以了吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「接下来，该轮到蓟坦率一点了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730302.jpg,1,255
+sprite,download/bg/bg_11730301.jpg,bg,0,0,1.2,1
+anm,fade,bg,128,1,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「这个搞不太懂的所谓家人，就再继续当一阵子吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730302.jpg,1,255
+sprite,download/bg/bg_11730301.jpg,bg,0,0,1.2,1
+anm,fade,bg,153,1,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「我们不希望你现在就消失」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730302.jpg,1,255
+sprite,download/bg/bg_11730301.jpg,bg,0,0,1.2,1
+anm,fade,bg,179,1,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,azami1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:shy,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「呜……不要……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「不要……我想和那些孩子待在一起……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105805/adv/atlas/stand_a,body:unique,azami2,0,0,0,0,,,,
+imgconf,azami2,azami1,0,-290,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「我想和她们在一起啊……呜」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,azami2,0.5
+spriteoff,black1,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,1
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,terutia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「好」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104711/adv/atlas/stand_a,body:smile,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,
+msg,0,<outline width=2 color=black>「那就这么办吧。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
