@@ -1,0 +1,930 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm174.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我觉得，家人是一种特别的存在。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我不认为，身为非人之物的我们能够真正理解它。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可是……我确实想要理解爱花所珍视的东西。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>即使无法从本质上彻底理解，即使只能触及表面，\n哪怕只有一点点，我也想亲身感受一下那究竟是怎样的东西。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>正因为有着这样的利害关系，我才能和黑蔷薇维持最低限度的来往。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>纳克特抄本与纳克特抄本，从根本上就无法相容。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>自己最珍视的东西，对对方而言却是可以轻易舍弃的东西。\n正因为彼此都是这样的存在，我们反而比任何人都更能理解对方。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>所以……我讨厌黑蔷薇。\n黑蔷薇也讨厌我。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>即便如此……用人类的话来说，我们就像姐妹一样。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>既然如此，试着表现得像姐妹一些也未尝不可。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我们之间有着这样的利害关系。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,alt1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>也正因如此，我们果然无法真正理解家人。\n因为我觉得，家人并不是靠利害关系维系的。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我们的这种关系，不过是徒有其表的赝品。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……可是。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>这是为什么呢。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>我已经充分明白了。明白了我们无法理解家人。\n这场过家家不会再有任何进展。我们早就已经得出结论了。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可即便如此……我们还是含糊不清地、靠着惰性继续着这场过家家。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>很可笑吧。一定笨拙得让人看不下去。\n就连我们自己，也常常会对此感到不快。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>可即便如此……为什么？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>赤井亚纱花</outline>,
+msg,0,<outline width=2 color=black>「真是的。你想太多了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>爱花·维纳迪奥</outline>,
+msg,0,<outline width=2 color=black>「因利害关系而联系在一起，只是徒有其表的赝品，永远也成不了真正的家人。\n这样啊……嗯，那又有什么关系呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「你并不是不想和她成为家人。不是这么想的吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>赤井亚纱花</outline>,
+msg,0,<outline width=2 color=black>「我觉得，家人本来就有各种各样的形式。\n别人定下的答案，并不会成为某个家庭应有的形式」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「就连我们，也无权决定你们应该以怎样的形式成为家人」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:smile,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>爱花·维纳迪奥</outline>,
+msg,0,<outline width=2 color=black>「即使无法相互理解，无法彼此相容，依然讨厌着对方……可即便如此，\n仍然能够选择相伴在一起的道路，这才是最重要的，不是吗」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>赤井亚纱花</outline>,
+msg,0,<outline width=2 color=black>「你们心中一定怀有各种各样的、甚至无法用言语表达的，\n模糊而复杂的感情……而将这一切全部包含在内的，就是你的……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「就是你们所拥有的、属于你们自己的家人形式吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10060200.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm147.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「……看来，即便这样也还是远远不够啊。\n就我而言，我本以为自己已经把该说的话全都说得够明白了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「灰蓟」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「……什么事？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「对你来说，我们是家人吗？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「其实在内心深处，我一直憎恨着你们——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「我没问这个。我想要的，不是这种回答」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「………………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:smile,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「是、是啊……我希望能把你们当作家人」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「因为如果不这么想……我就连自己的存在，都无法给予半分肯定」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我想相信，自己至少留下了些什么……我只是把自身的价值，\n寄托在了你们的存在之上」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以，我渴望与你们有所联系。\n而我将这份联系，寄托在了“家人”这个称呼上」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:smile,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「现在重新想想，还真是荒唐啊。\n你们一定已经对我彻底无语了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:smile,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以——」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「看来，因利害关系而联系在一起，也不是什么错误哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「每当我和白樱闹僵时，亚纱花她们都会显得很难过」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「所以，是啊。即便被称作姐妹、家人，\n我也一直觉得或许确实如此，并接受了这种说法」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「尽管在内心深处，我一直觉得少开玩笑了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「这话该我说才对」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不过嘛？看着黑蔷薇被她们弄得那么为难，\n我的心情倒也不坏就是了」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「这话该我说才对呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「那是……果然，像我们这样的存在想要寻求家人这种形式，\n从根本上就是不可能的」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「不对。怎么，难道我都说到这个份上了，还算没说明白吗？\n为什么就是传达不到呢」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:sad,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「……唉」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:sad,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「有利害关系也无妨。我并不打算说，因为彼此是靠利害关系联系在一起的，\n就没有资格成为家人。至少，我和白樱就是如此」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:normal,aika_s,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「所以，还有什么不能成为家人的理由？赶紧说？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「诶……我、我打从心底里憎恨着你们……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「我讨厌白樱」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「我最讨厌黑蔷薇了——好了，下一个」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「下一个，什么的……到、到底是怎么回事？你们究竟，想做什么……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「既然你称我们为家人，那我们当你的家人也无所谓。\n我们也不是不愿意接受」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「就算彼此讨厌，觉得烦人，无法理解，合不来。\n如果这就是我们家人之间的相处方式，那我们也不会否认」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「……？诶、诶？那是什么意思……诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「那你呢？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:unique,aika_s,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「话说啊，灰蓟你才是最认定我们不是家人、\n也不可能成为家人的那个人吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「诶？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「蓟」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺恩</outline>,
+msg,0,<outline width=2 color=black>「真是的，现在该说的话，就只有一句了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>斋条柘榴</outline>,
+msg,0,<outline width=2 color=black>「都已经为你铺垫到这个地步了，而且连那个白樱和黑蔷薇，\n都把话说到这份上了，已经可以了吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,-300,-110,0.5,0.5,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+msg,0,<outline width=2 color=black>「接下来，该轮到蓟坦率一点了吧？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「啊……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「那、那是……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「…………可是」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「唔……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我、我……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28090112_entry_04.mp3
+flash,0,0,0,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm192.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:sad,zakuro,300,-120,0.5,0.5,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>想花·维纳迪奥</outline>,
+msg,0,<outline width=2 color=black>「呜、咕……！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:sad,zakuro,300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>斋条柘榴</outline>,
+msg,0,<outline width=2 color=black>「这、这是……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,-300,-110,0.5,0,,,,
+endwait
+anm,move,soka,-300_-250,0.5,0
+anm,move,zakuro,300_-250,0.5,0
+playse,/download/sound/se/se_020.mp3
+endwait
+
+playse,/download/sound/se/se_28090112_entry_04.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>诺恩</outline>,
+msg,0,<outline width=2 color=black>「想花、柘榴……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>芙拉</outline>,
+msg,0,<outline width=2 color=black>「这该不会是……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「啊……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「不行……再这样下去……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「果然，我不能留在这里……不能继续存在下去……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「别逃！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「白樱……！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「我们当然知道灰蓟的存在会给我们带来负担！\n事到如今，别拿这个当借口逃走！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「现、现在不是说这种话的时候吧！\n这根本不是用“负担”这种词就能轻描淡写带过的事！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「我的存在，就意味着拥有<ruby>纳克特抄本|你们</ruby>的人们，\n生命也会遭到侵蚀……这样下去会造成无法挽回的后果啊！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「嘴上说着讨厌人类，倒还挺为人类着想的嘛」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓟</outline>,
+msg,0,<outline width=2 color=black>「那、那是……因、因为他们都是你们珍视的人……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「已经没有时间让我们慢慢聊了。我已经……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「不管你要做什么，在那之前，都得先回答我们哦」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「灰蓟一直不愿说出口的那句话。\n好好告诉我们吧」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「因为没有你的回答，我们也无法做出最后的决定」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
